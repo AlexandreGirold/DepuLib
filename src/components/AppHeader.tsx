@@ -21,7 +21,6 @@ function navForRole(user: SessionUser | null, pathname: string): MainNavigationP
   if (user.role === "depute" || user.role === "collaborateur") {
     return [
       { text: "Tableau de bord", linkProps: { href: "/depute/dashboard" }, isActive: isActive("/depute/dashboard") },
-      { text: "Dossiers", linkProps: { href: "/depute/dossiers" }, isActive: isActive("/depute/dossiers") || isActive("/depute/dossier") },
       { text: "Calendrier", linkProps: { href: "/depute/calendrier" }, isActive: isActive("/depute/calendrier") }
     ];
   }

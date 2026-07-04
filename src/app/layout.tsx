@@ -7,6 +7,7 @@ import { StartDsfr } from "./StartDsfr";
 import { defaultColorScheme } from "./defaultColorScheme";
 import { AppHeader } from "@/components/AppHeader";
 import { AppFooter } from "@/components/AppFooter";
+import { ViewBanner, VIEW_BANNER_HEIGHT } from "@/components/ViewBanner";
 import { getSession } from "@/lib/session";
 
 export const metadata: Metadata = {
@@ -35,6 +36,15 @@ export default async function RootLayout({
       </head>
       <body>
         <DsfrProvider lang={lang}>
+          <ViewBanner role={session.user?.role ?? null} />
+          {/* Espace réservé : le bandeau est en position fixed (en haut), ce
+              spacer évite qu'il masque le haut de l'en-tête. */}
+          {session.user ? (
+            <div
+              aria-hidden="true"
+              style={{ height: VIEW_BANNER_HEIGHT }}
+            />
+          ) : null}
           <AppHeader user={session.user ?? null} />
           <main role="main" id="contenu">
             {children}
