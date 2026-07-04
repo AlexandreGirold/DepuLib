@@ -7,6 +7,8 @@ services:
       DATABASE_URL: "file:/data/depulib.db"
       UPLOAD_DIR: "/data/uploads"
       SESSION_SECRET: "${SESSION_SECRET:-depulib-poc-changez-moi-32-caracteres}"
+      # true seulement derrière du HTTPS ; en HTTP nu, laisser vide (cookie non-Secure)
+      COOKIE_SECURE: "${COOKIE_SECURE:-}"
       CLOUDTEMPLE_LLMAAS_API_KEY: "${CLOUDTEMPLE_LLMAAS_API_KEY:-}"
       CLOUDTEMPLE_LLMAAS_BASE_URL: "${CLOUDTEMPLE_LLMAAS_BASE_URL:-https://api.ai.cloud-temple.com/v1}"
       LLM_MODEL_MAIN: "${LLM_MODEL_MAIN:-mistral-small4:119b}"

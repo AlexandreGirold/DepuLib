@@ -23,7 +23,10 @@ const sessionOptions = {
     process.env.SESSION_SECRET ?? "depulib-poc-changez-moi-32-caracteres-min",
   cookieName: "depulib_session",
   cookieOptions: {
-    secure: process.env.NODE_ENV === "production",
+    // POC servi en HTTP (IP:3000, pas de TLS) : le cookie ne doit PAS être Secure,
+    // sinon le navigateur le rejette et l'auth casse. Mettre COOKIE_SECURE=true
+    // seulement derrière du HTTPS.
+    secure: process.env.COOKIE_SECURE === "true",
     httpOnly: true,
     sameSite: "lax" as const
   }
