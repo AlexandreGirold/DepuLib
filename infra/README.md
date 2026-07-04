@@ -31,14 +31,25 @@ terraform plan
 terraform apply
 ```
 
-À la fin, `terraform output` donne l'IP publique :
-
-```bash
-terraform output instance_ip   # → http://<ip>:3000
-```
-
 Le bucket S3 et ses clés sont créés par Terraform et injectés automatiquement
 dans le `.env` de la VM (l'app s'y connecte sans intervention).
+
+## URL du site
+
+Le site est servi sur `http://<IP_de_la_VM>:3000`. Pour récupérer l'IP :
+
+```bash
+# Méthode 1 (si l'apply s'est terminé complètement)
+terraform output -raw instance_ip
+
+# Méthode 2 (toujours dispo, lit le state directement)
+terraform state show openstack_compute_instance_v2.app | grep -oE '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+' | head -1
+```
+
+Puis ouvre `http://<ip>:3000`. C'est du **http** (pas de TLS sur le POC) — le
+navigateur peut afficher « non sécurisé », c'est normal.
+
+> Déploiement actuel : **http://51.210.2.119:3000**
 
 ## Tester
 
