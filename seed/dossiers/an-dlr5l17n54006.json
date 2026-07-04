@@ -1,0 +1,83 @@
+{
+  "id": "an-dlr5l17n54006",
+  "titre": "Pour une montagne vivante et souveraine",
+  "numero": "N° 2595",
+  "statut": "1ère lecture",
+  "commission": "Commission du développement durable et de l'aménagement du territoire",
+  "expose": "Pour une montagne vivante et souveraine. Ce texte (n° 2595, proposition de loi ordinaire) est examiné au fond par la Commission du développement durable et de l'aménagement du territoire, au stade « 1ère lecture » de la procédure législative de la 17e législature. Il est inscrit à l'ordre du jour de la séance publique.\n\n7 amendements réels déposés sur ce texte sont présentés ci-dessous (0 adopté à ce stade). Les données proviennent de l'open data de l'Assemblée nationale ; l'exposé des motifs complet est consultable sur le dossier officiel.",
+  "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/montagne_vivante_souveraine_17e",
+  "source": "assemblee-nationale-opendata",
+  "odj": true,
+  "resumeFallback": "Pour une montagne vivante et souveraine — texte n° 2595 examiné au fond par la Commission du développement durable et de l'aménagement du territoire (1ère lecture). 7 amendements réels y sont rattachés.",
+  "pointsClesFallback": [
+    "APRÈS ART. 6 — amendement n°CD1 (M. Vincent Rolland et 2 cosignataires)",
+    "ART. 9 — amendement n°CD3 (M. Vincent Rolland et 2 cosignataires)",
+    "ART. 5 — amendement n°11 (M. Vincent Rolland et 1 cosignataire)",
+    "ART. 4 — amendement n°12 (M. Vincent Rolland et 1 cosignataire)"
+  ],
+  "amendements": [
+    {
+      "numero": "CD1",
+      "auteur": "M. Vincent Rolland et 2 cosignataires",
+      "article": "APRÈS ART. 6",
+      "dispositif": "Le 3° de l’article L. 122‑11 du code de l’urbanisme est ainsi modifié :\n1° La première phrase est ainsi modifiée : \na) Les mots : « ainsi que » sont supprimés ; \nb) Après le mot : « existants », sont insérés les mots : « ainsi que la reconstruction d’un chalet d’alpage ou d’un bâtiment d’estive à l’emplacement de l’ancienne construction concernée » ;\n2° Après la première phrase, est insérée la phrase suivante : « Dans le cas d’une reconstruction, les caractéristiques principales de l’ancienne construction sont conservées » ;\n3° Il est complété par les mots : « et du conseil municipal de la com",
+      "exposeSommaire": "Le présent amendement vise à compléter l’article relatif aux modalités de rénovation et de reconstruction des chalets d’alpage, afin de permettre la reconstruction d’un chalet ou d’un bâtiment d’estive à l’emplacement exact où un ancien chalet était situé. Cette proposition s’inscrit dans un contexte où les successions, souvent complexes et longues, conduisent fréquemment à l’abandon ou à la dégradation de ces bâtiments, jusqu’à leur ruine complète. Lorsqu’un accord est finalement trouvé entre les héritiers, il est alors trop tard pour bénéficier des dispositifs existants, qui ne permettent généralement que la restauration de constructions encore debout.\nLa jurisprudence, notamment celle du Conseil d’État, a clairement établi qu’une construction entièrement détruite, dont il ne subsiste que des vestiges, ne peut être assimilée à une simple restauration (CAA Lyon, 1er octobre 2013, Gomar,",
+      "sort": "Adopté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO419865B2595P0D1N000001"
+    },
+    {
+      "numero": "CD3",
+      "auteur": "M. Vincent Rolland et 2 cosignataires",
+      "article": "ART. 9",
+      "dispositif": "Après le mot : \n« Favoriser »,\nrédiger ainsi la fin de l’alinéa 2 : \n« l’usage de bois certifié local ou bois de France pour les constructions neuves et les rénovations ».",
+      "exposeSommaire": "Cet amendement vise à corriger la rédaction initiale de l’article faisant référence à une certification dédiée au bois de montagne qui n’est pas existante ni à l’ordre du jour. Par ailleurs, les effets du changement climatique, l’utilisation différenciée du bois dans la construction et la rénovation amènent à mettre en œuvre une complémentarité et non une concurrence entre le bois d’altitude et le bois de plaine.",
+      "sort": "Non soutenu",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO419865B2595P0D1N000003"
+    },
+    {
+      "numero": "11",
+      "auteur": "M. Vincent Rolland et 1 cosignataire",
+      "article": "ART. 5",
+      "dispositif": "Après le mot :\n« rapides »,\ninsérer les mots :\n« adaptées notamment aux véhicules utilitaires ».",
+      "exposeSommaire": "Les artisans de montagne utilisent majoritairement des véhicules utilitaires à forte autonomie. L'électrification de leur flotte est conditionnée à l'existence de bornes haute puissance. (Amendement co-travaillé avec la Chambre de Métiers et de l'Artisanat de la Savoie)",
+      "sort": null,
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/montagne_vivante_souveraine_17e"
+    },
+    {
+      "numero": "12",
+      "auteur": "M. Vincent Rolland et 1 cosignataire",
+      "article": "ART. 4",
+      "dispositif": "À la première phrase de l’alinéa 2, après le mot :\n« industrie, »,\ninsérer le mot :\n« l’artisanat, ».",
+      "exposeSommaire": "Le texte liste de nombreux usages mais oublie les besoins en eau des ateliers artisanaux, alors que ceux-ci constituent des employeurs essentiels du tissu économique de montagne. (Amendement co-travaillé avec la Chambre de Métiers et de l'Artisanat de la Savoie).",
+      "sort": null,
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/montagne_vivante_souveraine_17e"
+    },
+    {
+      "numero": "CD13",
+      "auteur": "M. Alexis Jolly",
+      "article": "APRÈS ART. 10",
+      "dispositif": "Après l’article L. 113‑1 du code rural et de la pêche maritime, il est inséré un article L. 113‑1-1 ainsi rédigé :\n« Art. L. 113‑1-1. – Dans les communes classées en zone de montagne au sens de l’article L. 122‑1 du code de l’urbanisme, le maire peut, afin d’assurer la sécurité des personnes, la protection des activités pastorales et la cohabitation des usages, réglementer l’accès aux espaces pastoraux et aux alpages, la circulation des chiens ainsi que l’organisation des itinéraires de randonnée.\n« Les conditions d’application du présent article sont précisées par décret en Conseil d’État. »",
+      "exposeSommaire": "Le pastoralisme joue un rôle central dans l’équilibre des territoires de montagne. Toutefois, le développement des usages touristiques peut générer des tensions, notamment dans les zones d’alpages.\nLe présent amendement vise à donner aux communes des outils simples pour organiser la cohabitation entre activités pastorales et fréquentation touristique.\nIl permet de prévenir les conflits d’usage, de garantir la sécurité des personnes et des animaux, et de préserver un équilibre durable des territoires.",
+      "sort": "Retiré",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO419865B2595P0D1N000013"
+    },
+    {
+      "numero": "13",
+      "auteur": "M. Vincent Rolland et 2 cosignataires",
+      "article": "APRÈS ART. 8",
+      "dispositif": "Après le 3° bis du I de l’article L. 230‑5‑1 du code rural et de la pêche maritime, il est inséré un 3° ter ainsi rédigé :\n« 3° ter Ou bénéficiant de la mention « montagne » prévue à l’article L. 641‑14 du présent code ; ».",
+      "exposeSommaire": "Cet amendement a été co-travaillé avec le Cniel.\nCet amendement vise à améliorer la prise en compte des produits bénéficiant de la mention « produit de montagne » en les intégrant dans les objectifs d’approvisionnement de la restauration collective définis à l’article L. 230‑5-1 du code rural et de la pêche maritime.\nCes produits, élaborés dans des zones soumises à des contraintes naturelles fortes, contribuent à la vitalité économique des territoires de montagne, au maintien des filières agricoles locales et à la souveraineté alimentaire nationale.\nL’intégration des produits de montagne permettrait d’atteindre 10 % de parts de marché dans les achats de produits laitiers dans la restauration collective d’ici 2030. Ces 10 % représentent environ 100 millions de litres de lait de montagne, soit environ 2,5 % de la collecte de montagne.\nCes 2,5 % de débouchés supplémentaires auraient pour co",
+      "sort": null,
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/montagne_vivante_souveraine_17e"
+    },
+    {
+      "numero": "CD15",
+      "auteur": "M. Christophe Naegelen et 1 cosignataire",
+      "article": "ART. 7",
+      "dispositif": "Compléter cet article par l’alinéa suivant :\n« 26° De reconnaître les spécificités des abattoirs situés en zone de montagne, notamment au regard de leur taille, de leur activité et des contraintes géographiques, et d’adapter en conséquence les normes applicables afin de garantir leur maintien, sans les assimiler aux abattoirs industriels de grande capacité. »",
+      "exposeSommaire": "Les abattoirs de montagne, souvent de petite taille et indispensables à la survie des filières locales, sont aujourd’hui soumis à des normes conçues pour des structures industrielles de grande capacité.\nLe présent amendement vise à reconnaître leurs spécificités et à permettre une adaptation proportionnée des normes qui leur sont applicables afin d’assurer un maillage territorial équilibré, de limiter le transport des animaux vivants et de préserver le bien-être animal ainsi que la viabilité des filières d’élevage de montagne.",
+      "sort": "Adopté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO419865B2595P0D1N000015"
+    }
+  ]
+}

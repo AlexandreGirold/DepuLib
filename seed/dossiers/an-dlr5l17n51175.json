@@ -1,0 +1,83 @@
+{
+  "id": "an-dlr5l17n51175",
+  "titre": "Proposition de loi visant à soutenir les collectivités territoriales dans la prévention et la gestion des inondations",
+  "numero": "N° 1041",
+  "statut": "1ère lecture",
+  "commission": "Commission du développement durable et de l'aménagement du territoire",
+  "expose": "Proposition de loi visant à soutenir les collectivités territoriales dans la prévention et la gestion des inondations. Ce texte (n° 1041, proposition de loi ordinaire) est examiné au fond par la Commission du développement durable et de l'aménagement du territoire, au stade « 1ère lecture » de la procédure législative de la 17e législature. Il est inscrit à l'ordre du jour de la séance publique.\n\n7 amendements réels déposés sur ce texte sont présentés ci-dessous (0 adopté à ce stade). Les données proviennent de l'open data de l'Assemblée nationale ; l'exposé des motifs complet est consultable sur le dossier officiel.",
+  "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N51175",
+  "source": "assemblee-nationale-opendata",
+  "odj": true,
+  "resumeFallback": "Proposition de loi visant à soutenir les collectivités territoriales dans la prévention et la gestion des inondations — texte n° 1041 examiné au fond par la Commission du développement durable et de l'aménagement du territoire (1ère lecture). 7 amendements réels y sont rattachés.",
+  "pointsClesFallback": [
+    "ART. 2 — amendement n°CD1 (M. Nicolas Bonnet et 4 cosignataires)",
+    "ART. 2 TER — amendement n°CD2 (M. Nicolas Bonnet et 4 cosignataires)",
+    "ART. 3 — amendement n°CD3 (M. Nicolas Bonnet et 4 cosignataires)",
+    "ART. PREMIER — amendement n°CD6 (Mme Julie Ozenne et 4 cosignataires)"
+  ],
+  "amendements": [
+    {
+      "numero": "CD1",
+      "auteur": "M. Nicolas Bonnet et 4 cosignataires",
+      "article": "ART. 2",
+      "dispositif": "Compléter la première phrase de l’alinéa 5 par les mots : \n« , lequel encourage, en priorité, des solutions de prévention des inondations fondées sur la nature. »",
+      "exposeSommaire": "Cet amendement du groupe Écologiste et Social propose de préciser le cahier des charges fixé par l’État pour les programmes d’actions de prévention des inondations en accordant une priorité aux solutions de prévention des inondations fondées sur la nature.\nLa recommandation n° 7 du rapport d’information sénatorial n° 775 sur l’adaptation des territoires face aux inondations propose d’ajouter un huitième axe aux PAPI relatif au développement des solutions fondées sur la nature.\nPar opposition aux solutions et systèmes d’endiguement, les solutions fondées sur la nature consistent à prévenir le risque inondations à partir de la restauration des écosystèmes, par exemple via la densification des haies ou la création de zones d’expansion de crues. Cette approche, encore trop peu présente, possède un double intérêt de prévention des inondations et de restauration des milieux naturels.",
+      "sort": "Tombé",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO419865B1041P0D1N000001"
+    },
+    {
+      "numero": "CD2",
+      "auteur": "M. Nicolas Bonnet et 4 cosignataires",
+      "article": "ART. 2 TER",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "Cet amendement du groupe Écologiste et Social propose de supprimer la possibilité accordée au préfet coordonnateur de bassin de reconnaître aux travaux ou aménagements prévus par un programme d’actions de prévention des inondations (PAPI) le caractère de projet répondant à une raison impérative d’intérêt public majeur (RIIPM).\nLa RIIPM, prévue par l’article L. 411‑2 du code de l’environnement, est l’une des conditions permettant l’obtention d’une dérogation espèces protégées. Elle doit s’apprécier au cas par cas à partir d’une analyse précise des impacts environnementaux d’un projet, plutôt que d’être accordée de manière générale et a priori.\nCet amendement propose en ce sens de maintenir l’appréciation au cas par cas de la RIIPM afin de ne pas ajouter une nouvelle exception à la règle. De nombreuses dérogations existent déjà, participant à une complexification du droit et une fragilisat",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO419865B1041P0D1N000002"
+    },
+    {
+      "numero": "CD3",
+      "auteur": "M. Nicolas Bonnet et 4 cosignataires",
+      "article": "ART. 3",
+      "dispositif": "Compléter l’alinéa 5 par les mots :\n« ainsi qu’à intégrer, en lien avec l’ingénierie territoriale, les actions de prévention des risques dans les projets de reconstruction, en prenant en compte les enjeux d’adaptation au changement climatique et de restauration des milieux naturels ».",
+      "exposeSommaire": "Cet amendement du groupe Écologiste et Social propose de mentionner explicitement la prise en compte des enjeux de prévention des risques, d’adaptation au changement climatique et de restauration des milieux naturels dans la mission d’information et d’accompagnement du guichet unique d’accompagnement des collectivités territoriales sinistrées par une inondation.\nEn effet, il est essentiel que les collectivités territoriales puissent bénéficier d’une information claire et suffisante sur ces enjeux à la suite d’une inondation, dans le but de favoriser des travaux et des aménagements pertinents de reconstruction résiliente, encourageant en particulier les solutions fondées sur la nature, plutôt que des projets de reconstruction à l’identique ou avec une prise en compte insuffisante des risques.",
+      "sort": "Tombé",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO419865B1041P0D1N000003"
+    },
+    {
+      "numero": "CD6",
+      "auteur": "Mme Julie Ozenne et 4 cosignataires",
+      "article": "ART. PREMIER",
+      "dispositif": "Après l’alinéa 7, insérer les deux alinéas suivants : \n« 1° bis Le I bis de l’article L. 211‑7 du code de l’environnement est complété par un alinéa ainsi rédigé :\n« Les services de l’État dans le département mettent à disposition des communes et des autorités compétentes en matière de gestion des milieux aquatiques et de prévention des inondations une cellule d’appui technique pour les accompagner dans la mise en œuvre des missions définies aux 1°, 2°, 5° et 8° du I. » »",
+      "exposeSommaire": "Le présent amendement du groupe Ecologiste et Social vise à réintroduire la mise à disposition, par les services de l’État dans le département, d’une cellule d’appui technique au bénéfice des communes et des autorités compétentes en matière de gestion des milieux aquatiques et de prévention des inondations (GEMAPI), afin de les accompagner dans l’exercice de cette compétence.\nCe dispositif figurait dans la version initiale de la proposition de loi déposée au Sénat, avant d’être supprimé en séance à l’initiative du Gouvernement, au motif que des dispositifs d’appui existeraient déjà au niveau départemental. Cette suppression apparaît à rebours des constats et recommandations formulés par les travaux parlementaires récents.\nEn particulier, le rapport sénatorial « Le défi de l’adaptation des territoires face aux inondations : simplifier l’action, renforcer la solidarité » de 2024 (rapporteu",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO419865B1041P0D1N000006"
+    },
+    {
+      "numero": "CD7",
+      "auteur": "Mme Julie Ozenne et 4 cosignataires",
+      "article": "ART. 1ER TER",
+      "dispositif": "Supprimer les alinéas 15 à 26.",
+      "exposeSommaire": "Le présent amendement du groupe Ecologiste et Social vise à supprimer les alinéas 15 à 26 de l’article 1er ter, introduits par amendement du Gouvernement, qui étendent significativement les possibilités de dispense d’enquête publique pour des travaux portant sur les cours d’eau et les milieux aquatiques.\nCes dispositions ont pour effet de réduire les exigences de participation du public et de démocratie environnementale, en généralisant des dérogations aux procédures d’enquête publique. Or, un aménagement territorial harmonieux et durable suppose une acceptation citoyenne, qui passe par l’information, la transparence et la mobilisation d’outils consultatifs adaptés, dans un contexte de multiplication des événements climatiques extrêmes.\nLes logiques d’efficacité opérationnelle et de participation citoyenne ne s’opposent pas : elles se renforcent mutuellement. Des procédures claires et pr",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO419865B1041P0D1N000007"
+    },
+    {
+      "numero": "CD10",
+      "auteur": "M. Pierrick Courbon et 7 cosignataires",
+      "article": "ART. 1ER BIS",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "Cet amendement du groupe Socialistes et apparentés vise à interroger la pertinence de figer cette durée dans la loi. \nLa fixation d’une durée légale unique peut se révéler inadaptée à certaines situations, notamment en cas d’urgence ou de contraintes particulières, alors qu’une durée fixée par décret permet une souplesse d’adaptation aux besoins concrets et aux impératifs liés à la nature et à l’ampleur du projet.",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO419865B1041P0D1N000010"
+    },
+    {
+      "numero": "CD13",
+      "auteur": "Mme Ersilia Soudais et 70 cosignataires",
+      "article": "APRÈS ART. 2 QUATER",
+      "dispositif": "Le Gouvernement remet au Parlement, dans un délai de six mois à compter de la promulgation de la présente loi, un rapport sur la capacité budgétaires des communes à protéger leurs habitants des aléas climatiques, aggravés par les effets du réchauffement climatique.\nCe rapport évalue notamment les impacts présents et les risques futurs auxquels sont soumis les communes et leurs habitants, ainsi que les besoins en termes d’investissements afin de gérer et de limiter les risques induits par les phénomènes climatiques, notamment les risques d’inondations, dont l’intensité et la fréquences sont acc",
+      "exposeSommaire": "Dans une note du 17 février 2026, Oxfam alerte sur la vulnérabilité des communes au risque climatique. L’ONG décrypte l’étude de l’impact des politiques des communes pour protéger les habitants des effets du changement climatique. A l’heure où près de la 78,8% de la population française est urbaine, l’adaptation des communes aux risques climatiques et en particulier aux risques d’inondations est désormais vitale.\nL’ONG note le fait que les communes d’extrême droite mènent, de manière générale, des politiques qui aggravent les risques environnementaux. De plus, les communes sont parmi les premiers territoires à être impactés. Selon les Statistiques du développement durable (SDES), environ 5700 communes sont concernées en moyenne chaque année par un arrêt de catastrophe naturelle, la majorité étant liés à des inondations. Les inondations sont un phénomène croissant et coûteux en France. Se",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO419865B1041P0D1N000013"
+    }
+  ]
+}

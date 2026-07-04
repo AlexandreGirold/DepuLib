@@ -7,7 +7,13 @@
     "build": "next build",
     "start": "next start",
     "seed": "node prisma/seed.cjs",
-    "embed": "node scripts/embed.cjs"
+    "embed": "node scripts/embed.cjs",
+    "parse-actus": "node scripts/parse-actus.cjs",
+    "seed-actus": "node scripts/seed-actus.cjs",
+    "warm": "node scripts/warm.cjs",
+    "fix:amendements": "node scripts/fix-amendements-opendata.cjs",
+    "export:resumes": "node scripts/export-resumes.cjs",
+    "ingest": "node prisma/seed.cjs && node scripts/embed.cjs && node scripts/warm.cjs"
   },
   "prisma": {
     "seed": "node prisma/seed.cjs"

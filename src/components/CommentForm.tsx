@@ -22,6 +22,12 @@ type MatchResult = {
   moderationFlag: string;
   moderationMotif?: string | null;
   sentiment: number;
+  debug?: {
+    candidats: { numero: string; auteur: string; score: number }[];
+    confiance: number;
+    justification: string;
+    seuil: number;
+  } | null;
 };
 
 export function CommentForm({ dossierId }: { dossierId: string }) {
@@ -113,10 +119,36 @@ export function CommentForm({ dossierId }: { dossierId: string }) {
               auto={result.auto}
             />
           ) : result.moderationFlag === "ok" ? (
-            <p className={fr.cx("fr-text--sm", "fr-mt-2w")} style={{ color: "var(--text-mention-grey)" }}>
-              Aucun amendement ne correspond assez précisément à votre avis pour être
-              suggéré (l'IA préfère se taire que se tromper).
-            </p>
+            <>
+              <p className={fr.cx("fr-text--sm", "fr-mt-2w")} style={{ color: "var(--text-mention-grey)" }}>
+                Aucun amendement ne correspond assez précisément à votre avis pour être
+                suggéré (l'IA préfère se taire que se tromper).
+              </p>
+              {result.debug && result.debug.candidats.length > 0 ? (
+                <details
+                  className={fr.cx("fr-mt-2w", "fr-p-2w")}
+                  style={{ border: "1px dashed var(--border-default-grey)", borderRadius: 8 }}
+                >
+                  <summary style={{ cursor: "pointer", fontWeight: 500 }}>
+                    <span className={fr.cx("fr-icon-bug-line", "fr-icon--sm")} aria-hidden />{" "}
+                    Debug · top {result.debug.candidats.length} candidats (similarité cosinus)
+                  </summary>
+                  <p className={fr.cx("fr-text--xs", "fr-mt-2w", "fr-mb-1w")} style={{ color: "var(--text-mention-grey)" }}>
+                    Confiance IA retenue : {result.debug.confiance.toFixed(2)} · seuil requis :{" "}
+                    {result.debug.seuil.toFixed(2)}
+                    {result.debug.justification ? ` — ${result.debug.justification}` : ""}
+                  </p>
+                  <ol className={fr.cx("fr-text--xs")} style={{ paddingLeft: "1.5rem", margin: 0 }}>
+                    {result.debug.candidats.map((c, i) => (
+                      <li key={i}>
+                        n°{c.numero} — {c.auteur} ·{" "}
+                        <strong>{c.score.toFixed(4)}</strong>
+                      </li>
+                    ))}
+                  </ol>
+                </details>
+              ) : null}
+            </>
           ) : null}
         </div>
       )}

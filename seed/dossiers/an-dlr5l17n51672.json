@@ -1,0 +1,83 @@
+{
+  "id": "an-dlr5l17n51672",
+  "titre": "Soins palliatifs et d’accompagnement",
+  "numero": "N° 1102",
+  "statut": "2e lecture",
+  "commission": "Commission des affaires sociales",
+  "expose": "Soins palliatifs et d’accompagnement. Ce texte (n° 1102, proposition de loi ordinaire) est examiné au fond par la Commission des affaires sociales, au stade « 2e lecture » de la procédure législative de la 17e législature. Il est inscrit à l'ordre du jour de la séance publique.\n\n7 amendements réels déposés sur ce texte sont présentés ci-dessous (0 adopté à ce stade). Les données proviennent de l'open data de l'Assemblée nationale ; l'exposé des motifs complet est consultable sur le dossier officiel.",
+  "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/soins_palliatifs_et_accompagnement_17e",
+  "source": "assemblee-nationale-opendata",
+  "odj": true,
+  "resumeFallback": "Soins palliatifs et d’accompagnement — texte n° 1102 examiné au fond par la Commission des affaires sociales (2e lecture). 7 amendements réels y sont rattachés.",
+  "pointsClesFallback": [
+    "ART. 6 — amendement n°AS1 (M. Vincent Descoeur et 14 cosignataires)",
+    "ART. 4 — amendement n°1 (Mme Justine Gruet et 4 cosignataires)",
+    "ART. 8 — amendement n°2 (Mme Justine Gruet et 4 cosignataires)",
+    "ART. 5 — amendement n°AS3 (Mme Fanny Dombre Coste et 11 cosignataires)"
+  ],
+  "amendements": [
+    {
+      "numero": "AS1",
+      "auteur": "M. Vincent Descoeur et 14 cosignataires",
+      "article": "ART. 6",
+      "dispositif": "Compléter cet article par l'alinéa suivant : \n« II. – Dans un délai de six mois à compter de la promulgation de la présente loi, le Gouvernement remet au Parlement un rapport sur l’état des soins palliatifs en France et sur les moyens financiers et humains à mettre en œuvre pour garantir l’accès aux soins palliatifs sur l’ensemble du territoire. »",
+      "exposeSommaire": "Les lois Léonetti et Claeys-Léonetti ont toutes deux demandé le développement des soins palliatifs. Or nous savons que les soins palliatifs sont « notoirement sous-dotés. Aujourd’hui, 20 départements sont encore dépourvus d’Unités de Soins Palliatifs (USP). Le 10 avril 2024 a été présenté en Conseil des Ministres la stratégie décennale des soins d’accompagnement destinée à renforcer l’accès aux soins palliatifs en France. Il sera déployé jusqu’en 2034, avec un budget porté à terme à 2,7 milliards d’euros par an. Si ce projet fait l’unanimité notamment auprès du corps médical, tant par son ambition que par les moyens qui sontdéployés, il conviendrait d’aller plus vite au regard du retard déjà pris sur le sujet. Aujourd’hui, un Français sur deux qui a besoin de soins palliatifs y a véritablement accès (…) Si l’on veut que chacun puisse avoir accès aux soins palliatifs, il faudrait en théor",
+      "sort": "Tombé",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO420120B1102P0D1N000001"
+    },
+    {
+      "numero": "1",
+      "auteur": "Mme Justine Gruet et 4 cosignataires",
+      "article": "ART. 4",
+      "dispositif": "À la première phrase de l’alinéa 6, après le mot : \n« introduire »,\ninsérer les mots :\n« à titre individuel ou par l’intermédiaire de sa personne de confiance ».",
+      "exposeSommaire": "Amendement visant à s’assurer que la personne de confiance d’une personne dont l’état de santé le requiert et qui a demandé à bénéficier de soins palliatifs sans les obtenir dans un délai précis, puisse avoir un intérêt à agir en justice afin que soit ordonnée sa prise en charge.",
+      "sort": "Irrecevable 40",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC1281P0D1N000001"
+    },
+    {
+      "numero": "2",
+      "auteur": "Mme Justine Gruet et 4 cosignataires",
+      "article": "ART. 8",
+      "dispositif": "À la fin de l’alinéa 4, substituer aux mots :\n« de la fin de vie, à l’approche palliative et à l’aide à mourir »\nles mots : \n« et à l’approche palliative ».",
+      "exposeSommaire": "Amendement visant à généraliser la formation à l’accompagnement et à l'approche palliative durant les études mais également tout au long de la carrière des professionnels de santé.",
+      "sort": "Irrecevable",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC1281P0D1N000002"
+    },
+    {
+      "numero": "AS3",
+      "auteur": "Mme Fanny Dombre Coste et 11 cosignataires",
+      "article": "ART. 5",
+      "dispositif": "Rétablir cet article dans la rédaction suivante : \n« Après l’article L. 1110‑10 du code de la santé publique, il est inséré un article L. 1110‑10‑3 ainsi rédigé :\n« Art. L. 1110‑10‑3. – La politique de soins palliatifs est fondée sur la volonté de garantir à chacun, selon ses besoins et sur tout le territoire, l’accès aux soins palliatifs.\n« Avant le 31 décembre 2025, puis tous les cinq ans, une loi de programmation pluriannuelle de l’accompagnement et des soins palliatifs, adoptée par le Parlement, détermine la trajectoire de développement de l’offre d’accompagnement et de soins palliatifs m",
+      "exposeSommaire": "Cet amendement des députés socialistes et apparentés vise à rétablir l’article 5 dans sa version telle qu’adoptée par l’Assemblée nationale en première lecture.\nCette version prévoyait notamment la garantie d’accès à tous aux soins palliatifs, ainsi que l’adoption d’une loi de programmation pour les soins palliatifs.\nCette garantie est le corollaire de la stratégie décennale des soins palliatifs en cours de mise en oeuvre.\nDe même, la loi de programmation doit permettre au législateur de fixer les ambitions de la Nation en la matière.\nOr le Sénat a procédé à leur suppression.\nIl convient donc de les rétablir.\nTel est l’objet du présent amendement.",
+      "sort": "Irrecevable 40",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO420120B2406P0D1N000003"
+    },
+    {
+      "numero": "AS4",
+      "auteur": "Mme Fanny Dombre Coste et 11 cosignataires",
+      "article": "ART. 10",
+      "dispositif": "À l’alinéa 17, rétablir le III dans la rédaction suivante :\n« III . – Les maisons d’accompagnement font l’objet d’une évaluation annuelle rendue publique, dans des conditions déterminées par le ministre chargé de la santé, après avis de la Haute Autorité de santé. Cette évaluation rend notamment compte du déploiement de ces maisons sur l’ensemble du territoire et de leur adéquation aux besoins recensés. L’évaluation porte également sur la nature des accompagnements dispensés, sur le profil des personnes accompagnées et sur les moyens humains et financiers mobilisés. »",
+      "exposeSommaire": "Cet amendement des députés socialistes et apparentés vise à rétablir le principe d’une maison d’accompagnement et de soins palliatifs par département, et de l’évaluation annuelle de l’application de ce principe.\nOuvrir une maison d’accompagnement et de soins palliatifs par département est un engagement pris par le Gouvernement.\nIl convient donc de l’inscrire dans la loi pour en assurer la force juridique la plus élevée ; tout comme il convient d’inscrire l’évaluation annuelle de la réalisation de cet engagement, afin que le Parlement puisse tenir correctement son rôle d’évaluation des politiques publiques.\nTel est l’objet du présent amendement.",
+      "sort": "Retiré",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO420120B2406P0D1N000004"
+    },
+    {
+      "numero": "AS6",
+      "auteur": "M. Alexandre Portier et 7 cosignataires",
+      "article": "ART. 19",
+      "dispositif": "Après la première phrase de l’alinéa 4, insérer la phrase suivante : \n« La commission de contrôle et d’évaluation veille à ce que la sédation profonde et continue jusqu’au décès ne puisse être assimilée, dans sa mise en œuvre, à une euthanasie déguisée. »",
+      "exposeSommaire": "Cet amendement vise à garantir que la sédation profonde et continue jusqu’au décès ne soit jamais assimilée à une forme déguisée d’euthanasie, en instaurant un contrôle rigoureux par la commission de contrôle et d’évaluation proposée par le texte. En distinguant clairement cette pratique des actes visant à provoquer la mort, il protège l’intégrité des soins palliatifs et assure que les interventions médicales restent centrées sur le soulagement des souffrances et le respect de la dignité humaine. La commission de contrôle veille à ce que la sédation soit utilisée exclusivement pour offrir un accompagnement digne aux patients en fin de vie, prévenant ainsi tout risque de dérive ou d’abus. En réaffirmant ces principes éthiques, cet amendement renforce la confiance dans le système de soins palliatifs et répond aux attentes sociétales en matière de fin de vie.",
+      "sort": "Tombé",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO420120B1102P0D1N000006"
+    },
+    {
+      "numero": "AS7",
+      "auteur": "M. Alexandre Portier et 7 cosignataires",
+      "article": "APRÈS ART. 20",
+      "dispositif": "Aucun professionnel de santé ne peut être contraint de participer à une décision ou à une procédure de sédation profonde et continue qu’il juge contraire à sa conscience. Cette clause de conscience s’exerce dans le respect du devoir d’orientation du patient vers une équipe médicale en mesure de répondre à sa demande.",
+      "exposeSommaire": "Cet amendement vise à protéger la liberté de conscience des professionnels de santé en leur garantissant le droit de ne pas participer à une décision ou à une procédure de sédation profonde et continue s’ils estiment que cela va à l’encontre de leurs convictions personnelles ou éthiques. En instaurant une clause de conscience, cet amendement reconnaît l’importance des valeurs individuelles dans l’exercice de la médecine et permet aux professionnels de santé de préserver leur intégrité morale sans craindre de sanctions ou de pressions. Toutefois, cette clause s’accompagne d’un devoir d’orientation, obligeant le professionnel à diriger le patient vers une équipe médicale capable de répondre à sa demande, assurant ainsi que les soins nécessaires ne soient pas compromis. Ce double mécanisme de protection de la conscience et de continuité des soins vise à concilier les droits des professionne",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO420120B1102P0D1N000007"
+    }
+  ]
+}

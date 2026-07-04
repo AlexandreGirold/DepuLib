@@ -16,3 +16,6 @@ infra/*.tfstate.*
 infra/terraform.tfvars
 infra/*.tfplan
 infra/.depulib-src.tar.gz
+
+# TypeScript incremental build cache
+tsconfig.tsbuildinfo

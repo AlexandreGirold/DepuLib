@@ -1,0 +1,83 @@
+{
+  "id": "an-dlr5l17n51655",
+  "titre": "L’intérêt des enfants",
+  "numero": "N° 1085",
+  "statut": "1ère lecture",
+  "commission": "Commission des affaires sociales",
+  "expose": "L’intérêt des enfants. Ce texte (n° 1085, proposition de loi ordinaire) est examiné au fond par la Commission des affaires sociales, au stade « 1ère lecture » de la procédure législative de la 17e législature. Il est inscrit à l'ordre du jour de la séance publique.\n\n7 amendements réels déposés sur ce texte sont présentés ci-dessous (0 adopté à ce stade). Les données proviennent de l'open data de l'Assemblée nationale ; l'exposé des motifs complet est consultable sur le dossier officiel.",
+  "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/interet_des_enfants_17",
+  "source": "assemblee-nationale-opendata",
+  "odj": true,
+  "resumeFallback": "L’intérêt des enfants — texte n° 1085 examiné au fond par la Commission des affaires sociales (1ère lecture). 7 amendements réels y sont rattachés.",
+  "pointsClesFallback": [
+    "APRÈS ART. PREMIER — amendement n°AS2 (Mme Isabelle Santiago et 10 cosignataires)",
+    "ART. PREMIER — amendement n°4 (Auteur non précisé)",
+    "ART. 2 — amendement n°5 (Auteur non précisé)",
+    "ART. 5 — amendement n°6 (Auteur non précisé)"
+  ],
+  "amendements": [
+    {
+      "numero": "AS2",
+      "auteur": "Mme Isabelle Santiago et 10 cosignataires",
+      "article": "APRÈS ART. PREMIER",
+      "dispositif": "Le chapitre Ier du titre II du livre II du code de l’action sociale et des familles est complété par un article L. 221‑10 ainsi rédigé : \n« Art. L. 221‑10. – Les députés et les sénateurs ainsi que les représentants au Parlement européen élus en France sont autorisés, après information du président du conseil départemental, à visiter les établissements mentionnés aux 1° et 4° du I et au III de l’article L. 312‑1. »",
+      "exposeSommaire": "Cet amendement du groupe Socialistes et apparentés vise a créé un droit de visite parlementaire dans les établissements de protection de l’enfance .\nCe droit de visite a été soutenu à plusieurs reprises par des parlementaires issus de divers bords politiques, en particulier lors des débats sur la loi Taquet de 2022. Une telle disposition avait d’ailleurs été adoptée en première lecture à l’Assemblée nationale, mais elle avait été supprimée par le Sénat.\n Les parlementaires disposent déjà d’un droit de visite de plusieurs lieux de privation de liberté :\n– dans les établissements pénitentiaires, les centres éducatifs fermés (CEF), les centres de rétention, les zones d’attente et les locaux de garde à vue. À l’exception des locaux de garde à vue, les parlementaires peuvent être accompagnés de journalistes à l’occasion de ces visites. Des restrictions d’accès aux journalistes peuvent cependa",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO420120B1085P0D1N000002"
+    },
+    {
+      "numero": "4",
+      "auteur": "Auteur non précisé",
+      "article": "ART. PREMIER",
+      "dispositif": "I. – À la première phrase de l’alinéa 11, après le mot : \n« ans », \ninsérer les mots : \n« conjointement ».\nII. – En conséquence, à la même première phrase du même alinéa 11, après le mot : \n« services », \ninsérer les mots : \n« du département et ceux ».\nIII. – En conséquence, à la seconde phrase dudit alinéa 11, supprimer les mots : \n« ainsi que leur coordination avec ceux effectués par le département ».",
+      "exposeSommaire": "Le texte prévoit des contrôles au moins tous les trois ans, réalisés d’une part par les départements, et d’autre part par l’État (préfectures). Pour davantage d’efficacité, lorsque les contrôles sont à l’initiative de l’État, ils doivent être réalisés conjointement avec les départements. En effet, les services de l’État déconcentré n’ont pas les compétences ni les moyens pour effectuer seuls ces contrôles et évaluer la qualité de prise en charge. A l’inverse, des contrôles conjoints et coordonnées permettront d’atteindre l’objectif d’amélioration de l’accueil, en permettant une meilleure réactivité des Départements pour remédier aux difficultés constatées lors des contrôles. Plutôt que d’afficher un taux et une fréquence de contrôle, il faut rechercher le meilleur suivi possible des recommandations voire des injonctions. Dans cette optique, mutualiser les actions sera source d’efficacité",
+      "sort": "Non soutenu",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC2365P0D1N000004"
+    },
+    {
+      "numero": "5",
+      "auteur": "Auteur non précisé",
+      "article": "ART. 2",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "L’article 2 prévoit d’inscrire dans la loi un contrôle tous les trois ans des établissements d’accueil du jeune enfant. Or, la loi dite « plein emploi » de décembre 2023 prévoit un plan annuel départemental d’inspection et de contrôle de ces EAJE, dont les résultats seront publiés ; ce plan étant établi conjointement par le représentant de l'Etat dans le département et le président du conseil département.\nDe plus, les contrôles peuvent déjà être inopinés. S’y ajoutent des évaluations tous les cinq ans. Il est préférable de laisser cette loi récente s’appliquer et être évaluée, avant de la modifier.",
+      "sort": "Non soutenu",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC2365P0D1N000005"
+    },
+    {
+      "numero": "6",
+      "auteur": "Auteur non précisé",
+      "article": "ART. 5",
+      "dispositif": "Supprimer les alinéas 5 à 8.",
+      "exposeSommaire": "L’article 5 dans sa nouvelle rédaction étend le champ de l’accueil provisoire jeune majeur (appelés « contrats jeunes majeurs »), à deux niveaux. Cette double extension se ferait sans financement prévu et ne serait pas possible dans la situation budgétaire actuelle des départements et compte tenu d’un dispositif déjà saturé. Première extension : ouvrir le CJM aux jeunes accueillis par des tiers dignes de confiance (TDC) et en accueil durable bénévole (ADB). Lorsqu’ils sont mineurs et accueillis chez des particuliers, l’ASE prend en charge les dépenses d’entretien en versant une allocation, et, depuis la loi de 2022, elle effectue un accompagnement du tiers et élabore un projet pour l’enfant. Un jeune pris en charge chez un tiers dispose par définition d’un lieu d’accueil, un accueil provisoire jeune majeur à la majorité au sein des dispositifs de l’ASE ne correspond pas à des besoins ide",
+      "sort": "Non soutenu",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC2365P0D1N000006"
+    },
+    {
+      "numero": "AS7",
+      "auteur": "Mme Isabelle Santiago et 10 cosignataires",
+      "article": "APRÈS ART. 4",
+      "dispositif": "L’article 375 du code civil est ainsi rédigé : \nI. – Lorsqu’un enfant est en danger ou que son développement est compromis, le juge des enfants peut ordonner une mesure de protection judiciaire. Le danger ou la compromission sont caractérisés lorsque les besoins fondamentaux de l’enfant ne sont pas ou ne peuvent pas être satisfaits de manière adéquate, ou que son développement physique, affectif, cognitif, psychique, social ou éducatif se trouve altéré ou menacé, de manière grave ou durable. L’évaluation du danger repose sur un référentiel national opposable, défini par un décret en Conseil d’",
+      "exposeSommaire": "Cet amendement du groupe Socialistes et apparentés vise à réécrire l’article 375 du code civil afin de mieux protéger les enfants exposés à des situations de danger ou de compromission de leur développement.\nL’article 375 dans sa rédaction actuelle repose sur des termes généraux (« santé, sécurité, moralité ») et une logique essentiellement réactive. Cette imprécision génère des pratiques divergentes, une insécurité juridique pour les professionnels et des atteintes aux droits des enfants.\nElle ne tient pas compte des avancées majeures des sciences du développement de l’enfant, des engagements internationaux de la France, ni des recommandations issues des travaux parlementaires, notamment ceux de la commission d’enquête sur les manquements des politiques publiques de protection de l’enfance.\nCet amendement s’inspire des pays les plus avancés : le Québec (loi sur la protection de la jeune",
+      "sort": "Retiré",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO420120B1085P0D1N000007"
+    },
+    {
+      "numero": "9",
+      "auteur": "Mme Alexandra Martin (Alpes-Maritimes) et 1 cosignataire",
+      "article": "ART. 4",
+      "dispositif": "I. – À la fin de la deuxième phrase de l’alinéa 8, supprimer les mots : \n« et, si l’intérêt de l’enfant l’exige, fixer la nature et la fréquence du droit de correspondance, de visite et d’hébergement du ou des parents ». \nII. – En conséquence, après le même deuxième phrase du même alinéa 8, insérer les deux phrases suivantes : \n« . Lorsque des éléments sérieux laisse supposer la commission d’une infraction à l’encontre du mineur, le procureur de la République ordonne sans délai des mesures provisoires de protection afin d’assurer sa mise à l’abri. À cet effet, il fixe, la nature et la fréquenc",
+      "exposeSommaire": "Le présent amendement vise à renforcer l’effectivité de la protection des enfants en situation de danger grave et immédiat. Si la proposition de loi améliore utilement les pouvoirs du procureur de la République en matière d’assistance éducative, elle demeure fondée sur une logique facultative, susceptible de retarder la mise à l’abri de l’enfant. En rendant obligatoire l’intervention du procureur dès qu’un danger grave et immédiat est constaté, l’amendement garantit une protection rapide et efficace, tout en maintenant un encadrement judiciaire strict par la saisine rapide du juge des enfants, juge naturel de l’urgence et de la protection de l’enfance.\nSelon un sondage Ipsos réalisé pour Face à l’inceste en septembre 2023, moins d’une victime sur deux est éloignée de son agresseur (49 %), protégée (45 %) ou aidée pour porter plainte (37 %). Et pourtant, 95 % des Français réclament l’éloi",
+      "sort": "Non soutenu",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC2365P0D1N000009"
+    },
+    {
+      "numero": "AS13",
+      "auteur": "Mme Nicole Dubré-Chirat et 10 cosignataires",
+      "article": "APRÈS ART. 3",
+      "dispositif": "Le troisième alinéa de l’article 371-1 du code civil est complété par une phrase ainsi rédigée : « Lorsque les titulaires de l’autorité parentale ne respectent pas leurs obligations de façon répétée, le juge pour enfant peut les enjoindre à suivre un stage de responsabilité parentale. »",
+      "exposeSommaire": "Cet amendement a pour objectif de créer une possibilité juridique visant à obliger les parents à suivre un stage de responsabilité parentale en cas de manquement à leurs obligations au titre de l’autorité parentale.\nLe stage de responsabilité parentale est une peine complémentaire ou une mesure alternative aux poursuites judiciaires introduite en droit par la loi du 5 mars 2007 relative à la prévention de la délinquance. Il peut être prononcé lorsque l’enfant a commis une infraction. L’objectif du stage est de responsabiliser les parents sur leur mission d’éducation et de leur apporter un soutien éducatif. Il a pour finalité de rappeler aux parents les obligations juridiques, économiques, sociales et morales qu’implique l’éducation d’un enfant. Chaque année, environ 2000 obligations de stages de responsabilité parentale sont décidées dans un cadre judiciaire.\nIl est donc proposé de renfo",
+      "sort": "Adopté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO420120B1085P0D1N000013"
+    }
+  ]
+}

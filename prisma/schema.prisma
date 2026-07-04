@@ -26,7 +26,6 @@ model User {
   rdvDemandes    RendezVous[]  @relation("Demandeur")
   rdvDepute      RendezVous[]  @relation("Depute")
   documents      Document[]
-  feedItems      FeedItem[]
   contributions  Contribution[]
 }
 
@@ -53,6 +52,7 @@ model Dossier {
   json       String?
   commission String
   source     String       @default("donnees-demo")
+  odj        Boolean      @default(false)
   amendements Amendement[]
   commentaires Commentaire[]
   rdvDossiers RdvDossier[]
@@ -64,8 +64,10 @@ model Amendement {
   dossierId      String
   numero         String
   auteur         String
+  article        String?
   dispositif     String
   exposeSommaire String
+  sort           String?
   resumeIA       String?
   sources        String?
   sourceUrl      String
@@ -157,12 +159,20 @@ model Contribution {
   documents    Document[]
 }
 
-model FeedItem {
+/// Actualité gouvernementale « ce qui change » (info.gouv.fr), globale (non liée à
+/// un utilisateur). Une ligne = une mesure atomique, classée dans l'une des 6
+/// thématiques. Les liens officiels sont stockés en JSON (SQLite sans type JSON).
+model Actualite {
   id        String   @id @default(cuid())
-  userId    String
-  periode   String
-  contenuIA String
-  sources   String
+  cle       String   @unique // clé de dédup = hash(sourceUrl + "|" + titre)
+  periode   String // "YYYY-MM" — mois/année d'application de la mesure
+  topic     String // l'une des 6 thématiques canoniques
+  titre     String
+  contenu   String // texte complet de l'actualité
+  resume    String // résumé en une phrase
+  liens     String   @default("[]") // JSON: [{url, label}] ressources officielles
+  sourceUrl String // URL de l'article info.gouv.fr d'origine
   createdAt DateTime @default(now())
-  user      User     @relation(fields: [userId], references: [id])
+
+  @@index([periode])
 }

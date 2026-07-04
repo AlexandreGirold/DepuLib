@@ -1,0 +1,83 @@
+{
+  "id": "an-dlr5l17n50686",
+  "titre": "Renforcer le parcours inclusif des élèves en situation de handicap",
+  "numero": "N° 0439",
+  "statut": "Commission mixte paritaire",
+  "commission": "Commission des affaires culturelles et de l'éducation",
+  "expose": "Renforcer le parcours inclusif des élèves en situation de handicap. Ce texte (n° 0439, proposition de loi ordinaire) est examiné au fond par la Commission des affaires culturelles et de l'éducation, au stade « Commission mixte paritaire » de la procédure législative de la 17e législature. Il est inscrit à l'ordre du jour de la séance publique.\n\n7 amendements réels déposés sur ce texte sont présentés ci-dessous (0 adopté à ce stade). Les données proviennent de l'open data de l'Assemblée nationale ; l'exposé des motifs complet est consultable sur le dossier officiel.",
+  "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/renforcer_parcours_inclusif_eleves_handicap",
+  "source": "assemblee-nationale-opendata",
+  "odj": true,
+  "resumeFallback": "Renforcer le parcours inclusif des élèves en situation de handicap — texte n° 0439 examiné au fond par la Commission des affaires culturelles et de l'éducation (Commission mixte paritaire). 7 amendements réels y sont rattachés.",
+  "pointsClesFallback": [
+    "ART. PREMIER — amendement n°AC1 (Mme Christine Engrand)",
+    "ART. 3 — amendement n°AC2 (Mme Christine Engrand)",
+    "ART. 1ER TER — amendement n°2 (Mme Anaïs Belouassa-Cherifi et 70 cosignataires)",
+    "ART. 2 — amendement n°AC3 (M. Roger Chudeau)"
+  ],
+  "amendements": [
+    {
+      "numero": "AC1",
+      "auteur": "Mme Christine Engrand",
+      "article": "ART. PREMIER",
+      "dispositif": "Après la première phrase de l’alinéa 2, insérer la phrase suivante :\n« Ce livret est co-construit avec les familles et actualisé au moins une fois par an dans le cadre d’une réunion de suivi de scolarisation. »",
+      "exposeSommaire": "L’objectif de cet amendement est de renforcer la dimension collaborative et évolutive du livret de parcours inclusif, en inscrivant explicitement dans la loi l’implication systématique des familles ainsi que la nécessité d’une révision régulière de son contenu. Le principe d’école inclusive repose non seulement sur l’adaptation des dispositifs pédagogiques et organisationnels, mais également sur la reconnaissance du rôle central que jouent les parents ou représentants légaux dans la compréhension fine des besoins de l’élève.\nEn effet, les familles sont les premières expertes du quotidien de leur enfant. Leur participation active à l’élaboration et à la mise à jour du livret permet de garantir la pertinence des aménagements proposés, d’anticiper les éventuelles évolutions de situation (notamment lors des transitions scolaires), et de réduire les risques de rupture dans la continuité du pa",
+      "sort": "Non soutenu",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO419604B0439P0D1N000001"
+    },
+    {
+      "numero": "AC2",
+      "auteur": "Mme Christine Engrand",
+      "article": "ART. 3",
+      "dispositif": "Compléter l’alinéa 2 par les mots : \n« , et à bénéficier d’un temps de formation dédié sur leur temps de service. »",
+      "exposeSommaire": "Cet amendement vise à rendre pleinement effectif le droit pour les enseignants volontaires de suivre une formation spécifique sur l’accompagnement des élèves en situation de handicap, en prévoyant expressément qu’un temps dédié leur soit alloué sur leur temps de service. En l’état actuel, de nombreux enseignants rencontrent des difficultés à accéder à des formations de qualité, non par manque d’intérêt ou de volonté, mais en raison d’un emploi du temps contraint et de la charge de travail inhérente à leur mission quotidienne.",
+      "sort": "Tombé",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO419604B0439P0D1N000002"
+    },
+    {
+      "numero": "2",
+      "auteur": "Mme Anaïs Belouassa-Cherifi et 70 cosignataires",
+      "article": "ART. 1ER TER",
+      "dispositif": "Rédiger ainsi cet article :\n« L’article L. 351‑3 du code de l’éducation est complété par un alinéa ainsi rédigé :\n« Lorsqu’une décision d’attribution d’un accompagnement humain est prise par la maison départementale des personnes handicapées au bénéfice d’un élève en situation de handicap en application de l’article L. 146‑9 du code de l’action sociale et des familles, l’État doit garantir l’affectation effective d’un accompagnant des élèves en situation de handicap dans un délai d’un mois à compter de la notification de cette décision à la famille. »",
+      "exposeSommaire": "Par cet amendement, le groupe LFI souhaite rétablir la version initiale de l’article qui prévoyait que dans un délai d’1 mois maximum suite à une notification par la Maison départementale des personnes handicapées (MDPH), les élèves puissent bénéficier d’un accompagnement par une AESH.\nSelon des chiffres exclusifs obtenus par France Inter (28 octobre 2025), à la rentrée 2025, 48 726 élèves étaient sans solution, sur 352 000 élèves notifiés par un accompagnement avec une AESH, alors qu’à la rentrée 2024, ce chiffre n’était « que » de 36 186. Par conséquent, la situation se dégrade d’une année sur l’autre (+ 35 % de hausse). Dans ce contexte, certaines familles sont obligées de faire des recours devant la justice administrative pour obtenir un accompagnement par une AESH, et les familles les plus riches paient elles-mêmes directement une AESH, créant ainsi un marché privé de l’accompagneme",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC2751P0D1N000002"
+    },
+    {
+      "numero": "AC3",
+      "auteur": "M. Roger Chudeau",
+      "article": "ART. 2",
+      "dispositif": "À l’aliéna 4, substituer aux mots :\n« L’Observatoire national de la scolarisation et de l’insertion professionnelle »\nles mots :\n« Il est créé, au sein du Comité interministériel du handicap, placé auprès du Premier ministre, un Observatoire de la scolarisation et de l’insertion professionnelle des élèves en situation de handicap. L’Observatoire national de la scolarisation et de l’insertion professionnelle ».",
+      "exposeSommaire": "La création d’un « observatoire national de la scolarisation et de l’insertion professionnelle des personnes en situation de handicap » élargit sans justification le champ d’une PPL dont l’objet central est de renforcer le suivi des élèves en situation de handicap.\nDu reste, il existe déjà dans diverses administrations comme dans le monde associatif des statistiques qui permettent de dresser un tableau documenté de la scolarisation et de l’insertion professionnelle des handicapés.\nCréer un nouvel « observatoire national » ne ferait qu’ajouter un élément à la somme déjà considérable d’organismes de toutes natures (commission, autorités, hauts comités, etc.) qui doublonnent les services publics et sont une source de dépenses publiques parfaitement inutiles. Du reste notre Assemblée entend bien réduire drastiquement le nombre de ces organismes.\nIl reste qu’il est d’intérêt général de dispos",
+      "sort": "Tombé",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO419604B0439P0D1N000003"
+    },
+    {
+      "numero": "4",
+      "auteur": "M. Alexandre Portier et 6 cosignataires",
+      "article": "APRÈS ART. PREMIER",
+      "dispositif": "L’article L. 112‑1 du code de l’éducation est complété par un alinéa ainsi rédigé :\n« Les élèves en situation de handicap présentant un haut potentiel peuvent accéder à des parcours d’excellence spécifiques intégrant les aménagements requis, en vue de leur permettre d’intégrer les dispositifs d’orientation sélective. »",
+      "exposeSommaire": "Cet amendement vise à permettre aux brillants élèves en situation de handicap d’accéder à des parcours d’excellence adaptés en vue d’intégrer les dispositifs d’orientation sélective. En 2022, moins de 0,5 % des élèves en situation de handicap étaient présents dans les filières sélectives, ce qui montre que les dispositifs d’inclusion ne tiennent pas toujours compte des profils à haut potentiel. Pourtant, le principe de méritocratie républicaine impose que chaque élève puisse viser l’excellence, quelle que soit sa situation. Une école inclusive vise à offre les mêmes chances à chacun, y compris dans l’orientation vers des filières sélectives. À défaut, l’inclusivité n’est qu’un slogan. En instituant des parcours d’excellence avec aménagements spécifiques, il devient possible de concilier ambition scolaire et prise en compte du handicap. Cela répond aussi à une demande croissante des famil",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC1360P0D1N000004"
+    },
+    {
+      "numero": "6",
+      "auteur": "Mme Murielle Lepvraud et 70 cosignataires",
+      "article": "ART.S 3 QUATER",
+      "dispositif": "Rétablir ainsi cet article :\n« Dans un délai de six mois à compter de la promulgation de la présente loi, le Gouvernement remet au Parlement une étude d’impact sur la généralisation des pôles d’appui à la scolarité. L’étude comprend un bilan de l’ensemble des départements dans lesquels le pôle d’appui à la scolarité a été expérimenté. »",
+      "exposeSommaire": "Par cet amendement, le groupe LFI souhaite évaluer l’impact de la généralisation des pôles d’appui à la scolarité (PAS), alors même qu’aucune réelle évaluation de l’expérimentation lancée depuis la rentrée 2024 n’a été effectuée. En effet, le rapport transmis par le Gouvernement n’apporte pas de réponse satisfaisante, puisqu’il souligne lui-même qu’« Il est donc actuellement difficile d’évaluer si le dispositif atteint ses objectifs ».\nSouhaitée par le Gouvernement pour la rentrée scolaire 2027, cette généralisation a été rejetée en commission mixte paritaire grâce à notre mobilisation. En effet, nous dénoncions notamment le fait que « Pour les syndicats d’AESH et d’enseignant.es, le passage au PAS serait une catastrophe pour l’inclusion : fusion des missions d’AED et AESH en ARE, MDPH dessaisies de leur mission de décision d’attribution d’une « aide humaine »… » et qu’ « Encore une fois",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC2751P0D1N000006"
+    },
+    {
+      "numero": "AC7",
+      "auteur": "Mme Soumya Bourouaha et 1 cosignataire",
+      "article": "ART. 3 BIS B",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "Les auteurs de cet amendement s’opposent à la généralisation des pôles d’appui à la scolarité.\nIls déplorent un déploiement organisé dans la précipitation, l’absence de moyens spécifiques dédiés et le risque à travers ce dispositif de masquer les manques structurels de l’École inclusive : pénurie de moyens, dilution des responsabilités, nouvelles contraintes pour les personnels.\nDans plusieurs départements qui ont fait l’objet d’une expérimentation, de nombreux AESH notent une dégradation notable de leurs conditions de travail, avec notamment des temps de transport rallongés et l’accompagnement de plusieurs élèves sur plusieurs établissements qui en dégrade le suivi.\nL’École inclusive doit bien évidemment monter en puissance pour atteindre sa pleine opérabilité, mais ce dispositif apparait néfaste pour les AESH, les équipes et les élèves que ce qu’il prétend vouloir résoudre.",
+      "sort": "Adopté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO419604B1610P0D1N000007"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "an-dlr5l17n53785",
+  "titre": "Projet de loi Projet de loi-cadre relatif au développement des transports",
+  "numero": "N° 2740",
+  "statut": "1ère lecture",
+  "commission": "Commission du développement durable et de l'aménagement du territoire",
+  "expose": "Projet de loi Projet de loi-cadre relatif au développement des transports. Ce texte (n° 2740, projet de loi ordinaire) est examiné au fond par la Commission du développement durable et de l'aménagement du territoire, au stade « 1ère lecture » de la procédure législative de la 17e législature.\n\n7 amendements réels déposés sur ce texte sont présentés ci-dessous (0 adopté à ce stade). Les données proviennent de l'open data de l'Assemblée nationale ; l'exposé des motifs complet est consultable sur le dossier officiel.",
+  "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53785",
+  "source": "assemblee-nationale-opendata",
+  "odj": false,
+  "resumeFallback": "Projet de loi Projet de loi-cadre relatif au développement des transports — texte n° 2740 examiné au fond par la Commission du développement durable et de l'aménagement du territoire (1ère lecture). 7 amendements réels y sont rattachés.",
+  "pointsClesFallback": [
+    "ART. PREMIER — amendement n°CF1 (M. Nicolas Tryzna et 5 cosignataires)",
+    "ART. 10 — amendement n°CF2 (M. Nicolas Ray)",
+    "APRÈS ART. 19 — amendement n°CD6 (M. Xavier Roseren)",
+    "APRÈS ART. 12 — amendement n°CD7 (M. Xavier Roseren)"
+  ],
+  "amendements": [
+    {
+      "numero": "CF1",
+      "auteur": "M. Nicolas Tryzna et 5 cosignataires",
+      "article": "ART. PREMIER",
+      "dispositif": "Après l’alinéa 6, insérer les deux alinéas suivants :\n« Les lois de programmation identifient les projets d’infrastructures présentant un caractère stratégique pour la compétitivité économique, la souveraineté nationale, l’aménagement du territoire ou la résilience des chaînes logistiques.\n« Elles définissent également des objectifs de réduction des délais de réalisation des projets et peuvent prévoir les adaptations nécessaires à la simplification et à la coordination des procédures administratives applicables. »",
+      "exposeSommaire": "La compétitivité économique du pays repose largement sur la qualité et la disponibilité de ses infrastructures. Or les délais de réalisation des projets demeurent excessifs au regard de ceux observés chez plusieurs de nos partenaires européens.\nLe présent amendement du groupe Droite républicaine vise, d'une part, à mieux prendre en compte les enjeux de souveraineté et de compétitivité dans la définition des priorités d'investissement et, d'autre part, à faire de la réduction des délais de réalisation un objectif explicite des futures lois de programmation.",
+      "sort": "Adopté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO59048B2740P0D1N000001"
+    },
+    {
+      "numero": "CF2",
+      "auteur": "M. Nicolas Ray",
+      "article": "ART. 10",
+      "dispositif": "À la première phrase de l’alinéa 12, après le mot : \n« vitesse »,\ninsérer les mots :\n« ou d’une desserte du réseau des trains d’équilibre du territoire ».",
+      "exposeSommaire": "Le présent amendement vise à étendre aux dessertes du réseau des trains d’équilibre du territoire les garanties prévues en cas de modification substantielle de la desserte.\nDans la rédaction de l’article 10 issue des travaux au Sénat, il a été précisé que les modifications substantielles de dessertes à grande vitesse devront être précédées d’une évaluation territoriale préalable, transparente et partagée, portant notamment sur leurs impacts socio-économiques et leur compatibilité avec les objectifs d’équité territoriale. Une telle exigence est légitime. Elle ne saurait toutefois être réservée aux seules lignes à grande vitesse.\nDans de nombreux territoires, et notamment dans l’Allier avec la ligne Paris–Clermont-Ferrand, les trains d’équilibre du territoire constituent la principale desserte ferroviaire. Ils assurent le lien entre les villes moyennes, les territoires ruraux et les grands",
+      "sort": "Retiré",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO59048B2740P0D1N000002"
+    },
+    {
+      "numero": "CD6",
+      "auteur": "M. Xavier Roseren",
+      "article": "APRÈS ART. 19",
+      "dispositif": "I. – Les travaux de régénération et de modernisation des lignes ferroviaires existantes qui contribuent à la décarbonation des mobilités et à l’amélioration de la qualité de l’air sont réputés répondre à une raison impérative d’intérêt public majeur au sens du c du 4° du I de l’article L. 411‑2 du code de l’environnement.\nII. – Lorsqu’ils sont réalisés pour l’essentiel dans l’emprise ferroviaire existante, ces travaux font l’objet d’une instruction coordonnée des autorisations requises, conduite dans des délais fixés par décret en Conseil d’État, de manière à réduire la durée d’interruption de",
+      "exposeSommaire": "Le report des travaux de modernisation de lignes de desserte fine procède pour partie de la lourdeur et de la séquentialité des procédures applicables, alors que ces opérations se déroulent sur des infrastructures existantes, dans des emprises déjà constituées, et poursuivent un objectif d’intérêt général de premier ordre : la décarbonation des déplacements et l’amélioration de la qualité de l’air dans des vallées soumises à un plan de protection de l’atmosphère.\n Le I reconnaît à ces travaux la qualité de raison impérative d’intérêt public majeur, sur le modèle déjà retenu par le législateur pour les énergies renouvelables et le nouveau nucléaire, afin de fluidifier l’examen des dérogations relatives aux espèces protégées. Le II généralise une instruction coordonnée des autorisations et une enquête publique unique, dans la logique de parallélisation des procédures déjà consacrée pour l’",
+      "sort": "Retiré",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO419865B2740P0D1N000006"
+    },
+    {
+      "numero": "CD7",
+      "auteur": "M. Xavier Roseren",
+      "article": "APRÈS ART. 12",
+      "dispositif": "Après la section 8 du chapitre III du titre III du livre III de la deuxième partie du code général des collectivités territoriales, est insérée une section 8 bis ainsi rédigée :\n« Section 8 bis \n« Taxe additionnelle à la taxe de séjour destinée au financement des services de mobilité\n« Art. L. 2333‑75‑1. – Les autorités organisatrices de la mobilité mentionnées aux I et II de l’article L. 1231‑1 et à l’article L. 1231‑3 du code des transports peuvent instituer une taxe additionnelle de 200 % à la taxe de séjour ou à la taxe de séjour forfaitaire perçue par les communes mentionnées à l’article ",
+      "exposeSommaire": "Cet amendement propose d’instituer une taxe additionnelle à la taxe de séjour, dont le produit serait affecté au financement des infrastructures et services de transport.\nDans leur rapport d’information de juillet 2023 sur les modes de financement des AOM, les sénateurs Hervé Maurey et Stéphane Sautarel ont proposé de permettre à ces autorités d’instituer une majoration de la taxe de séjour pour les hébergements haut de gamme. Selon eux, une telle mesure serait cohérente avec l’objectif de faire contribuer les touristes au financement des services de transport dont ils bénéficient, tout en ayant un impact économique limité pour les établissements concernés.\nLe rapport final de la conférence nationale sur le financement des mobilités formule une recommandation similaire, en évoquant la création de nouvelles ressources fiscales locales dédiées, parmi lesquelles une taxe additionnelle à la ",
+      "sort": "Non soutenu",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO419865B2740P0D1N000007"
+    },
+    {
+      "numero": "CF7",
+      "auteur": "Mme Christine Arrighi et 35 cosignataires",
+      "article": "ART. 3",
+      "dispositif": "Après l’alinéa 5, insérer l’alinéa suivant :\n« Les informations communiquées en application du premier alinéa ne peuvent être utilisées qu’aux seules fins de la mise en œuvre de la procédure mentionnée au même alinéa. Elles ne sont conservées que le temps strictement nécessaire à cette finalité et sont détruites dès le recouvrement de la créance ou l’extinction de celle-ci. »",
+      "exposeSommaire": "L’article 3 crée, à l’article L. 166‑0 FA du livre des procédures fiscales, un dispositif permettant aux agents habilités d’obtenir de l’administration fiscale les coordonnées des personnes physiques et morales concernées, aux fins de la mise en œuvre de la procédure de recouvrement applicable en matière de stationnement.\nCe dispositif organise la transmission de données à caractère personnel. S’il renvoie à un décret en Conseil d’État pris après avis de la Commission nationale de l’informatique et des libertés, il ne fixe pas lui-même, dans la loi, les garanties relatives à la finalité d’utilisation et à la durée de conservation de ces données. Or un traitement de données ne peut être mis en œuvre que pour une finalité déterminée et pour une durée n’excédant pas celle nécessaire à cette finalité, conformément à l’exigence constitutionnelle de protection de la vie privée et aux principes",
+      "sort": "Adopté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO59048B2740P0D1N000007"
+    },
+    {
+      "numero": "CF14",
+      "auteur": "Mme Christine Arrighi",
+      "article": "APRÈS ART. PREMIER",
+      "dispositif": "Toute nouvelle concession d’autoroute conclue à compter de l’échéance de l’une des concessions autoroutières en cours à la date de promulgation de la présente loi est précédée d’une consultation publique, organisée à moyens constants, selon les modalités prévues à l’article L. 131‑1 du code des relations entre le public et l’administration.\nLa nouvelle concession ne peut être conclue qu’après y avoir été autorisée par une loi.",
+      "exposeSommaire": "Les concessions autoroutières historiques arriveront à échéance, de manière échelonnée, à compter de la décennie 2030. Le choix du modèle de gestion appelé à leur succéder – renouvellement des concessions, exploitation en régie publique ou autre forme – constitue une décision majeure, aux enjeux financiers et patrimoniaux considérables, dont dépend notamment le financement des infrastructures de transport prévu à l’article 1er de la présente loi.\nAu regard des critiques nourries sur l’équilibre économique des contrats de concession actuels, une décision de cette portée ne saurait être prise sans une double légitimation, citoyenne et parlementaire. Cet amendement prévoit, d’une part, qu’une consultation publique préalable soit organisée à moyens constants, selon les modalités éprouvées du code des relations entre le public et l’administration, afin d’associer les citoyens au choix du modè",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO59048B2740P0D1N000014"
+    },
+    {
+      "numero": "CD16",
+      "auteur": "M. Fabrice Roussel et 8 cosignataires",
+      "article": "APRÈS ART. 11",
+      "dispositif": "Une conférence nationale de financement des services express régionaux métropolitains est organisée avant le 31 décembre 2026, afin de débattre des solutions à mettre en œuvre pour assurer un financement pérenne des dépenses d’investissement et de fonctionnement de ces services. Y sont notamment représentés l’État, les conseils régionaux, les conseils départementaux, les conseils métropolitains, les associations nationales de collectivités territoriales et de leurs groupements, SNCF Réseau, la Société des grands projets, les entreprises et les opérateurs publics de transport public routier et ",
+      "exposeSommaire": "Cet amendement du groupe socialistes et apparentés vise à mettre en place une conférence nationale de financement des services express régionaux métropolitains. Les services express régionaux métropolitains (SERM) ont été érigés en priorité nationale, présentés comme la réponse structurante aux enjeux de mobilités du quotidien, de transition écologique et de désaturation des grandes agglomérations. Pourtant, derrière cette ambition unanimement affichée, une question essentielle demeure sans réponse : celle de leur financement.\nLe législateur avait pourtant pris ses responsabilités en prévoyant explicitement l’organisation d’une conférence nationale de financement des SERM, afin de poser les bases d’un modèle économique pérenne. Cette exigence traduisait une évidence : de tels projets, par leur ampleur, ne peuvent reposer ni sur des annonces ni sur des équilibres implicites, mais nécessit",
+      "sort": "Adopté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO419865B2740P0D1N000016"
+    }
+  ]
+}

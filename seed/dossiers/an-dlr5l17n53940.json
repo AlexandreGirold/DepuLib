@@ -1,0 +1,83 @@
+{
+  "id": "an-dlr5l17n53940",
+  "titre": "Projet de loi sur la justice criminelle et le respect des victimes",
+  "numero": "N° 2681",
+  "statut": "1ère lecture",
+  "commission": "Commission des lois constitutionnelles, de la législation et de l'administration générale de la République",
+  "expose": "Projet de loi sur la justice criminelle et le respect des victimes. Ce texte (n° 2681, projet de loi ordinaire) est examiné au fond par la Commission des lois constitutionnelles, de la législation et de l'administration générale de la République, au stade « 1ère lecture » de la procédure législative de la 17e législature. Il est inscrit à l'ordre du jour de la séance publique.\n\n7 amendements réels déposés sur ce texte sont présentés ci-dessous (0 adopté à ce stade). Les données proviennent de l'open data de l'Assemblée nationale ; l'exposé des motifs complet est consultable sur le dossier officiel.",
+  "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53940",
+  "source": "assemblee-nationale-opendata",
+  "odj": true,
+  "resumeFallback": "Projet de loi sur la justice criminelle et le respect des victimes — texte n° 2681 examiné au fond par la Commission des lois constitutionnelles, de la législation et de l'administration générale de la République (1ère lecture). 7 amendements réels y sont rattachés.",
+  "pointsClesFallback": [
+    "ART. PREMIER — amendement n°CL1 (M. Philippe Gosselin)",
+    "ART. 3 — amendement n°1 (M. Michel Guiniot)",
+    "ART. 6 — amendement n°3 (M. Michel Guiniot et 121 cosignataires)",
+    "ART. 9 — amendement n°5 (M. Michel Guiniot et 121 cosignataires)"
+  ],
+  "amendements": [
+    {
+      "numero": "CL1",
+      "auteur": "M. Philippe Gosselin",
+      "article": "ART. PREMIER",
+      "dispositif": "I. – À la première phrase de l’alinéa 8, substituer aux mots : \n« sauf opposition »\nles mots : \n« avec l’accord exprès et non équivoque ». \nII. – En conséquence, substituer aux alinéas 10 et 11 l'alinéa suivant :\n« Le juge d’instruction recueille l’accord de la partie civile au cours d’une audition tenue en présence de son avocat. Lors de cette audition, le juge d’instruction informe la partie civile, de manière claire et complète, des conséquences de son accord sur le déroulement de la procédure, notamment de l’abandon du jugement par une cour d’assises ou une cour criminelle départementale c",
+      "exposeSommaire": "Le présent amendement vise à renforcer la protection de la partie civile dans le cadre de la nouvelle procédure de jugement des crimes reconnus instituée par l'article 1er de la présente loi.\nDans sa rédaction issue du Sénat, l'article 181-1-1 permet au juge d'instruction de mettre en œuvre cette procédure « sauf opposition de la partie civile ». Ce mécanisme d'opposition implicite est insuffisant pour garantir un consentement éclairé de la victime. En faisant peser sur la partie civile la charge d'exprimer un refus dans un délai de vingt jours à compter d'un simple avis, le texte crée un risque réel que le silence de la victime, lié à son état de choc, à des pressions extérieures ou à une information insuffisante, soit assimilé à un accord tacite.\nLe présent amendement inverse cette logique en exigeant un accord exprès et non équivoque de la partie civile, recueilli au cours d'une audit",
+      "sort": "Retiré",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO59051B2681P0D1N000001"
+    },
+    {
+      "numero": "1",
+      "auteur": "M. Michel Guiniot",
+      "article": "ART. 3",
+      "dispositif": "Après l’alinéa 31, insérer l’alinéa suivant : \n« 7° bis Le délit d’atteinte à la vie résultant d’une intoxication volontaire prévu à l’article 221‑5‑6 dudit code ; ».",
+      "exposeSommaire": "Cet amendement vise à inclure dans le fichier national automatisé des empreintes génétiques l'identité exacte des personnes qui ont été condamnées pour des atteintes à la vie résultant d'une intoxication volontaire.",
+      "sort": "Non soutenu",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901B2681P0D1N000001"
+    },
+    {
+      "numero": "3",
+      "auteur": "M. Michel Guiniot et 121 cosignataires",
+      "article": "ART. 6",
+      "dispositif": "À la première phrase de l’alinéa 6, supprimer les mots :\n« pouvant être ».",
+      "exposeSommaire": "Cet amendement vise à préciser que le travail des psychologues de police judiciaire, s'ils sont sollicités par un magistrat ou un officier de police judiciaire, doit être versé au dossier.",
+      "sort": "Irrecevable",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901B2681P0D1N000003"
+    },
+    {
+      "numero": "5",
+      "auteur": "M. Michel Guiniot et 121 cosignataires",
+      "article": "ART. 9",
+      "dispositif": "À l’alinéa 19, substituer au mot : \n« cinq » \nle mot : \n« trois ».",
+      "exposeSommaire": "Cet amendement vise à s'assurer que les délits d'une gravité certaine entraînent des conséquences certaines, parmi lesquelles le maintien en détention pour les personnes pouvant causer pour la sécurité des personnes un risque d'une particulière gravité.\nCet amendement permettra au procureur général de solliciter le maintien en détention pour les individus qui encourent une peine supérieure ou égale à 3 ans d'emprisonnement.",
+      "sort": "Tombé",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901B2681P0D1N000005"
+    },
+    {
+      "numero": "CL6",
+      "auteur": "M. Ian Boucard et 11 cosignataires",
+      "article": "APRÈS ART. 12",
+      "dispositif": "Dans un délai de vingt-quatre mois à compter de la promulgation de la présente loi, le Gouvernement remet au Parlement un rapport sur l’efficacité de la procédure de jugement des crimes reconnus, évaluant notamment la réduction des délais de jugement, le taux d’appel et la satisfaction des victimes.",
+      "exposeSommaire": "Le présent amendement a pour objet de demander au Gouvernement de remettre un rapport, vingt-quatre mois après l’adoption de la loi, concernant l’efficacité de la procédure de jugement des crimes reconnus, évaluant notamment la réduction des délais de jugement, le taux d’appel et le niveau de satisfaction des victimes.\nCe rapport permettra au Parlement d’établir un premier bilan objectif de cette procédure et de s’assurer de son efficacité concrète pour les victimes.",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO59051B2681P0D1N000006"
+    },
+    {
+      "numero": "6",
+      "auteur": "M. Sacha Houlié",
+      "article": "ART. 10",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "Le présent amendement vise à supprimer l’anonymisation systématique des acteurs judiciaires dans les décisions de justice en open data. \nL’anonymisation systématique des acteurs judiciaires porterait atteinte à cet objectif.\nEn privant les décisions d’éléments essentiels à leur intelligibilité et à leur contextualisation, elle nuirait à leur lisibilité, à leur portée et à leur compréhension, tant pour les justiciables que pour les professionnels du droit. Elle affaiblirait également les capacités d’analyse de la jurisprudence, pourtant indispensables à la prévisibilité du droit et à la sécurité juridique.\nUne telle évolution présente, en outre, des risques pour les droits de la défense.\nRestreindre cet accès reviendrait à affaiblir les garanties offertes aux justiciables.\nPar ailleurs, l’anonymisation systématique soulève des inquiétudes quant au risque de privatisation de la donnée judi",
+      "sort": "Adopté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901B2681P0D1N000006"
+    },
+    {
+      "numero": "7",
+      "auteur": "M. Éric Bothorel",
+      "article": "ART. 4",
+      "dispositif": "Rédiger ainsi l’alinéa 3 :\na) Au dernier alinéa, les mots : « dans les meilleurs délais » sont remplacés par les mots : « avant la délivrance du permis d’inhumer » ;",
+      "exposeSommaire": "L’article 4 porte un progrès considérable dans le parcours d’accompagnement des familles endeuillées dans un contexte judiciaire. Ainsi, il encadre l’information des familles afin qu’elles soient informées de la réalisation de l’autopsie et d’éventuels prélèvements. Certains parents ont appris fortuitement que leurs proches avaient fait l’objet d’une autopsie et de prélèvements d’organes et ont dû s’engager dans un véritable parcours du combattant pour obtenir la restitution desdits organes. Par exemple, c’est lors du procès de l’attentat de Nice que certaines familles ont appris que leur proche défunt avait fait l’objet de prélèvements d’organes, soit six ans après. Les familles vivent ce process comme une seconde violence. Pour assurer l’effectivité de l’information des familles, il est indispensable de fixer un délai contraignant. La notion de « meilleurs délais » inscrit actuellement",
+      "sort": "Adopté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901B2681P0D1N000007"
+    }
+  ]
+}

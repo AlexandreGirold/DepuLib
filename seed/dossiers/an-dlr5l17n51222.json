@@ -1,0 +1,83 @@
+{
+  "id": "an-dlr5l17n51222",
+  "titre": "Projet de loi d'urgence pour Mayotte",
+  "numero": "N° 0772",
+  "statut": "Commission mixte paritaire",
+  "commission": "Commission des affaires économiques",
+  "expose": "Projet de loi d'urgence pour Mayotte. Ce texte (n° 0772, projet de loi ordinaire) est examiné au fond par la Commission des affaires économiques, au stade « Commission mixte paritaire » de la procédure législative de la 17e législature.\n\n7 amendements réels déposés sur ce texte sont présentés ci-dessous (0 adopté à ce stade). Les données proviennent de l'open data de l'Assemblée nationale ; l'exposé des motifs complet est consultable sur le dossier officiel.",
+  "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/urgenceMayotte",
+  "source": "assemblee-nationale-opendata",
+  "odj": false,
+  "resumeFallback": "Projet de loi d'urgence pour Mayotte — texte n° 0772 examiné au fond par la Commission des affaires économiques (Commission mixte paritaire). 7 amendements réels y sont rattachés.",
+  "pointsClesFallback": [
+    "ART. 5 — amendement n°CE1 (M. Stéphane Travert)",
+    "APRÈS ART. 6 — amendement n°CE2 (M. Stéphane Travert)",
+    "ART. 15 — amendement n°5 (M. Lionel Tivoli et 123 cosignataires)",
+    "ART. 3 — amendement n°6 (M. Lionel Tivoli)"
+  ],
+  "amendements": [
+    {
+      "numero": "CE1",
+      "auteur": "M. Stéphane Travert",
+      "article": "ART. 5",
+      "dispositif": "À l’alinéa 1, après le mot :\n« installations »,\ninsérer les mots : \n« et réseaux de communications électroniques ».",
+      "exposeSommaire": "Cet amendement a pour objet d’ajouter l’adaptation des procédures d’urbanisme aux enjeux spécifiques de la reconstruction des réseaux de communications électroniques.",
+      "sort": "Retiré",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO419610B0772P0D1N000001"
+    },
+    {
+      "numero": "CE2",
+      "auteur": "M. Stéphane Travert",
+      "article": "APRÈS ART. 6",
+      "dispositif": "I. – Jusqu’au 31 décembre 2028, par dérogation à l’article L.121‑8 du code de l’urbanisme, à l’exception des espace proches du rivage et au-delà d’une bande de cent mètres ou des plus hautes eaux pour les plans d’eau intérieurs désignés au 1° de l’article L. 321‑2 du code de l’environnement, l’implantation d’installations radioélectriques soumises à l’accord ou à l’avis de l’Agence nationale des fréquences et des équipements nécessaires à leur fonctionnement est autorisée par le préfet pour délivrer le permis de construire ou se prononcer sur la déclaration préalable. \nII. – L’article 422‑2 du",
+      "exposeSommaire": "L’atteinte des objectifs de reconstruction rapide des antennes relais de téléphonie mobile dans le département de Mayotte se heurte aux dispositions de l’article L.121-8 du code de l’urbanisme qui impose de construire en continuité des zones déjà urbanisées et qui interdit toutes constructions dans les zones d’habitat diffus.\nL’interdiction a été confirmée par l’avis du Conseil d’Etat du 11 juin 2021 précisant que l'implantation d'une infrastructure de téléphonie mobile : « doit être regardée comme constituant une extension de l'urbanisation soumise au principe de continuité avec les agglomérations et villages existants au sens de l’article L. 121-8 du code de l’urbanisme. »\nLa jurisprudence constante confirme cette interprétation extensive et annule toute autorisation d’urbanisme pour non-conformité avec l’article L.121-8 du code de l’urbanisme. \nL’enjeu immédiat des opérateurs à Mayott",
+      "sort": "Retiré",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO419610B0772P0D1N000002"
+    },
+    {
+      "numero": "5",
+      "auteur": "M. Lionel Tivoli et 123 cosignataires",
+      "article": "ART. 15",
+      "dispositif": "À l’alinéa 1, après le mot : \n« Chido »\ninsérer les mots :\n« dès lors que l’association bénéficie de subvention publique et, si l’association n’en est pas déjà pourvue, un commissaire aux comptes est désigné de façon à mettre en place une procédure de traçabilité de la trésorerie et de rendre des comptes de leurs actions aux collectivités et donateurs, ».",
+      "exposeSommaire": "La traçabilité des dons est une condition sine qua non pour s'assurer de la bonne utilisation des fonds publics dans la reconstruction de Mayotte. En effet, comme pour Notre Dame de Paris avant elle, de nombreuses associations ont lancé un appel à la générosité pour reconstruire l'archipel. S'il semble important que les collectivités territoriales et les donateurs qui le peuvent participent à cet effort national, cela doit se faire dans la plus totale transparence afin d'éviter tout soupçon de détournement ou d'utilisation pour une autre cause.",
+      "sort": "Retiré",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC0775P0D1N000005"
+    },
+    {
+      "numero": "6",
+      "auteur": "M. Lionel Tivoli",
+      "article": "ART. 3",
+      "dispositif": "Compléter cet article par l’alinéa suivant :\n« Ces constructions d’hébergement d’urgence doivent être exclusivement réservées aux citoyens mahorais ».",
+      "exposeSommaire": "L'archipel de Mayotte est depuis des années en proie à une immigration de masse et incontrôlée venue des Comores et des autres pays d'Afrique. Cette immigration très souvent illégale est un frein au développement économique de l'archipel et empiète sur les droits des mahorais. Par conséquent, ces constructions d'urgences financées par l'Etat n'ont pas vocation a y accueillir des migrants en situation irrégulière. Elles ont pour unique but de venir en aide à nos compatriotes mahorais, dévastés par le cyclone Chido.",
+      "sort": "Irrecevable",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC0775P0D1N000006"
+    },
+    {
+      "numero": "7",
+      "auteur": "M. Lionel Tivoli",
+      "article": "ART. 4",
+      "dispositif": "I. – À l’alinéa 1, après le mot :\n« contraintes »\ninsérer le mot :\n« climatiques ».\nII. – En conséquence, compléter le même alinéa 1 par les mots :\n« ainsi que d’améliorer la résilience des constructions ».",
+      "exposeSommaire": "La reconstruction des bâtiments mahorais doit se faire de façon rapide, efficace et adaptée. En effet, s'il convient de modifier la législation pour faciliter la reconstruction, cela doit se faire en tenant compte des caractéristiques géologiques du territoire et des aléas climatiques susceptibles de se reproduire sur l'archipel. Il convient de travailler à une meilleure résilience des bâtiments pour éviter le drame du 14 décembre dernier.",
+      "sort": "Tombé",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC0775P0D1N000007"
+    },
+    {
+      "numero": "8",
+      "auteur": "Mme Mathilde Hignet et 70 cosignataires",
+      "article": "ART. PREMIER",
+      "dispositif": "Compléter cet article par l’alinéa suivant :\n« II. – Pour réaliser la mission prévue au I du présent article, la Nation se fixe pour objectif de garantir le relogement durable de l’ensemble des personnes présentes sur le territoire de Mayotte. »",
+      "exposeSommaire": "Par cet amendement nous souhaitons que la reconstruction garantisse le relogement durable de toutes les personnes présentes à Mayotte, qu'elles y soient de manière régulière ou non.\nL'habitat précaire (cases en toits de tôles notamment) a été \"complètement détruit\" par le cyclone selon le ministre de l'Intérieur Bruno Retailleau alors qu'il concerne au moins un tiers de la population de Mayotte. Cela explique le nombre de décès et de blessés chiffrés pour l'instant à 39 décès et plus de 5600 blessés, qui ne cesse d'augmenter.\nPersonne ne souhaite la reconstruction des bidonvilles, pourtant ils se reconstruisent déjà faute de choix. Nous défendons des solutions de relogement pérennes pour toutes et tous afin d'éviter que les habitations de fortune ne mettent de nouveau en danger les habitants face à leur fragilité, mais également leur insalubrité.\nL'ancien ministre de l'Intérieur Gérald D",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC0775P0D1N000008"
+    },
+    {
+      "numero": "CE10",
+      "auteur": "Mme Anchya Bamana et 16 cosignataires",
+      "article": "ART. 2",
+      "dispositif": "À l’alinéa 2, après le mot : \n« commune », \ninsérer les mots :\n« pour avis conforme ».",
+      "exposeSommaire": "Les écoles étant de la compétence des communes, il est de bonne politique que les maires aient un avis conforme sur l'implantation et le nombre de s classes.",
+      "sort": "Tombé",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO419610B0772P0D1N000010"
+    }
+  ]
+}

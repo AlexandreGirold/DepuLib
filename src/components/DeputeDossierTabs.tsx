@@ -5,7 +5,8 @@ import { Badge } from "@codegouvfr/react-dsfr/Badge";
 import { Tabs } from "@codegouvfr/react-dsfr/Tabs";
 import { SyntheseCard, SyntheseData } from "./SyntheseCard";
 import { AvisListe, AvisItem } from "./AvisListe";
-import { AmendementCard, AmendementView } from "./AmendementCard";
+import { AmendementView } from "./AmendementCard";
+import { AmendementsSearch } from "./AmendementsSearch";
 import { BadgeSource } from "./BadgeSource";
 import type { Source } from "@/lib/sources";
 
@@ -58,11 +59,9 @@ export function DeputeDossierTabs({
           content: (
             <div>
               <p className={fr.cx("fr-text--sm")} style={{ color: "var(--text-mention-grey)" }}>
-                Sentiment citoyen propre à chaque amendement ayant reçu des avis.
+                Consultez les avis citoyens rattachés à chaque amendement.
               </p>
-              {amendements.map((a) => (
-                <AmendementCard key={a.id} a={a} />
-              ))}
+              <AmendementsSearch amendements={amendements} />
             </div>
           )
         },

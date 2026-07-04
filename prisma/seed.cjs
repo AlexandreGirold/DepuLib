@@ -25,6 +25,12 @@ function readDossiers() {
   return files.map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")));
 }
 
+// Caches IA figés (résumés/synthèses + embeddings réels). S'ils sont présents,
+// le seed les recharge → un clone retrouve exactement le même contenu sans clé
+// API ni appel LLM. Absents → génération à la volée par embed/warm.
+const resumesCache = readJson("resumes.json", { dossiers: {}, amendements: {} });
+const embeddingsCache = readJson("embeddings.json", {});
+
 async function reset() {
   // Ordre de suppression : enfants avant parents.
   await prisma.upvoteComm.deleteMany();
@@ -32,7 +38,6 @@ async function reset() {
   await prisma.rdvDossier.deleteMany();
   await prisma.rendezVous.deleteMany();
   await prisma.contribution.deleteMany();
-  await prisma.feedItem.deleteMany();
   await prisma.commentaire.deleteMany();
   await prisma.amendement.deleteMany();
   await prisma.dossier.deleteMany();
@@ -68,7 +73,7 @@ async function main() {
       role: "depute",
       displayName: "Marie Dupont",
       circonscription: "75-03",
-      commission: "Commission des lois"
+      commission: "Commission des lois constitutionnelles, de la législation et de l'administration générale de la République"
     }
   });
   const paul = await prisma.user.create({
@@ -77,7 +82,7 @@ async function main() {
       role: "collaborateur",
       displayName: "Paul Martin",
       deputeId: marie.id,
-      commission: "Commission des lois"
+      commission: "Commission des lois constitutionnelles, de la législation et de l'administration générale de la République"
     }
   });
   const hugo = await prisma.user.create({
@@ -117,6 +122,7 @@ async function main() {
   const dossiers = readDossiers();
   const amdtByDossierNumero = {}; // dossierId -> { numero -> amendementId }
   for (const d of dossiers) {
+    const dc = resumesCache.dossiers[d.id] || {};
     await prisma.dossier.create({
       data: {
         id: d.id,
@@ -127,20 +133,31 @@ async function main() {
         expose: d.expose,
         sourceUrl: d.sourceUrl,
         source: d.source || "donnees-demo",
+        odj: !!d.odj,
+        resumeIA: dc.resumeIA || null,
+        syntheseIA: dc.syntheseIA || null,
+        sources: dc.sources ? JSON.stringify(dc.sources) : null,
         json: JSON.stringify(d)
       }
     });
     amdtByDossierNumero[d.id] = {};
     for (const a of d.amendements || []) {
-      const emb = pseudoEmbedding(`${a.dispositif} ${a.exposeSommaire}`);
+      const key = `${d.id}::${a.numero}`;
+      const ac = resumesCache.amendements[key] || {};
+      // Embedding : réel figé si disponible, sinon pseudo déterministe.
+      const emb = embeddingsCache[key] || pseudoEmbedding(`${a.dispositif} ${a.exposeSommaire}`);
       const rec = await prisma.amendement.create({
         data: {
           dossierId: d.id,
           numero: a.numero,
           auteur: a.auteur,
+          article: a.article || null,
           dispositif: a.dispositif,
           exposeSommaire: a.exposeSommaire,
+          sort: a.sort || null,
           sourceUrl: a.sourceUrl,
+          resumeIA: ac.resumeIA || null,
+          sources: ac.sources ? JSON.stringify(ac.sources) : null,
           embedding: JSON.stringify(emb)
         }
       });
@@ -181,7 +198,11 @@ async function main() {
   console.log(`[seed] ${commentaires.length} commentaires (${flagCount} flaggés)`);
 
   // --- RDV représentant → député (F6) ---
-  const dossierNum = dossiers.find((d) => d.id === "dossier-numerique") || dossiers[0];
+  // Dossier vedette : protection des mineurs sur les réseaux sociaux (réel, ODJ).
+  const dossierNum =
+    dossiers.find((d) => d.id === "an-dlr5l17n53187") ||
+    dossiers.find((d) => /r[eé]seaux sociaux/i.test(d.titre)) ||
+    dossiers[0];
   if (dossierNum) {
     const rdv = await prisma.rendezVous.create({
       data: {
@@ -203,29 +224,6 @@ async function main() {
     });
     console.log(`[seed] RDV seedé ${rdv.id}`);
   }
-
-  // --- Feed pré-généré pour hugo.citoyen (F9) ---
-  const feedSources = [];
-  const feedItems = [];
-  for (const d of dossiers.slice(0, 4)) {
-    feedItems.push({
-      titre: d.titre,
-      resume:
-        (d.resumeFallback || d.expose).slice(0, 150).replace(/\s+\S*$/, "") + "…",
-      lien: d.sourceUrl,
-      tag: d.commission.replace("Commission ", "")
-    });
-    feedSources.push({ url: d.sourceUrl, titre: d.titre });
-  }
-  await prisma.feedItem.create({
-    data: {
-      userId: hugo.id,
-      periode: "2026-07",
-      contenuIA: JSON.stringify({ items: feedItems }),
-      sources: JSON.stringify(feedSources)
-    }
-  });
-  console.log("[seed] Feed pré-généré pour hugo.citoyen");
 
   console.log("[seed] Terminé ✅");
 }
