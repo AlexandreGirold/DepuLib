@@ -1,6 +1,6 @@
 import { fr } from "@codegouvfr/react-dsfr";
 import { Badge } from "@codegouvfr/react-dsfr/Badge";
-import { JaugeSentiment } from "./JaugeSentiment";
+import { Button } from "@codegouvfr/react-dsfr/Button";
 import { BadgeSource } from "./BadgeSource";
 import type { Source } from "@/lib/sources";
 
@@ -15,8 +15,8 @@ export type AmendementView = {
   sourceUrl: string;
   sources: Source[];
   upvotes: number;
-  sentimentMoyen: number;
   nbCommentaires: number;
+  avisHref: string;
 };
 
 function sortSeverity(sort?: string | null): any {
@@ -28,8 +28,8 @@ function sortSeverity(sort?: string | null): any {
 }
 
 /**
- * Carte d'amendement — résumé IA sourcé + mini-jauge de sentiment propre (F5)
- * quand des commentaires y sont liés + compteur de soutiens.
+ * Carte d'amendement — résumé IA sourcé + accès aux avis citoyens rattachés
+ * (F5) quand des commentaires y sont liés + compteur de soutiens.
  */
 export function AmendementCard({ a }: { a: AmendementView }) {
   return (
@@ -72,10 +72,14 @@ export function AmendementCard({ a }: { a: AmendementView }) {
 
       {a.nbCommentaires > 0 ? (
         <div className={fr.cx("fr-mt-2w")}>
-          <p className={fr.cx("fr-text--sm", "fr-mb-1v")} style={{ fontWeight: 500 }}>
-            Sentiment citoyen sur cet amendement
-          </p>
-          <JaugeSentiment value={a.sentimentMoyen} count={a.nbCommentaires} compact />
+          <Button
+            priority="secondary"
+            size="small"
+            iconId="fr-icon-chat-3-line"
+            linkProps={{ href: a.avisHref }}
+          >
+            Voir les {a.nbCommentaires} avis associé{a.nbCommentaires > 1 ? "s" : ""}
+          </Button>
         </div>
       ) : null}
     </div>

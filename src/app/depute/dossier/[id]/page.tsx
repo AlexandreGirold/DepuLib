@@ -28,7 +28,7 @@ export default async function DeputeDossierPage({ params }: { params: { id: stri
   const amendementsView: AmendementView[] = dossier.amendements.map((a) => {
     const r = readResumeAmendement(a);
     const comms = dossier.commentaires.filter((c) => c.amendementId === a.id);
-    const { moyenne, count } = moyenneSentiment(comms);
+    const { count } = moyenneSentiment(comms);
     return {
       id: a.id,
       numero: a.numero,
@@ -40,8 +40,8 @@ export default async function DeputeDossierPage({ params }: { params: { id: stri
       sourceUrl: a.sourceUrl,
       sources: r.sources,
       upvotes: a.upvotes,
-      sentimentMoyen: moyenne,
-      nbCommentaires: count
+      nbCommentaires: count,
+      avisHref: `/depute/dossier/${dossier.id}/amendement/${a.id}`
     };
   });
 
