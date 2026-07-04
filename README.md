@@ -25,7 +25,7 @@ cp .env.example .env   # puis éditer CLOUDTEMPLE_LLMAAS_API_KEY
 docker compose up --build
 ```
 
-L'application est servie sur http://localhost:3000. Au premier démarrage, la base est créée, seedée (4 dossiers, 63 amendements, 10 organisations HATVP, 5 comptes, commentaires) et les embeddings calculés automatiquement.
+L'application est servie sur http://localhost:3000. Au premier démarrage, la base est créée, seedée (49 lois réelles de l'open data AN réparties par commission, 319 amendements, 10 organisations HATVP, 5 comptes, commentaires), les embeddings calculés et les résumés IA pré-générés automatiquement.
 
 > Sans clé API, l'app fonctionne quand même en **mode dégradé** (réponses de secours déterministes).
 
@@ -35,8 +35,7 @@ L'application est servie sur http://localhost:3000. Au premier démarrage, la ba
 npm install
 cp -r node_modules/@codegouvfr/react-dsfr/dsfr public/dsfr  # styles DSFR (sinon page sans CSS)
 npx prisma db push          # crée data/depulib.db
-npm run seed                 # données de démonstration
-npm run embed                # embeddings bge-m3 des amendements
+npm run ingest               # seed (lois open data AN) + embeddings + résumés IA
 npm run dev                  # http://localhost:3000
 ```
 
@@ -56,7 +55,7 @@ La clé `CLOUDTEMPLE_LLMAAS_API_KEY` est lue depuis `depulib/.env` **ou** `../.e
 
 ## Parcours de démonstration
 
-1. **Citoyen** (`hugo.citoyen`) → dossier « Protection des mineurs sur les espaces numériques » → écrire un avis sur le *scroll infini / design addictif* → l'IA propose l'amendement **CL12** avec résumé + lien officiel → « Soutenir cet amendement ».
+1. **Citoyen** (`hugo.citoyen`) → commission « Affaires culturelles et éducation » → loi réelle « Protéger les mineurs des risques […] réseaux sociaux » → écrire un avis sur la *protection de la petite enfance face aux écrans* → l'IA propose l'amendement réel **AC9** avec résumé + lien vers le texte officiel → « Soutenir cet amendement ».
 2. **Députée** (`marie.dupont`) → tableau de bord → jauge de sentiment, top amendements, **synthèse avec verbatims réels** → onglet Avis : message modéré replié (« rien ne disparaît ») → calendrier : RDV de `jean.lobby`, **fiche HATVP** + document résumé par IA.
 3. **Représentant** (`jean.lobby`) → demander un RDV, déposer une contribution + PDF → visible côté député dans l'onglet dédié, séparé des avis citoyens.
 4. **Collaborateur** (`paul.martin`) → même dashboard que la députée, boutons d'action RDV désactivés.
@@ -75,4 +74,4 @@ La clé `CLOUDTEMPLE_LLMAAS_API_KEY` est lue depuis `depulib/.env` **ou** `../.e
 
 ## Données législatives
 
-Les dossiers sont des données de démonstration réalistes (`"source": "donnees-demo"`) au schéma open data AN. Le client MCP tricoteuses est implémenté (`src/lib/mcp.ts`) mais le site est protégé par un anti-bot : l'UI lit **exclusivement la BDD seedée**, la synchro MCP est optionnelle.
+Les lois proviennent de l'**open data de l'Assemblée nationale** (17e législature, `"source": "assemblee-nationale-opendata"`) : dossiers inscrits à l'ordre du jour de la séance publique, répartis par commission au fond, avec leurs amendements réels (titre, numéro, auteur, article, dispositif, exposé sommaire, URL officielle vérifiable). Le client MCP tricoteuses est aussi implémenté (`src/lib/mcp.ts`) mais le site est protégé par un anti-bot ; l'UI lit **exclusivement la BDD**.
