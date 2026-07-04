@@ -1,0 +1,83 @@
+{
+  "id": "an-dlr5l17n52958",
+  "titre": "Moderniser et simplifier la protection juridique des majeurs",
+  "numero": "N° 1943",
+  "statut": "1ère lecture",
+  "commission": "Commission des lois constitutionnelles, de la législation et de l'administration générale de la République",
+  "expose": "Moderniser et simplifier la protection juridique des majeurs. Ce texte (n° 1943, proposition de loi ordinaire) est examiné au fond par la Commission des lois constitutionnelles, de la législation et de l'administration générale de la République, au stade « 1ère lecture » de la procédure législative de la 17e législature. Il est inscrit à l'ordre du jour de la séance publique.\n\n7 amendements réels déposés sur ce texte sont présentés ci-dessous (0 adopté à ce stade). Les données proviennent de l'open data de l'Assemblée nationale ; l'exposé des motifs complet est consultable sur le dossier officiel.",
+  "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/_moderniser_simplifier_protection_juridique_majeurs_17e",
+  "source": "assemblee-nationale-opendata",
+  "odj": true,
+  "resumeFallback": "Moderniser et simplifier la protection juridique des majeurs — texte n° 1943 examiné au fond par la Commission des lois constitutionnelles, de la législation et de l'administration générale de la République (1ère lecture). 7 amendements réels y sont rattachés.",
+  "pointsClesFallback": [
+    "APRÈS ART. PREMIER — amendement n°1 (M. Sébastien Huyghe et 88 cosignataires)",
+    "ART. 2 — amendement n°CL2 (Mme Colette Capdevielle et 9 cosignataires)",
+    "ART. PREMIER — amendement n°CL3 (Mme Colette Capdevielle et 9 cosignataires)",
+    "ART. 4 — amendement n°CL4 (Mme Colette Capdevielle et 9 cosignataires)"
+  ],
+  "amendements": [
+    {
+      "numero": "1",
+      "auteur": "M. Sébastien Huyghe et 88 cosignataires",
+      "article": "APRÈS ART. PREMIER",
+      "dispositif": "Le code civil est ainsi modifié : \n1° La section 3 du chapitre II du titre IX est ainsi modifiée :\na) Avant le dernier alinéa de l’article 387‑1, il est inséré un 9° ainsi rédigé :\n« 9° Transférer dans un patrimoine fiduciaire les biens ou droits du mineur. » ;\nb) Le 4° de l’article 387‑2 est abrogé ;\n2° L’article 408‑1 est abrogé ;\n3° Le chapitre II du titre XI est ainsi modifié :\na) La section 1 est ainsi modifiée :\n– l’article 425 est complété par un alinéa ainsi rédigé : \n« Dès l’ouverture de la mesure, la personne chargée de la protection recherche si la constitution d’une fiducie permett",
+      "exposeSommaire": "La fiducie est définie à l’article 2011 du Code civil comme « l’opération par laquelle un ou plusieurs constituants transfèrent des biens, des droits ou des sûretés, ou un ensemble de biens, de droits ou de sûretés, présents ou futurs, à un ou plusieurs fiduciaires qui, les tenant séparés de leur patrimoine propre, agissent dans un but déterminé au profit d’un ou plusieurs bénéficiaires ». Toutefois, dans son état actuel, la fiducie demeure réservée à des usages essentiellement professionnels ou de sûreté, et ne peut être mobilisée à des fins patrimoniales ou familiales. \nS’agissant des personnes vulnérables, la fiducie permettrait de sécuriser la gestion d’un patrimoine revenant à un donataire, un légataire ou un héritier qui, lui-même ou son représentant, n’a pas les compétences requises pour en assurer la bonne administration. Les familles confrontées à la dépendance d’un proche ou à ",
+      "sort": "En traitement",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC2753P0D1N000001"
+    },
+    {
+      "numero": "CL2",
+      "auteur": "Mme Colette Capdevielle et 9 cosignataires",
+      "article": "ART. 2",
+      "dispositif": "À l’alinéa 1, supprimer les mots : \n« qu’il y a lieu de protéger ou ».",
+      "exposeSommaire": "Cet amendement du groupe Socialistes et apparentés entend réserver la possibilité de lever le secret professionnel auxquels sont tenus les assistants de service social pour les seuls majeurs qui bénéficient effectivement d'une mesure de protection. \nLe code de l’action sociale et des familles prévoit que les assistants de service social sont tenus au secret professionnel mais prévoit une exception concernant des mineurs dont la santé, la sécurité, la moralité ou l'éducation sont compromises. La présente proposition de loi vise à étendre le champs de cette exclusion à la « personne majeure qu’il y a lieu de protéger ou qui bénéficie d’une mesure de protection. ».\nIl semble excessif d'inclure « la personne majeure qu’il y a lieu de protéger » puisque cela relève d’une appréciation subjective qui n’est pas constatée par un juge.\nTel est le sens de cet amendement.",
+      "sort": "Tombé",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO59051B1943P0D1N000002"
+    },
+    {
+      "numero": "CL3",
+      "auteur": "Mme Colette Capdevielle et 9 cosignataires",
+      "article": "ART. PREMIER",
+      "dispositif": "Rédiger ainsi les alinéas 2 et 3 :\n« 1° Le cinquième alinéa de l’article 427 est complété par trois phrases ainsi rédigées : « Il peut toutefois être dérogé au présent alinéa dans le cadre d’un mandat de gestion immobilière autorisé à condition que les fonds encaissés pour le compte de la personne protégée transitent par un compte du mandataire ouvert à cet effet, fassent l’objet d’une individualisation au moyen d’un sous-compte ouvert au nom de la personne protégée, distinct des fonds propres du mandataire et de ceux des autres mandants, et soient reversés sans délai sur le compte mentionné a",
+      "exposeSommaire": "La loi n°2007-308 du 5 mars 2007 portant réforme de la protection juridique des majeurs, avait prohibé la pratique des comptes pivots. Les travaux préparatoires de ladite loi relevaient d’ailleurs pour en justifier qu’il « […] sera donc mis fin à la pratique des comptes pivot qui consiste pour les gérants de tutelle et les associations tutélaires à verser sur un compte unique ouvert à leur nom les avoirs de tous les majeurs dont ils assurent la protection et de percevoir tout ou partie des intérêts générés par ce compte […]. »\nL’article 1er de la présente proposition de loi souhaite autoriser la personne chargée de la protection du majeur à confier un mandat de gestion immobilière, notamment à un professionnel de l’immobilier, incluant la possibilité pour celui-ci d’encaisser les loyers sur son compte bancaire avant de les reverser sur celui ouvert au nom du majeur protégé.\nLe transit de",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO59051B1943P0D1N000003"
+    },
+    {
+      "numero": "CL4",
+      "auteur": "Mme Colette Capdevielle et 9 cosignataires",
+      "article": "ART. 4",
+      "dispositif": "I. – À l’alinéa 3, substituer aux mots : \n« qui exerceront »\nles mots : \n« susceptibles d’exercer ». \nII. – En conséquence, après le même alinéa 3, insérer les deux alinéas suivants : \n« En cas de survenance de cet événement, la personne ainsi désignée assure provisoirement les actes conservatoires et urgents.\n« Elle saisit sans délai le juge des tutelles qui statue sur la poursuite de la mesure, la désignation du protecteur et les modalités d’exercice de la protection, après avoir vérifié la gestion antérieure, la situation de la personne protégée et après avoir recueilli, dans la mesure du p",
+      "exposeSommaire": "La loi n°2007-308 du 5 mars 2007 portant réforme de la protection juridique des majeurs, avait prohibé la pratique des comptes pivots. Les travaux préparatoires de ladite loi relevaient d’ailleurs pour en justifier qu’il « […] sera donc mis fin à la pratique des comptes pivot qui consiste pour les gérants de tutelle et les associations tutélaires à verser sur un compte unique ouvert à leur nom les avoirs de tous les majeurs dont ils assurent la protection et de percevoir tout ou partie des intérêts générés par ce compte […]. »\nL’article 1er de la présente proposition de loi souhaite autoriser la personne chargée de la protection du majeur à confier un mandat de gestion immobilière, notamment à un professionnel de l’immobilier, incluant la possibilité pour celui-ci d’encaisser les loyers sur son compte bancaire avant de les reverser sur celui ouvert au nom du majeur protégé.\nLe transit de",
+      "sort": "Adopté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO59051B1943P0D1N000004"
+    },
+    {
+      "numero": "4",
+      "auteur": "M. Patrick Hetzel et 46 cosignataires",
+      "article": "ART. 5",
+      "dispositif": "Compléter cet article par les deux alinéas suivants :\n« c) Il est ajouté un alinéa ainsi rédigé :\n« « Avant de statuer sur une demande d’ouverture d’une mesure de protection judiciaire, le juge s’assure qu’il n’existe pas de mandat de protection future régulièrement établi susceptible de répondre aux besoins de la personne. Il motive sa décision d’y recourir nonobstant l’existence d’un tel mandat. » »",
+      "exposeSommaire": "Le mandat de protection future constitue un outil essentiel d’anticipation, permettant à chacun d’organiser à l’avance sa propre protection. Créé par la loi du 5 mars 2007, il incarne une approche fondée sur la responsabilité individuelle et le respect de la volonté. Le présent amendement vise à renforcer la portée de ce dispositif en en faisant une étape préalable à toute mesure judiciaire. Il s’agit d’éviter le recours systématique au juge lorsque des solutions anticipées existent. Cette mesure contribue à promouvoir une protection plus respectueuse de l’autonomie des personnes et à désengorger les juridictions.",
+      "sort": "A discuter",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC2753P0D1N000004"
+    },
+    {
+      "numero": "CL5",
+      "auteur": "Mme Colette Capdevielle et 9 cosignataires",
+      "article": "ART. 6",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "L’article 6 de la présente proposition de loi reprend notamment les dispositions de l’article 5 sexies de la proposition de loi Bien-vieillir, et vise à élargir la liste des personnes auxquelles peut être confiée une habilitation familiale.\nOr, l’introduction de la notion de « parents et alliés », insuffisamment définie, élargit excessivement ce cercle, en particulier la notion d’« alliés », qui ne correspond à aucune catégorie juridique clairement définie.\nDéjà en 2014, lors des travaux préparatoires, Mme Colette Capdevielle (rapport n°1808, projet de loi relatif à la modernisation et à la simplification du droit et des procédures dans les domaines de la justice et des affaires intérieures, 19/02/2014) avait souligné le caractère trop vague de la notion de « membres proches de la famille », conduisant à une énumération précise des bénéficiaires : ascendants, descendants, frères et sœurs",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO59051B1943P0D1N000005"
+    },
+    {
+      "numero": "CL11",
+      "auteur": "M. Sébastien Peytavie et 37 cosignataires",
+      "article": "ART. 9",
+      "dispositif": "Compléter cet article par l’alinéa suivant : \n« 2° Le même article article L. 215‑4 du code de l’action sociale et des familles est complété par deux phrases ainsi rédigées : « Cette information intègre notamment une sensibilisation à l’accompagnement à la prise de décision de la personne protégée par l’accès à une information accessible, adaptée à son degré de compréhension, dans un format facile à lire et à comprendre lorsque cela est nécessaire, et par la recherche active de son consentement éclairé sur toute décision. Elle informe les personnes appelées à exercer ou exerçant une mesure de ",
+      "exposeSommaire": "Le présent amendement vise à sensibiliser les personnes appelées à exercer ou exerçant une mesure de protection juridique à l’accompagnement des majeurs protégés à la prise de décision.\nIl vise à répondre aux critiques vives des organisations internationales et des organismes de défense des droits humains à l’égard de la France relatives à un système de protection juridique des majeurs jugés paternaliste et infantilisant. \nForce est de constater, en effet, que l’accompagnement à la prise de décision est encore marginal, les personnes concernées manquent d’informations sur leurs droits et l’on décide encore trop fréquemment à leur place pour des actes du quotidien, pour des motifs tenant à la complexité des décisions, à l’urgence, ou à leur incapacité présumée.\nA l’image de la négation de la personnalité juridique des majeurs protégés, l’article L.215-4 du code civil, qui n’intègre aucune",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO59051B1943P0D1N000011"
+    }
+  ]
+}

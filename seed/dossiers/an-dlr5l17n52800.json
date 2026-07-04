@@ -1,0 +1,83 @@
+{
+  "id": "an-dlr5l17n52800",
+  "titre": "Plusieurs mesures de justice pour limiter les frais bancaires injustes",
+  "numero": "N° 1851",
+  "statut": "1ère lecture",
+  "commission": "Commission des finances, de l'économie générale et du contrôle budgétaire",
+  "expose": "Plusieurs mesures de justice pour limiter les frais bancaires injustes. Ce texte (n° 1851, proposition de loi ordinaire) est examiné au fond par la Commission des finances, de l'économie générale et du contrôle budgétaire, au stade « 1ère lecture » de la procédure législative de la 17e législature.\n\n7 amendements réels déposés sur ce texte sont présentés ci-dessous (0 adopté à ce stade). Les données proviennent de l'open data de l'Assemblée nationale ; l'exposé des motifs complet est consultable sur le dossier officiel.",
+  "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/limiter_frais_bancaires_injustes_17e",
+  "source": "assemblee-nationale-opendata",
+  "odj": false,
+  "resumeFallback": "Plusieurs mesures de justice pour limiter les frais bancaires injustes — texte n° 1851 examiné au fond par la Commission des finances, de l'économie générale et du contrôle budgétaire (1ère lecture). 7 amendements réels y sont rattachés.",
+  "pointsClesFallback": [
+    "TITRE — amendement n°CF1 (M. Daniel Labaronne)",
+    "ART. PREMIER — amendement n°1 (M. Charles Sitzenstuhl)",
+    "ART. 4 — amendement n°2 (M. Charles Sitzenstuhl)",
+    "ART. 5 — amendement n°3 (M. Charles Sitzenstuhl)"
+  ],
+  "amendements": [
+    {
+      "numero": "CF1",
+      "auteur": "M. Daniel Labaronne",
+      "article": "TITRE",
+      "dispositif": "Après le mot :\n« mesures »\nrédiger ainsi la fin du titre de la proposition de loi :\n« visant à remettre en cause le principe de la liberté tarifaire en matière de banque de détail, ».",
+      "exposeSommaire": "La proposition de loi s’attaque directement à l’écosystème bancaire français et remet en cause les fondements mêmes du modèle de banque de détail qui prévaut dans notre pays. Ce modèle repose sur une approche relationnelle forte, centrée sur une proximité géographique et humaine. Avec le maillage territorial le plus dense d’Europe, les banques françaises assurent un accès physique à leurs services sur l’ensemble du territoire, y compris dans les zones rurales.\nContrairement aux modèles transactionnels plus répandus dans le nord de l’Europe, le modèle français privilégie une relation de long terme attendue par les clients. Les banques accompagnent leurs clients à chaque étape de leur vie (études, logement, famille, retraite), dans une logique de banque universelle intégrant banque de détail, assurance et services financiers. Ce modèle favorise une offre intégrée, souvent proposée sous for",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO59048B1851P0D1N000001"
+    },
+    {
+      "numero": "1",
+      "auteur": "M. Charles Sitzenstuhl",
+      "article": "ART. PREMIER",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "Amendement de suppression de l'article.",
+      "sort": "A discuter",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901B1851P0D1N000001"
+    },
+    {
+      "numero": "2",
+      "auteur": "M. Charles Sitzenstuhl",
+      "article": "ART. 4",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "Amendement de suppression de l'article.",
+      "sort": "A discuter",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901B1851P0D1N000002"
+    },
+    {
+      "numero": "3",
+      "auteur": "M. Charles Sitzenstuhl",
+      "article": "ART. 5",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "Amendement de suppression de l'article.",
+      "sort": "A discuter",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901B1851P0D1N000003"
+    },
+    {
+      "numero": "4",
+      "auteur": "M. Charles Sitzenstuhl",
+      "article": "ART. 6",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "Amendement de suppression de l'article.",
+      "sort": "A discuter",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901B1851P0D1N000004"
+    },
+    {
+      "numero": "CF5",
+      "auteur": "M. Daniel Labaronne",
+      "article": "ART. 2",
+      "dispositif": "Compléter l’alinéa 2 par les mots :\n« pris après avis du comité consultatif de la législation et de la réglementation financières. »",
+      "exposeSommaire": "Le présent article vise à plafonner les frais pratiqués par les banques en matière de saisie-attribution à 10 % du montant dû au créancier qui pratique la saisie, dans la limite d’un plafond fixé par décret.\nAfin de garantir la qualité, la légitimité et la sécurité juridique des textes réglementaires pris en application de cette disposition, il est proposé de subordonner l’édiction de ces décrets à l’avis préalable du Comité consultatif de la législation et de la réglementation financières (CCLRF). Le CCLRF, dont le rôle est défini à l’article L. 614‑2 du code monétaire et financier, est saisi pour avis par le ministre chargé de l’économie, de tout projet de texte normatif à portée générale (loi, ordonnance, décret, arrêté) dans les domaines bancaire, financier et des assurances.\nLe présent amendement vise donc à compléter l’article 2 pour prévoir expressément que tout décret pris sur le",
+      "sort": "Adopté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO59048B1851P0D1N000005"
+    },
+    {
+      "numero": "CF7",
+      "auteur": "M. Daniel Labaronne",
+      "article": "ART. 3",
+      "dispositif": "Compléter l’alinéa 2 par les mots :\n« pris après avis du comité consultatif de la législation et de la réglementation financières. »",
+      "exposeSommaire": "L’article 3 de la présente proposition de loi vise à plafonner, par décret, l’ensemble des frais bancaires pour les personnes physiques n’agissant pas pour des besoins professionnels.\nAfin de garantir la qualité, la légitimité et la sécurité juridique des textes réglementaires pris en application de cette disposition, il est proposé de subordonner l’édiction de ces décrets à l’avis préalable du Comité consultatif de la législation et de la réglementation financières (CCLRF). Le CCLRF, dont le rôle est défini à l’article L. 614‑2 du code monétaire et financier, est saisi pour avis par le ministre chargé de l’économie, de tout projet de texte normatif à portée générale (loi, ordonnance, décret, arrêté) dans les domaines bancaire, financier et des assurances.\nLe présent amendement vise donc à compléter l’article 3 pour prévoir expressément que tout décret pris sur le fondement de cette habi",
+      "sort": "Adopté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO59048B1851P0D1N000007"
+    }
+  ]
+}

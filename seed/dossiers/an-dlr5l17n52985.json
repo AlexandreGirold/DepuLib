@@ -1,0 +1,83 @@
+{
+  "id": "an-dlr5l17n52985",
+  "titre": "Projet de loi relatif à la lutte contre les fraudes sociales et fiscales",
+  "numero": "N° 2115",
+  "statut": "Commission mixte paritaire",
+  "commission": "Commission des affaires sociales",
+  "expose": "Projet de loi relatif à la lutte contre les fraudes sociales et fiscales. Ce texte (n° 2115, projet de loi ordinaire) est examiné au fond par la Commission des affaires sociales, au stade « Commission mixte paritaire » de la procédure législative de la 17e législature. Il est inscrit à l'ordre du jour de la séance publique.\n\n7 amendements réels déposés sur ce texte sont présentés ci-dessous (0 adopté à ce stade). Les données proviennent de l'open data de l'Assemblée nationale ; l'exposé des motifs complet est consultable sur le dossier officiel.",
+  "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N52985",
+  "source": "assemblee-nationale-opendata",
+  "odj": true,
+  "resumeFallback": "Projet de loi relatif à la lutte contre les fraudes sociales et fiscales — texte n° 2115 examiné au fond par la Commission des affaires sociales (Commission mixte paritaire). 7 amendements réels y sont rattachés.",
+  "pointsClesFallback": [
+    "ART. 2 BIS — amendement n°AS1 (Mme Martine Froger et 11 cosignataires)",
+    "ART. 14 — amendement n°CF1 (M. Laurent Baumel et 8 cosignataires)",
+    "APRÈS ART. 14 — amendement n°1 (Mme Alexandra Martin (Alpes-Maritimes) et 7 cosignataires)",
+    "ART. 2 TER — amendement n°AS2 (Mme Martine Froger et 11 cosignataires)"
+  ],
+  "amendements": [
+    {
+      "numero": "AS1",
+      "auteur": "Mme Martine Froger et 11 cosignataires",
+      "article": "ART. 2 BIS",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "Cet amendement des députés socialistes et apparentés vise à supprimer cet article 2 bis qui autorise l’accès des Préfectures aux données relatives aux allocataires des prestations sociales (RNCPS).\nCet article prévoit l’extension de l’accès au Répertoire national commun de la protection sociale (RNCPS) au bénéfice des Préfectures. \nUne telle extension nous semble contraire au RGPD en ce que l’accès aux données personnelles doit être proportionnel aux finalités poursuivies.\nEn effet, le périmètre de l’accès aux services préfectoraux ne serait pas précisé et donc excessivement large.",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO420120B2115P0D1N000001"
+    },
+    {
+      "numero": "CF1",
+      "auteur": "M. Laurent Baumel et 8 cosignataires",
+      "article": "ART. 14",
+      "dispositif": "À l’alinéa 6, substituer au taux : \n« 25 % »\nle taux : \n« 45 % ».",
+      "exposeSommaire": "Cet amendement des députés socialistes et apparentés vise à augmenter le taux de CSG pesant sur les revenus tirés d’activités illicites de 25 % à 45 %.\nComme le proposait l’ancienne Ministre Catherine Vautrin dans son interview au Parisien présentant cet été le projet de loi, un taux permettrait aux finances publiques de récupérer environ la moitié des sommes illégaux perçues.",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO59048B2115P0D1N000001"
+    },
+    {
+      "numero": "1",
+      "auteur": "Mme Alexandra Martin (Alpes-Maritimes) et 7 cosignataires",
+      "article": "APRÈS ART. 14",
+      "dispositif": "Avant le dernier alinéa de l’article L. 114‑16 du code de la sécurité sociale, sont insérés trois alinéas ainsi rédigés :\n« Lorsqu’une personne fait l’objet d’éléments concordants recueillis par les autorités judiciaires ou policières laissant présumer qu’elle tire des revenus du trafic de stupéfiants ou d’activités assimilées, ces revenus sont réputés constituer une ressource prise en compte pour le calcul des droits aux prestations sociales. À ce titre, les organismes de protection sociale procèdent à la suppression des prestations en cours, indépendamment d’une décision judiciaire définitiv",
+      "exposeSommaire": "La protection de la cohésion nationale, de la sécurité publique et du respect de l’État de droit impose une réponse ferme face aux formes les plus graves de délinquance.\nLe trafic de stupéfiants constitue, même lorsqu’il est commis pour la première fois, une infraction d’une particulière gravité. Lorsqu’un individu tire des revenus d’une activité illégale, le maintien du bénéfice d’allocations sociales financées par la solidarité nationale s’analyse comme une forme de fraude sociale, contraire aux principes d’équité et de responsabilité.\nSi la loi n° 2025-532 du 13 juin 2025 relative à la lutte contre le narcotrafic a renforcé l’arsenal répressif, elle ne permet pas encore de tirer toutes les conséquences sociales de l’implication dans de tels faits. Une expérimentation locale, notamment à Cannes, a pourtant démontré la faisabilité juridique d’un retrait des aides sociales dans ce cadre.",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC2250P0D1N000001"
+    },
+    {
+      "numero": "AS2",
+      "auteur": "Mme Martine Froger et 11 cosignataires",
+      "article": "ART. 2 TER",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "Cet amendement des députés socialistes et apparentés vise à supprimer cet article qui prévoit l’inscription de données pénales dans le fichier relatif aux allocataires des prestations sociales (RNCPS).\nCet article introduirait en effet des données sensibles (de nature pénale) dans un fichier informatique qui n’est pas censé être un outil de lutte contre la fraude, mais un outil de recours au juste droit.\nIl méconnaîtrait ainsi le RGPD.",
+      "sort": "Adopté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO420120B2115P0D1N000002"
+    },
+    {
+      "numero": "2",
+      "auteur": "M. Patrick Hetzel",
+      "article": "ART. 15 TER",
+      "dispositif": "Compléter cet article par l’alinéa suivant :\n« II. – Le présent article est applicable à la Nouvelle-Calédonie, en Polynésie française et à Wallis-et-Futuna. ».",
+      "exposeSommaire": "Amendement de coordination visant à assurer l'application du présent article à la Nouvelle-Calédonie, en Polynésie française et à Wallis-et-Futuna.",
+      "sort": "Adopté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC2701P0D1N000002"
+    },
+    {
+      "numero": "AS3",
+      "auteur": "Mme Martine Froger et 11 cosignataires",
+      "article": "ART. 4",
+      "dispositif": "Supprimer l’alinéa 10.",
+      "exposeSommaire": "Cet amendement des députés socialistes et apparentés vise à supprimer l’obligation pour les organismes de Sécurité sociale de transmettre à l’employeur les informations concernant des fraudes aux indemnités journalières versées en cas d’arrêt de travail.",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO420120B2115P0D1N000003"
+    },
+    {
+      "numero": "3",
+      "auteur": "M. Jean-Luc Fugit et 1 cosignataire",
+      "article": "APRÈS ART. 18",
+      "dispositif": "I. – L’article L. 322‑11‑1 du code de l’énergie est ainsi modifié : \n1° La première phrase du I est ainsi modifiée :\na) Le mot : « constater » est remplacé par les mots : « établir par procès-verbal » ;\nb) Après le mot : « place », sont insérés les mots : « une contravention constatant » ;\n2° Le premier alinéa du II est ainsi modifié :\na) À la fin de la première phrase, les mots : « et le transmettent à l’utilisateur du dispositif de comptage concerné et au procureur de la République » sont remplacés par les mots : « consignant les faits constatés, les éléments de preuve associés et les modali",
+      "exposeSommaire": "Les gestionnaires des réseaux publics d’électricité constatent une forte augmentation du nombre de fraudes à l’électricité et la tendance va en s’aggravant en 2025 avec 60% de stock supplémentaire de suspicion de compteurs frauduleux. Au plan fiscal, ces fraudes induisent un manque à gagner direct pour le budget de l’Etat, qui se monte à plusieurs centaines de millions d’euros par an et qui peut être mesuré par le gestionnaire de réseau de distribution d’électricité. En effet, en cas de détection de cas de fraude et de facturation pour régularisation, celui-ci procède au recouvrement, pour le compte de l’Etat, des taxes et autres prélèvements de toute nature (TVA, accise sur l’électricité, etc.)) dans le cadre de son processus de facturation aux clients. Au-delà de ce lourd manque à gagner pour les recettes de l’Etat, les détériorations et les fraudes aux compteurs communicants sont fort",
+      "sort": "Retiré",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC2250P0D1N000003"
+    }
+  ]
+}

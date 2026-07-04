@@ -1,0 +1,83 @@
+{
+  "id": "an-dlr5l17n50819",
+  "titre": "Proposition de loi visant à lever les contraintes à l’exercice du métier d’agriculteur",
+  "numero": "N° 0856",
+  "statut": "Commission mixte paritaire",
+  "commission": "Commission des affaires économiques",
+  "expose": "Proposition de loi visant à lever les contraintes à l’exercice du métier d’agriculteur. Ce texte (n° 0856, proposition de loi ordinaire) est examiné au fond par la Commission des affaires économiques, au stade « Commission mixte paritaire » de la procédure législative de la 17e législature.\n\n7 amendements réels déposés sur ce texte sont présentés ci-dessous (0 adopté à ce stade). Les données proviennent de l'open data de l'Assemblée nationale ; l'exposé des motifs complet est consultable sur le dossier officiel.",
+  "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N50819",
+  "source": "assemblee-nationale-opendata",
+  "odj": false,
+  "resumeFallback": "Proposition de loi visant à lever les contraintes à l’exercice du métier d’agriculteur — texte n° 0856 examiné au fond par la Commission des affaires économiques (Commission mixte paritaire). 7 amendements réels y sont rattachés.",
+  "pointsClesFallback": [
+    "ART. 2 — amendement n°CD1 (Mme Delphine Batho et 37 cosignataires)",
+    "ART. PREMIER — amendement n°1 (Le Gouvernement)",
+    "AVANT ART. PREMIER — amendement n°2 (Mme Delphine Batho et 37 cosignataires)",
+    "ART. 5 — amendement n°CD3 (Mme Delphine Batho et 37 cosignataires)"
+  ],
+  "amendements": [
+    {
+      "numero": "CD1",
+      "auteur": "Mme Delphine Batho et 37 cosignataires",
+      "article": "ART. 2",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "L’article 2 de cette proposition de loi constitue une régression, totalement contraire aux principes de la Charte de l’environnement de la Constitution et au principe de non-régression inscrit à l’article L. 110-1 du code de l’environnement qui dispose que « la protection de l’environnement, assurée par les dispositions législatives et réglementaires relatives à l’environnement, ne peut faire l’objet que d’une amélioration constante, compte tenu des connaissances scientifiques et techniques du moment ».\nIl institutionnalise un dispositif systématique de pression et d'influence politique et économique sur l'expertise scientifique et l'évaluation des risques par l'Anses dans le cadre de la délivrance des autorisations de mise sur le marché des pesticides.\nIl vise également à réautoriser en France le poison des néonicotinoïdes.\nOr les néonicotinoïdes sont les insecticides de synthèse les pl",
+      "sort": "Adopté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO419865B0856P0D1N000001"
+    },
+    {
+      "numero": "1",
+      "auteur": "Le Gouvernement",
+      "article": "ART. PREMIER",
+      "dispositif": "Alinéa 34, dernière phrase\nRédiger ainsi cette phrase :\nIl tient compte des enjeux environnementaux dans l’aire d’activité de l’utilisateur et propose des modalités de préservation de l’environnement en cas d’utilisation de produits phytopharmaceutiques.",
+      "exposeSommaire": "Amendement de clarification rédactionnelle de l’article L. 254-6-4 du code rural et de la pêche maritime.",
+      "sort": "Adopté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901B1652P0D1N000001"
+    },
+    {
+      "numero": "2",
+      "auteur": "Mme Delphine Batho et 37 cosignataires",
+      "article": "AVANT ART. PREMIER",
+      "dispositif": "Rédiger ainsi l’intitulé du titre Ier :\n« Tirer les conséquences des connaissances scientifiques en matière de pesticides ».",
+      "exposeSommaire": "Il n'y a pas de surtransposition ni de surréglementation en matière de pesticides.\nLe règlement de l'Union européenne est d'application directe. Il prévoit une répartition des compétences entre l'autorisation des substances, à l'échelle de l'Union, et celle des produits, qui est de la compétence des États membres.\nLe véritable enjeu est de tirer les conséquences des connaissances scientifiques sur les effets dévastateurs des pesticides de synthèse sur la santé humaine, à commencer par celles des agriculteurs, et sur l'environnement.",
+      "sort": "A discuter",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC1437P0D1N000002"
+    },
+    {
+      "numero": "CD3",
+      "auteur": "Mme Delphine Batho et 37 cosignataires",
+      "article": "ART. 5",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "Ces dispositions ne changeront rien au fait que les ouvrages de stockage ne sont pas une réponse d'avenir pour les agriculteurs face aux situations de déficit chronique lié à la surexploitation de la ressource en eau et à l'accélération du changement climatique.",
+      "sort": "Adopté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO419865B0856P0D1N000003"
+    },
+    {
+      "numero": "3",
+      "auteur": "Mme Delphine Batho et 18 cosignataires",
+      "article": "APRÈS ART. 2",
+      "dispositif": "Après le I de l’article L. 522‑1 du code de l’environnement, est inséré un I bis ainsi rédigé :\n« I bis . – Dans l’attente de l’harmonisation des règlements (CE) n°1107/2009 du Parlement européen et du Conseil du 21 octobre 2009 concernant la mise sur le marché des produits phytopharmaceutiques, lorsqu’une substance active entrant dans la composition d’un produit biocide mentionné au I est identique à une substance active qui n’est plus approuvée au titre du règlement (CE) n°1107/2009 du 21 ocotbre 2009 précité, ou dont l’autorisation a expiré, l’autorisation préalable à la mise",
+      "exposeSommaire": "Le présent amendement vise à la cohérence sanitaire et environnementale, mais aussi à la cohérence des décisions des pouvoirs publics vis-à-vis du monde agricole.\nLes substances actives interdites en Europe dans les pesticides en raison de leurs dangers pour la santé humaine ou la biodiversité ne doivent pas être autorisées dans les produits biocides.",
+      "sort": "Adopté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC1437P0D1N000003"
+    },
+    {
+      "numero": "CE4",
+      "auteur": "Mme Delphine Batho et 37 cosignataires",
+      "article": "ART. 8",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "Les députés du groupe écologiste refusent d'autoriser le Gouvernement à réformer par ordonnance le régime de prévention et de sanction.",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO419610B0856P0D1N000004"
+    },
+    {
+      "numero": "CE6",
+      "auteur": "Mme Lisa Belluco et 36 cosignataires",
+      "article": "ART. 3",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "La proposition de loi visant à lever les contraintes à l’exercice du métier d’agriculteur s’inscrit dans un contexte d’assauts répétés pour dénaturer le régime des installations classées pour la protection de l'environnement (ICPE). \nPar cet article 3, cette proposition de loi vise à faciliter l’implantation, l’agrandissement et le regroupement d’élevages industriels, en relevant les seuils de l’enregistrement et ceux de l’autorisation environnementale pour les aligner sur ceux de la directive 2011/92/UE du Parlement européen et du Conseil du 13 décembre 2011 concernant l’évaluation des incidences de certains projets publics et privés sur l’environnement (Directive EIE). \nPar ailleurs, elle menace la démocratie environnementale en allégeant les modalités de consultation du public pour tout projet soumis à autorisation environnementale.\nUne telle mesure ne concernerait que 2 % à 3 % des i",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO419610B0856P0D1N000006"
+    }
+  ]
+}

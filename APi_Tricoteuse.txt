@@ -1,0 +1,1262 @@
+Tricoteuses API Parlement
+
+Une API REST basée sur les données du Parlement français (Assemblée Nationale et Sénat)
+Server
+Server:https://parlement.tricoteuses.fr
+Client Libraries
+Shell Curl
+Acteurs ​
+Acteurs Operations
+
+    get/acteurs/{format}
+    get/acteurs/{uid}
+    get/mandats/{format}
+    get/mandats/{uid}
+    get/adressesPostales/{format}
+    get/adressesPostales/{uid}
+    get/adressesElectroniques/{format}
+    get/adressesElectroniques/{uid}
+    get/collaborateurs/{format}
+    get/collaborateurs/{uid}
+
+Liste des acteurs parlementaires​
+
+Retourne la liste des acteurs parlementaires (députés et sénateurs) avec leurs informations de base.
+Path Parameters
+
+    format
+    Type: string enum
+
+    Format de la réponse
+    values
+        csv
+        rss
+        json
+
+Query Parameters
+
+    page
+    Type: number
+    min:  
+    1
+
+    Numéro de la page à récupérer
+    perPage
+    Type: number
+    min:  
+    1
+
+    Nombre d'éléments par page
+    select
+    Type: array string[] enum
+
+    Champs à inclure dans la réponse, séparés par des virgules
+    values
+        uid
+        senatMatricule
+        datePremierAjout
+        dateMaj
+        dataset
+    distinct
+    Type: array string[] enum
+
+    Champs pour lesquels les résultats doivent être distincts, séparés par des virgules
+    values
+        uid
+        senatMatricule
+        datePremierAjout
+        dateMaj
+        dataset
+    highlightedFields
+    Type: array string[]
+
+    Champs à mettre en évidence dans les résultats de recherche, séparés par des virgules. Utilisé avec le paramètre search
+    unselect
+    Type: array string[] enum
+
+    Champs à exclure de la réponse, séparés par des virgules
+    values
+        uid
+        senatMatricule
+        datePremierAjout
+        dateMaj
+        dataset
+    searchLanguage
+    Type: string enum
+
+    Langue pour la recherche plein texte
+    values
+        french
+        simple
+    searchTable
+    Type: string
+
+    Table personnalisée pour la recherche
+    prefixSearch
+    Type: boolean
+
+    Activer la recherche par préfixe
+    search
+    Type: string
+
+    Terme de recherche plein texte
+    sort
+    Type: string
+
+    Critère(s) de tri au format champ.ordre, séparés par des virgules. Champs triables : nom, prenom, dateNais, dateDeces, nombreAmendements, nombreAmendementsAdoptes, nombreQuestions, nombreQuestionsRepondues, nombreMandats, nombreDocumentPublies
+    include
+    Type: array string[]
+
+    Relations à inclure dans la réponse, séparées par des virgules
+    groupBy
+    Type: array string[] enum
+
+    Grouper les résultats par un ou plusieurs champs (séparés par des virgules). Champs disponibles : chambre, actif, groupeParlementaireUid, circonscriptionUid
+    values
+        chambre
+        actif
+        groupeParlementaireUid
+        circonscriptionUid
+    uid
+    Type: array string[]
+
+    Filtre sur les identifiants uniques (séparés par des virgules)
+    chambre
+    Type: string enum
+
+    Filtre sur la chambre (AN = Assemblée Nationale, SN = Sénat, CG = Congrès)
+    values
+        AN
+        SN
+        CG
+        GVT
+        AUTRE
+    legislature
+    Type: number
+
+    Filtre sur la législature
+    actif
+    Type: boolean
+
+    Filtrer par statut actif/inactif
+    slug
+    Type: string
+
+    Filtrer les acteurs parlementaires par slug
+    groupeParlementaireUid
+    Type: string
+
+    Filtrer les acteurs parlementaires par UID de groupe parlementaire
+    mandatPrincipalUid
+    Type: string
+
+    Filtrer les acteurs parlementaires par UID de mandat principal
+    circonscriptionUid
+    Type: string
+
+    Filtrer les acteurs parlementaires par UID de circonscription
+    nombreAmendements.gte
+    Type: number
+
+    Filtrer les acteurs parlementaires ayant au moins ce nombre d'amendements
+    nombreAmendements.lte
+    Type: number
+
+    Filtrer les acteurs parlementaires ayant au plus ce nombre d'amendements
+    nombreAmendementsAdoptes.gte
+    Type: number
+
+    Filtrer les acteurs parlementaires ayant au moins ce nombre d'amendements adoptés
+    nombreAmendementsAdoptes.lte
+    Type: number
+
+    Filtrer les acteurs parlementaires ayant au plus ce nombre d'amendements adoptés
+    nombreQuestions.gte
+    Type: number
+
+    Filtrer les acteurs parlementaires ayant posé au moins ce nombre de questions
+    nombreQuestions.lte
+    Type: number
+
+    Filtrer les acteurs parlementaires ayant posé au plus ce nombre de questions
+    nombreQuestionsRepondues.gte
+    Type: number
+
+    Filtrer les acteurs parlementaires ayant eu au moins ce nombre de questions répondues
+    nombreQuestionsRepondues.lte
+    Type: number
+
+    Filtrer les acteurs parlementaires ayant eu au plus ce nombre de questions répondues
+    nombreMandats.gte
+    Type: number
+
+    Filtrer les acteurs parlementaires ayant au moins ce nombre de mandats
+    nombreMandats.lte
+    Type: number
+
+    Filtrer les acteurs parlementaires ayant au plus ce nombre de mandats
+    nombreDocumentsPublies.gte
+    Type: number
+
+    Filtrer les acteurs parlementaires ayant publié au moins ce nombre de documents
+    nombreDocumentsPublies.lte
+    Type: number
+
+    Filtrer les acteurs parlementaires ayant publié au plus ce nombre de documents
+
+Responses
+
+    application/json
+    400
+
+    Requête invalide en raison de paramètres incorrects 
+
+Request Example for get/acteurs/{format}
+
+curl https://parlement.tricoteuses.fr/acteurs/json
+
+{
+  "data": [
+    {
+      "chambre": "AN",
+      "uid": "string",
+      "senatMatricule": "string",
+      "datePremierAjout": "string",
+      "dateMaj": "string",
+      "dataset": -9007199254740991,
+      "prenom": "string",
+      "nom": "string",
+      "civ": "string",
+      "dateNais": "string",
+      "dateDeces": "string",
+      "villeNais": "string",
+      "depNais": "string",
+      "paysNais": "string",
+      "profession": "string",
+      "catSocPro": "string",
+      "famSocPro": "string",
+      "slug": "string",
+      "uriHatvp": "string",
+      "actif": true,
+      "groupeParlementaireUid": "string",
+      "mandatPrincipalUid": "string",
+      "circonscriptionUid": "string",
+      "placeHemicycle": "string",
+      "commissionPermanenteRefUid": "string",
+      "urlImage": "string",
+      "compteTwitter": "string",
+      "nombreAmendements": -9007199254740991,
+      "nombreAmendementsAdoptes": -9007199254740991,
+      "nombreInterventions": -9007199254740991,
+      "nombreQuestions": -9007199254740991,
+      "nombreQuestionsRepondues": -9007199254740991,
+      "nombreMandats": -9007199254740991,
+      "nombreDocumentsPublies": -9007199254740991,
+      "fonctionCommissionPermanente": "string"
+    }
+  ]
+}
+
+Liste des acteurs parlementaires retournée avec succès
+Détails d'un acteur parlementaire​
+
+Retourne les détails d'un acteur parlementaire spécifique identifié par son UID.
+Path Parameters
+
+    uid
+    Type: string
+    required
+
+    UID de la ressource
+
+Query Parameters
+
+    include
+    Type: array string[]
+
+    Relations à inclure dans la réponse, séparées par des virgules
+
+Responses
+
+    application/json
+    404
+
+    Acteur parlementaire non trouvé 
+
+Request Example for get/acteurs/{uid}
+
+curl 'https://parlement.tricoteuses.fr/acteurs/{uid}'
+
+{
+  "data": {
+    "chambre": "AN",
+    "uid": "string",
+    "senatMatricule": "string",
+    "datePremierAjout": "string",
+    "dateMaj": "string",
+    "dataset": -9007199254740991,
+    "prenom": "string",
+    "nom": "string",
+    "civ": "string",
+    "dateNais": "string",
+    "dateDeces": "string",
+    "villeNais": "string",
+    "depNais": "string",
+    "paysNais": "string",
+    "profession": "string",
+    "catSocPro": "string",
+    "famSocPro": "string",
+    "slug": "string",
+    "uriHatvp": "string",
+    "actif": true,
+    "groupeParlementaireUid": "string",
+    "mandatPrincipalUid": "string",
+    "circonscriptionUid": "string",
+    "placeHemicycle": "string",
+    "commissionPermanenteRefUid": "string",
+    "urlImage": "string",
+    "compteTwitter": "string",
+    "nombreAmendements": -9007199254740991,
+    "nombreAmendementsAdoptes": -9007199254740991,
+    "nombreInterventions": -9007199254740991,
+    "nombreQuestions": -9007199254740991,
+    "nombreQuestionsRepondues": -9007199254740991,
+    "nombreMandats": -9007199254740991,
+    "nombreDocumentsPublies": -9007199254740991,
+    "fonctionCommissionPermanente": "string"
+  }
+}
+
+Détails de l'acteur parlementaire retournés avec succès
+Liste des mandats parlementaires​
+
+Retourne la liste des mandats (mandats de députés, sénateurs, etc.) avec leurs informations.
+Path Parameters
+
+    format
+    Type: string enum
+
+    Format de la réponse
+    values
+        csv
+        rss
+        json
+
+Query Parameters
+
+    page
+    Type: number
+    min:  
+    1
+
+    Numéro de la page à récupérer
+    perPage
+    Type: number
+    min:  
+    1
+
+    Nombre d'éléments par page
+    select
+    Type: array string[] enum
+
+    Champs à inclure dans la réponse, séparés par des virgules
+    values
+        uid
+        datePremierAjout
+        dateMaj
+        dataset
+        acteurRefUid
+    distinct
+    Type: array string[] enum
+
+    Champs pour lesquels les résultats doivent être distincts, séparés par des virgules
+    values
+        uid
+        datePremierAjout
+        dateMaj
+        dataset
+        acteurRefUid
+    highlightedFields
+    Type: array string[]
+
+    Champs à mettre en évidence dans les résultats de recherche, séparés par des virgules. Utilisé avec le paramètre search
+    unselect
+    Type: array string[] enum
+
+    Champs à exclure de la réponse, séparés par des virgules
+    values
+        uid
+        datePremierAjout
+        dateMaj
+        dataset
+        acteurRefUid
+    searchLanguage
+    Type: string enum
+
+    Langue pour la recherche plein texte
+    values
+        french
+        simple
+    searchTable
+    Type: string
+
+    Table personnalisée pour la recherche
+    prefixSearch
+    Type: boolean
+
+    Activer la recherche par préfixe
+    search
+    Type: string
+
+    Terme de recherche plein texte
+    sort
+    Type: string
+
+    Critère(s) de tri au format champ.ordre, séparés par des virgules. Champs triables : dateDebut, dateFin, datePublication, acteurRef_nom
+    include
+    Type: array string[]
+
+    Relations à inclure dans la réponse, séparées par des virgules
+    chambre
+    Type: string enum
+
+    Filtre sur la chambre (AN = Assemblée Nationale, SN = Sénat, CG = Congrès)
+    values
+        AN
+        SN
+        CG
+        GVT
+        AUTRE
+    legislature
+    Type: number
+
+    Filtre sur la législature
+    actif
+    Type: boolean
+
+    Filtrer par statut actif/inactif
+    acteurRefUid
+    Type: string
+
+    Filtre par identifiant unique de l'acteur parlementaire
+    organeRefUid
+    Type: string
+
+    Filtre par identifiant unique de l'organe parlementaire
+    nominPrincipale
+    Type: boolean
+
+    Filtrer les mandats de nomination principale
+
+Responses
+
+    application/json
+    400
+
+    Requête invalide en raison de paramètres incorrects 
+
+Request Example for get/mandats/{format}
+
+curl https://parlement.tricoteuses.fr/mandats/json
+
+{
+  "data": [
+    {
+      "chambre": "AN",
+      "uid": "string",
+      "datePremierAjout": "string",
+      "dateMaj": "string",
+      "dataset": -9007199254740991,
+      "acteurRefUid": "string",
+      "organeRefUid": "string",
+      "legislature": -9007199254740991,
+      "typeOrgane": "string",
+      "actif": true,
+      "dateDebut": "string",
+      "datePublication": "string",
+      "dateFin": "string",
+      "causeMandat": "string",
+      "causeFin": "string",
+      "preseance": -9007199254740991,
+      "nominPrincipale": true,
+      "codeQualite": "string",
+      "libQualite": "string",
+      "libQualiteSex": "string",
+      "libelle": "string",
+      "refCirconscription": "string",
+      "region": "string",
+      "regionType": "string",
+      "departement": "string",
+      "numDepartement": -9007199254740991,
+      "numCirco": -9007199254740991,
+      "datePriseFonction": "string",
+      "premiereElection": "string",
+      "placeHemicycle": "string",
+      "xsiType": "string",
+      "mandatRemplaceRefUid": "string",
+      "missionPrecedenteRefUid": "string"
+    }
+  ]
+}
+
+Liste des mandats retournée avec succès
+Détails d'un mandat parlementaire​
+
+Retourne les détails d'un mandat parlementaire spécifique identifié par son UID.
+Path Parameters
+
+    uid
+    Type: string
+    required
+
+    UID de la ressource
+
+Query Parameters
+
+    include
+    Type: array string[]
+
+    Relations à inclure dans la réponse, séparées par des virgules
+
+Responses
+
+    application/json
+    404
+
+    Mandat non trouvé 
+
+Request Example for get/mandats/{uid}
+
+curl 'https://parlement.tricoteuses.fr/mandats/{uid}'
+
+{
+  "data": {
+    "chambre": "AN",
+    "uid": "string",
+    "datePremierAjout": "string",
+    "dateMaj": "string",
+    "dataset": -9007199254740991,
+    "acteurRefUid": "string",
+    "organeRefUid": "string",
+    "legislature": -9007199254740991,
+    "typeOrgane": "string",
+    "actif": true,
+    "dateDebut": "string",
+    "datePublication": "string",
+    "dateFin": "string",
+    "causeMandat": "string",
+    "causeFin": "string",
+    "preseance": -9007199254740991,
+    "nominPrincipale": true,
+    "codeQualite": "string",
+    "libQualite": "string",
+    "libQualiteSex": "string",
+    "libelle": "string",
+    "refCirconscription": "string",
+    "region": "string",
+    "regionType": "string",
+    "departement": "string",
+    "numDepartement": -9007199254740991,
+    "numCirco": -9007199254740991,
+    "datePriseFonction": "string",
+    "premiereElection": "string",
+    "placeHemicycle": "string",
+    "xsiType": "string",
+    "mandatRemplaceRefUid": "string",
+    "missionPrecedenteRefUid": "string"
+  }
+}
+
+Détails du mandat retournés avec succès
+Liste des adresses postales​
+
+Retourne la liste des adresses postales des parlementaires dans le format spécifié (json, csv, rss).
+Path Parameters
+
+    format
+    Type: string enum
+
+    Format de la réponse
+    values
+        csv
+        rss
+        json
+
+Query Parameters
+
+    page
+    Type: number
+    min:  
+    1
+
+    Numéro de la page à récupérer
+    perPage
+    Type: number
+    min:  
+    1
+
+    Nombre d'éléments par page
+    select
+    Type: array string[] enum
+
+    Champs à inclure dans la réponse, séparés par des virgules
+    values
+        uid
+        datePremierAjout
+        dateMaj
+        dataset
+        type
+    distinct
+    Type: array string[] enum
+
+    Champs pour lesquels les résultats doivent être distincts, séparés par des virgules
+    values
+        uid
+        datePremierAjout
+        dateMaj
+        dataset
+        type
+    highlightedFields
+    Type: array string[]
+
+    Champs à mettre en évidence dans les résultats de recherche, séparés par des virgules. Utilisé avec le paramètre search
+    unselect
+    Type: array string[] enum
+
+    Champs à exclure de la réponse, séparés par des virgules
+    values
+        uid
+        datePremierAjout
+        dateMaj
+        dataset
+        type
+    searchLanguage
+    Type: string enum
+
+    Langue pour la recherche plein texte
+    values
+        french
+        simple
+    searchTable
+    Type: string
+
+    Table personnalisée pour la recherche
+    prefixSearch
+    Type: boolean
+
+    Activer la recherche par préfixe
+    search
+    Type: string
+
+    Terme de recherche plein texte
+    sort
+    Type: string
+
+    Critère(s) de tri au format champ.ordre, séparés par des virgules. Champs triables : poids, ville, codePostal, nomRue
+    include
+    Type: array string[]
+
+    Relations à inclure dans la réponse, séparées par des virgules
+    acteurRefUid
+    Type: string
+
+    Filtre par identifiant unique de l'acteur parlementaire
+    dataset
+    Type: number
+
+    Filtre sur le jeu de données
+    type
+    Type: string
+
+    Filtrer par type d'adresse
+    typeLibelle
+    Type: string
+
+    Filtrer par libellé du type
+    ville
+    Type: string
+
+    Filtrer par ville
+    codePostal
+    Type: string
+
+    Filtrer par code postal
+
+Responses
+
+    application/json
+    400
+
+    Requête invalide en raison de paramètres incorrects 
+
+Request Example for get/adressesPostales/{format}
+
+curl https://parlement.tricoteuses.fr/adressesPostales/json
+
+{
+  "data": [
+    {
+      "uid": "string",
+      "datePremierAjout": "string",
+      "dateMaj": "string",
+      "dataset": -9007199254740991,
+      "type": "string",
+      "typeLibelle": "string",
+      "poids": "string",
+      "intitule": "string",
+      "adresseDeRattachement": "string",
+      "valElec": "string",
+      "numeroRue": "string",
+      "nomRue": "string",
+      "complementAdresse": "string",
+      "codePostal": "string",
+      "ville": "string",
+      "xsiType": "string",
+      "acteurRefUid": "string"
+    }
+  ]
+}
+
+Liste des adresses postales retournée avec succès
+Détails d'une adresse postale​
+
+Retourne les informations détaillées d'une adresse postale par son identifiant unique.
+Path Parameters
+
+    uid
+    Type: string
+    required
+
+    UID de la ressource
+
+Query Parameters
+
+    include
+    Type: array string[]
+
+    Relations à inclure dans la réponse, séparées par des virgules
+
+Responses
+
+    application/json
+    404
+
+    Adresse postale non trouvée 
+
+Request Example for get/adressesPostales/{uid}
+
+curl 'https://parlement.tricoteuses.fr/adressesPostales/{uid}'
+
+{
+  "data": {
+    "uid": "string",
+    "datePremierAjout": "string",
+    "dateMaj": "string",
+    "dataset": -9007199254740991,
+    "type": "string",
+    "typeLibelle": "string",
+    "poids": "string",
+    "intitule": "string",
+    "adresseDeRattachement": "string",
+    "valElec": "string",
+    "numeroRue": "string",
+    "nomRue": "string",
+    "complementAdresse": "string",
+    "codePostal": "string",
+    "ville": "string",
+    "xsiType": "string",
+    "acteurRefUid": "string"
+  }
+}
+
+Adresse postale trouvée et retournée avec succès
+Liste des adresses électroniques​
+
+Retourne la liste des adresses électroniques (emails) des parlementaires dans le format spécifié (json, csv, rss).
+Path Parameters
+
+    format
+    Type: string enum
+
+    Format de la réponse
+    values
+        csv
+        rss
+        json
+
+Query Parameters
+
+    page
+    Type: number
+    min:  
+    1
+
+    Numéro de la page à récupérer
+    perPage
+    Type: number
+    min:  
+    1
+
+    Nombre d'éléments par page
+    select
+    Type: array string[] enum
+
+    Champs à inclure dans la réponse, séparés par des virgules
+    values
+        uid
+        datePremierAjout
+        dateMaj
+        dataset
+        type
+    distinct
+    Type: array string[] enum
+
+    Champs pour lesquels les résultats doivent être distincts, séparés par des virgules
+    values
+        uid
+        datePremierAjout
+        dateMaj
+        dataset
+        type
+    highlightedFields
+    Type: array string[]
+
+    Champs à mettre en évidence dans les résultats de recherche, séparés par des virgules. Utilisé avec le paramètre search
+    unselect
+    Type: array string[] enum
+
+    Champs à exclure de la réponse, séparés par des virgules
+    values
+        uid
+        datePremierAjout
+        dateMaj
+        dataset
+        type
+    searchLanguage
+    Type: string enum
+
+    Langue pour la recherche plein texte
+    values
+        french
+        simple
+    searchTable
+    Type: string
+
+    Table personnalisée pour la recherche
+    prefixSearch
+    Type: boolean
+
+    Activer la recherche par préfixe
+    search
+    Type: string
+
+    Terme de recherche plein texte
+    include
+    Type: array string[]
+
+    Relations à inclure dans la réponse, séparées par des virgules
+    acteurRefUid
+    Type: string
+
+    Filtre par identifiant unique de l'acteur parlementaire
+    dataset
+    Type: number
+
+    Filtre sur le jeu de données
+    type
+    Type: string
+
+    Filtrer par type d'adresse électronique
+    typeLibelle
+    Type: string
+
+    Filtrer par libellé du type
+
+Responses
+
+    application/json
+    400
+
+    Requête invalide en raison de paramètres incorrects 
+
+Request Example for get/adressesElectroniques/{format}
+
+curl https://parlement.tricoteuses.fr/adressesElectroniques/json
+
+{
+  "data": [
+    {
+      "uid": "string",
+      "datePremierAjout": "string",
+      "dateMaj": "string",
+      "dataset": -9007199254740991,
+      "type": "string",
+      "typeLibelle": "string",
+      "poids": "string",
+      "adresseDeRattachement": "string",
+      "valElec": "string",
+      "xsiType": "string",
+      "acteurRefUid": "string"
+    }
+  ]
+}
+
+Liste des adresses électroniques retournée avec succès
+Détails d'une adresse électronique​
+
+Retourne les informations détaillées d'une adresse électronique par son identifiant unique.
+Path Parameters
+
+    uid
+    Type: string
+    required
+
+    UID de la ressource
+
+Query Parameters
+
+    include
+    Type: array string[]
+
+    Relations à inclure dans la réponse, séparées par des virgules
+
+Responses
+
+    application/json
+    404
+
+    Adresse électronique non trouvée 
+
+Request Example for get/adressesElectroniques/{uid}
+
+curl 'https://parlement.tricoteuses.fr/adressesElectroniques/{uid}'
+
+{
+  "data": {
+    "uid": "string",
+    "datePremierAjout": "string",
+    "dateMaj": "string",
+    "dataset": -9007199254740991,
+    "type": "string",
+    "typeLibelle": "string",
+    "poids": "string",
+    "adresseDeRattachement": "string",
+    "valElec": "string",
+    "xsiType": "string",
+    "acteurRefUid": "string"
+  }
+}
+
+Adresse électronique trouvée et retournée avec succès
+Liste des collaborateurs parlementaires​
+
+Retourne la liste des collaborateurs des parlementaires dans le format spécifié (json, csv, rss).
+Path Parameters
+
+    format
+    Type: string enum
+
+    Format de la réponse
+    values
+        csv
+        rss
+        json
+
+Query Parameters
+
+    page
+    Type: number
+    min:  
+    1
+
+    Numéro de la page à récupérer
+    perPage
+    Type: number
+    min:  
+    1
+
+    Nombre d'éléments par page
+    select
+    Type: array string[] enum
+
+    Champs à inclure dans la réponse, séparés par des virgules
+    values
+        uid
+        datePremierAjout
+        dateMaj
+        dataset
+        qualite
+    distinct
+    Type: array string[] enum
+
+    Champs pour lesquels les résultats doivent être distincts, séparés par des virgules
+    values
+        uid
+        datePremierAjout
+        dateMaj
+        dataset
+        qualite
+    highlightedFields
+    Type: array string[]
+
+    Champs à mettre en évidence dans les résultats de recherche, séparés par des virgules. Utilisé avec le paramètre search
+    unselect
+    Type: array string[] enum
+
+    Champs à exclure de la réponse, séparés par des virgules
+    values
+        uid
+        datePremierAjout
+        dateMaj
+        dataset
+        qualite
+    searchLanguage
+    Type: string enum
+
+    Langue pour la recherche plein texte
+    values
+        french
+        simple
+    searchTable
+    Type: string
+
+    Table personnalisée pour la recherche
+    prefixSearch
+    Type: boolean
+
+    Activer la recherche par préfixe
+    search
+    Type: string
+
+    Terme de recherche plein texte
+    sort
+    Type: string
+
+    Critère(s) de tri au format champ.ordre, séparés par des virgules. Champs triables : nom, prenom
+    include
+    Type: array string[]
+
+    Relations à inclure dans la réponse, séparées par des virgules
+    acteurRefUid
+    Type: string
+
+    Filtre par identifiant unique de l'acteur parlementaire
+    mandatRefUid
+    Type: string
+
+    Filtre par identifiant unique du mandat
+    qualite
+    Type: string
+
+    Filtrer par qualité du collaborateur
+    nom
+    Type: string
+
+    Filtrer par nom
+    prenom
+    Type: string
+
+    Filtrer par prénom
+
+Responses
+
+    application/json
+    400
+
+    Requête invalide en raison de paramètres incorrects 
+
+Request Example for get/collaborateurs/{format}
+
+curl https://parlement.tricoteuses.fr/collaborateurs/json
+
+{
+  "data": [
+    {
+      "uid": "string",
+      "datePremierAjout": "string",
+      "dateMaj": "string",
+      "dataset": -9007199254740991,
+      "qualite": "string",
+      "nom": "string",
+      "prenom": "string",
+      "mandatRefUid": "string",
+      "acteurRefUid": "string",
+      "archive": true,
+      "source": "string"
+    }
+  ]
+}
+
+Liste des collaborateurs retournée avec succès
+Détails d'un collaborateur parlementaire​
+
+Retourne les informations détaillées d'un collaborateur par son identifiant unique.
+Path Parameters
+
+    uid
+    Type: string
+    required
+
+    Identifiant du collaborateur
+
+Query Parameters
+
+    include
+    Type: array string[]
+
+    Relations à inclure dans la réponse, séparées par des virgules
+
+Responses
+
+    application/json
+    404
+
+    Collaborateur non trouvé 
+
+Request Example for get/collaborateurs/{uid}
+
+curl 'https://parlement.tricoteuses.fr/collaborateurs/{uid}'
+
+{
+  "data": {
+    "uid": "string",
+    "datePremierAjout": "string",
+    "dateMaj": "string",
+    "dataset": -9007199254740991,
+    "qualite": "string",
+    "nom": "string",
+    "prenom": "string",
+    "mandatRefUid": "string",
+    "acteurRefUid": "string",
+    "archive": true,
+    "source": "string"
+  }
+}
+
+Collaborateur trouvé et retourné avec succès
+Organes (Collapsed) ​
+Organes Operations
+
+    get/organes/{format}
+    get/organes/{uid}
+
+Scrutins (Collapsed) ​
+Scrutins Operations
+
+    get/scrutins/{format}
+    get/scrutins/{uid}
+    get/votes/{format}
+    get/votes/{uid}
+    get/groupesVotants/{format}
+    get/groupesVotants/{uid}
+
+Réunions (Collapsed) ​
+Réunions Operations
+
+    get/reunions/{format}
+    get/reunions/{uid}
+    get/points_odj
+    get/points_odj/{uid}
+    get/participants_reunions/{format}
+    get/participants_reunions/{id}
+    get/personnes_auditionnees_reunions/{format}
+    get/personnes_auditionnees_reunions/{id}
+
+Amendements (Collapsed) ​
+Amendements Operations
+
+    get/amendements/{format}
+    get/amendements/{uid}/resume
+    get/amendements/{uid}
+    get/coSignatairesAmendement/{format}
+    get/coSignatairesAmendement/{id}
+
+Documents (Collapsed) ​
+Documents Operations
+
+    get/coSignatairesDocument/{format}
+    get/coSignatairesDocument/{uid}
+    get/documents/{format}
+    get/documents/{uid}/resume
+    get/documents/{uid}
+    get/auteursDocument/{format}
+    get/auteursDocument/{uid}
+    get/subdivisions/{format}
+    get/alineas/{format}
+    get/alineas/{id}
+
+Questions (Collapsed) ​
+Questions Operations
+
+    get/questions/{format}
+    get/questions/{uid}/resume
+    get/questions/{uid}
+
+Dossiers (Collapsed) ​
+Dossiers Operations
+
+    get/dossiers/{format}
+    get/dossiers/{uid}
+    get/actesLegislatifs/{format}
+    get/actesLegislatifs/{uid}
+    get/etapesLegislatives/{format}
+    get/etapesLegislatives/{uid}
+
+Débats (Collapsed) ​
+Débats Operations
+
+    get/debats/{format}
+    get/debats/{uid}/resume
+    get/debats/{uid}
+    get/interventions/{format}
+    get/interventions/{uid}
+
+Communes (Collapsed) ​
+Communes Operations
+
+    get/communes/{format}
+    get/communes/{id}
+
+Stats (Collapsed) ​
+Stats Operations
+
+    get/stats/{format}
+    get/stats/{id}
+    get/statistiqueHebdomadaire/{format}
+    get/metriques/{format}
+    get/metriques/{id}
+
+Liens d'amitié (Collapsed) ​
+Liens d'amitié Operations
+
+    get/liensAmitie/{format}
+
+Participants Dossiers (Collapsed) ​
+Participants Dossiers Operations
+
+    get/participantsDossiers/{format}
+    get/participantsDossiers/{id}
+    get/participantsDossiers/{id}/resume
+
+Débats en direct (Collapsed) ​
+Débats en direct Operations
+
+    get/directs/{uid}/resume
+
+ParagrapheDirect (Collapsed) ​
+ParagrapheDirect Operations
+
+    get/paragraphes_directs/{format}
+    get/paragraphes_directs/{uid}
+    post/paragraphes_directs/{uid}
+    get/paragraphes_directs/{uid}/stream
+
+HATVP (Collapsed) ​
+HATVP Operations
+
+    get/declarants/{format}
+    get/declarants/{uid}
+    get/declarations/{format}
+    get/declarations/{uid}
+    get/representantsInterets/{format}
+    get/representantsInterets/{uid}

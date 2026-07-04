@@ -29,11 +29,25 @@ export async function getCommissionForUser(user: {
   return user.commission ?? "Commission des lois";
 }
 
-export async function getDossiers() {
+export async function getDossiers(filtre?: { commission?: string; odj?: boolean }) {
   return prisma.dossier.findMany({
-    orderBy: { titre: "asc" },
+    where: {
+      ...(filtre?.commission ? { commission: filtre.commission } : {}),
+      ...(filtre?.odj ? { odj: true } : {})
+    },
+    orderBy: [{ odj: "desc" }, { titre: "asc" }],
     include: { _count: { select: { amendements: true, commentaires: true } } }
   });
+}
+
+/** Liste des commissions présentes en BDD, avec le nombre de dossiers. */
+export async function getCommissions(): Promise<{ commission: string; count: number }[]> {
+  const rows = await prisma.dossier.groupBy({
+    by: ["commission"],
+    _count: { _all: true },
+    orderBy: { commission: "asc" }
+  });
+  return rows.map((r) => ({ commission: r.commission, count: r._count._all }));
 }
 
 export async function getDossiersCommission(commission: string) {
@@ -100,6 +114,9 @@ export async function ensureResumeDossier(dossier: {
 
 /**
  * Génère (si absent) et met en cache le résumé IA d'un amendement.
+ * ⚠️ Peut déclencher un appel LLM : à réserver à l'ingestion (seed + `npm run
+ * warm`), JAMAIS au rendu d'une page. Pour l'affichage, utiliser
+ * `readResumeAmendement` (lecture seule, sans effet de bord).
  */
 export async function ensureResumeAmendement(amdt: {
   id: string;
@@ -123,6 +140,36 @@ export async function ensureResumeAmendement(amdt: {
     data: { resumeIA: out.resume, sources: toJsonField(out.sources) }
   });
   return out;
+}
+
+/**
+ * Lecture seule du résumé IA d'un amendement (pour le rendu des pages).
+ * Le résumé est pré-généré à l'ingestion (`npm run warm`) : ici on ne fait que
+ * lire le cache BDD. S'il est absent (warm pas encore passé), on retombe sur un
+ * extrait déterministe de l'exposé sommaire — sans appel LLM ni écriture BDD.
+ * C'est ce qui évite la génération « au clic » (redondante et bloquante).
+ */
+export function readResumeAmendement(amdt: {
+  numero: string;
+  exposeSommaire: string;
+  sourceUrl: string;
+  resumeIA: string | null;
+  sources: unknown;
+}): { resume: string; sources: Source[] } {
+  const sourceFallback: Source[] = [
+    { url: amdt.sourceUrl, titre: `Amendement n°${amdt.numero}` }
+  ];
+  if (amdt.resumeIA) {
+    const sources = parseJsonField<Source[]>(amdt.sources);
+    return {
+      resume: amdt.resumeIA,
+      sources: sources && sources.length ? sources : sourceFallback
+    };
+  }
+  return {
+    resume: amdt.exposeSommaire.slice(0, 200).replace(/\s+\S*$/, "") + "…",
+    sources: sourceFallback
+  };
 }
 
 /** Génère la synthèse des avis et la met en cache (BDD) — §5.2. */

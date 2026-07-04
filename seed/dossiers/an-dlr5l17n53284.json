@@ -1,0 +1,83 @@
+{
+  "id": "an-dlr5l17n53284",
+  "titre": "Renforcer la sécurité, la rétention administrative et la prévention des risques d’attentat",
+  "numero": "N° 2180",
+  "statut": "Commission mixte paritaire",
+  "commission": "Commission des lois constitutionnelles, de la législation et de l'administration générale de la République",
+  "expose": "Renforcer la sécurité, la rétention administrative et la prévention des risques d’attentat. Ce texte (n° 2180, proposition de loi ordinaire) est examiné au fond par la Commission des lois constitutionnelles, de la législation et de l'administration générale de la République, au stade « Commission mixte paritaire » de la procédure législative de la 17e législature. Il est inscrit à l'ordre du jour de la séance publique.\n\n7 amendements réels déposés sur ce texte sont présentés ci-dessous (0 adopté à ce stade). Les données proviennent de l'open data de l'Assemblée nationale ; l'exposé des motifs complet est consultable sur le dossier officiel.",
+  "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/retention_admin_prevention_attentats_17e",
+  "source": "assemblee-nationale-opendata",
+  "odj": true,
+  "resumeFallback": "Renforcer la sécurité, la rétention administrative et la prévention des risques d’attentat — texte n° 2180 examiné au fond par la Commission des lois constitutionnelles, de la législation et de l'administration générale de la République (Commission mixte paritaire). 7 amendements réels y sont rattachés.",
+  "pointsClesFallback": [
+    "ART. 8 — amendement n°1 (M. Charles Rodwell)",
+    "ART. PREMIER — amendement n°2 (M. Andy Kerbrat et 69 cosignataires)",
+    "ART. 2 — amendement n°CL6 (Mme Céline Hervieu et 9 cosignataires)",
+    "ART. 5 — amendement n°CL7 (Mme Céline Hervieu et 9 cosignataires)"
+  ],
+  "amendements": [
+    {
+      "numero": "1",
+      "auteur": "M. Charles Rodwell",
+      "article": "ART. 8",
+      "dispositif": "Rédiger ainsi l’article 8 : \n« Après le premier alinéa de l’article L. 742‑6 du code de l’entrée et du séjour des étrangers et du droit d’asile, il est inséré un alinéa ainsi rédigé :\n« À titre exceptionnel, le premier alinéa du présent article est également applicable à l’étranger qui fait l’objet d’une décision d’éloignement, qui est définitivement condamné pour des faits d’atteinte aux personnes punis d’au moins trois ans d’emprisonnement et qui représente une menace réelle, actuelle et d’une particulière gravité pour l’ordre public. »",
+      "exposeSommaire": "Cet amendement rétablit la rédaction de l’article 8 issue des travaux de la commission des Lois.\nCette rédaction, qui permet à titre exceptionnel la prolongation de la rétention des étrangers condamnés pour des faits d’atteinte aux personnes et représentant une menace d’une particulière gravité pour l’ordre public, intègre l’ensemble des préconisations formulées par le Conseil d’État dans son avis sur ces dispositions.",
+      "sort": "Adopté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901B2468P0D2N000001"
+    },
+    {
+      "numero": "2",
+      "auteur": "M. Andy Kerbrat et 69 cosignataires",
+      "article": "ART. PREMIER",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "Par cet amendement de suppression, nous nous opposons totalement à cet article qui octroie des pouvoirs disproportionnés à l'autorité administrative par une injonction d'examen psychiatrique qui peut également conduire à une admission provisoire en soins psychiatriques sans consentement de la personne concernée.\nL'article 1er permet au préfet dans un but préventif de faire obligation de se soumettre à un examen psychiatrique envers une personne pour qui il existe des \"raisons sérieuses de penser que son comportement constitue une menace grave pour l’ordre et la sécurité publics, à raison de son adhésion à des théories incitant ou faisant l’apologie d’actes de terrorisme et d’agissements susceptibles d’être en tout ou partie liés à des troubles mentaux\".\nSi la personne concernée ne se soumet pas à l'examen, le préfet peut prononcer l'admission provisoire en soins psychiatriques sans conse",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC2468P0D1N000002"
+    },
+    {
+      "numero": "CL6",
+      "auteur": "Mme Céline Hervieu et 9 cosignataires",
+      "article": "ART. 2",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "Cet amendement du Groupe Socialistes et apparentés entend supprimer l'article 2 de cette proposition de loi. \nCet article prévoit d'étendre le champ d'une mesure introduite dans notre droit en 2010 et qui rend possible le maintien de la détention des personnes (dans un établissement médico-judiciaire) à l’issue de leur peine d’emprisonnement. \nBien que le dispositif impose que cette rétention soit indiquée dans le jugement de condamnation, il s'agissait déjà d'une entorse caractérisée au principe de non rétroactivité de la loi pénale dès lors que les faits pouvaient s’être produits avant la promulgation de la loi. La mesure ne peut excéder une année mais est renouvelable sans limitation. \nLa mesure ici proposée fait suite à une décision du Conseil constitutionnel du 7 aout 2020 par laquelle le juge constitutionnel avait censuré la quasi intégralité d'une loi poursuivant le même objectif.",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO59051B2180P0D1N000006"
+    },
+    {
+      "numero": "CL7",
+      "auteur": "Mme Céline Hervieu et 9 cosignataires",
+      "article": "ART. 5",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "Cet amendement du groupe Socialistes et apparentés entend supprimer cet article 5. \nCet article propose lorsqu'un juge a annulé une mesure de renouvellement d'une mesure individuelle de contrôle et de surveillance et que l'administration a formé un appel contre ce jugement d'obtenir que cet appel ait un effet suspensif, à charge pour la juridiction d'appel de statuer dans le délai de 72h. \nEn outre, cet article permettrait au Préfet de faire appel en cas de refus d’autorisation d’exploitation des documents saisis lors de visites domiciliaires. \nD'un point de vue strictement juridique, il apparait que la MICAS implique une atteinte à la liberté et que la décision d'un juge estimant la mesure non nécessaire ou mal fondée devrait être respectée. \nQue l'administration dispose de la faculté de faire appel de cette décision de justice ne soulève pas de difficulté dès lors que cet appel ne prod",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO59051B2180P0D1N000007"
+    },
+    {
+      "numero": "CL8",
+      "auteur": "Mme Céline Hervieu et 9 cosignataires",
+      "article": "ART. 7",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "Cet amendement du groupe Socialistes et apparentés entend supprimer cet article 7. \nEn étendant le champ d'application de la prolongation de la durée de rétention administrative, cet article prévoit d'en faire un usage ordinaire alors qu'il s'agit d'une mesure privative de liberté qui devrait par principe être réservée aux cas les plus graves. \nIl convient d'ajouter que l'extension de la mesure concernerait les cas dans lesquels la personne visée a détruit ses documents de voyage ou a tenté de dissimuler son identité ainsi que dans les cas dans lesquels l'administration n'a pas pu obtenir le laisser-passer consulaire nécessaire à l'éloignement. \nOr, une mesure privative de liberté ne peut être prise par commodité administrative. Dès lors que les personnes visées sortent d'une longue détention, il appartenait à l'administration de faire preuve de diligence pour obtenir ces documents. \nPou",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO59051B2180P0D1N000008"
+    },
+    {
+      "numero": "10",
+      "auteur": "M. Andy Kerbrat et 69 cosignataires",
+      "article": "ART. 4",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "Par cet amendement de suppression nous nous opposons à cet article qui vise à renforcer la surveillance généralisée des personnes soumises à des soins psychiatriques.\nLe présent article prévoit une information du préfet du département dans les 48 heures avant la date d'une sortie non accompagnée d'une personne faisant l'objet de soins psychiatriques sur décision d'un tiers.\nIl prévoit également d'ajouter une obligation d'information de la part du directeur de l’établissement d’accueil qui devrait transmettre sans délai au préfet de département toute décision modifiant la prise en charge d’une personne faisant l’objet d’une mesure de soins psychiatriques à la demande d’un tiers ou en cas de péril imminent.\nEnfin, alors que le droit actuel prévoit que le préfet de département n’est informé que dans certains cas spécifiques d'une levée de mesure de soins psychiatriques, il prévoit que le di",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC2468P0D1N000010"
+    },
+    {
+      "numero": "CL17",
+      "auteur": "M. Sacha Houlié",
+      "article": "ART. 3",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "En conséquence et par cohérence avec les motifs ayant conduit à proposer la suppression de l’article 2 de la proposition de loi, et pour les mêmes raisons tenant aux risques sérieux d’inconstitutionnalité du dispositif envisagé, il est proposé de supprimer l’article 3.",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO59051B2180P0D1N000017"
+    }
+  ]
+}

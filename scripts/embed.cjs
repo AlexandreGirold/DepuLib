@@ -38,9 +38,29 @@ async function embedReal(texts) {
   }
 }
 
+function needsEmbedding(a) {
+  // Recalcule seulement les embeddings absents ou pseudo (< 512 dims).
+  // Les vrais bge-m3 déjà chargés (cache figé) sont conservés tels quels.
+  if (!a.embedding) return true;
+  try {
+    const e = JSON.parse(a.embedding);
+    return !Array.isArray(e) || e.length < 512;
+  } catch {
+    return true;
+  }
+}
+
 async function main() {
-  const amendements = await prisma.amendement.findMany();
-  console.log(`[embed] ${amendements.length} amendements à traiter`);
+  const all = await prisma.amendement.findMany();
+  const amendements = all.filter(needsEmbedding);
+  console.log(
+    `[embed] ${amendements.length} amendements à (re)calculer (${all.length - amendements.length} déjà en cache réel)`
+  );
+  if (amendements.length === 0) {
+    console.log("[embed] Rien à faire — embeddings réels déjà présents ✅");
+    await prisma.$disconnect();
+    return;
+  }
   let useReal = API_KEY.trim() !== "";
   let ok = 0;
   let pseudo = 0;

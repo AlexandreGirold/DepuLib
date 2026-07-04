@@ -6,10 +6,9 @@ import { requireRole } from "@/lib/guards";
 import { prisma } from "@/lib/db";
 import {
   getDossierComplet,
-  ensureResumeAmendement,
+  readResumeAmendement,
   ensureSynthese,
-  moyenneSentiment,
-  mapLimit
+  moyenneSentiment
 } from "@/lib/data";
 import { DeputeDossierTabs, ContributionView } from "@/components/DeputeDossierTabs";
 import type { AmendementView } from "@/components/AmendementCard";
@@ -25,27 +24,26 @@ export default async function DeputeDossierPage({ params }: { params: { id: stri
 
   const synthese = await ensureSynthese(dossier);
 
-  const amendementsView: AmendementView[] = await mapLimit(
-    dossier.amendements,
-    5,
-    async (a) => {
-      const r = await ensureResumeAmendement(a);
-      const comms = dossier.commentaires.filter((c) => c.amendementId === a.id);
-      const { count } = moyenneSentiment(comms);
-      return {
-        id: a.id,
-        numero: a.numero,
-        auteur: a.auteur,
-        resume: r.resume,
-        dispositif: a.dispositif,
-        sourceUrl: a.sourceUrl,
-        sources: r.sources,
-        upvotes: a.upvotes,
-        nbCommentaires: count,
-        avisHref: `/depute/dossier/${dossier.id}/amendement/${a.id}`
-      };
-    }
-  );
+  // Lecture seule des résumés pré-générés à l'ingestion (`npm run warm`).
+  const amendementsView: AmendementView[] = dossier.amendements.map((a) => {
+    const r = readResumeAmendement(a);
+    const comms = dossier.commentaires.filter((c) => c.amendementId === a.id);
+    const { count } = moyenneSentiment(comms);
+    return {
+      id: a.id,
+      numero: a.numero,
+      auteur: a.auteur,
+      article: a.article,
+      sort: a.sort,
+      resume: r.resume,
+      dispositif: a.dispositif,
+      sourceUrl: a.sourceUrl,
+      sources: r.sources,
+      upvotes: a.upvotes,
+      nbCommentaires: count,
+      avisHref: `/depute/dossier/${dossier.id}/amendement/${a.id}`
+    };
+  });
 
   // Côté député : on n'affiche pas les messages modérés (la modération
   // transparente reste consultable côté citoyen).

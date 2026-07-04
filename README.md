@@ -25,7 +25,7 @@ cp .env.example .env   # puis éditer CLOUDTEMPLE_LLMAAS_API_KEY
 docker compose up --build
 ```
 
-L'application est servie sur http://localhost:3000. Au premier démarrage, la base est créée, seedée (4 dossiers, 63 amendements, 10 organisations HATVP, 5 comptes, commentaires) et les embeddings calculés automatiquement.
+L'application est servie sur http://localhost:3000. Au premier démarrage, la base est créée, seedée (49 lois réelles de l'open data AN réparties par commission, 319 amendements, 10 organisations HATVP, 5 comptes, commentaires), les embeddings calculés et les résumés IA pré-générés automatiquement.
 
 > Sans clé API, l'app fonctionne quand même en **mode dégradé** (réponses de secours déterministes).
 
@@ -35,12 +35,13 @@ L'application est servie sur http://localhost:3000. Au premier démarrage, la ba
 npm install
 cp -r node_modules/@codegouvfr/react-dsfr/dsfr public/dsfr  # styles DSFR (sinon page sans CSS)
 npx prisma db push          # crée data/depulib.db
-npm run seed                 # données de démonstration
-npm run embed                # embeddings bge-m3 des amendements
+npm run seed                 # lois AN + résumés/synthèses IA + embeddings FIGÉS (aucun appel LLM)
 npm run dev                  # http://localhost:3000
 ```
 
 > `public/dsfr` est ignoré par git (build artifact) et doit être régénéré après chaque `npm install`.
+
+Les résumés IA, synthèses et embeddings sont **figés dans le dépôt** (`seed/resumes.json`, `seed/embeddings.json`) : `npm run seed` les recharge à l'identique, **sans clé API ni appel LLM**. Pour tout régénérer depuis le modèle (après import de nouvelles lois), utiliser `npm run ingest` puis `npm run export:resumes`.
 
 La clé `CLOUDTEMPLE_LLMAAS_API_KEY` est lue depuis `depulib/.env` **ou** `../.env`.
 
@@ -56,7 +57,7 @@ La clé `CLOUDTEMPLE_LLMAAS_API_KEY` est lue depuis `depulib/.env` **ou** `../.e
 
 ## Parcours de démonstration
 
-1. **Citoyen** (`hugo.citoyen`) → dossier « Protection des mineurs sur les espaces numériques » → écrire un avis sur le *scroll infini / design addictif* → l'IA propose l'amendement **CL12** avec résumé + lien officiel → « Soutenir cet amendement ».
+1. **Citoyen** (`hugo.citoyen`) → commission « Affaires culturelles et éducation » → loi réelle « Protéger les mineurs des risques […] réseaux sociaux » → écrire un avis sur la *protection de la petite enfance face aux écrans* → l'IA propose l'amendement réel **AC9** avec résumé + lien vers le texte officiel → « Soutenir cet amendement ».
 2. **Députée** (`marie.dupont`) → tableau de bord → jauge de sentiment, top amendements, **synthèse avec verbatims réels** → onglet Avis : message modéré replié (« rien ne disparaît ») → calendrier : RDV de `jean.lobby`, **fiche HATVP** + document résumé par IA.
 3. **Représentant** (`jean.lobby`) → demander un RDV, déposer une contribution + PDF → visible côté député dans l'onglet dédié, séparé des avis citoyens.
 4. **Collaborateur** (`paul.martin`) → même dashboard que la députée, boutons d'action RDV désactivés.
@@ -66,11 +67,23 @@ La clé `CLOUDTEMPLE_LLMAAS_API_KEY` est lue depuis `depulib/.env` **ou** `../.e
 
 | Commande | Rôle |
 |---|---|
-| `npm run seed` | (Ré)initialise la base avec les données de démonstration |
+| `npm run seed` | (Ré)initialise la base avec les lois (open data AN) |
 | `npm run embed` | Calcule les embeddings bge-m3 des amendements |
-| `POST /api/warm` | Pré-génère et met en cache tous les résumés IA (démo instantanée) |
+| `npm run warm` | Pré-génère et met en cache les résumés IA (dossiers + amendements) → affichage instantané |
+| `npm run fix:amendements` | Rattache les `sourceUrl` d'amendements à l'open data AN (URLs officielles valides) — voir *Données législatives* |
+| `npm run export:resumes` | Fige les résumés/synthèses IA + embeddings réels dans `seed/resumes.json` et `seed/embeddings.json` (versionnés) |
+| `npm run ingest` | Enchaîne seed + embed + warm (régénère tout via le LLM) |
+| `POST /api/warm` | Même pré-génération, à la demande, pour un député connecté |
 | `POST /api/mcp/sync` | Tente une synchro MCP tricoteuses (rôle député ; fallback BDD sinon) |
 
 ## Données législatives
 
-Les dossiers sont des données de démonstration réalistes (`"source": "donnees-demo"`) au schéma open data AN. Le client MCP tricoteuses est implémenté (`src/lib/mcp.ts`) mais le site est protégé par un anti-bot : l'UI lit **exclusivement la BDD seedée**, la synchro MCP est optionnelle.
+Les lois proviennent de l'**open data de l'Assemblée nationale** (17e législature, `"source": "assemblee-nationale-opendata"`) : dossiers inscrits à l'ordre du jour de la séance publique, répartis par commission au fond, avec leurs amendements réels (numéro, auteur, article, dispositif, exposé sommaire, sort, URL officielle vérifiable). Le client MCP tricoteuses est aussi implémenté (`src/lib/mcp.ts`) mais le site est protégé par un anti-bot ; l'UI lit **exclusivement la BDD**.
+
+### Sources d'amendements vers les textes officiels
+
+Chaque amendement pointe vers sa page officielle sur `assemblee-nationale.fr`. L'URL est la forme **canonique dérivée de l'`uid` open data** (`/dyn/17/amendements/<uid>`), qui **redirige toujours** vers la bonne page — contrairement à une URL reconstruite à la main (mauvais numéro de texte → lien mort). Ces URLs sont **figées dans le seed**, donc aucun appel à l'API n'est nécessaire au démarrage.
+
+- **Mapping open data** (API tricoteuses) : les amendements d'un dossier se récupèrent via `GET /amendements?dossierRefUid=<REFUID>` (l'`id` de dossier sans le préfixe `an-`, en majuscules). L'API rate-limite sous charge (502/503).
+- **`npm run fix:amendements`** ré-aligne les `sourceUrl` (et les sources figées de `seed/resumes.json`) sur l'open data : idempotent, préfère la version canonique en cas de doublon, et replie sur la page officielle du dossier si un amendement est introuvable — **jamais de lien cassé**. Relancer `npm run seed` ensuite pour propager en BDD.
+- **Résumés IA au fetch, pas au clic** : les résumés d'amendements sont pré-générés à l'ingestion (`npm run warm`, figés dans `seed/resumes.json`) ; les pages les lisent en lecture seule, sans appel LLM au rendu.
