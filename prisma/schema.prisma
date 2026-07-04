@@ -16,6 +16,10 @@ model User {
   commission     String?
   organisationId String?
   deputeId       String?
+  civilite       String?
+  photoUrl       String?
+  departementNom String?
+  numDepartement String?
 
   organisation   Organisation? @relation(fields: [organisationId], references: [id])
   depute         User?         @relation("Cabinet", fields: [deputeId], references: [id])
@@ -27,6 +31,7 @@ model User {
   rdvDepute      RendezVous[]  @relation("Depute")
   documents      Document[]
   contributions  Contribution[]
+  creneaux       Creneau[]
 }
 
 model Organisation {
@@ -107,6 +112,7 @@ model RendezVous {
   id           String       @id @default(cuid())
   deputeId     String
   demandeurId  String
+  creneauId    String?      @unique
   typeDemandeur String
   sujet        String
   briefIA      String?
@@ -116,8 +122,20 @@ model RendezVous {
   createdAt    DateTime     @default(now())
   depute       User         @relation("Depute", fields: [deputeId], references: [id])
   demandeur    User         @relation("Demandeur", fields: [demandeurId], references: [id])
+  creneau      Creneau?     @relation(fields: [creneauId], references: [id])
   rdvDossiers  RdvDossier[]
   documents    Document[]
+}
+
+model Creneau {
+  id          String      @id @default(cuid())
+  deputeId    String
+  debut       DateTime
+  fin         DateTime
+  statut      String      @default("libre") // libre | reserve
+  publicCible String      @default("citoyen") // citoyen | representant
+  depute      User        @relation(fields: [deputeId], references: [id])
+  rendezVous  RendezVous?
 }
 
 model RdvDossier {

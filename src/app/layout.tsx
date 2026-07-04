@@ -1,6 +1,7 @@
 import { DsfrHead } from "@codegouvfr/react-dsfr/next-appdir/DsfrHead";
 import { DsfrProvider } from "@codegouvfr/react-dsfr/next-appdir/DsfrProvider";
 import { getHtmlAttributes } from "@codegouvfr/react-dsfr/next-appdir/getHtmlAttributes";
+import { Notice } from "@codegouvfr/react-dsfr/Notice";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { StartDsfr } from "./StartDsfr";
@@ -35,6 +36,9 @@ export default async function RootLayout({
       </head>
       <body>
         <DsfrProvider lang={lang}>
+          <Notice
+            title="Site de démonstration réalisé dans le cadre d'un hackathon. Les noms, photos et circonscriptions des député·es proviennent de l'open data public de l'Assemblée nationale ; les disponibilités, échanges et décisions affichés dans cette démo sont simulés et ne reflètent aucune action réelle de leur part."
+          />
           <AppHeader user={session.user ?? null} />
           <main role="main" id="contenu">
             {children}

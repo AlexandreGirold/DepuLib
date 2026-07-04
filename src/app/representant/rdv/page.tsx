@@ -17,6 +17,19 @@ export default async function RepresentantRdvPage({
     orderBy: { titre: "asc" },
     select: { id: true, titre: true, numero: true, statut: true, commission: true }
   });
+  const deputes = await prisma.user.findMany({
+    where: { role: "depute" },
+    orderBy: { displayName: "asc" },
+    select: {
+      id: true,
+      displayName: true,
+      civilite: true,
+      circonscription: true,
+      departementNom: true,
+      numDepartement: true,
+      photoUrl: true
+    }
+  });
 
   return (
     <div className={fr.cx("fr-container", "fr-py-4w")}>
@@ -32,11 +45,17 @@ export default async function RepresentantRdvPage({
             <h1 className={fr.cx("fr-mb-0")}>Demander un rendez-vous</h1>
           </div>
           <CallOut iconId="fr-icon-information-line" title="Comment ça marche ?" className={fr.cx("fr-mb-3w")}>
-            En tant que représentant d'intérêts, votre demande sera visible par la
-            députée avec votre fiche HATVP complète, en toute transparence. Un brief
+            En tant que représentant d'intérêts, choisissez le député concerné : votre
+            demande lui sera visible avec votre fiche HATVP complète, en toute
+            transparence. Réservez un créneau parmi ses disponibilités ; un brief
             synthétique et sourcé est généré automatiquement pour préparer l'échange.
           </CallOut>
-          <RdvForm dossiers={dossiers} redirectTo="/representant" preselectionId={searchParams.dossierId} />
+          <RdvForm
+            dossiers={dossiers}
+            deputes={deputes}
+            redirectTo="/representant"
+            preselectionId={searchParams.dossierId}
+          />
         </div>
       </div>
     </div>
