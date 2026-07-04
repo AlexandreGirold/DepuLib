@@ -8,12 +8,24 @@
 // redirige toujours vers la bonne page. On en profite pour renseigner le `sort`
 // réel (Adopté / Rejeté / Tombé / Retiré…) quand il manque.
 //
-// Matching : par `numeroLong` + préfixe du dispositif (unique et fiable, même
-// quand plusieurs amendements partagent le même numéro sur des textes différents).
+// Matching : par `numeroLong` + préfixe du dispositif, en privilégiant la
+// version `canonique` en cas de doublon (rectifications). Fiable même quand
+// plusieurs amendements partagent le même numéro sur des textes différents.
+//
+// Réaligne aussi les sources figées dans seed/resumes.json sur les URLs corrigées
+// (sinon le BadgeSource afficherait encore un lien cassé).
+//
+// Sans correspondance (amendement absent de l'open data / API en panne), on
+// replie sur l'URL officielle du dossier : jamais de lien cassé, au pire moins
+// précis. Le script est idempotent et reprend en plusieurs passes (l'API
+// tricoteuses rate-limite sous charge : 502/503).
+//
+// Après exécution : relancer `npm run seed` pour propager les corrections en BDD.
 //
 // Usage :
-//   node scripts/fix-amendements-opendata.cjs --dry   # rapport, n'écrit rien
-//   node scripts/fix-amendements-opendata.cjs         # applique aux JSON du seed
+//   node scripts/fix-amendements-opendata.cjs --dry     # rapport, n'écrit rien
+//   node scripts/fix-amendements-opendata.cjs           # applique (saute les déjà corrigés)
+//   node scripts/fix-amendements-opendata.cjs --force   # retraite tous les dossiers
 
 const fs = require("fs");
 const path = require("path");
@@ -85,50 +97,63 @@ function dossierRefUid(id) {
 
 const PER_PAGE = 500;
 
+// Départage une liste de candidats : l'open data contient parfois des doublons
+// (versions rectifiées, ré-enregistrements). On privilégie l'amendement marqué
+// `canonique`. Renvoie l'unique candidat retenu, ou null si toujours ambigu.
+function pickOne(cands) {
+  if (cands.length === 1) return cands[0];
+  const canon = cands.filter((r) => r.canonique === true || r.canonique === "true");
+  if (canon.length === 1) return canon[0];
+  return null;
+}
+
 function findMatch(seedAmdt, pool) {
   const sameNum = pool.filter((r) => r.numeroLong === seedAmdt.numero);
   if (sameNum.length === 0) return null;
   if (sameNum.length === 1) return sameNum[0];
   const disp = norm(seedAmdt.dispositif).slice(0, 80);
   const byDisp = sameNum.filter((r) => disp.length > 10 && norm(r.dispositif).startsWith(disp));
-  if (byDisp.length === 1) return byDisp[0];
+  const byDispOne = pickOne(byDisp);
+  if (byDispOne) return byDispOne;
   // Dernier recours : préfixe d'exposé sommaire
   const exp = norm(seedAmdt.exposeSommaire).slice(0, 80);
   const byExp = sameNum.filter((r) => exp.length > 10 && norm(r.exposeSommaire).startsWith(exp));
-  if (byExp.length === 1) return byExp[0];
-  return null;
+  return pickOne(byExp);
 }
 
-// Certains dossiers comptent plusieurs milliers d'amendements. On pagine et on
-// tente d'apparier au fur et à mesure : dès que tous les amendements du seed
-// sont trouvés, on s'arrête (arrêt anticipé). Si une page échoue durablement,
-// on s'arrête proprement avec ce qu'on a (tolérance aux pannes réseau).
+// Certains dossiers comptent plusieurs milliers d'amendements. On récupère la
+// liste COMPLÈTE d'abord, puis on apparie : indispensable, car un même numéro
+// (« 1 », « 5 »…) peut désigner plusieurs amendements sur des textes différents
+// (commission vs séance) — n'apparier qu'après pagination complète évite de
+// s'accrocher au mauvais candidat vu en premier. Si une page échoue durablement
+// (502/503), on apparie sur ce qu'on a déjà chargé (tolérance aux pannes).
 async function matchDossier(refUid, seedAmdts) {
-  const found = new Map(); // seedAmdt -> real
   const pool = [];
   let page = 1;
+  let partial = false;
+  let reason;
   for (;;) {
     const url = `${API}?dossierRefUid=${encodeURIComponent(refUid)}&perPage=${PER_PAGE}&page=${page}`;
     let data;
     try {
       ({ data } = await getJson(url));
     } catch (e) {
-      // page en échec : on renvoie les correspondances déjà trouvées
-      return { found, partial: true, reason: e.message };
+      partial = true;
+      reason = e.message;
+      break;
     }
     if (!data || data.length === 0) break;
     pool.push(...data);
-    for (const a of seedAmdts) {
-      if (found.has(a)) continue;
-      const m = findMatch(a, pool);
-      if (m) found.set(a, m);
-    }
-    if (found.size === seedAmdts.length) break; // tout trouvé → stop
     if (data.length < PER_PAGE) break; // dernière page
     page += 1;
     await sleep(200); // politesse entre pages
   }
-  return { found, partial: false };
+  const found = new Map(); // seedAmdt -> real
+  for (const a of seedAmdts) {
+    const m = findMatch(a, pool);
+    if (m) found.set(a, m);
+  }
+  return { found, partial, reason };
 }
 
 async function main() {
@@ -205,11 +230,19 @@ async function main() {
     await sleep(300); // politesse entre dossiers
   }
 
+  // --- Réaligne le cache IA figé (seed/resumes.json) sur les URLs corrigées ---
+  // Les résumés d'amendements y sont figés avec leurs `sources` : si celles-ci
+  // pointent encore vers les anciennes URLs fabriquées, le BadgeSource afficherait
+  // un lien cassé même après correction des dossiers. On réécrit chaque source
+  // d'amendement vers l'URL désormais valide (pas de réseau nécessaire).
+  const nSources = DRY ? 0 : syncResumesCache();
+
   console.log("\n==== BILAN ====");
   console.log(`Amendements totaux : ${totAmdt}`);
   console.log(`Rattachés à l'open data : ${totMatched}`);
   console.log(`URLs corrigées : ${totFixedUrl}`);
   console.log(`Sorts renseignés : ${totFixedSort}`);
+  if (!DRY) console.log(`Sources du cache figé (resumes.json) réalignées : ${nSources}`);
   if (problems.length) {
     console.log(`\n${problems.length} problème(s) :`);
     for (const p of problems) console.log("  - " + p);
@@ -217,6 +250,41 @@ async function main() {
     console.log("Aucun problème : tous les amendements rattachés ✅");
   }
   if (DRY) console.log("\n(dry-run — aucun fichier modifié)");
+}
+
+// Réécrit les URLs de source d'amendement dans seed/resumes.json pour qu'elles
+// correspondent aux sourceUrl (corrigés) des dossiers. Retourne le nombre de
+// sources réalignées. Ne touche pas au texte des résumés.
+function syncResumesCache() {
+  const resumesPath = path.join(__dirname, "..", "seed", "resumes.json");
+  if (!fs.existsSync(resumesPath)) return 0;
+  const resumes = JSON.parse(fs.readFileSync(resumesPath, "utf8"));
+  if (!resumes.amendements) return 0;
+
+  // Map { "dossierId::numero" -> sourceUrl corrigé } depuis les dossiers.
+  const urlByKey = new Map();
+  const titreByKey = new Map();
+  const files = fs.readdirSync(DOSSIERS_DIR).filter((f) => f.endsWith(".json"));
+  for (const file of files) {
+    const dossier = JSON.parse(fs.readFileSync(path.join(DOSSIERS_DIR, file), "utf8"));
+    for (const a of dossier.amendements || []) {
+      const key = `${dossier.id}::${a.numero}`;
+      urlByKey.set(key, a.sourceUrl);
+      titreByKey.set(key, `Amendement n°${a.numero}`);
+    }
+  }
+
+  let n = 0;
+  for (const [key, entry] of Object.entries(resumes.amendements)) {
+    const url = urlByKey.get(key);
+    if (!url) continue;
+    // Une seule source pertinente : l'amendement lui-même, à l'URL corrigée.
+    const before = JSON.stringify(entry.sources || []);
+    entry.sources = [{ url, titre: titreByKey.get(key) }];
+    if (JSON.stringify(entry.sources) !== before) n += 1;
+  }
+  fs.writeFileSync(resumesPath, JSON.stringify(resumes, null, 1));
+  return n;
 }
 
 main().catch((e) => {
