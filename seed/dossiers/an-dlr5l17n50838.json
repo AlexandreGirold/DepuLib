@@ -1,0 +1,83 @@
+{
+  "id": "an-dlr5l17n50838",
+  "titre": "Projet de loi de finances de fin de gestion pour 2024",
+  "numero": "N° 0538",
+  "statut": "Commission mixte paritaire",
+  "commission": "Commission des finances, de l'économie générale et du contrôle budgétaire",
+  "expose": "Projet de loi de finances de fin de gestion pour 2024. Ce texte (n° 0538, projet de loi de finances rectificative) est examiné au fond par la Commission des finances, de l'économie générale et du contrôle budgétaire, au stade « Commission mixte paritaire » de la procédure législative de la 17e législature.\n\n7 amendements réels déposés sur ce texte sont présentés ci-dessous (0 adopté à ce stade). Les données proviennent de l'open data de l'Assemblée nationale ; l'exposé des motifs complet est consultable sur le dossier officiel.",
+  "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/plffg2024",
+  "source": "assemblee-nationale-opendata",
+  "odj": false,
+  "resumeFallback": "Projet de loi de finances de fin de gestion pour 2024 — texte n° 0538 examiné au fond par la Commission des finances, de l'économie générale et du contrôle budgétaire (Commission mixte paritaire). 7 amendements réels y sont rattachés.",
+  "pointsClesFallback": [
+    "APRÈS ART. 2 — amendement n°CF1 (M. Vincent Descoeur et 7 cosignataires)",
+    "ART. LIMINAIRE — amendement n°CF3 (M. Charles Sitzenstuhl)",
+    "ART. 2 — amendement n°CF4 (M. Matthias Renault et 124 cosignataires)",
+    "ART. 3 — amendement n°CF5 (M. Matthias Renault et 124 cosignataires)"
+  ],
+  "amendements": [
+    {
+      "numero": "CF1",
+      "auteur": "M. Vincent Descoeur et 7 cosignataires",
+      "article": "APRÈS ART. 2",
+      "dispositif": "I. – Avant la dernière ligne du tableau de l’article 137 de la loi n° 2023‑1322 du 29 décembre 2023 de finances pour 2024, il est inséré une ligne ainsi rédigée :\nCompensation aux départements de la revalorisation du revenu de solidarité active pour 2024\n345 000 000\nII. – La perte de recettes pour l’État est compensée à due concurrence par la création d’une taxe additionnelle à l’accise sur les tabacs prévue au chapitre IV du titre Ier du livre III du code des impositions sur les biens et services.",
+      "exposeSommaire": "Le revenu de solidarité active (RSA) a été revalorisé à hauteur de 4,6 % le 1er avril dernier.\nSi cette hausse, en fonction de l’inflation, est prévue par les textes et permet de soutenir le pouvoir d’achat des Français concernés, elle s’ajoute aux diverses dépenses nouvelles annoncées par l’État – pour certaines non concertées et dans tous les cas partiellement voire pas compensées – qui se sont accumulées depuis 2022 : avenant 43, médico-social, hausse du point d’indice à deux reprises, diverses revalorisations salariales, etc.\nComme les augmentations des années précédentes, elle est pérenne et structurelle et devra dès 2025 être absorbée par les Départements dans une situation budgétaire de plus en plus complexe. Elle vient creuser davantage le « reste à charge » : le RSA fait partie des compétences décentralisées que l’État s’était engagé à compenser par le passé ; or, sur les 10,2 m",
+      "sort": null,
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/plffg2024"
+    },
+    {
+      "numero": "CF3",
+      "auteur": "M. Charles Sitzenstuhl",
+      "article": "ART. LIMINAIRE",
+      "dispositif": "À la septième ligne de la troisième colonne du tableau de l’alinéa 2, substituer au nombre :\n« -6,1 »\nle nombre :\n« -5,9 ».",
+      "exposeSommaire": "Amendement : il fallait un PLFR pour 2024.",
+      "sort": null,
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/plffg2024"
+    },
+    {
+      "numero": "CF4",
+      "auteur": "M. Matthias Renault et 124 cosignataires",
+      "article": "ART. 2",
+      "dispositif": "À la fin de l’alinéa unique, substituer au montant :\n« 3 976 056 557 »\nle montant :\n« 1 476 056 557 ».",
+      "exposeSommaire": "La suppression de la redevance audiovisuelle, votée lors du PLF 2023, aurait été un véritable gain pour le contribuable si la perte de cette recette n’était pas compensée par une autre, à savoir par une fraction de la TVA. Aussi, pour que cette abrogation ait du sens, la seule solution est la privatisation de la majeure partie de l’audiovisuel public, ainsi que le réclament les députés du Rassemblement National.\nUne privatisation selon des critères précis assurant son bon déroulement, et la préservation de plusieurs éléments publics (Arte France, France Médias Monde, l’INA, certaines stations du groupe Radio France telles que France Culture et les antennes régionales France Bleu, une chaîne publique de télévision à vocation régionale et le retour d’une chaîne télé dédiée aux Outre-mer) serait tout à fait justifiée dans une démocratie mature où l’État n’a pas à avoir une telle mainmise su",
+      "sort": null,
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/plffg2024"
+    },
+    {
+      "numero": "CF5",
+      "auteur": "M. Matthias Renault et 124 cosignataires",
+      "article": "ART. 3",
+      "dispositif": "À la douzième ligne de la dernière colonne du tableau de l’alinéa 8, substituer au montant :\n« -2 009 999 600 »\nle montant :\n« -2 009 999 601 ».",
+      "exposeSommaire": "Amendement d’appel\nLe compte d’affectation spéciale (CAS) Participations financières de l’État (PFE) s’éloigne de sa mission initiale, qui est de retracer au sein d’un même budget les dépenses et les recettes de l’État actionnaire. Les recettes de ce CAS sont censées provenir de la cession de titres détenus par l’État, et de dépenses liées à l’acquisition de titres, en tant qu’investisseur.\nOr le compte s’éloigne de cet objectif, et devient une courroie de transmission qui reçoit d’importants versements du budget général sans lien avec l’activité de l’État actionnaire et les reverse dans différents programmes, fonds et entreprises, tendance qui a poussé la Cour des comptes à considérer qu’il existait une « perte de substance » de ce compte d’affectation spéciale.\nPar ailleurs, la finalité et les bénéficiaires finaux des subventions du budget général relèvent d’un exercice peu transparent",
+      "sort": null,
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/plffg2024"
+    },
+    {
+      "numero": "8",
+      "auteur": "M. Philippe Brun et 65 cosignataires",
+      "article": "ART. PREMIER",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "Cet amendement des députés Socialistes et apparentés vise à supprimer cet article et la ponction de 394 millions d'euros qu'il opère sur l'AFITF.\nEt ce d'autant plus qu'au PLF 2025, le gouvernement souhaite amplifier cette ponction de 60 M€ par amendement : https://www.assemblee-nationale.fr/dyn/17/amendements/0324A/AN/3742.",
+      "sort": null,
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/plffg2024"
+    },
+    {
+      "numero": "CF47",
+      "auteur": "Auteur non précisé",
+      "article": "ART. 4",
+      "dispositif": "I. – À l’alinéa 2, substituer au montant :\n« 6 975 663 290 € »\nle montant :\n« 11 375 662 290 € ».\nII. – En conséquence, au même alinéa, substituer au montant :\n« 6 457 707 514 € »\nle montant :\n« 10 857 707 514 €».",
+      "exposeSommaire": "Cet amendement vise à attirer l’attention du Gouvernement sur la possibilité d’annuler des crédits supplémentaires, en autoritsations d’engagement et en crédits de paiements, pour contenir le déficit en deçà de 6,1 % en 2024 ainsi que le prévoit le présent projet de loi de fin de gestion.\n De fait, au sein des crédits gelés ou mis en réserve, il est encore possible d’atteindre 10 milliards d’euros d’annulations d’ici la fin de gestion.",
+      "sort": null,
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/plffg2024"
+    },
+    {
+      "numero": "108",
+      "auteur": "Mme Eva Sas et 35 cosignataires",
+      "article": "APRÈS ART. 6",
+      "dispositif": "I. – L’attribution d’un financement par les fonds mentionnés au A du I de l’article 8 de la loi n° 2010‑237 du 9 mars 2010 de finances rectificative pour 2010 à un projet d’une entreprise bénéficiaire finale soumise à l’obligation de publication d’un bilan de ses émissions de gaz à effet de serre prévue à l’article L. 229‑25 du code de l’environnement est subordonnée au respect de cette obligation.\nII. – Un décret en Conseil d’État précise les modalités d’application du présent article.\nIII. – Le I s’applique aux financements notifiés à l’entreprise bénéficiaire finale pour l’année 2024.",
+      "exposeSommaire": "Cet amendement vise à conditionner l’octroi des aides publiques accordées pour l’année 2024 aux entreprises dans le cadre de la mission « Investir pour la France de 2030 » à la publication d’un bilan carbone.\nL’objectif est clair : accorder des subventions publiques seulement aux entreprises qui respectent la loi. Or, sur les 4 970 organisations soumises à cette obligation, le taux de conformité en 2021 n’était que de 35 %. Cela signifie que 65 % des entreprises concernées ne respectent pas cette législation, et ce malgré l’instauration d’une sanction dès 2016.\nPour mémoire, l’actuel article 235 de la loi de finances pour 2024, issu de l’amendement que nous avions fait adopter lors de l’examen du projet de loi de finances pour 2024 en séance, ne reprend cette obligation que de manière partielle. En outre, il limite l’attribution des subventions issues de la mission « Investir pour la Fra",
+      "sort": null,
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/plffg2024"
+    }
+  ]
+}

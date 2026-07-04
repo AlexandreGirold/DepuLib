@@ -1,0 +1,83 @@
+{
+  "id": "an-dlr5l17n51346",
+  "titre": "Création du cadre d'emploi des personnels de santé des services d’incendie et de secours",
+  "numero": "N° 0841",
+  "statut": "2e lecture",
+  "commission": "Commission des affaires sociales",
+  "expose": "Création du cadre d'emploi des personnels de santé des services d’incendie et de secours. Ce texte (n° 0841, proposition de loi ordinaire) est examiné au fond par la Commission des affaires sociales, au stade « 2e lecture » de la procédure législative de la 17e législature. Il est inscrit à l'ordre du jour de la séance publique.\n\n7 amendements réels déposés sur ce texte sont présentés ci-dessous (0 adopté à ce stade). Les données proviennent de l'open data de l'Assemblée nationale ; l'exposé des motifs complet est consultable sur le dossier officiel.",
+  "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/statut_personnel_sante_services_incendie_secours",
+  "source": "assemblee-nationale-opendata",
+  "odj": true,
+  "resumeFallback": "Création du cadre d'emploi des personnels de santé des services d’incendie et de secours — texte n° 0841 examiné au fond par la Commission des affaires sociales (2e lecture). 7 amendements réels y sont rattachés.",
+  "pointsClesFallback": [
+    "ART. 5 — amendement n°AS1 (Mme Sophie Pantel et 9 cosignataires)",
+    "ART. PREMIER — amendement n°1 (Mme Sophie Pantel et 65 cosignataires)",
+    "ART. 2 — amendement n°2 (Mme Sophie Pantel et 65 cosignataires)",
+    "APRÈS ART. 2 — amendement n°AS9 (Mme Karen Erodi et 70 cosignataires)"
+  ],
+  "amendements": [
+    {
+      "numero": "AS1",
+      "auteur": "Mme Sophie Pantel et 9 cosignataires",
+      "article": "ART. 5",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "Cet amendement des députés socialistes et apparentés vise à supprimer cet article 5, qui exempte les professionnels de santé des services de santé des services d’incendie et de secours de l’obligation d’inscription à un ordre professionnel, pour l’exercice de leurs missions de sapeurs‑pompiers.\nLa non-inscription de certains professionnels à leur ordre peut soulever de lourdes difficultés.\nAu premier rang de ces difficultés, nous pointons le risque que la mission d’accompagnement - notamment juridique - des professionnels de santé par les Ordres ne soit plus remplie au détriment des professionnels non inscrits.\nNous soulevons également le risque que les professionnels de santé non inscrits à un ordre ne disposent pas d’interlocuteurs auprès des pouvoirs publics et des représentants des patients.\nEnfin, la mission essentielle des Ordres de garantir la déontologie, et in fine d’être une in",
+      "sort": "Adopté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO420120B0841P0D1N000001"
+    },
+    {
+      "numero": "1",
+      "auteur": "Mme Sophie Pantel et 65 cosignataires",
+      "article": "ART. PREMIER",
+      "dispositif": "À l’alinéa 12, supprimer les mots : \n« , en tout ou partie, ».",
+      "exposeSommaire": "Cet amendement des députés socialistes et apparentés vise à supprimer la possibilité de déléguer toutes les compétences des médecins de sapeurs-pompiers vers les infirmiers de sapeurs-pompiers.\nSi nous sommes naturellement favorables à la délégation de tâches aux infirmiers, la délégation de l’ensemble de ces dernières nous semble excessive.\nll convient donc de l’encadrer.\nPar ailleurs, grâce à l'adoption d'un amendement socialiste lors de l'examen en Commission des Affaires sociales, cette délégation sera précisée par voie réglementaire.\nTel est l’objet du présent amendement.",
+      "sort": "Tombé",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC0994P0D1N000001"
+    },
+    {
+      "numero": "2",
+      "auteur": "Mme Sophie Pantel et 65 cosignataires",
+      "article": "ART. 2",
+      "dispositif": "Compléter cet article par l’alinéa suivant :\n« Art. L. 723‑32. – Les compétences mentionnées aux articles L. 723‑28 à L. 723‑31 sont précisées par décret. »",
+      "exposeSommaire": "Cet amendement des députés socialistes et apparentés vise à assouplir le dispositif prévu par l’article 2 en permettant au Gouvernement de préciser par décret les compétences des pharmaciens, des infirmiers, des psychologues et des vétérinaires de sapeurs‑pompiers.\nEn effet, l’arrêté du 6 mai 2000 fixant les conditions d’aptitude médicale des sapeurs-pompiers professionnels et volontaires et les conditions d’exercice de la médecine professionnelle et préventive au sein des services départementaux d’incendie et de secours et le décret n° 2016‑1236 du 20 septembre 2016 portant statut particulier du cadre d’emplois des médecins et des pharmaciens de sapeurs-pompiers professionnels constituent déjà un corpus juridique - certes insuffisant - applicable aux professions de santé des SDIS.\nDès lors, il suffit au Gouvernement de prendre un acte réglementaire venant enrichir ce corpus pour atteind",
+      "sort": "Adopté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC0994P0D1N000002"
+    },
+    {
+      "numero": "AS9",
+      "auteur": "Mme Karen Erodi et 70 cosignataires",
+      "article": "APRÈS ART. 2",
+      "dispositif": "Dans un délai de six mois après la promulgation de la présente loi, le Gouvernement remet au Parlement un rapport portant sur les risques psychosociaux auxquels sont exposés les personnels des services départementaux d’incendie et de secours. Ce rapport porte une attention particulière aux problématiques spécifiques des personnels du service de santé et de secours médical. Il investigue les liens de causalité pouvant être mis en évidence entre la diminution des moyens dévolus à la sécurité civile et ses acteurs, la hausse du volume des interventions et son niveau relatif par sapeur pompier et ",
+      "exposeSommaire": "Par cet amendement, le groupe LFI-NFP souhaite alerter sur les risques psychosociaux auxquels sont exposés les personnels des SDIS, a fortiori les personnels de santé, comme l’avait déjà fait le groupe LFI et le député Florian Chauche lors de la précédente législature.\nLes sapeurs pompiers sont exposés au danger dans le cadre de leurs interventions. Le danger inhérent à cette activité figure au code de la sécurité intérieure dont l’article L. 723‑1 reconnait « le caractère dangereux du métier et des missions exercés par les sapeurs-pompiers ».\nDes sapeurs-pompiers sont régulièrement blessés ou décèdent lors d’interventions. Ce caractère risqué de l’activité est bien connu du grand public et figure d’ailleurs dans la devise de la brigade des sapeurs-pompiers de Paris : « sauver ou périr ». Nous regrettons le fait que les questions de santé et de sécurité des près de 255 000 sapeurs pompie",
+      "sort": "Adopté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO420120B0841P0D1N000009"
+    },
+    {
+      "numero": "11",
+      "auteur": "Mme Karen Erodi et 70 cosignataires",
+      "article": "APRÈS ART. 7 BIS",
+      "dispositif": "Dans un délai de six mois à compter de la promulgation de la présente loi, le Gouvernement remet au Parlement un rapport portant sur l’opportunité de créer un dossier médical unique individuel du sapeur-pompier. Ce rapport détaille les voies d’une généralisation du dispositif à moyen terme. Il étudie les modalités de son intégration dans la pratique médicale des médecins de sapeurs-pompiers et, plus largement, les bénéfices qu’il pourrait apporter dans la pratique professionnelle de tous les membres du service de santé et de secours médical.",
+      "exposeSommaire": "Par cet amendement de repli, le groupe LFI-NFP propose à minima la remise d'un rapport évaluant l'opportunité et préfigurant la mise en place d’un dossier médical unique garantissant le suivi médical du sapeur-pompier au long de sa carrière.\nL’engagement des 254 800 sapeurs-pompiers de notre pays, salué unanimement, s’accompagne de risques particulièrement élevés pour leur santé physique et psychique. Les interventions exposent les sapeurs-pompiers à de multiples risques pour leur santé et leur sécurité, que ce soit en raison des conditions d’intervention (feux, inondations…), des substances avec lesquels ils peuvent être en contact (fumées toxiques, amiante, retardateurs de flammes, perturbateurs endocriniens et reprotoxiques, hydrocarbure aromatique polycyclique…), ou encore des risques psychosociaux particulièrement élevés (stress post-traumatique).\nOr, il n’existe actuellement pas de",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC0994P0D1N000011"
+    },
+    {
+      "numero": "AS14",
+      "auteur": "Mme Élise Leboucher et 70 cosignataires",
+      "article": "ART. 4",
+      "dispositif": "Compléter cet article par les mots et la phrase suivants :\n« ainsi qu’aux organisations syndicales représentatives des services départementaux d’incendie et de secours. Ces dernières disposent d’un droit d’amendement ainsi que d’un droit de veto à la majorité des délégués syndicaux desdites organisations sur le projet de décret. »",
+      "exposeSommaire": "Par cet amendement, le groupe LFI-NFP souhaite faire avancer la démocratie sociale en sécurité civile et consulter les organisations syndicales représentatives sur cette réforme du cadre d’emplois des professionnels de santé des SDIS.\nLa consultation de la Conférence nationale des services de sécurité d’incendie et de secours sur le projet de réforme du cadre d’emplois des professionnels de santé est la bienvenue.\nCette réforme du cadre d’emplois aura une incidence directe sur les conditions de travail des sapeurs pompiers, volontaires, mais aussi professionnels.\nNous proposons donc d’y adjoindre une consultation des 9 organisations syndicales représentatives que sont FA SPP-PATS, CGT des SDIS, SNSPP-PATS, Avenir-Secours CFE-CGC, Union nationale FO SIS, CFDT-Interco, CFTC-SPASDIS, SUD-SDIS et UNSA-SDIS.\nLes organisations syndicales représentatives disposeraient d’un droit de véto sur le ",
+      "sort": "Tombé",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO420120B0841P0D1N000014"
+    },
+    {
+      "numero": "14",
+      "auteur": "Mme Karen Erodi et 70 cosignataires",
+      "article": "ART. 6",
+      "dispositif": "À l’alinéa 2, après le mot :\n« armées », \ninsérer les mots :\n« dont l’âge n’excède pas 58 ans au moment de la démarche ».",
+      "exposeSommaire": "Par cet amendement, le groupe LFI-NFP souhaite s'assurer du financement adéquat des SDIS et préserver le droit au repos des professionnels de santé retraités du service de santé des armées.\nLes professionnels de santé du service de santé des armées, particulièrement les médecins, peuvent, comme les autres militaires de ce pays, bénéficient d'un âge de départ anticipé à la retraite avec une ouverture des droits entre 52 ans et 54 ans. Ces personnes peuvent, comme tous les travailleurs, faire le choix de prolonger leur activité au-delà de l'âge légal d'ouverture des droits.\nL'inscription d'une limite d'âge applicable pour l'intégration de retraités du service de santé des armées au sein du service de santé des SDIS poursuit deux objectifs principaux.\nLe premier est de ne pas faire de cette intégration un recours systématique visant à compenser et, en réalité, permettant de ne pas financer ",
+      "sort": "Tombé",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC0994P0D1N000014"
+    }
+  ]
+}

@@ -63,9 +63,11 @@ La clé `CLOUDTEMPLE_LLMAAS_API_KEY` est lue depuis `depulib/.env` **ou** `../.e
 
 | Commande | Rôle |
 |---|---|
-| `npm run seed` | (Ré)initialise la base avec les données de démonstration |
+| `npm run seed` | (Ré)initialise la base avec les lois (open data AN) |
 | `npm run embed` | Calcule les embeddings bge-m3 des amendements |
-| `POST /api/warm` | Pré-génère et met en cache tous les résumés IA (démo instantanée) |
+| `npm run warm` | Pré-génère et met en cache les résumés IA (dossiers + amendements) → clic instantané |
+| `npm run ingest` | Enchaîne seed + embed + warm (pipeline complet de récupération des lois) |
+| `POST /api/warm` | Même pré-génération, à la demande, pour un député connecté |
 | `POST /api/mcp/sync` | Tente une synchro MCP tricoteuses (rôle député ; fallback BDD sinon) |
 
 ## Données législatives

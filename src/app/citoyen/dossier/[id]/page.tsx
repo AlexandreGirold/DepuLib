@@ -1,9 +1,9 @@
 import { fr } from "@codegouvfr/react-dsfr";
 import { Badge } from "@codegouvfr/react-dsfr/Badge";
-import { Breadcrumb } from "@codegouvfr/react-dsfr/Breadcrumb";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { requireRole } from "@/lib/guards";
-import { getDossierComplet, ensureResumeDossier, ensureResumeAmendement, moyenneSentiment, mapLimit } from "@/lib/data";
+import { getDossierComplet, ensureResumeDossier, readResumeAmendement, moyenneSentiment } from "@/lib/data";
 import { DossierTabs } from "@/components/DossierTabs";
 import type { AmendementView } from "@/components/AmendementCard";
 import type { AvisItem } from "@/components/AvisListe";
@@ -19,28 +19,27 @@ export default async function DossierPage({ params }: { params: { id: string } }
 
   const resume = await ensureResumeDossier(dossier);
 
-  // Résumés d'amendements (génération paresseuse + cache, concurrence limitée)
-  const amendementsView: AmendementView[] = await mapLimit(
-    dossier.amendements,
-    5,
-    async (a) => {
-      const r = await ensureResumeAmendement(a);
-      const comms = dossier.commentaires.filter((c) => c.amendementId === a.id);
-      const { moyenne, count } = moyenneSentiment(comms);
-      return {
-        id: a.id,
-        numero: a.numero,
-        auteur: a.auteur,
-        resume: r.resume,
-        dispositif: a.dispositif,
-        sourceUrl: a.sourceUrl,
-        sources: r.sources,
-        upvotes: a.upvotes,
-        sentimentMoyen: moyenne,
-        nbCommentaires: count
-      };
-    }
-  );
+  // Résumés d'amendements : lecture seule du cache pré-généré à l'ingestion
+  // (`npm run warm`). Aucune génération IA au rendu — cf. readResumeAmendement.
+  const amendementsView: AmendementView[] = dossier.amendements.map((a) => {
+    const r = readResumeAmendement(a);
+    const comms = dossier.commentaires.filter((c) => c.amendementId === a.id);
+    const { moyenne, count } = moyenneSentiment(comms);
+    return {
+      id: a.id,
+      numero: a.numero,
+      auteur: a.auteur,
+      article: a.article,
+      sort: a.sort,
+      resume: r.resume,
+      dispositif: a.dispositif,
+      sourceUrl: a.sourceUrl,
+      sources: r.sources,
+      upvotes: a.upvotes,
+      sentimentMoyen: moyenne,
+      nbCommentaires: count
+    };
+  });
 
   // Avis existants + état d'upvote de l'utilisateur courant
   const myUpvotes = await prisma.upvoteComm.findMany({
@@ -64,11 +63,14 @@ export default async function DossierPage({ params }: { params: { id: string } }
 
   return (
     <div className={fr.cx("fr-container", "fr-py-4w")}>
-      <Breadcrumb
-        currentPageLabel={dossier.titre}
-        homeLinkProps={{ href: "/citoyen" }}
-        segments={[{ label: "Dossiers en débat", linkProps: { href: "/citoyen" } }]}
-      />
+      <div className={fr.cx("fr-mb-4w")}>
+        <Link
+          href={`/citoyen?commission=${encodeURIComponent(dossier.commission)}`}
+          className={fr.cx("fr-link", "fr-icon-arrow-left-line", "fr-link--icon-left")}
+        >
+          Retour aux lois
+        </Link>
+      </div>
       <div style={{ display: "flex", gap: 8, flexWrap: "wrap", alignItems: "center" }}>
         <Badge severity={dossier.statut.includes("séance") ? "warning" : "info"} small>
           {dossier.statut}
@@ -76,7 +78,15 @@ export default async function DossierPage({ params }: { params: { id: string } }
         <Badge small noIcon>{dossier.numero}</Badge>
         <Badge small noIcon>{dossier.commission}</Badge>
       </div>
-      <h1 className={fr.cx("fr-mt-2w")}>{dossier.titre}</h1>
+      <div className={fr.cx("fr-grid-row", "fr-grid-row--middle", "fr-mt-2w")} style={{ gap: 16 }}>
+        <h1 className={fr.cx("fr-mb-0")}>{dossier.titre}</h1>
+      </div>
+      <Link
+        href={`/citoyen/rdv?dossierId=${dossier.id}`}
+        className={fr.cx("fr-btn", "fr-btn--secondary", "fr-icon-calendar-line", "fr-btn--icon-left", "fr-mt-2w", "fr-mb-3w")}
+      >
+        Demander un rendez-vous à propos de ce dossier
+      </Link>
 
       <DossierTabs
         dossierId={dossier.id}

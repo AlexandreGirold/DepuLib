@@ -1,0 +1,83 @@
+{
+  "id": "an-dlr5l17n51670",
+  "titre": "Fin de vie",
+  "numero": "N° 1100",
+  "statut": "Commission mixte paritaire",
+  "commission": "Commission des affaires sociales",
+  "expose": "Fin de vie. Ce texte (n° 1100, proposition de loi ordinaire) est examiné au fond par la Commission des affaires sociales, au stade « Commission mixte paritaire » de la procédure législative de la 17e législature. Il est inscrit à l'ordre du jour de la séance publique.\n\n7 amendements réels déposés sur ce texte sont présentés ci-dessous (0 adopté à ce stade). Les données proviennent de l'open data de l'Assemblée nationale ; l'exposé des motifs complet est consultable sur le dossier officiel.",
+  "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/fin_de_vie_17e",
+  "source": "assemblee-nationale-opendata",
+  "odj": true,
+  "resumeFallback": "Fin de vie — texte n° 1100 examiné au fond par la Commission des affaires sociales (Commission mixte paritaire). 7 amendements réels y sont rattachés.",
+  "pointsClesFallback": [
+    "TITRE — amendement n°AS1 (Auteur non précisé)",
+    "ART. 6 — amendement n°1 (Auteur non précisé)",
+    "APRÈS ART. 17 — amendement n°AS2 (Mme Sylvie Bonnet et 8 cosignataires)",
+    "ART. 15 — amendement n°2 (M. Arnaud Simion et 65 cosignataires)"
+  ],
+  "amendements": [
+    {
+      "numero": "AS1",
+      "auteur": "Auteur non précisé",
+      "article": "TITRE",
+      "dispositif": "Au titre de la proposition de loi, substituer aux mots :\n« aide à mourir »\nles mots :\n« euthanasie et au suicide assisté ».",
+      "exposeSommaire": "Cette proposition de loi vise à légaliser le suicide assisté et l’euthanasie. Même si, comme l’a souligné la présidente de la Société Française des Soins Palliatifs (SFAP), « le geste est (…) peut-être trop difficile pour pouvoir être nommé et assumé politiquement. », il est essentiel d’indiquer clairement les objectifs de ce texte. Cet amendement vise donc à faire preuve d’honnêteté et à ne pas dissimuler la réalité des actes qui seront posés afin de provoquer la fin de la vie, à savoir l’administration par un praticien d’un médicament qui entraîne le décès du malade, ou la remise par un praticien d’un médicament que le malade peut s’autoadministrer pour mourir.",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO420120B2773P0D1N000001"
+    },
+    {
+      "numero": "1",
+      "auteur": "Auteur non précisé",
+      "article": "ART. 6",
+      "dispositif": "À la deuxième phrase de l’alinéa 13, supprimer les mots :\n« ou, si celle‑ci n’est pas apte à recevoir cette décision, à sa personne de confiance, ».",
+      "exposeSommaire": "L’amendement supprime l’information de la personne de confiance si la personne n’est pas apte à recevoir la décision du médecin.",
+      "sort": "Adopté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901B1364P0D2N000001"
+    },
+    {
+      "numero": "AS2",
+      "auteur": "Mme Sylvie Bonnet et 8 cosignataires",
+      "article": "APRÈS ART. 17",
+      "dispositif": "La propagande ou la publicité en faveur de l’aide à mourir, par assistance au suicide ou par euthanasie, est réprimée par l’article 223‑14 du code pénal.",
+      "exposeSommaire": "Vu la promotion du suicide assisté et de l’euthanasie, qui est faite dans certains pays, en particulier par des associations, il importe d’empêcher de telles dérives.\nTel est le sens de cet amendement.",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO420120B2773P0D1N000002"
+    },
+    {
+      "numero": "2",
+      "auteur": "M. Arnaud Simion et 65 cosignataires",
+      "article": "ART. 15",
+      "dispositif": "Compléter l’alinéa 14 par les mots :\n« dont au moins un est déclaré auprès de la commission mentionnée au III de l’article L. 1111‑12‑12. »",
+      "exposeSommaire": "Cet amendement des députés socialistes et apparentés vise à s'assurer qu'au moins la moitié des médecins qui seront nommés à la commission de contrôle et d’évaluation soient inscrits au registre des professionnels de santé disposés à accompagner les patients dans leurs demandes d'aide à mourir, et qui peuvent donc être considérés comme favorables à l'aide à mourir.\nEn effet, le pouvoir de nomination de ces 2 médecins sera réservé au Gouvernement. \nDans le cas où dans le futur le Gouvernement serait en défaveur de l'aide à mourir, ce dernier pourrait nommer des médecins en défaveur de l'aide à mourir dans la commission de contrôle et d’évaluation, et donc biaiser ses travaux.\nPour contrer ce risque, il est proposé ici qu'au moins la moitié des médecins qui seront nommés à la commission de contrôle et d’évaluation soient inscrits au registre des professionnels de santé qui se sont déclarés",
+      "sort": "Non soutenu",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC1364P0D1N000002"
+    },
+    {
+      "numero": "AS3",
+      "auteur": "Mme Sylvie Bonnet et 7 cosignataires",
+      "article": "APRÈS ART. 19",
+      "dispositif": "La présente loi n’entre en vigueur qu’après l’application complète de la loi de programmation pour le grand âge prévue par l’article 10 de la loi n° 2024‑317 du 8 avril 2024 portant mesures pour bâtir la société du bien vieillir et de l’autonomie.",
+      "exposeSommaire": "Les projections démographiques montrent que la part des personnes âgées va considérablement augmenter d’ici 2050. En 2050, près de 5 millions de Français auront plus de 85 ans.\nEn lien avec ce vieillissement, le nombre de personnes âgées de plus de 60 ans dépendantes va aussi augmenter dans les prochaines années, jusqu’à atteindre 4 millions en 2050 (contre 2,5 millions en 2015).\nEn 2019, le rapport Libault chiffrait le besoin de financement public supplémentaire à 9,2 milliards d’euros en 2030 pour financer la perte d’autonomie des personnes âgées. Une grande loi s’avère nécessaire pour adapter la société au défi du vieillissement et financer l’accompagnement du grand âge. Ce doit être une priorité nationale, alors que la loi de programmation sur le grand âge prévue par la loi « Bien vieillir » du 8 avril 2024 n’a toujours pas été présentée.\nToute évolution éventuelle de la loi (dite Cl",
+      "sort": "Tombé",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO420120B2401P0D1N000003"
+    },
+    {
+      "numero": "AS4",
+      "auteur": "Auteur non précisé",
+      "article": "ART. 3",
+      "dispositif": "À l’alinéa unique, substituer aux mots :\n« aide à mourir »\nles mots :\n« euthanasie et au suicide assisté ».",
+      "exposeSommaire": "Cette proposition de loi vise à légaliser le suicide assisté et l’euthanasie. Même si, comme l’a souligné la présidente de la Société Française des Soins Palliatifs (SFAP), « le geste est (…) peut-être trop difficile pour pouvoir être nommé et assumé politiquement. », il est essentiel d’indiquer clairement les objectifs de ce texte. Cet amendement vise donc à faire preuve d’honnêteté et à ne pas dissimuler la réalité des actes qui seront posés afin de provoquer la fin de la vie, à savoir l’administration par un praticien d’un médicament qui entraîne le décès du malade, ou la remise par un praticien d’un médicament que le malade peut s’autoadministrer pour mourir.",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO420120B2401P0D1N000004"
+    },
+    {
+      "numero": "4",
+      "auteur": "M. Arnaud Simion et 65 cosignataires",
+      "article": "ART. 17",
+      "dispositif": "Rétablir cet article dans la rédaction suivante :\n« Le chapitre V du titre Ier du livre Ier de la première partie du code de la santé publique est complété par des articles L. 1115‑4 et L. 1115‑5 ainsi rédigés :\n« Art. L. 1115‑4. – I. – Est puni de deux ans d’emprisonnement et de 30 000 euros d’amende le fait d’empêcher ou de tenter d’empêcher de pratiquer ou de s’informer sur l’aide à mourir par tout moyen, y compris par voie électronique ou en ligne, notamment par la diffusion ou la transmission d’allégations ou d’indications de nature à induire intentionnellement en erreur, dans un but diss",
+      "exposeSommaire": "Cet amendement des députés socialistes et apparentés vise à rétablir le délit d'entrave et d'incitation à l'aide à mourir.\nCet amendement propose d'adopter à nouveau la version adoptée en deuxième lecture par une large majorité de députés.\nDans son Discours préliminaire sur le projet de Code civil du 21 janvier 1801, Portalis énonçait justesse : \"Nous avons déterminé les divers effets de la loi. Elle permet ou elle défend ; elle ordonne, elle établit, elle corrige, elle punit ou elle récompense. Elle oblige indistinctement tous ceux qui vivent sous son empire ...\"\nNous ne pouvons que rejoindre cette réflexion et prolonger la réflexion à l'occasion de cet examen de la proposition de loi sur l'aide à mourir.\nEn l'état, le texte crée un nouveau droit - l'aide à mourir - que nous soutenons, mais sans permettre, sans défendre, sans ordonner, sans établir, sans corriger, sans punir, sans récom",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC2915P0D1N000004"
+    }
+  ]
+}

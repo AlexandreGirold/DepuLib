@@ -1,0 +1,56 @@
+{
+  "id": "an-dlr5l17n51079",
+  "titre": "Projet de loi spéciale prévue par l’article 45 de la loi organique du 1er août 2001 relative aux lois de finances",
+  "numero": "N° 0711",
+  "statut": "1ère lecture",
+  "commission": "Commission des finances, de l'économie générale et du contrôle budgétaire",
+  "expose": "Projet de loi spéciale prévue par l’article 45 de la loi organique du 1er août 2001 relative aux lois de finances. Ce texte (n° 0711, projet de loi ordinaire) est examiné au fond par la Commission des finances, de l'économie générale et du contrôle budgétaire, au stade « 1ère lecture » de la procédure législative de la 17e législature.\n\n4 amendements réels déposés sur ce texte sont présentés ci-dessous (0 adopté à ce stade). Les données proviennent de l'open data de l'Assemblée nationale ; l'exposé des motifs complet est consultable sur le dossier officiel.",
+  "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/pjl_speciale_article45lolf_2025",
+  "source": "assemblee-nationale-opendata",
+  "odj": false,
+  "resumeFallback": "Projet de loi spéciale prévue par l’article 45 de la loi organique du 1er août 2001 relative aux lois de finances — texte n° 0711 examiné au fond par la Commission des finances, de l'économie générale et du contrôle budgétaire (1ère lecture). 4 amendements réels y sont rattachés.",
+  "pointsClesFallback": [
+    "APRÈS ART. PREMIER — amendement n°6 (M. Jean-Philippe Tanguy)",
+    "ART. PREMIER — amendement n°CF10 (M. Nicolas Metzdorf)",
+    "ART. 2 — amendement n°13 (M. Charles de Courson)",
+    "ART. 3 — amendement n°16 (M. Jean-Philippe Tanguy)"
+  ],
+  "amendements": [
+    {
+      "numero": "6",
+      "auteur": "M. Jean-Philippe Tanguy",
+      "article": "APRÈS ART. PREMIER",
+      "dispositif": "Jusqu’à l’entrée en vigueur de la loi de finances pour 2025, le montant du prélèvement effectué sur les recettes de l’État au titre de la participation de la France au budget de l’Union européenne est évalué pour l’exercice 2025 à 21 609 624 014 €.",
+      "exposeSommaire": "La France doit faire un effort significatif de maîtrise de la dépense publique en 2024 compte tenu des difficultés budgétaires que nous connaissons.\n \nLe Rassemblement national défend la mise en place d’un « rabais » sur la contribution de la France au financement de l’Union européenne, dont la France est le seul grand pays contributeur net à ne pas bénéficier.\n \nNéanmoins, compte tenu de l’urgence des mesures à prendre et du contexte politique, le groupe Rassemblement national propose de reconduire en 2025 le contribution de la France au budget de l’Union européenne (PSR UE) à son niveau de 2024.",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901B0711P0D1N000006"
+    },
+    {
+      "numero": "CF10",
+      "auteur": "M. Nicolas Metzdorf",
+      "article": "ART. PREMIER",
+      "dispositif": "Après le mot :\n« finances »,\ninsérer le mot :\n« initiale ».",
+      "exposeSommaire": "Amendement rédactionnel d’appel.",
+      "sort": "Retiré",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO59048B0711P0D1N000010"
+    },
+    {
+      "numero": "13",
+      "auteur": "M. Charles de Courson",
+      "article": "ART. 2",
+      "dispositif": "Compléter cet article par les trois alinéas suivants :\n« II. – Le plafond de la variation nette, appréciée en fin d’année et en valeur nominale, de la dette négociable de l’État d’une durée supérieure à un an est fixé à 133,9 milliards d’euros.\n« III. – Le plafond de l’encours total de dette autorisé pour le budget annexe « Contrôle et exploitation aériens » pour 2025 est fixé à 2,35 milliards d’euros.\n« IV. – Le plafond de l’encours total de dette autorisé pour le budget annexe « Publications officielles et information administrative » pour 2025 est fixé à 0,0 milliard d’euros. »",
+      "exposeSommaire": "L’article 2 du projet de loi spéciale a notamment pour objet d’autoriser le ministre chargé des finances à recourir à l’emprunt pour couvrir l’ensemble des charges de trésorerie. Il n’est toutefois assorti de la fixation ni de plafonds de la variation nette de la dette négociable de l’État d’une durée supérieure à un an ni de plafonds des encours totaux respectifs de dette autorisés pour chacun des deux budgets annexes du budget de l’État, alors même que cette fixation répondrait à une exigence du législateur organique, précisément inscrite au 9° du I de l'article 34 de la LOLF. De tels plafonds sont pourtant systématiquement précisés par les articles dits d’équilibre des lois de finances de l’année si bien que leur fixation est consubstantielle de l’autorisation du recours à l’emprunt.\nLe présent amendement vise à remédier à cette lacune du projet de loi spéciale. Il assortit l’autorisa",
+      "sort": "Retiré",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901B0711P0D1N000013"
+    },
+    {
+      "numero": "16",
+      "auteur": "M. Jean-Philippe Tanguy",
+      "article": "ART. 3",
+      "dispositif": "I. – À la fin, ajouter les mots :\n« et dans les limites indiquées dans le tableau ci-dessous : ».\nII. – En conséquence, compléter cet article par le tableau suivant :\n« (En millions d’euros)\n \nEncours limites\nAgence centrale des organismes de sécurité sociale (ACOSS)\n65 000\nCaisse de prévoyance et de retraite du personnel ferroviaire (CPRPF)\n300\nCaisse autonome nationale de la sécurité sociale dans les mines (CANSSM)\n450\nCaisse nationale de retraites des agents des collectivités locales (CNRACL)\n13 200\n ».",
+      "exposeSommaire": "Le groupe Rassemblement national considère qu’assurer la capacité des organismes de Sécurité sociale à se financer doit être une priorité. Ces organismes ont besoin de recourir à l’emprunt, à court terme, pour financer leur fonds de roulement, et, à long terme, pour palier le déficit entre recettes et dépenses des organismes de Sécurité sociale.\n \nEn conséquence, le présent amendement propose dans un premier temps de fixer à 65 milliards d’euros pour 2025 le plafond d’emprunt de l’Agence centrale des organismes de sécurité sociale (ACOSS). Ce plafond constitue un maximum et comprend une marge de sécurité permettant de faire face à une dégradation brutale de la situation de trésorerie de l’ACOSS. Le recours effectif à des ressources non permanentes sera en moyenne nettement inférieur. Le plafond d’emprunt de l’ACOSS pour l’année 2025 est supérieur à celui de l’année 2024, qui avait été fi",
+      "sort": "Retiré",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901B0711P0D1N000016"
+    }
+  ]
+}

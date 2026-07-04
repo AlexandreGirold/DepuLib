@@ -4,7 +4,8 @@ import { fr } from "@codegouvfr/react-dsfr";
 import { Tabs } from "@codegouvfr/react-dsfr/Tabs";
 import { CommentForm } from "./CommentForm";
 import { AvisListe, AvisItem } from "./AvisListe";
-import { AmendementCard, AmendementView } from "./AmendementCard";
+import { AmendementView } from "./AmendementCard";
+import { AmendementsSearch } from "./AmendementsSearch";
 import { BadgeSource } from "./BadgeSource";
 import { BandeauIA } from "./BandeauIA";
 import type { Source } from "@/lib/sources";
@@ -61,9 +62,7 @@ export function DossierTabs({
               <p className={fr.cx("fr-text--sm")} style={{ color: "var(--text-mention-grey)" }}>
                 Chaque amendement est résumé par l'IA et sourcé vers le texte officiel.
               </p>
-              {amendements.map((a) => (
-                <AmendementCard key={a.id} a={a} />
-              ))}
+              <AmendementsSearch amendements={amendements} />
             </div>
           )
         },

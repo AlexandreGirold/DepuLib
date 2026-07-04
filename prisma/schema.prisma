@@ -53,6 +53,7 @@ model Dossier {
   json       String?
   commission String
   source     String       @default("donnees-demo")
+  odj        Boolean      @default(false)
   amendements Amendement[]
   commentaires Commentaire[]
   rdvDossiers RdvDossier[]
@@ -64,8 +65,10 @@ model Amendement {
   dossierId      String
   numero         String
   auteur         String
+  article        String?
   dispositif     String
   exposeSommaire String
+  sort           String?
   resumeIA       String?
   sources        String?
   sourceUrl      String

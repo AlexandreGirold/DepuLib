@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "seed": "node prisma/seed.cjs",
-    "embed": "node scripts/embed.cjs"
+    "embed": "node scripts/embed.cjs",
+    "warm": "node scripts/warm.cjs",
+    "ingest": "node prisma/seed.cjs && node scripts/embed.cjs && node scripts/warm.cjs"
   },
   "prisma": {
     "seed": "node prisma/seed.cjs"

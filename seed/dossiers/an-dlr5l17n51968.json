@@ -1,0 +1,83 @@
+{
+  "id": "an-dlr5l17n51968",
+  "titre": "Améliorer l'accès au logement des travailleurs des services publics",
+  "numero": "N° 1332",
+  "statut": "Commission mixte paritaire",
+  "commission": "Commission des affaires économiques",
+  "expose": "Améliorer l'accès au logement des travailleurs des services publics. Ce texte (n° 1332, proposition de loi ordinaire) est examiné au fond par la Commission des affaires économiques, au stade « Commission mixte paritaire » de la procédure législative de la 17e législature. Il est inscrit à l'ordre du jour de la séance publique.\n\n7 amendements réels déposés sur ce texte sont présentés ci-dessous (0 adopté à ce stade). Les données proviennent de l'open data de l'Assemblée nationale ; l'exposé des motifs complet est consultable sur le dossier officiel.",
+  "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/acces_logement_travailleurs_services_publics_17e",
+  "source": "assemblee-nationale-opendata",
+  "odj": true,
+  "resumeFallback": "Améliorer l'accès au logement des travailleurs des services publics — texte n° 1332 examiné au fond par la Commission des affaires économiques (Commission mixte paritaire). 7 amendements réels y sont rattachés.",
+  "pointsClesFallback": [
+    "ART. PREMIER — amendement n°CE1 (M. Guillaume Gouffier Valente)",
+    "ART. 2 — amendement n°1 (M. Frédéric Falcon et 122 cosignataires)",
+    "APRÈS ART. 3 — amendement n°CE2 (M. Guillaume Gouffier Valente)",
+    "APRÈS ART. 6 — amendement n°4 (M. Frédéric Falcon et 122 cosignataires)"
+  ],
+  "amendements": [
+    {
+      "numero": "CE1",
+      "auteur": "M. Guillaume Gouffier Valente",
+      "article": "ART. PREMIER",
+      "dispositif": "I – Après le mot : \n« logement », \nrédiger ainsi la fin de l’alinéa 3 : \n« réservé par son employeur en contrepartie d’une majoration de prêt, d’un apport de terrain, d’un financement ou d’une garantie financière, ou à raison des sommes versées au titre de l’obligation prévue par l’article L. 313‑1 du code de la construction et de l’habitation ou allouées en sus de cette obligation ».\nII – À l’alinéa 4, supprimer les mots :\n« qui a proposé l’attribution ».\nIII – Rédiger ainsi l’alinéa 6 :\n« II. – Pour l’application du présent I, les réservations correspondent aux logements réservés directement",
+      "exposeSommaire": "Cet amendement vise à clarifier les conditions dans lesquelles un employeur public pourra intégrer dans un contrat de bail et, le cas échéant, faire application d’une clause lui permettant de conditionner l’occupation d’un logement en cause à l’exercice d’un emploi déterminé lorsque l’occupation de ce logement résulte d’un droit de réservation qu’il a financé. La reconnaissance d’une telle faculté, s’agissant des logements réservés par un employeur public à destination de ses agents, est en effet essentielle à plusieurs égards : - D’une part, elle permet de créer de la rotation dans le parc social où le taux de mobilité ne s’élève qu’à 5,5 % par an ; - D’autre part, elle est de nature à encourager l’investissement des acteurs publics en faveur du logement de leurs agents et ainsi de renforcer l’offre disponible ; - Enfin, elle permet d’éviter les différences de traitement entre les agent",
+      "sort": "Non soutenu",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO419610B1332P0D1N000001"
+    },
+    {
+      "numero": "1",
+      "auteur": "M. Frédéric Falcon et 122 cosignataires",
+      "article": "ART. 2",
+      "dispositif": "I. – Rédiger ainsi l’alinéa 3 : \n« a) Le taux : « 10 % » est remplacé par le taux : « 20 % » ; »\nII. – En conséquence, après le même alinéa 3, insérer l’alinéa suivant : \n« a bis) Après le mot : « programme », sont insérés les mots : « , et à 25 % des logements sociaux du programme situés en zone tendue » ».",
+      "exposeSommaire": "Selon l’INSEE, la France compte près de 6 millions de fonctionnaires en 2023, représentant près de 22 % de la population active. Cette proportion varie selon les régions et départements, celle-ci étant plus élevée dans les grands centres urbains où se concentre la demande de logements. Ainsi, le nombre de fonctionnaires pour 1000 habitants dans une ville telle que Paris est de 86, tandis qu’il n’est que de 9 dans les départements de l’Essonne et de la Seine-et-Marne, la moyenne nationale étant de 74.\nDès lors, la hausse du plafond du droit de réservation d’un contingent à 25 % des logements sociaux d’un programme situé en zone tendue permettrait d’assurer un logement à ces agents qui renoncent encore trop souvent à se loger sur des territoires marqués par une explosion des prix des loyers, et où la demande d’agents publics demeure importante.\nAussi, la hausse du plafond du droit de réser",
+      "sort": "Tombé",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC1449P0D1N000001"
+    },
+    {
+      "numero": "CE2",
+      "auteur": "M. Guillaume Gouffier Valente",
+      "article": "APRÈS ART. 3",
+      "dispositif": "Après le quatrième alinéa de l’article L. 423‑2 du code de la construction et de l’habitation, il est inséré un alinéa ainsi rédigé :\n« 3° Aux organismes d’habitations à loyer modéré, filiales directes ou indirectes d’entreprises publiques ; »",
+      "exposeSommaire": "Cet amendement vise à permettre aux bailleurs sociaux qui sont des filiales directes ou indirectes d’entreprises publiques de déroger aux obligations de regroupement au sein d’une société de coordination, telles que prévues par la loi n°2018-1021 du 23 novembre 2018 portant évolution du logement, de l’aménagement et du numérique (« loi ELAN »). Ces obligations de regroupement imposent en effet aux bailleurs « n’atteignant pas une taille leur permettant d’assurer l’ensemble des fonctions stratégiques de manière autonome, de rejoindre un groupe ». Obligation est ainsi faite aux bailleurs gérant un parc inférieur à 12 000 logements de s’associer à des structures tierces. D’une part, cette obligation prive les bailleurs sociaux affiliés à des entreprises publiques d’une autonomie qui leur est pourtant nécessaire pour mettre véritablement la gestion de leur parc de logements au service des tr",
+      "sort": "Non soutenu",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO419610B1332P0D1N000002"
+    },
+    {
+      "numero": "4",
+      "auteur": "M. Frédéric Falcon et 122 cosignataires",
+      "article": "APRÈS ART. 6",
+      "dispositif": "L’article L. 441‑1 du code de la construction et de l’habitation est ainsi modifié :\n1° À la deuxième phrase du premier alinéa, après le mot : « notamment », sont insérés les mots : « de la détention de la nationalité française » ;\n2° Au début du quatrième alinéa, au début du cinquième alinéa, au sixième alinéa, deux fois, au début du septième alinéa, au début du huitième alinéa, au début du neuvième alinéa, à la première phrase du dixième alinéa, deux fois, au début du onzième alinéa, au début du quatorzième alinéa, au début du quinzième alinéa, au début du seizième alinéa, au début du dix-se",
+      "exposeSommaire": "Bien que ce texte puisse mettre en lumière le principe de méritocratie, favorisant ainsi dans l’accès au logement socialles personnes exerçant dans notre pays une activité professionnelle au service du bien commun, cette proposition de loi risque de créer une forme de discrimintaion entre les agents de l’Etat et les acteurs du secteur privé.\nAfin de lever cette distinction inappropriée, cet article additionnel vise à modifier l’article L. 441‑1 du Code de la construction et de l’habitation en y intégrant la notion de préférence nationale parmi les critères d’éligibilité à l’accès au parc locatif social, favorisant ainsi les personnes de nationalité française dans l’accès à un logement social.",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC1449P0D1N000004"
+    },
+    {
+      "numero": "8",
+      "auteur": "M. François Piquemal et 69 cosignataires",
+      "article": "ART. 4",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "Par cet amendement, le groupe LFI-NFP souhaite supprimer cet article.\nIl permet des dérogations au Plan local d’urbanisme (PLU) pour faciliter la construction de logements sur des terrains publics.\nLa macronie, pour cacher son bilan désastreux en matière de construction de logements, adore se tourner vers de nouvelles dérogations. Cela risque d'entraîner des dérogations injustifiées, au détriment de la cohérence urbaine locale, en ignorant toutes les contraintes liées au PLU.\nC'est la porte ouverte, avec une telle dérogation, à mettre en danger tout ce qui relève des zones protégées, tant au niveau du patrimoine que de l'écologie.\nCe n'est pas de dérogations dont nous avons besoin pour loger le peuple, mais de volonté politique et de moyens associés.",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC1449P0D1N000008"
+    },
+    {
+      "numero": "9",
+      "auteur": "Mme Anaïs Belouassa-Cherifi et 69 cosignataires",
+      "article": "ART. 5",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "Par cet amendement, le groupe LFI-NFP souhaite supprimer cet article.\nIl permet aux collectivités d’externaliser la gestion locative des établissements publics.\nCette externalisation et délégation de la gestion (loyers, entretien, mise en location) à une structure extérieure confère un pouvoir opérationnel et créé une dépendance à des opérateurs extérieurs. De cela découle une maîtrise moins directe sur l’usage des immeubles.\nAu nom de la volonté de permettre l’augmentation de l’offre de logement pour les agents publics via le logement intermédiaire, cette mesure représente en réalité un risque réel de marchandisation, en contradiction avec un objectif de service public. Elle engendre des logiques plus commerciales que sociales.\nD’ailleurs l'article ne précise ni les types d’immeubles concernés, ni les garanties sociales associées à la mise en gérance puisque se contente de renvoyer à un",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC1449P0D1N000009"
+    },
+    {
+      "numero": "CE10",
+      "auteur": "M. Frédéric Falcon et 15 cosignataires",
+      "article": "APRÈS ART. 7",
+      "dispositif": "L’article L. 441‑1 du code de la construction et de l’habitation est ainsi modifié :\n1° À la deuxième phrase du premier alinéa, après le mot : « notamment », sont insérés les mots : « de la détention de la nationalité française, » ;\n2° Du quatrième au dix-huitième alinéas, après chaque occurrence du mot : « personnes », sont insérés les mots : « de nationalité française » ;\n3° Au début du dix-neuvième alinéa, après le mot : « Mineurs », sont insérés les mots : « de nationalité française ».\"",
+      "exposeSommaire": "Le présent article additionnel vise à modifier l’article L. 441-1 du Code de la construction et de l’habitation, en y introduisant la notion de préférence nationale parmi les critères d’éligibilité à l’accès au parc locatif social. Cette modification a pour objet de favoriser l’accès au logement social des personnes de nationalité française, en reconnaissant leur contribution au financement de la solidarité nationale par le biais des cotisations versées tout au long de leur vie active. \nIl s’agit de rétablir une forme d’équité dans l’attribution des logements sociaux, en tenant compte de l’effort contributif des citoyens français. \nCette orientation se justifie d’autant plus que, selon un rapport du préfet Auboin, environ un tiers des occupants du parc social sont issus de l’immigration, ce qui traduit une surreprésentation par rapport à leur part dans la population générale. \nEnfin, cet",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO419610B1332P0D1N000010"
+    }
+  ]
+}

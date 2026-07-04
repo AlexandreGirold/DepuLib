@@ -1,0 +1,83 @@
+{
+ "id": "an-dlr5l17n53530",
+ "titre": "Relancer les investissements dans le secteur de l’hydroélectricité pour contribuer à la transition énergétique",
+ "numero": "N° 2334",
+ "statut": "Commission mixte paritaire",
+ "commission": "Commission des affaires économiques",
+ "expose": "Relancer les investissements dans le secteur de l’hydroélectricité pour contribuer à la transition énergétique. Ce texte (n° 2334, proposition de loi ordinaire) est examiné au fond par la Commission des affaires économiques, au stade « Commission mixte paritaire » de la procédure législative de la 17e législature. Il est inscrit à l'ordre du jour de la séance publique.\n\n7 amendements réels déposés sur ce texte sont présentés ci-dessous (0 adopté à ce stade). Les données proviennent de l'open data de l'Assemblée nationale ; l'exposé des motifs complet est consultable sur le dossier officiel.",
+ "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/relancer_investissements_secteur_hydroelectricite_contribuer_transition_energetique_17e",
+ "source": "assemblee-nationale-opendata",
+ "odj": true,
+ "resumeFallback": "Relancer les investissements dans le secteur de l’hydroélectricité pour contribuer à la transition énergétique — texte n° 2334 examiné au fond par la Commission des affaires économiques (Commission mixte paritaire). 7 amendements réels y sont rattachés.",
+ "pointsClesFallback": [
+  "ART. 20 — amendement n°CE1 (Mme Julie Laernoes et 36 cosignataires)",
+  "APRÈS ART. PREMIER — amendement n°1 (M. Matthias Tavel et 70 cosignataires)",
+  "ART. 2 — amendement n°CE2 (Mme Julie Laernoes et 36 cosignataires)",
+  "ART. 4 — amendement n°2 (Le Gouvernement)"
+ ],
+ "amendements": [
+  {
+   "numero": "CE1",
+   "auteur": "Mme Julie Laernoes et 36 cosignataires",
+   "article": "ART. 20",
+   "dispositif": "À l'alinéa 4, supprimer les mots :\n « d’une puissance inférieure ou égale à 150 kilowatts ».",
+   "exposeSommaire": "L’article 20 de la proposition de loi vise à harmoniser le régime juridique applicable aux installations de petite hydroélectricité, d’une puissance inférieure ou égale à 150 kilowatts. Il prévoit un régime transitoire de vingt ans permettant aux installations régulièrement exploitées à l’entrée en vigueur de la présente proposition de loi de conserver leur autorisation actuelle avant de basculer vers le régime d’autorisation.\nCependant, dans sa rédaction actuelle, cette harmonisation demeure incomplète. En l'état, l'article 20 laisse en effet perdurer le statut des installations ayant une existence légale car fondées en titre lorsque leur puissance est supérieure à 150 kilowatts.\nCes installations continueraient ainsi à bénéficier d’une « autorisation » sans limitation de durée, maintenant ainsi un régime d’exception hérité du XIXᵉ siècle, largement dérogatoire au droit commun auquel se",
+   "sort": null,
+   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2334/CION-ECO/CE1"
+  },
+  {
+   "numero": "1",
+   "auteur": "M. Matthias Tavel et 70 cosignataires",
+   "article": "APRÈS ART. PREMIER",
+   "dispositif": "La Nation se fixe comme objectif le développement des installations hydroélectriques afin d’atteindre une puissance installée d’au moins 28,7 gigawatts en 2035.",
+   "exposeSommaire": "Cet amendement du groupe LFI prévoit que la nation se fixe comme objectif le développement des installations hydroélectriques afin d'atteindre une puissance installée d’au moins 28,7 gigawatts en 2035.\nLa programmation pluriannuelle de l'énergie (PPE) n'ayant toujours pas été publiée par le Gouvernement, cet amendement vise ainsi à donner de la visibilité aux investissements nécessaires dans la filière. Il reprend les chiffres de la dernière PPE mise en consultation.",
+   "sort": null,
+   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2334/AN/1"
+  },
+  {
+   "numero": "CE2",
+   "auteur": "Mme Julie Laernoes et 36 cosignataires",
+   "article": "ART. 2",
+   "dispositif": "À l’alinéa 1, supprimer les mots :\n« tout en garantissant un libre accès aux tiers à des capacités électriques présentant des caractéristiques de flexibilité proches de celle de l’énergie hydraulique dans les conditions prévues à l’article 12, ».",
+   "exposeSommaire": "Pour satisfaire les conditions de la Commission européenne, la présente proposition de loi prévoit la création d'un dispositif de mise à disposition de « capacités hydroélectriques virtuelles », également qualifié d’« ARENH hydro », qui obligerait EDF à vendre jusqu’à 6 GW de sa production hydroélectrique à des tiers concurrents par le biais d’un mécanisme de marché virtuel. Ce volume représente environ un tiers de la production hydroélectrique de l’opérateur public.\nUn tel dispositif fait directement écho au mécanisme de l’ARENH, dont les effets ont été largement documentés et dénoncés. Pendant des années, l’ARENH a contraint EDF à vendre une part significative de sa production d'électricité à un prix régulé, inférieur à ses coûts complets de production, au bénéfice de concurrents qui n’assumaient ni les risques industriels, ni les coûts d’investissement, ni les obligations de long term",
+   "sort": null,
+   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2334/CION-ECO/CE2"
+  },
+  {
+   "numero": "2",
+   "auteur": "Le Gouvernement",
+   "article": "ART. 4",
+   "dispositif": "Alinéa 7\nAprès le mot :\ndépenses\nrédiger ainsi la fin de l’alinéa :\net des droits respectivement mentionnés aux a et b du présent 1° ;",
+   "exposeSommaire": "Le présent amendement précise que l’indemnité de résiliation pour les concessions déjà échues et placées sous le régime des délais glissants intègre le montant des droits fondés en titres (DFT) rachetés par l’État en application de l’article 3 de la proposition de loi.\nCet amendement vise donc à mettre en cohérence et harmoniser, à la suite de l’examen parlementaire, les mécanismes définis dans les articles 3 et 4.\nL’article 3 du texte organise en effet l’extinction des DFT en prévoyant leur rachat par l’État lorsqu’ils existent, leur valeur étant alors incluse dans l’indemnité de résiliation versée au concessionnaire. Toutefois, sans la précision apportée par le présent amendement, l’article 4 indique qu’aucune indemnité de résiliation ne serait versée aux exploitants des concessions échues à l’exception de la part non amortie des investissements inscrits au registre, en contradiction a",
+   "sort": null,
+   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2334/AN/2"
+  },
+  {
+   "numero": "CE3",
+   "auteur": "Mme Julie Laernoes et 36 cosignataires",
+   "article": "ART. 7",
+   "dispositif": "Compléter l’alinéa 34 par les mots :\n« , ainsi que de la préservation des milieux aquatiques, du bon état écologique des masses d’eau et du maintien des continuités écologiques, dans le respect des objectifs de protection de la biodiversité et du principe de non-régression de la protection de l’environnement tel que défini au 9° du II. – de l’article 110‑1 du code de l’environnement. ».",
+   "exposeSommaire": "L’article 7 de la présente proposition de loi définit le contenu et la procédure de délivrance des nouvelles autorisations pour l’exploitation de l’énergie hydraulique par les installations de plus de 4 500 kilowatts. Ce changement de régime encadrant l’exploitation des grands ouvrages hydroélectriques appelle une clarification explicite des critères environnementaux devant guider la décision de l’État.\nEn effet, si le texte prévoit que l’instruction des nouvelles autorisations doit concilier les objectifs de politique énergétique, de sûreté, de sécurité, de navigation, de prévention des inondations et d’adaptation au changement climatique, il ne mentionne pas explicitement la préservation des milieux aquatiques, le bon état des masses d’eau et le maintien des continuités écologiques, pourtant au cœur des exigences du droit de l’eau et de la biodiversité.\nDans un contexte de forte dégrad",
+   "sort": null,
+   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2334/CION-ECO/CE3"
+  },
+  {
+   "numero": "CE4",
+   "auteur": "Mme Julie Laernoes et 36 cosignataires",
+   "article": "ART. 9",
+   "dispositif": "Compléter l’alinéa 5 par les deux phrases suivantes :\n« Après consultation, un avis du comité est rendu public. Toute décision prise en contradiction avec l’avis du comité fait l’objet d’une motivation expresse. »",
+   "exposeSommaire": "L’article 9 prévoit que le comité de suivi, d’information et de concertation sur la gestion des usages de l’eau liés aux installations hydroélectriques soit consulté préalablement aux décisions susceptibles d’avoir un impact significatif sur les usages de l’eau ou sur les enjeux environnementaux.\nToutefois, en l’état, cette consultation ne s’accompagne d’aucune obligation de transparence ni de prise en compte formalisée des avis exprimés. Le risque est ainsi de réduire le comité à un simple organe d’information, sans portée réelle sur les décisions prises par l’exploitant.\nLe présent amendement du groupe Écologiste et Social vise ainsi à renforcer l’effectivité de la concertation en prévoyant, d’une part, la publicité de l’avis rendu par le comité et, d’autre part, l’obligation pour le titulaire de l’autorisation de motiver expressément toute décision prise en contradiction avec cet avis",
+   "sort": null,
+   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2334/CION-ECO/CE4"
+  },
+  {
+   "numero": "4",
+   "auteur": "Le Gouvernement",
+   "article": "ART. 22",
+   "dispositif": "Alinéa 5\naprès le mot :\nkilowatts\ninsérer les mots :\n, à l’exception des concessions portant sur des réservoirs hydrauliques mentionnées à l’article 1er,",
+   "exposeSommaire": "En lien avec l’amendement proposé à l’article 1er incluant les barrages réservoirs indissociables des installations d’énergie hydraulique de plus de 4,5 mégawatts, cet amendement de coordination juridique vise à assurer la cohérence entre le périmètre des concessions résiliées défini à cet article 1er et celui des concessions qui, a contrario, demeureront soumises au régime concessif applicable avant l’adoption de la présente loi, conformément à l’article 22 de la proposition de loi.",
+   "sort": null,
+   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2334/AN/4"
+  }
+ ]
+}

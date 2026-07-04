@@ -68,7 +68,7 @@ async function main() {
       role: "depute",
       displayName: "Marie Dupont",
       circonscription: "75-03",
-      commission: "Commission des lois"
+      commission: "Commission des lois constitutionnelles, de la législation et de l'administration générale de la République"
     }
   });
   const paul = await prisma.user.create({
@@ -77,7 +77,7 @@ async function main() {
       role: "collaborateur",
       displayName: "Paul Martin",
       deputeId: marie.id,
-      commission: "Commission des lois"
+      commission: "Commission des lois constitutionnelles, de la législation et de l'administration générale de la République"
     }
   });
   const hugo = await prisma.user.create({
@@ -127,6 +127,7 @@ async function main() {
         expose: d.expose,
         sourceUrl: d.sourceUrl,
         source: d.source || "donnees-demo",
+        odj: !!d.odj,
         json: JSON.stringify(d)
       }
     });
@@ -138,8 +139,10 @@ async function main() {
           dossierId: d.id,
           numero: a.numero,
           auteur: a.auteur,
+          article: a.article || null,
           dispositif: a.dispositif,
           exposeSommaire: a.exposeSommaire,
+          sort: a.sort || null,
           sourceUrl: a.sourceUrl,
           embedding: JSON.stringify(emb)
         }
@@ -181,7 +184,11 @@ async function main() {
   console.log(`[seed] ${commentaires.length} commentaires (${flagCount} flaggés)`);
 
   // --- RDV représentant → député (F6) ---
-  const dossierNum = dossiers.find((d) => d.id === "dossier-numerique") || dossiers[0];
+  // Dossier vedette : protection des mineurs sur les réseaux sociaux (réel, ODJ).
+  const dossierNum =
+    dossiers.find((d) => d.id === "an-dlr5l17n53187") ||
+    dossiers.find((d) => /r[eé]seaux sociaux/i.test(d.titre)) ||
+    dossiers[0];
   if (dossierNum) {
     const rdv = await prisma.rendezVous.create({
       data: {

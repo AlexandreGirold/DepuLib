@@ -1,0 +1,83 @@
+{
+ "id": "an-dlr5l17n54227",
+ "titre": "Protéger les enfants et lutter contre les violences en milieu scolaire",
+ "numero": "N° 2708",
+ "statut": "1ère lecture",
+ "commission": "Commission des affaires culturelles et de l'éducation",
+ "expose": "Protéger les enfants et lutter contre les violences en milieu scolaire. Ce texte (n° 2708, proposition de loi ordinaire) est examiné au fond par la Commission des affaires culturelles et de l'éducation, au stade « 1ère lecture » de la procédure législative de la 17e législature. Il est inscrit à l'ordre du jour de la séance publique.\n\n7 amendements réels déposés sur ce texte sont présentés ci-dessous (0 adopté à ce stade). Les données proviennent de l'open data de l'Assemblée nationale ; l'exposé des motifs complet est consultable sur le dossier officiel.",
+ "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/_proteger_enfants_et_lutter_contre_les_violences_en_milieu_scolaire_17e",
+ "source": "assemblee-nationale-opendata",
+ "odj": true,
+ "resumeFallback": "Protéger les enfants et lutter contre les violences en milieu scolaire — texte n° 2708 examiné au fond par la Commission des affaires culturelles et de l'éducation (1ère lecture). 7 amendements réels y sont rattachés.",
+ "pointsClesFallback": [
+  "ART. 9 — amendement n°AC1 (M. Roger Chudeau et 12 cosignataires)",
+  "ART. 7 BIS — amendement n°1 (Le Gouvernement)",
+  "ART. 8 — amendement n°2 (M. Maxime Michelet et 4 cosignataires)",
+  "APRÈS ART. 9 — amendement n°6 (M. Sébastien Huyghe et 43 cosignataires)"
+ ],
+ "amendements": [
+  {
+   "numero": "AC1",
+   "auteur": "M. Roger Chudeau et 12 cosignataires",
+   "article": "ART. 9",
+   "dispositif": "Supprimer les alinéas 1 à 3.",
+   "exposeSommaire": "Le présent amendement prévoit de préserver la protection du secret professionnel. \nLe secret professionnel – secret médical, secret défense ou secret de la confession – constitue un édifice de notre état de droit. L’article 226‑13 du code pénal protège le secret professionnel de manière indifférenciée : « La révélation d’une information à caractère secret par une personne qui en est dépositaire soit par état ou par profession, soit en raison d’une fonction ou d’une mission temporaire, est punie d’un an d’emprisonnement et de 15 000 euros d’amende. »\nSi le législateur admet aujourd’hui qu’un secret professionnel peut être levé au nom de la protection de l’enfance pour les ministres du culte, rien ne s’opposera demain à ce que le même raisonnement soit étendu au secret médical ou au secret de la défense.",
+   "sort": null,
+   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2708/CION-CEDU/AC1"
+  },
+  {
+   "numero": "1",
+   "auteur": "Le Gouvernement",
+   "article": "ART. 7 BIS",
+   "dispositif": "À l’alinéa 4, supprimer les mots :\n« et renouvelé ».",
+   "exposeSommaire": "Se justifie par son texte même.",
+   "sort": null,
+   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2708/AN/1"
+  },
+  {
+   "numero": "2",
+   "auteur": "M. Maxime Michelet et 4 cosignataires",
+   "article": "ART. 8",
+   "dispositif": "Supprimer l’alinéa 32.",
+   "exposeSommaire": "Le présent amendement vise à supprimer l’alinéa 32 de l’article 8, qui confie au conseil académique de l’enseignement privé, au sein du nouvel article L. 442-20-4 du code de l’éducation, une mission de veille sur la mixité sociale des publics scolarisés au sein des établissements parties au contrat.\nCette disposition appelle deux objections.\nEn premier lieu, la mixité sociale constitue une politique publique qui relève des territoires, et non des établissements d’enseignement privés sous contrat. Faire peser sur ces seuls établissements une obligation de mixité sociale, alors qu’ils ne maîtrisent ni la composition sociale de leur bassin de recrutement ni les leviers de l’aménagement du territoire, revient à leur imputer la responsabilité d’un objectif dont la réalisation dépend des collectivités. Une telle mission excède au demeurant l’objet d’un conseil voué à la concertation relative à",
+   "sort": null,
+   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2708/AN/2"
+  },
+  {
+   "numero": "6",
+   "auteur": "M. Sébastien Huyghe et 43 cosignataires",
+   "article": "APRÈS ART. 9",
+   "dispositif": "I. – L'article 2226 du code civil est complété par un alinéa ainsi rédigé : \n« Lorsque l’action publique est imprescriptible en application du troisième alinéa de l’article 7 du code de procédure pénale, l’action civile en réparation du dommage causé par ces infractions est également imprescriptible. L’action publique s’éteint au décès du responsable du dommage causé par ces infractions. »\nII. – À la fin de l’avant-dernier alinéa de l’article 7 du code de procédure pénale, les mots : « lorsqu’ils sont commis sur des mineurs, se prescrit par trente années révolues à compter de la majorité de ce",
+   "exposeSommaire": "Cet amendement vise à rendre imprescriptibles les infractions les plus graves commises sur des mineurs. Ces infractions comprennent les crimes sexuels prévus à l’article 706-47 du code de procédure pénale, le proxénétisme, les atteintes volontaires à la vie, les actes de torture ou de barbarie, les enlèvements et séquestrations, la réduction en esclavage, le délaissement d'un mineur qui a entraîné une mutilation, une infirmité permanente ou suivi de la mort ou encore la traite des êtres humains aggravée. La prescription de l’action publique peut faire obstacle à la poursuite et à la condamnation du criminel ou du délinquant sur mineur. Notre législation ne prend pas en compte une réalité bien connue des professionnels, lesquels admettent que la victime peut ne recouvrir le souvenir des actes subis qu’à 35, 40 ou 50 ans, parfois bien au-delà du délai de prescription. La sortie du déni sur",
+   "sort": null,
+   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2708/AN/6"
+  },
+  {
+   "numero": "AC13",
+   "auteur": "Mme Géraldine Bannier et 4 cosignataires",
+   "article": "ART. 5",
+   "dispositif": "Après l’alinéa 3, insérer l’alinéa suivant :\n« Les dispositions du présent article sont applicables aux accompagnateurs des sorties et voyages scolaires, y compris les parents d’élèves, ainsi qu’aux professionnels encadrant des publics sous statut scolaire ou d’apprenti dans le cadre de stages ou de périodes d’observation ou de formation en milieu professionnel tels que prévu par le code de l’éducation, dans des conditions déterminées par décret. »",
+   "exposeSommaire": "Il est tout à fait salutaire que cette proposition de loi prévoie un contrôle renforcé de l’honorabilité pour toutes les personnes intervenant dans un établissement scolaire afin de leur interdire d’exercer au contact d’élèves, s’ils sont mentionnés au fichier judiciaire national automatisé des auteurs d’infractions sexuelles ou violentes ou au fichier judiciaire national automatisé des auteurs d’infractions terroristes. Toutefois, le législateur ne doit pas oublier une situation fréquente dans la vie de l’élève, et qui laisse le public scolaire particulièrement exposé car hors du cadre strict de l’école : les périodes de stage et de formation professionnelle.\nTrop longtemps, l’immersion des mineurs dans le milieu professionnel a été laissée de côté, et les dérapages y ont été invisibilisés. Or, le milieu de l’entreprise n’échappe pas aux violences ordinaires, sexistes, sexuelles qui exi",
+   "sort": null,
+   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2708/CION-CEDU/AC13"
+  },
+  {
+   "numero": "AC14",
+   "auteur": "Mme Géraldine Bannier",
+   "article": "ART. 6",
+   "dispositif": "Après l’alinéa 3, insérer l’alinéa suivant :\n« « Lorsqu’un agent fait l’objet d’une mesure prévue par l’article L. 533‑5 du code général de la fonction publique, il est informé qu’il peut bénéficier d’un accompagnement par l’administration, notamment en vue de faciliter sa réintégration dans ses fonctions et de prévenir les conséquences professionnelles et personnelles résultant de cette mesure, si aucune sanction disciplinaire n’est finalement prononcée ou que les faits ne sont pas établis. Les modalités d’application du présent alinéa sont fixées par décret en Conseil d’État. » »",
+   "exposeSommaire": "En légiférant sur les mesures conservatoires dont pourront faire l’objet les agents mis en cause, nous devons aussi nous interroger sur la possibilité que ces agents soient ensuite blanchis des accusations portées contre eux. Si ce cas devait se présenter, il est nécessaire que ces personnels aient à leur disposition un accompagnement pour prévenir les séquelles psychologiques et professionnelles qui pourraient résulter d’accusations démenties, et qu’ils soient informés de cette possibilité dès la mise en application de la mesure conservatoire.",
+   "sort": null,
+   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2708/CION-CEDU/AC14"
+  },
+  {
+   "numero": "AC16",
+   "auteur": "M. Daniel Labaronne et 1 cosignataire",
+   "article": "ART. 2",
+   "dispositif": "Supprimer cet article.",
+   "exposeSommaire": "L’article 2 crée un fonds national d’indemnisation et d’accompagnement destiné aux victimes de violences commises sur des enfants en milieu scolaire et périscolaire. Ce fonds aurait vocation à indemniser les préjudices subis et à financer les soins ainsi que l’accompagnement juridique, psychologique, éducatif et social des victimes.\nLa protection des enfants victimes de violences, de même que l’accompagnement de ces derniers dans leur parcours de reconstruction, constituent une exigence impérieuse qui doit mobiliser pleinement les pouvoirs publics.\nToutefois, la création d’un fonds spécifique soulève plusieurs interrogations quant à son financement, à sa soutenabilité budgétaire et à son articulation avec les dispositifs déjà existants d’indemnisation, de prise en charge des victimes et de protection de l’enfance. En l’absence d’évaluation précise des besoins, des coûts induits et des mo",
+   "sort": null,
+   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2708/CION-CEDU/AC16"
+  }
+ ]
+}
