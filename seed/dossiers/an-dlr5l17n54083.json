@@ -1,83 +1,83 @@
 {
- "id": "an-dlr5l17n54083",
- "titre": "Projet de loi actualisant la programmation militaire pour les années 2024 à 2030 et portant diverses dispositions intéressant la défense",
- "numero": "N° 2630",
- "statut": "Commission mixte paritaire",
- "commission": "Commission de la défense nationale et des forces armées",
- "expose": "Projet de loi actualisant la programmation militaire pour les années 2024 à 2030 et portant diverses dispositions intéressant la défense. Ce texte (n° 2630, projet de loi ordinaire) est examiné au fond par la Commission de la défense nationale et des forces armées, au stade « Commission mixte paritaire » de la procédure législative de la 17e législature. Il est inscrit à l'ordre du jour de la séance publique.\n\n7 amendements réels déposés sur ce texte sont présentés ci-dessous (0 adopté à ce stade). Les données proviennent de l'open data de l'Assemblée nationale ; l'exposé des motifs complet est consultable sur le dossier officiel.",
- "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PJL_actualisation_loi_programmation_militaire_annees_2024_2030_diverses_dispositions_defense",
- "source": "assemblee-nationale-opendata",
- "odj": true,
- "resumeFallback": "Projet de loi actualisant la programmation militaire pour les années 2024 à 2030 et portant diverses dispositions intéressant la défense — texte n° 2630 examiné au fond par la Commission de la défense nationale et des forces armées (Commission mixte paritaire). 7 amendements réels y sont rattachés.",
- "pointsClesFallback": [
-  "APRÈS ART. 4 — amendement n°AE1 (Mme Constance Le Grip)",
-  "ART. 17 — amendement n°CL1 (M. Sacha Houlié et 9 cosignataires)",
-  "APRÈS ART. 12 — amendement n°1 (M. Philippe Gosselin et 10 cosignataires)",
-  "ART. 19 — amendement n°AE2 (Mme Constance Le Grip)"
- ],
- "amendements": [
-  {
-   "numero": "AE1",
-   "auteur": "Mme Constance Le Grip",
-   "article": "APRÈS ART. 4",
-   "dispositif": "Au dernier alinéa de l’article 8 de la loi n° 2023‑703 du 1er août 2023 relative à la programmation militaire pour les années 2024 à 2030 et portant diverses dispositions intéressant la défense, la date : « 30 juin 2028 » est remplacée par la date : « 30 juillet 2027 ».",
-   "exposeSommaire": "Le premier alinéa de l’article 8 de la loi de programmation militaire prévoit son actualisation avant la fin de l’année 2027. L’examen du présent projet de loi d’actualisation ayant vocation à s’achever d’ici l’été 2026, soit plus d’un an avant la date butoir précitée, il apparaît dès lors cohérent d’avancer en conséquence la date limite à laquelle la commission chargée de l’élaboration d’un livre blanc sur la défense et la sécurité nationale doit être mise en place.\nAinsi, le présent amendement prévoit que cette commission devra être mise en place avant le 30 juillet 2027, au lieu du 30 juin 2028.\nCette accélération du calendrier permettra de faciliter l’adaptation de notre outil de défense dans la perspective de la préparation de la prochaine loi de programmation militaire, au regard de l’évolution du contexte géopolitique et de ses répercussions sur nos priorités stratégiques.",
-   "sort": null,
-   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2630/CION_AFETR/AE1"
-  },
-  {
-   "numero": "CL1",
-   "auteur": "M. Sacha Houlié et 9 cosignataires",
-   "article": "ART. 17",
-   "dispositif": "Compléter l’alinéa 4 par la phrase suivante :\n« Lorsque les éléments d’information sont anciens ou lorsque l’agent n’est plus en fonction et jusqu’à l’expiration de ce délai de dix années, il est tenu compte pour l’appréciation de l’application des dispositions du II du présent article des effets de l’écoulement du temps. »",
-   "exposeSommaire": "Le présent amendement des députés Socialistes et apparentés vise, comme le recommande l’avis du Conseil d’État, à préciser que pour l’appréciation du risque que ferait peser la publication de certaines informations par un agent sur des faits anciens ou par un ancien agent, il soit tenu compte de l’écoulement du temps. \nNotre groupe soutien pleinement cette disposition qui vise à concilier les impératifs de protection des intérêts de la défense et de la sécurité nationales et le principe constitutionnel fondamental de liberté de communication des pensées et des opinions. Afin d’assurer la pleine proportionnalité et la sécurité juridique de cette disposition, il convient donc d’imposer au Ministre de tenir compte des effets de l’écoulement du temps sur l’appréciation du risque réel que les éléments visés feraient courir à ces intérêts, ainsi qu’à la sécurité des agents actuels ou passés. \n",
-   "sort": null,
-   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2630/CION_LOIS/CL1"
-  },
-  {
-   "numero": "1",
-   "auteur": "M. Philippe Gosselin et 10 cosignataires",
-   "article": "APRÈS ART. 12",
-   "dispositif": "Sont qualifiées d’infrastructures d’intérêt stratégique les infrastructures concourant à la continuité des activités essentielles de la Nation, notamment dans les domaines de l’énergie, du nucléaire, des transports, des infrastructures portuaires, industrielles et des communications électroniques.\nCes infrastructures peuvent faire l’objet de procédures administratives adaptées et accélérées pour leur implantation, leur modernisation ou leur sécurisation.",
-   "exposeSommaire": "Cet amendement crée une définition juridique des infrastructures d’intérêt stratégique afin de permettre une adaptation des procédures administratives, dans une logique de simplification et de souveraineté.",
-   "sort": null,
-   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2630/AN/1"
-  },
-  {
-   "numero": "AE2",
-   "auteur": "Mme Constance Le Grip",
-   "article": "ART. 19",
-   "dispositif": "À l’alinéa 20, substituer aux mots :\n « trois ans d’emprisonnement et de 45 000 euros d’amende »\nles mots :\n « cinq ans d’emprisonnement et de 75 000 euros d’amende ».",
-   "exposeSommaire": "L’article 19 du projet de loi crée une obligation incombant à certaines personnes disposant d’un haut niveau de compétences techniques ou scientifiques de déclarer leur volonté d’exercer une activité lucrative dans un domaine relevant d’un secteur protégé au bénéfice d’une entité étrangère.\nL’exercice de cette activité est soumis à l’examen de l’autorité ministérielle compétente, qui peut s’opposer à la réalisation du projet professionnel escompté au regard de la lutte contre le terrorisme ou de la prolifération d’armes de destruction massive et des risques d’atteinte aux intérêts fondamentaux de la Nation.\nVisant à prévenir les débauchages de personnalités hautement qualifiées par des puissances étrangères malveillantes, cette disposition s’inspire du mécanisme créé par l’article L. 4122‑11 du code de la défense créé par la loi de programmation militaire applicable aux militaires et anc",
-   "sort": null,
-   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2630/CION_AFETR/AE2"
-  },
-  {
-   "numero": "2",
-   "auteur": "Le Gouvernement",
-   "article": "ART. 21",
-   "dispositif": "À l’alinéa 40, substituer à la référence : \n« D » \nla référence : \n« C ».",
-   "exposeSommaire": "Cet amendement de coordination tire les conséquences de la suppression par le Sénat du D du I de l’article L. 2143-6 du code de la défense, ce I ne comprenant plus désormais que 3 subdivisions ainsi désignées : A, B et C.",
-   "sort": null,
-   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2630/AN/2"
-  },
-  {
-   "numero": "DN3",
-   "auteur": "M. Jean-Michel Jacques",
-   "article": "APRÈS ART. 31",
-   "dispositif": "À l’article L. 2122‑1 du code général des collectivités territoriales, après le mot : « élus », sont insérés les mots : « ainsi qu’un correspondant défense désigné ».",
-   "exposeSommaire": "Cet amendement a pour objectif d’ancrer dans le marbre la fonction essentielle des correspondants défense qui sont désignés au sein de nos conseils municipaux et de mieux la valoriser. Il est ainsi proposé de codifier ce statut dans le code général des collectivités territoriales, car à ce jour il n’y figure pas.\nPartout dans nos territoires, les correspondants défense sont des relais essentiels du lien entre la Nation et ses armées. Ils sont les interlocuteurs privilégiés des autorités civiles et militaires dans leur commune pour ce qui concerne les questions de défense et les relations armées-Nation. Au quotidien, ils font vivre une conviction essentielle à notre résilience collective : la défense n’est pas uniquement l’affaire des militaires, mais bien l’affaire de tous !\nSi la puissance de nos armées repose sur les moyens techniques et matériels qui leur sont fournis par la Nation et",
-   "sort": null,
-   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2630/CION_DEF/DN3"
-  },
-  {
-   "numero": "CF3",
-   "auteur": "M. Laurent Baumel et 8 cosignataires",
-   "article": "APRÈS ART. PREMIER",
-   "dispositif": "Dans les trois mois à compter de la promulgation de la présente loi, le Gouvernement remet au Parlement un rapport présentant plusieurs options de financement du rehaussement de la trajectoire de la loi de programmation militaire, y compris le recours à l’instrument « Agir pour la sécurité de l’Europe ». Les options font l’objet d’une comparaison tenant compte des enjeux de juste répartition de l’effort entre les citoyens et de l’efficacité économique.",
-   "exposeSommaire": "Cet amendement du groupe Socialistes et apparentés plaide pour la mise en place de nouvelles ressources budgétaires en appui du financement de l'accélération de l'effort de défense.\nL’avis du HCFP met en exergue la difficulté à concilier l’exécution de cette LPM actualisée et le respect de nos engagements budgétaires (nationaux et européens) sinon par la mise en œuvre d’un « fort ajustement effectué sur le reste des finances publiques. ».\nCe fort ajustement ne peut pas être une variable résultante d’un débat technique. Il doit faire l’objet d’un débat politique éclairé, notamment en couvrant la question de la juste répartition de l’effort entre les Français.",
-   "sort": null,
-   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2630/CION_FIN/CF3"
-  }
- ]
+  "id": "an-dlr5l17n54083",
+  "titre": "Projet de loi actualisant la programmation militaire pour les années 2024 à 2030 et portant diverses dispositions intéressant la défense",
+  "numero": "N° 2630",
+  "statut": "Commission mixte paritaire",
+  "commission": "Commission de la défense nationale et des forces armées",
+  "expose": "Projet de loi actualisant la programmation militaire pour les années 2024 à 2030 et portant diverses dispositions intéressant la défense. Ce texte (n° 2630, projet de loi ordinaire) est examiné au fond par la Commission de la défense nationale et des forces armées, au stade « Commission mixte paritaire » de la procédure législative de la 17e législature. Il est inscrit à l'ordre du jour de la séance publique.\n\n7 amendements réels déposés sur ce texte sont présentés ci-dessous (0 adopté à ce stade). Les données proviennent de l'open data de l'Assemblée nationale ; l'exposé des motifs complet est consultable sur le dossier officiel.",
+  "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PJL_actualisation_loi_programmation_militaire_annees_2024_2030_diverses_dispositions_defense",
+  "source": "assemblee-nationale-opendata",
+  "odj": true,
+  "resumeFallback": "Projet de loi actualisant la programmation militaire pour les années 2024 à 2030 et portant diverses dispositions intéressant la défense — texte n° 2630 examiné au fond par la Commission de la défense nationale et des forces armées (Commission mixte paritaire). 7 amendements réels y sont rattachés.",
+  "pointsClesFallback": [
+    "APRÈS ART. 4 — amendement n°AE1 (Mme Constance Le Grip)",
+    "ART. 17 — amendement n°CL1 (M. Sacha Houlié et 9 cosignataires)",
+    "APRÈS ART. 12 — amendement n°1 (M. Philippe Gosselin et 10 cosignataires)",
+    "ART. 19 — amendement n°AE2 (Mme Constance Le Grip)"
+  ],
+  "amendements": [
+    {
+      "numero": "AE1",
+      "auteur": "Mme Constance Le Grip",
+      "article": "APRÈS ART. 4",
+      "dispositif": "Au dernier alinéa de l’article 8 de la loi n° 2023‑703 du 1er août 2023 relative à la programmation militaire pour les années 2024 à 2030 et portant diverses dispositions intéressant la défense, la date : « 30 juin 2028 » est remplacée par la date : « 30 juillet 2027 ».",
+      "exposeSommaire": "Le premier alinéa de l’article 8 de la loi de programmation militaire prévoit son actualisation avant la fin de l’année 2027. L’examen du présent projet de loi d’actualisation ayant vocation à s’achever d’ici l’été 2026, soit plus d’un an avant la date butoir précitée, il apparaît dès lors cohérent d’avancer en conséquence la date limite à laquelle la commission chargée de l’élaboration d’un livre blanc sur la défense et la sécurité nationale doit être mise en place.\nAinsi, le présent amendement prévoit que cette commission devra être mise en place avant le 30 juillet 2027, au lieu du 30 juin 2028.\nCette accélération du calendrier permettra de faciliter l’adaptation de notre outil de défense dans la perspective de la préparation de la prochaine loi de programmation militaire, au regard de l’évolution du contexte géopolitique et de ses répercussions sur nos priorités stratégiques.",
+      "sort": null,
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PJL_actualisation_loi_programmation_militaire_annees_2024_2030_diverses_dispositions_defense"
+    },
+    {
+      "numero": "CL1",
+      "auteur": "M. Sacha Houlié et 9 cosignataires",
+      "article": "ART. 17",
+      "dispositif": "Compléter l’alinéa 4 par la phrase suivante :\n« Lorsque les éléments d’information sont anciens ou lorsque l’agent n’est plus en fonction et jusqu’à l’expiration de ce délai de dix années, il est tenu compte pour l’appréciation de l’application des dispositions du II du présent article des effets de l’écoulement du temps. »",
+      "exposeSommaire": "Le présent amendement des députés Socialistes et apparentés vise, comme le recommande l’avis du Conseil d’État, à préciser que pour l’appréciation du risque que ferait peser la publication de certaines informations par un agent sur des faits anciens ou par un ancien agent, il soit tenu compte de l’écoulement du temps. \nNotre groupe soutien pleinement cette disposition qui vise à concilier les impératifs de protection des intérêts de la défense et de la sécurité nationales et le principe constitutionnel fondamental de liberté de communication des pensées et des opinions. Afin d’assurer la pleine proportionnalité et la sécurité juridique de cette disposition, il convient donc d’imposer au Ministre de tenir compte des effets de l’écoulement du temps sur l’appréciation du risque réel que les éléments visés feraient courir à ces intérêts, ainsi qu’à la sécurité des agents actuels ou passés. \n",
+      "sort": null,
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PJL_actualisation_loi_programmation_militaire_annees_2024_2030_diverses_dispositions_defense"
+    },
+    {
+      "numero": "1",
+      "auteur": "M. Philippe Gosselin et 10 cosignataires",
+      "article": "APRÈS ART. 12",
+      "dispositif": "Sont qualifiées d’infrastructures d’intérêt stratégique les infrastructures concourant à la continuité des activités essentielles de la Nation, notamment dans les domaines de l’énergie, du nucléaire, des transports, des infrastructures portuaires, industrielles et des communications électroniques.\nCes infrastructures peuvent faire l’objet de procédures administratives adaptées et accélérées pour leur implantation, leur modernisation ou leur sécurisation.",
+      "exposeSommaire": "Cet amendement crée une définition juridique des infrastructures d’intérêt stratégique afin de permettre une adaptation des procédures administratives, dans une logique de simplification et de souveraineté.",
+      "sort": null,
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PJL_actualisation_loi_programmation_militaire_annees_2024_2030_diverses_dispositions_defense"
+    },
+    {
+      "numero": "AE2",
+      "auteur": "Mme Constance Le Grip",
+      "article": "ART. 19",
+      "dispositif": "À l’alinéa 20, substituer aux mots :\n « trois ans d’emprisonnement et de 45 000 euros d’amende »\nles mots :\n « cinq ans d’emprisonnement et de 75 000 euros d’amende ».",
+      "exposeSommaire": "L’article 19 du projet de loi crée une obligation incombant à certaines personnes disposant d’un haut niveau de compétences techniques ou scientifiques de déclarer leur volonté d’exercer une activité lucrative dans un domaine relevant d’un secteur protégé au bénéfice d’une entité étrangère.\nL’exercice de cette activité est soumis à l’examen de l’autorité ministérielle compétente, qui peut s’opposer à la réalisation du projet professionnel escompté au regard de la lutte contre le terrorisme ou de la prolifération d’armes de destruction massive et des risques d’atteinte aux intérêts fondamentaux de la Nation.\nVisant à prévenir les débauchages de personnalités hautement qualifiées par des puissances étrangères malveillantes, cette disposition s’inspire du mécanisme créé par l’article L. 4122‑11 du code de la défense créé par la loi de programmation militaire applicable aux militaires et anc",
+      "sort": null,
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PJL_actualisation_loi_programmation_militaire_annees_2024_2030_diverses_dispositions_defense"
+    },
+    {
+      "numero": "2",
+      "auteur": "Le Gouvernement",
+      "article": "ART. 21",
+      "dispositif": "À l’alinéa 40, substituer à la référence : \n« D » \nla référence : \n« C ».",
+      "exposeSommaire": "Cet amendement de coordination tire les conséquences de la suppression par le Sénat du D du I de l’article L. 2143-6 du code de la défense, ce I ne comprenant plus désormais que 3 subdivisions ainsi désignées : A, B et C.",
+      "sort": null,
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PJL_actualisation_loi_programmation_militaire_annees_2024_2030_diverses_dispositions_defense"
+    },
+    {
+      "numero": "DN3",
+      "auteur": "M. Jean-Michel Jacques",
+      "article": "APRÈS ART. 31",
+      "dispositif": "À l’article L. 2122‑1 du code général des collectivités territoriales, après le mot : « élus », sont insérés les mots : « ainsi qu’un correspondant défense désigné ».",
+      "exposeSommaire": "Cet amendement a pour objectif d’ancrer dans le marbre la fonction essentielle des correspondants défense qui sont désignés au sein de nos conseils municipaux et de mieux la valoriser. Il est ainsi proposé de codifier ce statut dans le code général des collectivités territoriales, car à ce jour il n’y figure pas.\nPartout dans nos territoires, les correspondants défense sont des relais essentiels du lien entre la Nation et ses armées. Ils sont les interlocuteurs privilégiés des autorités civiles et militaires dans leur commune pour ce qui concerne les questions de défense et les relations armées-Nation. Au quotidien, ils font vivre une conviction essentielle à notre résilience collective : la défense n’est pas uniquement l’affaire des militaires, mais bien l’affaire de tous !\nSi la puissance de nos armées repose sur les moyens techniques et matériels qui leur sont fournis par la Nation et",
+      "sort": null,
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PJL_actualisation_loi_programmation_militaire_annees_2024_2030_diverses_dispositions_defense"
+    },
+    {
+      "numero": "CF3",
+      "auteur": "M. Laurent Baumel et 8 cosignataires",
+      "article": "APRÈS ART. PREMIER",
+      "dispositif": "Dans les trois mois à compter de la promulgation de la présente loi, le Gouvernement remet au Parlement un rapport présentant plusieurs options de financement du rehaussement de la trajectoire de la loi de programmation militaire, y compris le recours à l’instrument « Agir pour la sécurité de l’Europe ». Les options font l’objet d’une comparaison tenant compte des enjeux de juste répartition de l’effort entre les citoyens et de l’efficacité économique.",
+      "exposeSommaire": "Cet amendement du groupe Socialistes et apparentés plaide pour la mise en place de nouvelles ressources budgétaires en appui du financement de l'accélération de l'effort de défense.\nL’avis du HCFP met en exergue la difficulté à concilier l’exécution de cette LPM actualisée et le respect de nos engagements budgétaires (nationaux et européens) sinon par la mise en œuvre d’un « fort ajustement effectué sur le reste des finances publiques. ».\nCe fort ajustement ne peut pas être une variable résultante d’un débat technique. Il doit faire l’objet d’un débat politique éclairé, notamment en couvrant la question de la juste répartition de l’effort entre les Français.",
+      "sort": null,
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PJL_actualisation_loi_programmation_militaire_annees_2024_2030_diverses_dispositions_defense"
+    }
+  ]
 }

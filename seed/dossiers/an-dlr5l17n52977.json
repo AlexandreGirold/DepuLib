@@ -1,83 +1,83 @@
 {
- "id": "an-dlr5l17n52977",
- "titre": "Nationalisation d'ArcelorMittal France",
- "numero": "N° 1950",
- "statut": "2e lecture",
- "commission": "Commission des finances, de l'économie générale et du contrôle budgétaire",
- "expose": "Nationalisation d'ArcelorMittal France. Ce texte (n° 1950, proposition de loi ordinaire) est examiné au fond par la Commission des finances, de l'économie générale et du contrôle budgétaire, au stade « 2e lecture » de la procédure législative de la 17e législature. Il est inscrit à l'ordre du jour de la séance publique.\n\n7 amendements réels déposés sur ce texte sont présentés ci-dessous (0 adopté à ce stade). Les données proviennent de l'open data de l'Assemblée nationale ; l'exposé des motifs complet est consultable sur le dossier officiel.",
- "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/nationalisation_arcelormittal_2025",
- "source": "assemblee-nationale-opendata",
- "odj": true,
- "resumeFallback": "Nationalisation d'ArcelorMittal France — texte n° 1950 examiné au fond par la Commission des finances, de l'économie générale et du contrôle budgétaire (2e lecture). 7 amendements réels y sont rattachés.",
- "pointsClesFallback": [
-  "APRÈS ART. PREMIER — amendement n°CF1 (Auteur non précisé)",
-  "TITRE — amendement n°2 (M. Jean-Philippe Tanguy)",
-  "APRÈS ART. 2 — amendement n°3 (M. Jean-Philippe Tanguy)",
-  "ART. 3 — amendement n°CF6 (Mme Marie Lebec)"
- ],
- "amendements": [
-  {
-   "numero": "CF1",
-   "auteur": "Auteur non précisé",
-   "article": "APRÈS ART. PREMIER",
-   "dispositif": "Les activités concourant à la production et à la mise en forme de l’acier, ainsi que les matériaux et minerais nécessaires à ces activités, revêtent un intérêt particulier pour la souveraineté industrielle de la France.",
-   "exposeSommaire": "Le présent amendement des députés Socialistes et apparentés vise à affirmer l’importance vitale pour la souveraineté nationale de l’acier, tant pour la réindustrialisation de notre pays que pour sa transition énergétique et l’atteinte des objectifs de réarmement traduits dans la loi de programmation militaire. C’est d’ailleurs au titre d’une telle priorité vitale que la maîtrise publique de certaines activités liées à la production et à la transformation de l’acier se justifie.",
-   "sort": null,
-   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/1950/CION_FIN/CF1"
-  },
-  {
-   "numero": "2",
-   "auteur": "M. Jean-Philippe Tanguy",
-   "article": "TITRE",
-   "dispositif": "Au titre, substituer au mot :\n« nationalisation »,\nles mots :\n« prise par l’État d’une participation préférentielle au capital ».",
-   "exposeSommaire": "Amendement de coordination\nLe présent amendement modifie le titre pour porter la transformation de la nationalisation d’ArcelorMittal France en une prise par l’État d’une action spécifique de type « golden share ». Il complète ainsi l’amendement du Rassemblement national à l’article 1er et n’a de sens qu’en cas d’adoption de ce dernier.",
-   "sort": null,
-   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/1950/AN/2"
-  },
-  {
-   "numero": "3",
-   "auteur": "M. Jean-Philippe Tanguy",
-   "article": "APRÈS ART. 2",
-   "dispositif": "I. – La société ArcelorMittal France établit chaque année un rapport contenant les informations nécessaires à l’exercice des droits prévus à l’article 1er, notamment les informations relatives à l’intégrité, à la pérennité et au maintien sur le territoire national de la production sidérurgique française. Le rapport est adressé au ministre chargé de l’économie chaque année au plus tard le 31 mars de l’année suivante.\nII. – La société ArcelorMittal France transmet à la demande du ministre chargé de l’économie les informations nécessaires à l’exercice du droit d’opposition prévu à l’article 1er.",
-   "exposeSommaire": "Amendement de coordination\nLe présent amendement rétablit l’article 2 – supprimé en première lecture – relatif à la réorganisation d’ArcelorMittal France en cas de nationalisation, en le réécrit en y introduisant les obligations relatives à la prise d’une action spécifique. Il complète ainsi l’amendement du Rassemblement national à l’article 1er et n’a de sens qu’en cas d’adoption de ce dernier.",
-   "sort": null,
-   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/1950/AN/3"
-  },
-  {
-   "numero": "CF6",
-   "auteur": "Mme Marie Lebec",
-   "article": "ART. 3",
-   "dispositif": "Supprimer cet article.",
-   "exposeSommaire": "Cette proposition de loi n’est pas une bonne idée, ce qui justifie cet amendement.",
-   "sort": null,
-   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2537/CION_FIN/CF6"
-  },
-  {
-   "numero": "8",
-   "auteur": "M. Charles Sitzenstuhl",
-   "article": "ART. 1ER BIS",
-   "dispositif": "Compléter cet article par les mots : \n« et de l’Europe ».",
-   "exposeSommaire": "La question de l'acier est européenne.",
-   "sort": null,
-   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/1950/AN/8"
-  },
-  {
-   "numero": "CF14",
-   "auteur": "Mme Yaël Ménaché et 16 cosignataires",
-   "article": "ART. 2",
-   "dispositif": "À la première phrase de l'alinéa 5, après les mots :\n« administrateurs de l’État »\ninsérer les mots :\n« en majorité qualifiée, afin de garantir la sauvegarde des intérêts stratégiques nationaux ».",
-   "exposeSommaire": "Cet amendement vise à garantir la sauvegarde des intérêts nationaux. Effectivement, la gouvernance d’ArcelorMittal France doit permettre à l’État de conserver un contrôle effectif des orientations stratégiques.\nCompte tenu du caractère éminemment sensible de la production d’acier pour la défense, les infrastructures critiques, l’énergie ou l’industrie lourde, il est indispensable que la direction de l’entreprise ne puisse s’écarter des priorités fixées par la puissance publique.\nUne représentation renforcée de l’État au sein des instances dirigeantes constitue un moyen essentiel d’éviter toute dérive managériale, tout projet de réduction de capacités, ou toute décision susceptible de fragiliser l’autonomie industrielle du pays.\nL’amendement a donc pour objet d’assurer que la société nationalisée demeure pleinement alignée sur les impératifs de souveraineté, de sécurité économique et de p",
-   "sort": null,
-   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/1950/CION_FIN/CF14"
-  },
-  {
-   "numero": "96",
-   "auteur": "M. Théo Bernhardt et 6 cosignataires",
-   "article": "APRÈS ART. 1ER BIS",
-   "dispositif": "Préalablement à la nationalisation prévue à l'article premier de la présente loi, la Cour des comptes réalise un audit complet de la situation financière, comptable et patrimoniale de la société ArcelorMittal France.\nCet audit est transmis au Parlement et rendu public dans un délai de six mois suivant la promulgation de la présente loi.",
-   "exposeSommaire": "La Cour des comptes doit impérativement examiner la situation réelle de l'entreprise avant que l'État n'engage des fonds publics. Son audit indépendant constituera un gage de sérieux et de rigueur dans l'utilisation de l'argent des contribuables français. Cette mesure de bon sens garantit que la nationalisation repose sur une connaissance exacte et vérifiée de la situation de l'entreprise.",
-   "sort": null,
-   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/1950/AN/96"
-  }
- ]
+  "id": "an-dlr5l17n52977",
+  "titre": "Nationalisation d'ArcelorMittal France",
+  "numero": "N° 1950",
+  "statut": "2e lecture",
+  "commission": "Commission des finances, de l'économie générale et du contrôle budgétaire",
+  "expose": "Nationalisation d'ArcelorMittal France. Ce texte (n° 1950, proposition de loi ordinaire) est examiné au fond par la Commission des finances, de l'économie générale et du contrôle budgétaire, au stade « 2e lecture » de la procédure législative de la 17e législature. Il est inscrit à l'ordre du jour de la séance publique.\n\n7 amendements réels déposés sur ce texte sont présentés ci-dessous (0 adopté à ce stade). Les données proviennent de l'open data de l'Assemblée nationale ; l'exposé des motifs complet est consultable sur le dossier officiel.",
+  "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/nationalisation_arcelormittal_2025",
+  "source": "assemblee-nationale-opendata",
+  "odj": true,
+  "resumeFallback": "Nationalisation d'ArcelorMittal France — texte n° 1950 examiné au fond par la Commission des finances, de l'économie générale et du contrôle budgétaire (2e lecture). 7 amendements réels y sont rattachés.",
+  "pointsClesFallback": [
+    "APRÈS ART. PREMIER — amendement n°CF1 (Auteur non précisé)",
+    "TITRE — amendement n°2 (M. Jean-Philippe Tanguy)",
+    "APRÈS ART. 2 — amendement n°3 (M. Jean-Philippe Tanguy)",
+    "ART. 3 — amendement n°CF6 (Mme Marie Lebec)"
+  ],
+  "amendements": [
+    {
+      "numero": "CF1",
+      "auteur": "Auteur non précisé",
+      "article": "APRÈS ART. PREMIER",
+      "dispositif": "Les activités concourant à la production et à la mise en forme de l’acier, ainsi que les matériaux et minerais nécessaires à ces activités, revêtent un intérêt particulier pour la souveraineté industrielle de la France.",
+      "exposeSommaire": "Le présent amendement des députés Socialistes et apparentés vise à affirmer l’importance vitale pour la souveraineté nationale de l’acier, tant pour la réindustrialisation de notre pays que pour sa transition énergétique et l’atteinte des objectifs de réarmement traduits dans la loi de programmation militaire. C’est d’ailleurs au titre d’une telle priorité vitale que la maîtrise publique de certaines activités liées à la production et à la transformation de l’acier se justifie.",
+      "sort": "Adopté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO59048B1950P0D1N000001"
+    },
+    {
+      "numero": "2",
+      "auteur": "M. Jean-Philippe Tanguy",
+      "article": "TITRE",
+      "dispositif": "Au titre, substituer au mot :\n« nationalisation »,\nles mots :\n« prise par l’État d’une participation préférentielle au capital ».",
+      "exposeSommaire": "Amendement de coordination\nLe présent amendement modifie le titre pour porter la transformation de la nationalisation d’ArcelorMittal France en une prise par l’État d’une action spécifique de type « golden share ». Il complète ainsi l’amendement du Rassemblement national à l’article 1er et n’a de sens qu’en cas d’adoption de ce dernier.",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC2872P0D1N000002"
+    },
+    {
+      "numero": "3",
+      "auteur": "M. Jean-Philippe Tanguy",
+      "article": "APRÈS ART. 2",
+      "dispositif": "I. – La société ArcelorMittal France établit chaque année un rapport contenant les informations nécessaires à l’exercice des droits prévus à l’article 1er, notamment les informations relatives à l’intégrité, à la pérennité et au maintien sur le territoire national de la production sidérurgique française. Le rapport est adressé au ministre chargé de l’économie chaque année au plus tard le 31 mars de l’année suivante.\nII. – La société ArcelorMittal France transmet à la demande du ministre chargé de l’économie les informations nécessaires à l’exercice du droit d’opposition prévu à l’article 1er.",
+      "exposeSommaire": "Amendement de coordination\nLe présent amendement rétablit l’article 2 – supprimé en première lecture – relatif à la réorganisation d’ArcelorMittal France en cas de nationalisation, en le réécrit en y introduisant les obligations relatives à la prise d’une action spécifique. Il complète ainsi l’amendement du Rassemblement national à l’article 1er et n’a de sens qu’en cas d’adoption de ce dernier.",
+      "sort": "Retiré",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC2872P0D1N000003"
+    },
+    {
+      "numero": "CF6",
+      "auteur": "Mme Marie Lebec",
+      "article": "ART. 3",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "Cette proposition de loi n’est pas une bonne idée, ce qui justifie cet amendement.",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO59048B2537P0D1N000006"
+    },
+    {
+      "numero": "8",
+      "auteur": "M. Charles Sitzenstuhl",
+      "article": "ART. 1ER BIS",
+      "dispositif": "Compléter cet article par les mots : \n« et de l’Europe ».",
+      "exposeSommaire": "La question de l'acier est européenne.",
+      "sort": "Tombé",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC2123P0D1N000008"
+    },
+    {
+      "numero": "CF14",
+      "auteur": "Mme Yaël Ménaché et 16 cosignataires",
+      "article": "ART. 2",
+      "dispositif": "À la première phrase de l'alinéa 5, après les mots :\n« administrateurs de l’État »\ninsérer les mots :\n« en majorité qualifiée, afin de garantir la sauvegarde des intérêts stratégiques nationaux ».",
+      "exposeSommaire": "Cet amendement vise à garantir la sauvegarde des intérêts nationaux. Effectivement, la gouvernance d’ArcelorMittal France doit permettre à l’État de conserver un contrôle effectif des orientations stratégiques.\nCompte tenu du caractère éminemment sensible de la production d’acier pour la défense, les infrastructures critiques, l’énergie ou l’industrie lourde, il est indispensable que la direction de l’entreprise ne puisse s’écarter des priorités fixées par la puissance publique.\nUne représentation renforcée de l’État au sein des instances dirigeantes constitue un moyen essentiel d’éviter toute dérive managériale, tout projet de réduction de capacités, ou toute décision susceptible de fragiliser l’autonomie industrielle du pays.\nL’amendement a donc pour objet d’assurer que la société nationalisée demeure pleinement alignée sur les impératifs de souveraineté, de sécurité économique et de p",
+      "sort": "Tombé",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO59048B1950P0D1N000014"
+    },
+    {
+      "numero": "96",
+      "auteur": "M. Théo Bernhardt et 6 cosignataires",
+      "article": "APRÈS ART. 1ER BIS",
+      "dispositif": "Préalablement à la nationalisation prévue à l'article premier de la présente loi, la Cour des comptes réalise un audit complet de la situation financière, comptable et patrimoniale de la société ArcelorMittal France.\nCet audit est transmis au Parlement et rendu public dans un délai de six mois suivant la promulgation de la présente loi.",
+      "exposeSommaire": "La Cour des comptes doit impérativement examiner la situation réelle de l'entreprise avant que l'État n'engage des fonds publics. Son audit indépendant constituera un gage de sérieux et de rigueur dans l'utilisation de l'argent des contribuables français. Cette mesure de bon sens garantit que la nationalisation repose sur une connaissance exacte et vérifiée de la situation de l'entreprise.",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC2123P0D1N000096"
+    }
+  ]
 }

@@ -25,6 +25,12 @@ function readDossiers() {
   return files.map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")));
 }
 
+// Caches IA figés (résumés/synthèses + embeddings réels). S'ils sont présents,
+// le seed les recharge → un clone retrouve exactement le même contenu sans clé
+// API ni appel LLM. Absents → génération à la volée par embed/warm.
+const resumesCache = readJson("resumes.json", { dossiers: {}, amendements: {} });
+const embeddingsCache = readJson("embeddings.json", {});
+
 async function reset() {
   // Ordre de suppression : enfants avant parents.
   await prisma.upvoteComm.deleteMany();
@@ -117,6 +123,7 @@ async function main() {
   const dossiers = readDossiers();
   const amdtByDossierNumero = {}; // dossierId -> { numero -> amendementId }
   for (const d of dossiers) {
+    const dc = resumesCache.dossiers[d.id] || {};
     await prisma.dossier.create({
       data: {
         id: d.id,
@@ -128,12 +135,18 @@ async function main() {
         sourceUrl: d.sourceUrl,
         source: d.source || "donnees-demo",
         odj: !!d.odj,
+        resumeIA: dc.resumeIA || null,
+        syntheseIA: dc.syntheseIA || null,
+        sources: dc.sources ? JSON.stringify(dc.sources) : null,
         json: JSON.stringify(d)
       }
     });
     amdtByDossierNumero[d.id] = {};
     for (const a of d.amendements || []) {
-      const emb = pseudoEmbedding(`${a.dispositif} ${a.exposeSommaire}`);
+      const key = `${d.id}::${a.numero}`;
+      const ac = resumesCache.amendements[key] || {};
+      // Embedding : réel figé si disponible, sinon pseudo déterministe.
+      const emb = embeddingsCache[key] || pseudoEmbedding(`${a.dispositif} ${a.exposeSommaire}`);
       const rec = await prisma.amendement.create({
         data: {
           dossierId: d.id,
@@ -144,6 +157,8 @@ async function main() {
           exposeSommaire: a.exposeSommaire,
           sort: a.sort || null,
           sourceUrl: a.sourceUrl,
+          resumeIA: ac.resumeIA || null,
+          sources: ac.sources ? JSON.stringify(ac.sources) : null,
           embedding: JSON.stringify(emb)
         }
       });

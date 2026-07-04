@@ -9,6 +9,7 @@
     "seed": "node prisma/seed.cjs",
     "embed": "node scripts/embed.cjs",
     "warm": "node scripts/warm.cjs",
+    "export:resumes": "node scripts/export-resumes.cjs",
     "ingest": "node prisma/seed.cjs && node scripts/embed.cjs && node scripts/warm.cjs"
   },
   "prisma": {

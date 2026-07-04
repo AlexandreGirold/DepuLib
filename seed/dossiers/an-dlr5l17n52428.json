@@ -1,83 +1,83 @@
 {
- "id": "an-dlr5l17n52428",
- "titre": "Projet de loi de finances pour 2026",
- "numero": "N° 1906",
- "statut": "Commission mixte paritaire",
- "commission": "Commission des finances, de l'économie générale et du contrôle budgétaire",
- "expose": "Projet de loi de finances pour 2026. Ce texte (n° 1906, projet de loi de finances de l'année) est examiné au fond par la Commission des finances, de l'économie générale et du contrôle budgétaire, au stade « Commission mixte paritaire » de la procédure législative de la 17e législature. Il est inscrit à l'ordre du jour de la séance publique.\n\n7 amendements réels déposés sur ce texte sont présentés ci-dessous (0 adopté à ce stade). Les données proviennent de l'open data de l'Assemblée nationale ; l'exposé des motifs complet est consultable sur le dossier officiel.",
- "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PLF_2026",
- "source": "assemblee-nationale-opendata",
- "odj": true,
- "resumeFallback": "Projet de loi de finances pour 2026 — texte n° 1906 examiné au fond par la Commission des finances, de l'économie générale et du contrôle budgétaire (Commission mixte paritaire). 7 amendements réels y sont rattachés.",
- "pointsClesFallback": [
-  "APRÈS ART. 3 — amendement n°I-CF1 (Mme Eva Sas et 35 cosignataires)",
-  "ART. 80 — amendement n°II-CF1 (Mme Géraldine Bannier)",
-  "APRÈS ART. 69 — amendement n°CF1 (M. Frédéric Falcon et 122 cosignataires)",
-  "APRÈS ART. 25 — amendement n°I-CF2 (M. Nicolas Ray et 4 cosignataires)"
- ],
- "amendements": [
-  {
-   "numero": "I-CF1",
-   "auteur": "Mme Eva Sas et 35 cosignataires",
-   "article": "APRÈS ART. 3",
-   "dispositif": "I. – Le code général des impôts est ainsi modifié : \n1° Le chapitre Ier bis du titre IV de la première partie du livre Ier est ainsi rétabli :\n« Chapitre Ier bis\n« Impôt plancher sur la fortune\n« Art. 885 A. – Sont soumises à l’impôt plancher sur la fortune lorsque la valeur de leurs actifs mentionnés aux articles 885 B à 885 I est supérieure à 100 millions d’euros :\n« 1° Les personnes physiques ayant leur domicile fiscal en France, sur leurs biens situés en France ou hors de France.\n« 2° Les personnes physiques n’ayant pas leur domicile fiscal en France, sur leurs biens situés en France ;\n« S",
-   "exposeSommaire": "Cet amendement vise à instaurer un impôt plancher sur la fortune (IPF), ciblant les 0,01 % des contribuables les plus riches, c’est-à-dire les personnes détenant plus de 100 millions d’euros de patrimoine net. Il s’agit d’un impôt différentiel dont l’objectif est clair : s’assurer que ces contribuables paient au moins 2 % de leur fortune en impôts chaque année, tous impôts personnels confondus.\nSelon l’économiste Gabriel Zucman, une telle contribution pourrait générer entre 15 et 25 milliards de recettes supplémentaires.\nCet impôt plancher a déjà été adopté une première fois à l’Assemblée nationale en février dernier dans le cadre de l’examen des textes de la niche du groupe écologiste et social. Ce vote a constitué un signal politique fort : l’immunité fiscale des ultra-riches n’est plus tolérable.\nContrairement à ce que ses détracteurs laissent entendre, la France ne serait pas une exc",
-   "sort": null,
-   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/1906/CION_FIN/I-CF1"
-  },
-  {
-   "numero": "II-CF1",
-   "auteur": "Mme Géraldine Bannier",
-   "article": "ART. 80",
-   "dispositif": "Supprimer cet article.",
-   "exposeSommaire": "Depuis 2019, les apprentis d’au moins 18 ans peuvent bénéficier d’une aide forfaitaire d’un montant de 500 euros pour l’inscription au permis de conduire. Cette aide n’est pas anecdotique pour les bénéficiaires, et leur est souvent absolument nécessaire pour accéder à un moyen de transport, notamment pour se rendre sur leur lieu d’apprentissage. \nAlors que nous ne cessons de débattre sur la nécessité de gagner en productivité, de relancer l’industrie française ou de faire baisser le taux de chômage, notamment des jeunes, il apparaît contreproductif de supprimer cette aide, tel que le prévoit actuellement ce PLF. Il est au contraire essentiel de maintenir cette aide aux jeunes apprentis, souvent issus de classes sociales moyennes ou défavorisées, afin de maintenir le cap d’un apprentissage en plein essor et qui représente l’avenir de l’industrie française.\nCet amendement propose donc de s",
-   "sort": null,
-   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/1906/CION_FIN/II-CF1"
-  },
-  {
-   "numero": "CF1",
-   "auteur": "M. Frédéric Falcon et 122 cosignataires",
-   "article": "APRÈS ART. 69",
-   "dispositif": "I. – Le titre II du livre II du code de l’énergie est abrogé.\nII. – La perte de recettes pour l’État est compensée à due concurrence par la création d’une taxe additionnelle à l’accise sur les tabacs prévue au chapitre IV du titre Ier du livre III du code général des impositions sur les biens et services.",
-   "exposeSommaire": "Le présent amendement d’appel, présenté par un député du groupe Rassemblement national, vise à abroger le dispositif des certificats d’économies d’énergie (CEE).\nInitialement conçu pour encourager la maîtrise de la consommation énergétique, ce mécanisme repose sur une obligation imposée aux fournisseurs d’énergie (électricité, gaz, carburants, fioul) de financer des actions d’économie d’énergie. En pratique, ces obligations sont intégralement répercutées sur les factures des ménages et des entreprises, constituant ainsi un prélèvement indirect et opaque sur la facture énergétique des Français.\nSelon plusieurs évaluations, les CEE représentent plusieurs milliards d’euros de surcoût chaque année pour les consommateurs, sans que leur efficacité environnementale ou économique ne soit clairement démontrée.\nLa Cour des comptes a d’ailleurs souligné à plusieurs reprises les dérives du dispositi",
-   "sort": null,
-   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2247/CION_FIN/CF1"
-  },
-  {
-   "numero": "I-CF2",
-   "auteur": "M. Nicolas Ray et 4 cosignataires",
-   "article": "APRÈS ART. 25",
-   "dispositif": "I. – Après l’article 261 B du code général des impôts, il est inséré un article 261 B bis ainsi rédigé : \n« Art. 261 B bis. – Les services rendus à leurs adhérents par les syndicats de communes mentionnés à l’article L. 5212‑1 du code général des collectivités territoriales sont exonérés de la taxe sur la valeur ajoutée pour toute activité exonérée de cette taxe sur le fondement du 4° a. de l’article 261 du présent code. \n« Un décret fixe la nature des renseignements particuliers que les syndicats mentionnés au premier alinéa doivent fournir annuellement au service des i",
-   "exposeSommaire": "Cet amendement vise à mettre fin à une inégalité fiscale qui pénalise la mutualisation de la restauration scolaire en proposant d’étendre aux syndicat intercommunal à vocation unique (SIVU) l’exonération de TVA applicable à la fourniture de repas dans les cantines scolaires.\nEn effet, la fourniture de repas dans les cantines situées au sein même des établissements scolaires, et pour le seul bénéfice de leurs élèves, constitue une prestation étroitement liée à l’enseignement scolaire. Elle est ainsi exonérée de TVA au titre de l’article 261 du code général des impôts (CGI). Le premier alinéa de l’article 256 B du CGI précise d’ailleurs que les personnes morales ne sont pas assujetties à la TVA pour l’activité relevant des services éducatifs. \nOr, un syndicat intercommunal à vocation unique (SIVU) qui dispose d’une compétence exclusivement limitée à l’exploitation ",
-   "sort": null,
-   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/1906/CION_FIN/I-CF2"
-  },
-  {
-   "numero": "I-2",
-   "auteur": "M. Daniel Grenon",
-   "article": "APRÈS ART. 2",
-   "dispositif": "I. – Le 1 de l’article 195 du code général des impôts est ainsi modifié :\n1° À la fin du a, les mots : « dont ces contribuables ont supporté à titre exclusif ou principal la charge pendant au moins cinq années au cours desquelles ils vivaient seuls » sont supprimés ;\n2° À la fin du b, les mots : « et que les contribuables aient supporté à titre exclusif ou principal la charge de l’un au moins de ces enfants pendant au moins cinq années au cours desquelles ils vivaient seuls » sont supprimés ;\n3° À la fin de la seconde phrase du e, les mots : « ou si l’enfant adopté n’a pas été à la charge excl",
-   "exposeSommaire": "La suppression de la demi-part fiscale pour les veufs et veuves en 2014 a été perçue comme une injustice majeure par les personnes âgées, qui ont vu leurs revenus fortement impactés. En effet, cette mesure a entraîné une augmentation brutale de leur revenu fiscal de référence, les rendant éligibles à de nouveaux impôts. Cela a particulièrement pénalisé les veufs et veuves aux revenus modestes, qui se sont retrouvés soumis à des prélèvements supplémentaires comme la CSG et la CRDS sur leurs pensions de retraite.\nBien que la demi-part ait été partiellement rétablie pour les veuves d'anciens combattants, cette mesure reste insuffisante car elle ne concerne qu'un nombre restreint de bénéficiaires.\nDans un souci de justice sociale, cet amendement vise à un rétablissement de la demi-part fiscale pour tous les veufs et veuves ayant eu un enfant, afin d’atténuer les difficultés financières qu'il",
-   "sort": null,
-   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/1906/AN/I-2"
-  },
-  {
-   "numero": "II-2",
-   "auteur": "M. Vincent Descoeur et 6 cosignataires",
-   "article": "ART. 81",
-   "dispositif": "Suppression de l'alinéa 5.",
-   "exposeSommaire": "Le présent alinéa prévoit l'exclusion du bilan de compétences du périmètre du Compte Personnel de Formation (CPF). Une mesure qui, si elle venait à être adoptée, remettrait en cause un droit inscrit dans la loi de puis plus de 30 ans et fragiliserait un outil essentiel de sécurisation des parcours professionnels. \nPour rappel, le réseau des CIBC (Centre Interinstitutionnels de Bilans de Compétences) maillent le territoire national depuis près de 40 ans, assurant une égalité d'accès à l'accompagnement professionnel, y compris dans les zones rurales ou périurbaines. \nSupprimer le financement du CPF du bilan de compétences reviendrait à fragiliser les actifs des territoires sans offrir d'alternative équivalente localement pour sécuriser les parcours professionnels, prévenir les ruptures d'emploi, soutenir la cohésion sociale et ce dans un contexte de mutations profondes du marché du travail",
-   "sort": null,
-   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/1906/AN/II-2"
-  },
-  {
-   "numero": "CF2",
-   "auteur": "M. Frédéric Falcon et 122 cosignataires",
-   "article": "ART. 67",
-   "dispositif": "Supprimer l’alinéa 5.",
-   "exposeSommaire": "Le présent amendement s’oppose à la décision de maintenir en 2026 le montant des aides personnalisées au logement (APL) à leur niveau de 2025.\nDans un contexte de hausse continue du coût de la vie et de forte tension sur le marché locatif, cette mesure constitue une atteinte directe au pouvoir d’achat des ménages les plus modestes. Les APL représentent un soutien essentiel pour des millions de nos concitoyens qui peinent à se loger dignement. En gelant leur montant, le Gouvernement envoie un signal négatif à l’ensemble des territoires confrontés à la précarité et aux difficultés économiques, renforçant ainsi le sentiment d’abandon et la fracture sociale déjà profonde dans certaines zones.\nCette décision est d’autant plus incompréhensible que l’exécutif ne met en œuvre aucune politique efficace de régulation des loyers ni de maîtrise du coût du logement. Au contraire, la multiplication de",
-   "sort": null,
-   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2247/CION_FIN/CF2"
-  }
- ]
+  "id": "an-dlr5l17n52428",
+  "titre": "Projet de loi de finances pour 2026",
+  "numero": "N° 1906",
+  "statut": "Commission mixte paritaire",
+  "commission": "Commission des finances, de l'économie générale et du contrôle budgétaire",
+  "expose": "Projet de loi de finances pour 2026. Ce texte (n° 1906, projet de loi de finances de l'année) est examiné au fond par la Commission des finances, de l'économie générale et du contrôle budgétaire, au stade « Commission mixte paritaire » de la procédure législative de la 17e législature. Il est inscrit à l'ordre du jour de la séance publique.\n\n7 amendements réels déposés sur ce texte sont présentés ci-dessous (0 adopté à ce stade). Les données proviennent de l'open data de l'Assemblée nationale ; l'exposé des motifs complet est consultable sur le dossier officiel.",
+  "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PLF_2026",
+  "source": "assemblee-nationale-opendata",
+  "odj": true,
+  "resumeFallback": "Projet de loi de finances pour 2026 — texte n° 1906 examiné au fond par la Commission des finances, de l'économie générale et du contrôle budgétaire (Commission mixte paritaire). 7 amendements réels y sont rattachés.",
+  "pointsClesFallback": [
+    "APRÈS ART. 3 — amendement n°I-CF1 (Mme Eva Sas et 35 cosignataires)",
+    "ART. 80 — amendement n°II-CF1 (Mme Géraldine Bannier)",
+    "APRÈS ART. 69 — amendement n°CF1 (M. Frédéric Falcon et 122 cosignataires)",
+    "APRÈS ART. 25 — amendement n°I-CF2 (M. Nicolas Ray et 4 cosignataires)"
+  ],
+  "amendements": [
+    {
+      "numero": "I-CF1",
+      "auteur": "Mme Eva Sas et 35 cosignataires",
+      "article": "APRÈS ART. 3",
+      "dispositif": "I. – Le code général des impôts est ainsi modifié : \n1° Le chapitre Ier bis du titre IV de la première partie du livre Ier est ainsi rétabli :\n« Chapitre Ier bis\n« Impôt plancher sur la fortune\n« Art. 885 A. – Sont soumises à l’impôt plancher sur la fortune lorsque la valeur de leurs actifs mentionnés aux articles 885 B à 885 I est supérieure à 100 millions d’euros :\n« 1° Les personnes physiques ayant leur domicile fiscal en France, sur leurs biens situés en France ou hors de France.\n« 2° Les personnes physiques n’ayant pas leur domicile fiscal en France, sur leurs biens situés en France ;\n« S",
+      "exposeSommaire": "Cet amendement vise à instaurer un impôt plancher sur la fortune (IPF), ciblant les 0,01 % des contribuables les plus riches, c’est-à-dire les personnes détenant plus de 100 millions d’euros de patrimoine net. Il s’agit d’un impôt différentiel dont l’objectif est clair : s’assurer que ces contribuables paient au moins 2 % de leur fortune en impôts chaque année, tous impôts personnels confondus.\nSelon l’économiste Gabriel Zucman, une telle contribution pourrait générer entre 15 et 25 milliards de recettes supplémentaires.\nCet impôt plancher a déjà été adopté une première fois à l’Assemblée nationale en février dernier dans le cadre de l’examen des textes de la niche du groupe écologiste et social. Ce vote a constitué un signal politique fort : l’immunité fiscale des ultra-riches n’est plus tolérable.\nContrairement à ce que ses détracteurs laissent entendre, la France ne serait pas une exc",
+      "sort": null,
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PLF_2026"
+    },
+    {
+      "numero": "II-CF1",
+      "auteur": "Mme Géraldine Bannier",
+      "article": "ART. 80",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "Depuis 2019, les apprentis d’au moins 18 ans peuvent bénéficier d’une aide forfaitaire d’un montant de 500 euros pour l’inscription au permis de conduire. Cette aide n’est pas anecdotique pour les bénéficiaires, et leur est souvent absolument nécessaire pour accéder à un moyen de transport, notamment pour se rendre sur leur lieu d’apprentissage. \nAlors que nous ne cessons de débattre sur la nécessité de gagner en productivité, de relancer l’industrie française ou de faire baisser le taux de chômage, notamment des jeunes, il apparaît contreproductif de supprimer cette aide, tel que le prévoit actuellement ce PLF. Il est au contraire essentiel de maintenir cette aide aux jeunes apprentis, souvent issus de classes sociales moyennes ou défavorisées, afin de maintenir le cap d’un apprentissage en plein essor et qui représente l’avenir de l’industrie française.\nCet amendement propose donc de s",
+      "sort": null,
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PLF_2026"
+    },
+    {
+      "numero": "CF1",
+      "auteur": "M. Frédéric Falcon et 122 cosignataires",
+      "article": "APRÈS ART. 69",
+      "dispositif": "I. – Le titre II du livre II du code de l’énergie est abrogé.\nII. – La perte de recettes pour l’État est compensée à due concurrence par la création d’une taxe additionnelle à l’accise sur les tabacs prévue au chapitre IV du titre Ier du livre III du code général des impositions sur les biens et services.",
+      "exposeSommaire": "Le présent amendement d’appel, présenté par un député du groupe Rassemblement national, vise à abroger le dispositif des certificats d’économies d’énergie (CEE).\nInitialement conçu pour encourager la maîtrise de la consommation énergétique, ce mécanisme repose sur une obligation imposée aux fournisseurs d’énergie (électricité, gaz, carburants, fioul) de financer des actions d’économie d’énergie. En pratique, ces obligations sont intégralement répercutées sur les factures des ménages et des entreprises, constituant ainsi un prélèvement indirect et opaque sur la facture énergétique des Français.\nSelon plusieurs évaluations, les CEE représentent plusieurs milliards d’euros de surcoût chaque année pour les consommateurs, sans que leur efficacité environnementale ou économique ne soit clairement démontrée.\nLa Cour des comptes a d’ailleurs souligné à plusieurs reprises les dérives du dispositi",
+      "sort": null,
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PLF_2026"
+    },
+    {
+      "numero": "I-CF2",
+      "auteur": "M. Nicolas Ray et 4 cosignataires",
+      "article": "APRÈS ART. 25",
+      "dispositif": "I. – Après l’article 261 B du code général des impôts, il est inséré un article 261 B bis ainsi rédigé : \n« Art. 261 B bis. – Les services rendus à leurs adhérents par les syndicats de communes mentionnés à l’article L. 5212‑1 du code général des collectivités territoriales sont exonérés de la taxe sur la valeur ajoutée pour toute activité exonérée de cette taxe sur le fondement du 4° a. de l’article 261 du présent code. \n« Un décret fixe la nature des renseignements particuliers que les syndicats mentionnés au premier alinéa doivent fournir annuellement au service des i",
+      "exposeSommaire": "Cet amendement vise à mettre fin à une inégalité fiscale qui pénalise la mutualisation de la restauration scolaire en proposant d’étendre aux syndicat intercommunal à vocation unique (SIVU) l’exonération de TVA applicable à la fourniture de repas dans les cantines scolaires.\nEn effet, la fourniture de repas dans les cantines situées au sein même des établissements scolaires, et pour le seul bénéfice de leurs élèves, constitue une prestation étroitement liée à l’enseignement scolaire. Elle est ainsi exonérée de TVA au titre de l’article 261 du code général des impôts (CGI). Le premier alinéa de l’article 256 B du CGI précise d’ailleurs que les personnes morales ne sont pas assujetties à la TVA pour l’activité relevant des services éducatifs. \nOr, un syndicat intercommunal à vocation unique (SIVU) qui dispose d’une compétence exclusivement limitée à l’exploitation ",
+      "sort": null,
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PLF_2026"
+    },
+    {
+      "numero": "I-2",
+      "auteur": "M. Daniel Grenon",
+      "article": "APRÈS ART. 2",
+      "dispositif": "I. – Le 1 de l’article 195 du code général des impôts est ainsi modifié :\n1° À la fin du a, les mots : « dont ces contribuables ont supporté à titre exclusif ou principal la charge pendant au moins cinq années au cours desquelles ils vivaient seuls » sont supprimés ;\n2° À la fin du b, les mots : « et que les contribuables aient supporté à titre exclusif ou principal la charge de l’un au moins de ces enfants pendant au moins cinq années au cours desquelles ils vivaient seuls » sont supprimés ;\n3° À la fin de la seconde phrase du e, les mots : « ou si l’enfant adopté n’a pas été à la charge excl",
+      "exposeSommaire": "La suppression de la demi-part fiscale pour les veufs et veuves en 2014 a été perçue comme une injustice majeure par les personnes âgées, qui ont vu leurs revenus fortement impactés. En effet, cette mesure a entraîné une augmentation brutale de leur revenu fiscal de référence, les rendant éligibles à de nouveaux impôts. Cela a particulièrement pénalisé les veufs et veuves aux revenus modestes, qui se sont retrouvés soumis à des prélèvements supplémentaires comme la CSG et la CRDS sur leurs pensions de retraite.\nBien que la demi-part ait été partiellement rétablie pour les veuves d'anciens combattants, cette mesure reste insuffisante car elle ne concerne qu'un nombre restreint de bénéficiaires.\nDans un souci de justice sociale, cet amendement vise à un rétablissement de la demi-part fiscale pour tous les veufs et veuves ayant eu un enfant, afin d’atténuer les difficultés financières qu'il",
+      "sort": null,
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PLF_2026"
+    },
+    {
+      "numero": "II-2",
+      "auteur": "M. Vincent Descoeur et 6 cosignataires",
+      "article": "ART. 81",
+      "dispositif": "Suppression de l'alinéa 5.",
+      "exposeSommaire": "Le présent alinéa prévoit l'exclusion du bilan de compétences du périmètre du Compte Personnel de Formation (CPF). Une mesure qui, si elle venait à être adoptée, remettrait en cause un droit inscrit dans la loi de puis plus de 30 ans et fragiliserait un outil essentiel de sécurisation des parcours professionnels. \nPour rappel, le réseau des CIBC (Centre Interinstitutionnels de Bilans de Compétences) maillent le territoire national depuis près de 40 ans, assurant une égalité d'accès à l'accompagnement professionnel, y compris dans les zones rurales ou périurbaines. \nSupprimer le financement du CPF du bilan de compétences reviendrait à fragiliser les actifs des territoires sans offrir d'alternative équivalente localement pour sécuriser les parcours professionnels, prévenir les ruptures d'emploi, soutenir la cohésion sociale et ce dans un contexte de mutations profondes du marché du travail",
+      "sort": null,
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PLF_2026"
+    },
+    {
+      "numero": "CF2",
+      "auteur": "M. Frédéric Falcon et 122 cosignataires",
+      "article": "ART. 67",
+      "dispositif": "Supprimer l’alinéa 5.",
+      "exposeSommaire": "Le présent amendement s’oppose à la décision de maintenir en 2026 le montant des aides personnalisées au logement (APL) à leur niveau de 2025.\nDans un contexte de hausse continue du coût de la vie et de forte tension sur le marché locatif, cette mesure constitue une atteinte directe au pouvoir d’achat des ménages les plus modestes. Les APL représentent un soutien essentiel pour des millions de nos concitoyens qui peinent à se loger dignement. En gelant leur montant, le Gouvernement envoie un signal négatif à l’ensemble des territoires confrontés à la précarité et aux difficultés économiques, renforçant ainsi le sentiment d’abandon et la fracture sociale déjà profonde dans certaines zones.\nCette décision est d’autant plus incompréhensible que l’exécutif ne met en œuvre aucune politique efficace de régulation des loyers ni de maîtrise du coût du logement. Au contraire, la multiplication de",
+      "sort": null,
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PLF_2026"
+    }
+  ]
 }

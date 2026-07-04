@@ -35,11 +35,13 @@ L'application est servie sur http://localhost:3000. Au premier démarrage, la ba
 npm install
 cp -r node_modules/@codegouvfr/react-dsfr/dsfr public/dsfr  # styles DSFR (sinon page sans CSS)
 npx prisma db push          # crée data/depulib.db
-npm run ingest               # seed (lois open data AN) + embeddings + résumés IA
+npm run seed                 # lois AN + résumés/synthèses IA + embeddings FIGÉS (aucun appel LLM)
 npm run dev                  # http://localhost:3000
 ```
 
 > `public/dsfr` est ignoré par git (build artifact) et doit être régénéré après chaque `npm install`.
+
+Les résumés IA, synthèses et embeddings sont **figés dans le dépôt** (`seed/resumes.json`, `seed/embeddings.json`) : `npm run seed` les recharge à l'identique, **sans clé API ni appel LLM**. Pour tout régénérer depuis le modèle (après import de nouvelles lois), utiliser `npm run ingest` puis `npm run export:resumes`.
 
 La clé `CLOUDTEMPLE_LLMAAS_API_KEY` est lue depuis `depulib/.env` **ou** `../.env`.
 
@@ -68,7 +70,8 @@ La clé `CLOUDTEMPLE_LLMAAS_API_KEY` est lue depuis `depulib/.env` **ou** `../.e
 | `npm run seed` | (Ré)initialise la base avec les lois (open data AN) |
 | `npm run embed` | Calcule les embeddings bge-m3 des amendements |
 | `npm run warm` | Pré-génère et met en cache les résumés IA (dossiers + amendements) → clic instantané |
-| `npm run ingest` | Enchaîne seed + embed + warm (pipeline complet de récupération des lois) |
+| `npm run export:resumes` | Fige les résumés/synthèses IA + embeddings réels dans `seed/resumes.json` et `seed/embeddings.json` (versionnés) |
+| `npm run ingest` | Enchaîne seed + embed + warm (régénère tout via le LLM) |
 | `POST /api/warm` | Même pré-génération, à la demande, pour un député connecté |
 | `POST /api/mcp/sync` | Tente une synchro MCP tricoteuses (rôle député ; fallback BDD sinon) |
 

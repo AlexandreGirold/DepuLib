@@ -20,6 +20,9 @@ const path = require("path");
 const https = require("https");
 
 const DRY = process.argv.includes("--dry");
+// Par défaut on saute les dossiers déjà corrigés (reprise en plusieurs passes).
+// Utiliser --force pour tout retraiter.
+const SKIP_FIXED = !DRY && !process.argv.includes("--force");
 const DOSSIERS_DIR = path.join(__dirname, "..", "seed", "dossiers");
 const API = "https://parlement.tricoteuses.fr/amendements";
 const AN_BASE = "https://www.assemblee-nationale.fr/dyn/17/amendements";
@@ -142,6 +145,14 @@ async function main() {
     const amdts = dossier.amendements || [];
     if (amdts.length === 0) continue;
 
+    // Résumable : un dossier dont tous les amendements pointent déjà vers une URL
+    // canonique open data (…/amendements/AM…) est considéré traité. Permet de
+    // relancer le script en plusieurs passes (l'API rate-limite sous charge).
+    if (SKIP_FIXED && amdts.every((a) => (a.sourceUrl || "").startsWith(`${AN_BASE}/AM`))) {
+      process.stdout.write(`${dossier.id}: déjà corrigé — ignoré\n`);
+      continue;
+    }
+
     let found;
     try {
       const res = await matchDossier(dossierRefUid(dossier.id), amdts);
@@ -157,9 +168,12 @@ async function main() {
       totAmdt += 1;
       const m = found.get(a);
       if (!m) {
-        // Aucune correspondance : on évite un lien cassé en pointant vers la
-        // page officielle du dossier (réelle) plutôt qu'une URL d'amendement
-        // fabriquée qui n'existe pas.
+        // Aucune correspondance CETTE passe. Protection anti-régression : si
+        // l'URL est déjà canonique (fixée lors d'une passe précédente), on la
+        // conserve — un 502 transitoire ne doit pas casser une bonne URL.
+        if ((a.sourceUrl || "").startsWith(`${AN_BASE}/AM`)) continue;
+        // Sinon on évite un lien cassé en pointant vers la page officielle du
+        // dossier (réelle) plutôt qu'une URL d'amendement fabriquée inexistante.
         problems.push(`${file}: amendement n°${a.numero} sans correspondance → repli sur l'URL du dossier`);
         if (a.sourceUrl !== dossier.sourceUrl) {
           a.sourceUrl = dossier.sourceUrl;

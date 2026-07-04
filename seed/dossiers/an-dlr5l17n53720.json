@@ -1,83 +1,83 @@
 {
- "id": "an-dlr5l17n53720",
- "titre": "Renforcer le contrôle, la gouvernance et la responsabilité financière des agences et opérateurs de l’État",
- "numero": "N° 2445",
- "statut": "1ère lecture",
- "commission": "Commission des finances, de l'économie générale et du contrôle budgétaire",
- "expose": "Renforcer le contrôle, la gouvernance et la responsabilité financière des agences et opérateurs de l’État. Ce texte (n° 2445, proposition de loi ordinaire) est examiné au fond par la Commission des finances, de l'économie générale et du contrôle budgétaire, au stade « 1ère lecture » de la procédure législative de la 17e législature. Il est inscrit à l'ordre du jour de la séance publique.\n\n7 amendements réels déposés sur ce texte sont présentés ci-dessous (0 adopté à ce stade). Les données proviennent de l'open data de l'Assemblée nationale ; l'exposé des motifs complet est consultable sur le dossier officiel.",
- "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/controle_gouvernance_reponsabilite_financiere_agences_operateurs_Etat_17e",
- "source": "assemblee-nationale-opendata",
- "odj": true,
- "resumeFallback": "Renforcer le contrôle, la gouvernance et la responsabilité financière des agences et opérateurs de l’État — texte n° 2445 examiné au fond par la Commission des finances, de l'économie générale et du contrôle budgétaire (1ère lecture). 7 amendements réels y sont rattachés.",
- "pointsClesFallback": [
-  "ART. 2 — amendement n°1 (M. Alexandre Dufosset et 15 cosignataires)",
-  "APRÈS ART. 3 — amendement n°CF2 (M. Alexandre Dufosset et 15 cosignataires)",
-  "ART. PREMIER — amendement n°CF4 (M. Alexandre Dufosset et 15 cosignataires)",
-  "ART. 3 — amendement n°CF8 (Mme Claire Lejeune et 70 cosignataires)"
- ],
- "amendements": [
-  {
-   "numero": "1",
-   "auteur": "M. Alexandre Dufosset et 15 cosignataires",
-   "article": "ART. 2",
-   "dispositif": "Après l’alinéa 7, insérer l’alinéa suivant :\n« II bis. – Le contrat d’objectifs et de performance peut comporter une clause de conditionnalité des subventions pour charges de service public versées par l’État à l’organisme. Cette clause prévoit qu’une fraction de ces subventions est subordonnée à l’atteinte des objectifs et des indicateurs définis par le contrat. Les modalités d’application de cette conditionnalité sont fixées par décret en Conseil d’État. »",
-   "exposeSommaire": "Le présent amendement vise à renforcer la portée effective des contrats d’objectifs et de performance (COP) en introduisant un mécanisme de modulation d’une fraction des subventions pour charges de service public en fonction du degré d’atteinte des objectifs contractuellement fixés. En l’état actuel, les COP constituent souvent des instruments formels de dialogue stratégique entre l’État et ses opérateurs, mais demeurent dépourvus de véritable levier incitatif. Le rapport de la commission d’enquête du Sénat sur les missions des agences, opérateurs et organismes consultatifs de l’État, remis le 1er juillet 2025, souligne que trop d’opérateurs sont dépourvus de contrats robustes et que, lorsqu’ils existent, ceux-ci comportent fréquemment des objectifs généraux, insuffisamment assortis d’indicateurs précis et sans conséquence en cas de non-atteinte . Cette faiblesse réduit la capacité de l’",
-   "sort": null,
-   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2445/AN/1"
-  },
-  {
-   "numero": "CF2",
-   "auteur": "M. Alexandre Dufosset et 15 cosignataires",
-   "article": "APRÈS ART. 3",
-   "dispositif": "I. – Toute création d’une agence ou d’un opérateur de l’État est subordonnée à l’adoption préalable d’une doctrine de recours aux agences, fixée par décret en Conseil d’État.\nII. – Cette doctrine précise notamment :\n1° Les critères justifiant le recours à une entité dotée de la personnalité morale distincte de l’État, en particulier lorsque la mission concernée ne peut être exercée de manière efficiente par l’administration centrale ou les services déconcentrés ;\n2° Les conditions dans lesquelles la création d’un nouvel organisme s’accompagne de la suppression, de la fusion ou de la réorganisa",
-   "exposeSommaire": "Le présent amendement vise à instituer une doctrine de recours aux agences et opérateurs de l’État, afin de mettre un terme à un développement institutionnel largement opportuniste et insuffisamment encadré. Le rapport n°807 de la commission d’enquête du Sénat sur les missions des agences, opérateurs et organismes consultatifs de l’État, remis le 1er juillet 2025, constate que le mouvement d’« agencification » s’est développé en France « au cas par cas, de manière opportuniste, sans stratégie de réorganisation de l’État ». Il souligne que le recours aux agences a souvent constitué une réponse de facilité face à un nouveau besoin ou à une contrainte administrative, sans que soit systématiquement envisagée la réorganisation ou la suppression concomitante de structures existantes. Cette logique cumulative a conduit à un émiettement de l’action publique, caractérisé par un enchevêtrement de ",
-   "sort": null,
-   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2445/CION_FIN/CF2"
-  },
-  {
-   "numero": "CF4",
-   "auteur": "M. Alexandre Dufosset et 15 cosignataires",
-   "article": "ART. PREMIER",
-   "dispositif": "Après l’alinéa 1, insérer l’alinéa suivant :\n« Les rémunérations des dirigeants exécutifs des agences et opérateurs de l’État font l’objet d’une publication annuelle consolidée, distinguant la part fixe, la part variable ainsi que les éventuels avantages annexes. »",
-   "exposeSommaire": "Le présent amendement vise à instaurer une obligation de publication annuelle consolidée des éléments de rémunération des dirigeants exécutifs des agences et opérateurs de l’État, incluant la part fixe, la part variable ainsi que les avantages annexes. Cette mesure s’inscrit dans une exigence renforcée de transparence et de responsabilité dans l’utilisation des fonds publics.",
-   "sort": null,
-   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2445/CION_FIN/CF4"
-  },
-  {
-   "numero": "CF8",
-   "auteur": "Mme Claire Lejeune et 70 cosignataires",
-   "article": "ART. 3",
-   "dispositif": "Supprimer cet article.",
-   "exposeSommaire": "Par cet amendement, les député.es de la France insoumise proposent de supprimer cet article.\nCet article rend obligatoire la conclusion de contrats d’objectifs et de moyens (COM) pluriannuels pour l’ensemble des agences et opérateurs de l’État. Chaque contrat sera conclu entre l’entité et son ministère de tutelle.\nNous touchons aussi au véritable objectif de cette proposition de loi, ainsi que celui des partisans de suppressions et de fusions aveugles de ces organisations : la casse d’opérateurs de l’État remplissant des missions de service public, et leur mise sous la tutelle du Gouvernement.\nAu-delà de cette mise sous tutelle, qui menacerait directement les organisations bénéficiant d’une nécessaire autonomie, la logique est bien celle de « maîtrise et de réduction progressive de la dépense publique », comme le dispose l’exposé des motifs. Et ce alors que la commission d’enquête sénato",
-   "sort": null,
-   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2445/CION_FIN/CF8"
-  },
-  {
-   "numero": "CF10",
-   "auteur": "Mme Claire Lejeune et 70 cosignataires",
-   "article": "ART. 4",
-   "dispositif": "Supprimer cet article.",
-   "exposeSommaire": "Par cet amendement, les député.es de la France insoumise proposent de supprimer cet article.\nCet article prévoit que l’État disposera de la majorité au sein du conseil d’administration d’une agence ou d’un opérateur s’il en est le principal financeur, ce qui est le cas la quasi-totalité d’entre eux.\nL’opportunité de cet article interroge grandement, puisque les articles 2 et 3 prétendaient déjà résoudre la question du « pilotage insuffisamment opérationnel » exercé par les administrations de tutelle, en rendant obligatoire la conclusion de contrats d’objectifs et de performance et des contrats d’objectifs avec chaque opérateur.\nD’ailleurs, dans un rapport de 2021, la Cour des comptes ne recommande nullement de réformer la gouvernance de ces entités, estimant que le contrat d’objectifs serait un instrument suffisant pour renforcer « l’implication de l’État ».\nCet article semble donc uniqu",
-   "sort": null,
-   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2445/CION_FIN/CF10"
-  },
-  {
-   "numero": "CF13",
-   "auteur": "M. Matthias Renault",
-   "article": "APRÈS ART. 4",
-   "dispositif": "À compter de l’entrée en vigueur de la présente loi, aucune nouvelle agence ou nouvel opérateur ne peut être créé, sauf s’il est démontré devant les commissions des finances de l’Assemblée nationale et du Sénat que l’agence ou l’opérateur apporte des économies mesurables ou une simplification substantielle de l’action publique.",
-   "exposeSommaire": "Depuis plusieurs décennies, la cohérence de l’action de l’État a été sacrifiée sur l’autel du New Public Management. Inspirée par la recherche d’organisations supposées plus « agiles et flexibles », cette doctrine a encouragé la création d’entités parapubliques distinctes de l’administration centrale, présentées comme plus efficaces et réactives. \nEn pratique, cette évolution a surtout conduit à l’accumulation de deux problèmes bien identifiés : à la passion française pour une administration administrante est venu s’ajouter un émiettement croissant de l’action publique. La plus ou moins large autonomie dont bénéficient ces organismes empêche de rationaliser l’ensemble de l’action publique, y compris les rares fois où l’État fait un effort de réorganisation sur ses services administratifs « classiques ».\nEn conséquence, le présent amendement reprend la recommandation n° 46 du rapport n° 8",
-   "sort": null,
-   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2445/CION_FIN/CF13"
-  },
-  {
-   "numero": "55",
-   "auteur": "M. Jorys Bovet et 120 cosignataires",
-   "article": "APRÈS ART. 2",
-   "dispositif": "Il est créé un plan de réduction d’au moins 10 % du nombre d’opérateurs de l’État dans le cadre du contrat d’objectifs et de performance. Cette clause prévoit un plan de réduction échelonné sur cinq ans, avec des indicateurs de performance spécifiques liés à la rationalisation des structures et à la mutualisation des moyens.",
-   "exposeSommaire": "Le présent amendement vise à intégrer un article créant une clause de réduction d'au moins 10 % du nombre d'opérateurs de l'État dans le cadre de la trajectoire pluriannuelle. Cette modification a pour objet de rationaliser les structures et de mutualiser les moyens, conformément aux objectifs stratégiques et opérationnels souhaitée par cette proposition de loi. La réduction du nombre d'opérateurs sera échelonnée sur cinq ans.\nMaîtriser les dépenses publiques et optimiser l'efficacité des agences et opérateurs de l'État, tel est le sens du présent amendement.",
-   "sort": null,
-   "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2445/AN/55"
-  }
- ]
+  "id": "an-dlr5l17n53720",
+  "titre": "Renforcer le contrôle, la gouvernance et la responsabilité financière des agences et opérateurs de l’État",
+  "numero": "N° 2445",
+  "statut": "1ère lecture",
+  "commission": "Commission des finances, de l'économie générale et du contrôle budgétaire",
+  "expose": "Renforcer le contrôle, la gouvernance et la responsabilité financière des agences et opérateurs de l’État. Ce texte (n° 2445, proposition de loi ordinaire) est examiné au fond par la Commission des finances, de l'économie générale et du contrôle budgétaire, au stade « 1ère lecture » de la procédure législative de la 17e législature. Il est inscrit à l'ordre du jour de la séance publique.\n\n7 amendements réels déposés sur ce texte sont présentés ci-dessous (0 adopté à ce stade). Les données proviennent de l'open data de l'Assemblée nationale ; l'exposé des motifs complet est consultable sur le dossier officiel.",
+  "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/controle_gouvernance_reponsabilite_financiere_agences_operateurs_Etat_17e",
+  "source": "assemblee-nationale-opendata",
+  "odj": true,
+  "resumeFallback": "Renforcer le contrôle, la gouvernance et la responsabilité financière des agences et opérateurs de l’État — texte n° 2445 examiné au fond par la Commission des finances, de l'économie générale et du contrôle budgétaire (1ère lecture). 7 amendements réels y sont rattachés.",
+  "pointsClesFallback": [
+    "ART. 2 — amendement n°1 (M. Alexandre Dufosset et 15 cosignataires)",
+    "APRÈS ART. 3 — amendement n°CF2 (M. Alexandre Dufosset et 15 cosignataires)",
+    "ART. PREMIER — amendement n°CF4 (M. Alexandre Dufosset et 15 cosignataires)",
+    "ART. 3 — amendement n°CF8 (Mme Claire Lejeune et 70 cosignataires)"
+  ],
+  "amendements": [
+    {
+      "numero": "1",
+      "auteur": "M. Alexandre Dufosset et 15 cosignataires",
+      "article": "ART. 2",
+      "dispositif": "Après l’alinéa 7, insérer l’alinéa suivant :\n« II bis. – Le contrat d’objectifs et de performance peut comporter une clause de conditionnalité des subventions pour charges de service public versées par l’État à l’organisme. Cette clause prévoit qu’une fraction de ces subventions est subordonnée à l’atteinte des objectifs et des indicateurs définis par le contrat. Les modalités d’application de cette conditionnalité sont fixées par décret en Conseil d’État. »",
+      "exposeSommaire": "Le présent amendement vise à renforcer la portée effective des contrats d’objectifs et de performance (COP) en introduisant un mécanisme de modulation d’une fraction des subventions pour charges de service public en fonction du degré d’atteinte des objectifs contractuellement fixés. En l’état actuel, les COP constituent souvent des instruments formels de dialogue stratégique entre l’État et ses opérateurs, mais demeurent dépourvus de véritable levier incitatif. Le rapport de la commission d’enquête du Sénat sur les missions des agences, opérateurs et organismes consultatifs de l’État, remis le 1er juillet 2025, souligne que trop d’opérateurs sont dépourvus de contrats robustes et que, lorsqu’ils existent, ceux-ci comportent fréquemment des objectifs généraux, insuffisamment assortis d’indicateurs précis et sans conséquence en cas de non-atteinte . Cette faiblesse réduit la capacité de l’",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC2531P0D1N000001"
+    },
+    {
+      "numero": "CF2",
+      "auteur": "M. Alexandre Dufosset et 15 cosignataires",
+      "article": "APRÈS ART. 3",
+      "dispositif": "I. – Toute création d’une agence ou d’un opérateur de l’État est subordonnée à l’adoption préalable d’une doctrine de recours aux agences, fixée par décret en Conseil d’État.\nII. – Cette doctrine précise notamment :\n1° Les critères justifiant le recours à une entité dotée de la personnalité morale distincte de l’État, en particulier lorsque la mission concernée ne peut être exercée de manière efficiente par l’administration centrale ou les services déconcentrés ;\n2° Les conditions dans lesquelles la création d’un nouvel organisme s’accompagne de la suppression, de la fusion ou de la réorganisa",
+      "exposeSommaire": "Le présent amendement vise à instituer une doctrine de recours aux agences et opérateurs de l’État, afin de mettre un terme à un développement institutionnel largement opportuniste et insuffisamment encadré. Le rapport n°807 de la commission d’enquête du Sénat sur les missions des agences, opérateurs et organismes consultatifs de l’État, remis le 1er juillet 2025, constate que le mouvement d’« agencification » s’est développé en France « au cas par cas, de manière opportuniste, sans stratégie de réorganisation de l’État ». Il souligne que le recours aux agences a souvent constitué une réponse de facilité face à un nouveau besoin ou à une contrainte administrative, sans que soit systématiquement envisagée la réorganisation ou la suppression concomitante de structures existantes. Cette logique cumulative a conduit à un émiettement de l’action publique, caractérisé par un enchevêtrement de ",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO59048B2445P0D1N000002"
+    },
+    {
+      "numero": "CF4",
+      "auteur": "M. Alexandre Dufosset et 15 cosignataires",
+      "article": "ART. PREMIER",
+      "dispositif": "Après l’alinéa 1, insérer l’alinéa suivant :\n« Les rémunérations des dirigeants exécutifs des agences et opérateurs de l’État font l’objet d’une publication annuelle consolidée, distinguant la part fixe, la part variable ainsi que les éventuels avantages annexes. »",
+      "exposeSommaire": "Le présent amendement vise à instaurer une obligation de publication annuelle consolidée des éléments de rémunération des dirigeants exécutifs des agences et opérateurs de l’État, incluant la part fixe, la part variable ainsi que les avantages annexes. Cette mesure s’inscrit dans une exigence renforcée de transparence et de responsabilité dans l’utilisation des fonds publics.",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO59048B2445P0D1N000004"
+    },
+    {
+      "numero": "CF8",
+      "auteur": "Mme Claire Lejeune et 70 cosignataires",
+      "article": "ART. 3",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "Par cet amendement, les député.es de la France insoumise proposent de supprimer cet article.\nCet article rend obligatoire la conclusion de contrats d’objectifs et de moyens (COM) pluriannuels pour l’ensemble des agences et opérateurs de l’État. Chaque contrat sera conclu entre l’entité et son ministère de tutelle.\nNous touchons aussi au véritable objectif de cette proposition de loi, ainsi que celui des partisans de suppressions et de fusions aveugles de ces organisations : la casse d’opérateurs de l’État remplissant des missions de service public, et leur mise sous la tutelle du Gouvernement.\nAu-delà de cette mise sous tutelle, qui menacerait directement les organisations bénéficiant d’une nécessaire autonomie, la logique est bien celle de « maîtrise et de réduction progressive de la dépense publique », comme le dispose l’exposé des motifs. Et ce alors que la commission d’enquête sénato",
+      "sort": "Tombé",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO59048B2445P0D1N000008"
+    },
+    {
+      "numero": "CF10",
+      "auteur": "Mme Claire Lejeune et 70 cosignataires",
+      "article": "ART. 4",
+      "dispositif": "Supprimer cet article.",
+      "exposeSommaire": "Par cet amendement, les député.es de la France insoumise proposent de supprimer cet article.\nCet article prévoit que l’État disposera de la majorité au sein du conseil d’administration d’une agence ou d’un opérateur s’il en est le principal financeur, ce qui est le cas la quasi-totalité d’entre eux.\nL’opportunité de cet article interroge grandement, puisque les articles 2 et 3 prétendaient déjà résoudre la question du « pilotage insuffisamment opérationnel » exercé par les administrations de tutelle, en rendant obligatoire la conclusion de contrats d’objectifs et de performance et des contrats d’objectifs avec chaque opérateur.\nD’ailleurs, dans un rapport de 2021, la Cour des comptes ne recommande nullement de réformer la gouvernance de ces entités, estimant que le contrat d’objectifs serait un instrument suffisant pour renforcer « l’implication de l’État ».\nCet article semble donc uniqu",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO59048B2445P0D1N000010"
+    },
+    {
+      "numero": "CF13",
+      "auteur": "M. Matthias Renault",
+      "article": "APRÈS ART. 4",
+      "dispositif": "À compter de l’entrée en vigueur de la présente loi, aucune nouvelle agence ou nouvel opérateur ne peut être créé, sauf s’il est démontré devant les commissions des finances de l’Assemblée nationale et du Sénat que l’agence ou l’opérateur apporte des économies mesurables ou une simplification substantielle de l’action publique.",
+      "exposeSommaire": "Depuis plusieurs décennies, la cohérence de l’action de l’État a été sacrifiée sur l’autel du New Public Management. Inspirée par la recherche d’organisations supposées plus « agiles et flexibles », cette doctrine a encouragé la création d’entités parapubliques distinctes de l’administration centrale, présentées comme plus efficaces et réactives. \nEn pratique, cette évolution a surtout conduit à l’accumulation de deux problèmes bien identifiés : à la passion française pour une administration administrante est venu s’ajouter un émiettement croissant de l’action publique. La plus ou moins large autonomie dont bénéficient ces organismes empêche de rationaliser l’ensemble de l’action publique, y compris les rares fois où l’État fait un effort de réorganisation sur ses services administratifs « classiques ».\nEn conséquence, le présent amendement reprend la recommandation n° 46 du rapport n° 8",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO59048B2445P0D1N000013"
+    },
+    {
+      "numero": "55",
+      "auteur": "M. Jorys Bovet et 120 cosignataires",
+      "article": "APRÈS ART. 2",
+      "dispositif": "Il est créé un plan de réduction d’au moins 10 % du nombre d’opérateurs de l’État dans le cadre du contrat d’objectifs et de performance. Cette clause prévoit un plan de réduction échelonné sur cinq ans, avec des indicateurs de performance spécifiques liés à la rationalisation des structures et à la mutualisation des moyens.",
+      "exposeSommaire": "Le présent amendement vise à intégrer un article créant une clause de réduction d'au moins 10 % du nombre d'opérateurs de l'État dans le cadre de la trajectoire pluriannuelle. Cette modification a pour objet de rationaliser les structures et de mutualiser les moyens, conformément aux objectifs stratégiques et opérationnels souhaitée par cette proposition de loi. La réduction du nombre d'opérateurs sera échelonnée sur cinq ans.\nMaîtriser les dépenses publiques et optimiser l'efficacité des agences et opérateurs de l'État, tel est le sens du présent amendement.",
+      "sort": "Rejeté",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/AMANR5L17PO838901BTC2531P0D1N000055"
+    }
+  ]
 }
