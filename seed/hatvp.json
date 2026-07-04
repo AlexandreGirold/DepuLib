@@ -1,0 +1,72 @@
+[
+  {
+    "nomHatvp": "France Digitale",
+    "numeroHatvp": "F1V2C3-871042",
+    "secteur": "Numérique et start-up",
+    "description": "Première association de start-up et d'investisseurs en Europe. France Digitale porte les positions de l'écosystème numérique français sur la régulation des plateformes, la protection des données, la vérification d'âge et la souveraineté technologique.",
+    "lienHatvp": "https://www.hatvp.fr/fiche-organisation/?organisation=F1V2C3-871042"
+  },
+  {
+    "nomHatvp": "Fédération Française des Télécoms",
+    "numeroHatvp": "F2K9L4-448210",
+    "secteur": "Télécommunications",
+    "description": "Organisation professionnelle réunissant les principaux opérateurs de télécommunications en France. Elle intervient sur les infrastructures réseau, la couverture numérique du territoire et l'accès aux communications électroniques.",
+    "lienHatvp": "https://www.hatvp.fr/fiche-organisation/?organisation=F2K9L4-448210"
+  },
+  {
+    "nomHatvp": "MEDEF",
+    "numeroHatvp": "M0V3F2-100034",
+    "secteur": "Interprofessionnel / entreprises",
+    "description": "Mouvement des entreprises de France, principale organisation patronale française. Le MEDEF défend les positions des entreprises sur la fiscalité, le droit du travail, l'énergie et la compétitivité économique.",
+    "lienHatvp": "https://www.hatvp.fr/fiche-organisation/?organisation=M0V3F2-100034"
+  },
+  {
+    "nomHatvp": "FNSEA",
+    "numeroHatvp": "F4N5E6-552017",
+    "secteur": "Agriculture",
+    "description": "Fédération Nationale des Syndicats d'Exploitants Agricoles, premier syndicat agricole français. Elle porte les positions du monde agricole sur le revenu des exploitants, l'installation, le foncier et les normes environnementales.",
+    "lienHatvp": "https://www.hatvp.fr/fiche-organisation/?organisation=F4N5E6-552017"
+  },
+  {
+    "nomHatvp": "France Renouvelables",
+    "numeroHatvp": "F7R8N9-330198",
+    "secteur": "Énergies renouvelables",
+    "description": "Association professionnelle des acteurs des énergies renouvelables (éolien, solaire). Elle intervient sur la programmation énergétique, les tarifs de rachat et les procédures d'implantation des installations.",
+    "lienHatvp": "https://www.hatvp.fr/fiche-organisation/?organisation=F7R8N9-330198"
+  },
+  {
+    "nomHatvp": "Union Française de l'Électricité",
+    "numeroHatvp": "U3F4E5-207451",
+    "secteur": "Énergie / électricité",
+    "description": "Association qui représente le secteur de l'électricité en France. L'UFE intervient sur le mix énergétique, le nucléaire, les marchés de l'électricité et la transition énergétique.",
+    "lienHatvp": "https://www.hatvp.fr/fiche-organisation/?organisation=U3F4E5-207451"
+  },
+  {
+    "nomHatvp": "UFC-Que Choisir",
+    "numeroHatvp": "U6F7C8-615900",
+    "secteur": "Défense des consommateurs",
+    "description": "Association nationale de défense des consommateurs. Elle porte l'intérêt des usagers sur les prix de l'énergie, les services numériques, la protection des données et les pratiques commerciales.",
+    "lienHatvp": "https://www.hatvp.fr/fiche-organisation/?organisation=U6F7C8-615900"
+  },
+  {
+    "nomHatvp": "Coop de France",
+    "numeroHatvp": "C1D2F3-741025",
+    "secteur": "Coopération agricole",
+    "description": "Instance de représentation des coopératives agricoles et agroalimentaires françaises. Elle intervient sur les circuits courts, la transformation, la transmission des exploitations et la restauration collective.",
+    "lienHatvp": "https://www.hatvp.fr/fiche-organisation/?organisation=C1D2F3-741025"
+  },
+  {
+    "nomHatvp": "Fédération Française du Bâtiment",
+    "numeroHatvp": "F8B9T0-863214",
+    "secteur": "Bâtiment et construction",
+    "description": "Organisation professionnelle des entreprises du bâtiment. La FFB intervient sur la rénovation thermique des logements, les normes de construction et la transition énergétique du bâti.",
+    "lienHatvp": "https://www.hatvp.fr/fiche-organisation/?organisation=F8B9T0-863214"
+  },
+  {
+    "nomHatvp": "e-Enfance / 3018",
+    "numeroHatvp": "E5E6N7-509833",
+    "secteur": "Protection de l'enfance en ligne",
+    "description": "Association reconnue d'utilité publique de protection des mineurs sur internet, opératrice du numéro 3018 contre le cyberharcèlement. Elle intervient sur la sécurité des enfants en ligne, la lutte contre le harcèlement scolaire et l'éducation au numérique.",
+    "lienHatvp": "https://www.hatvp.fr/fiche-organisation/?organisation=E5E6N7-509833"
+  }
+]

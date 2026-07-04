@@ -1,0 +1,152 @@
+[
+  {
+    "username": "hugo.citoyen",
+    "dossierId": "dossier-numerique",
+    "texte": "Je trouve ça essentiel de protéger les enfants en ligne, mais il faut être vigilant sur la vérification d'âge : si ça oblige tout le monde à donner sa carte d'identité pour aller sur un site, c'est un vrai problème de vie privée. Trouvons un équilibre.",
+    "sentiment": 1,
+    "moderationFlag": "ok",
+    "moderationMotif": null,
+    "amendementNumero": null,
+    "upvotes": 12
+  },
+  {
+    "username": "lea.citoyenne",
+    "dossierId": "dossier-numerique",
+    "texte": "Le scroll infini et la lecture automatique des vidéos rendent mes ados complètement accros, ils n'arrivent plus à décrocher le soir. Encadrer ces mécanismes de design addictif, c'est exactement ce qu'il faut faire.",
+    "sentiment": 2,
+    "moderationFlag": "ok",
+    "moderationMotif": null,
+    "amendementNumero": "CL12",
+    "upvotes": 9
+  },
+  {
+    "username": "hugo.citoyen",
+    "dossierId": "dossier-numerique",
+    "texte": "Les notifications en rafale et l'autoplay sont pensés pour capter l'attention des jeunes en permanence. Je soutiens totalement l'idée d'interdire ces fonctionnalités addictives pour les mineurs.",
+    "sentiment": 2,
+    "moderationFlag": "ok",
+    "moderationMotif": null,
+    "amendementNumero": "CL12",
+    "upvotes": 7
+  },
+  {
+    "username": "lea.citoyenne",
+    "dossierId": "dossier-numerique",
+    "texte": "Franchement, le défilement infini devrait être désactivé par défaut pour les comptes d'adolescents. C'est le cœur du problème d'addiction, il faut s'y attaquer directement.",
+    "sentiment": 1,
+    "moderationFlag": "ok",
+    "moderationMotif": null,
+    "amendementNumero": "CL12",
+    "upvotes": 5
+  },
+  {
+    "username": "hugo.citoyen",
+    "dossierId": "dossier-numerique",
+    "texte": "Ma fille a subi du cyberharcèlement de la part de camarades de classe, et les messages continuaient jusque dans sa chambre le soir. Il faut absolument que les plateformes réagissent plus vite quand c'est signalé par l'école.",
+    "sentiment": 1,
+    "moderationFlag": "ok",
+    "moderationMotif": null,
+    "amendementNumero": "CL15",
+    "upvotes": 11
+  },
+  {
+    "username": "lea.citoyenne",
+    "dossierId": "dossier-numerique",
+    "texte": "Le harcèlement scolaire qui se prolonge en ligne détruit des vies. Obliger les réseaux à traiter en urgence les signalements venant des établissements, c'est une mesure de bon sens que j'approuve.",
+    "sentiment": 2,
+    "moderationFlag": "ok",
+    "moderationMotif": null,
+    "amendementNumero": "CL15",
+    "upvotes": 8
+  },
+  {
+    "username": "hugo.citoyen",
+    "dossierId": "dossier-numerique",
+    "texte": "Interdire les téléphones à l'école primaire, pourquoi pas, mais qui va contrôler ? On va encore mettre une charge en plus sur les enseignants sans moyens. Je suis partagé.",
+    "sentiment": 0,
+    "moderationFlag": "ok",
+    "moderationMotif": null,
+    "amendementNumero": null,
+    "upvotes": 6
+  },
+  {
+    "username": "lea.citoyenne",
+    "dossierId": "dossier-numerique",
+    "texte": "La majorité numérique à 15 ans me semble être un bon repère. En dessous, l'accord des parents devrait être obligatoire pour ouvrir un compte sur un réseau social.",
+    "sentiment": 1,
+    "moderationFlag": "ok",
+    "moderationMotif": null,
+    "amendementNumero": null,
+    "upvotes": 4
+  },
+  {
+    "username": "hugo.citoyen",
+    "dossierId": "dossier-numerique",
+    "texte": "Attention à ne pas tomber dans l'excès inverse : trop de contrôle parental peut couper les ados de ressources utiles, notamment sur la santé ou l'orientation. La loi doit rester proportionnée.",
+    "sentiment": 0,
+    "moderationFlag": "ok",
+    "moderationMotif": null,
+    "amendementNumero": null,
+    "upvotes": 3
+  },
+  {
+    "username": "lea.citoyenne",
+    "dossierId": "dossier-numerique",
+    "texte": "L'éducation au numérique dès l'école, c'est le vrai levier de long terme. On ne protégera pas les enfants uniquement avec des interdictions, il faut leur apprendre à comprendre ces outils.",
+    "sentiment": 1,
+    "moderationFlag": "ok",
+    "moderationMotif": null,
+    "amendementNumero": null,
+    "upvotes": 5
+  },
+  {
+    "username": "hugo.citoyen",
+    "dossierId": "dossier-numerique",
+    "texte": "Le sharenting, c'est-à-dire les parents qui exposent leurs enfants en photo sur les réseaux, est un angle mort trop souvent oublié. Bien que le texte l'aborde, j'aurais aimé des mesures plus fortes.",
+    "sentiment": 0,
+    "moderationFlag": "ok",
+    "moderationMotif": null,
+    "amendementNumero": null,
+    "upvotes": 2
+  },
+  {
+    "username": "lea.citoyenne",
+    "dossierId": "dossier-numerique",
+    "texte": "Je suis plutôt défavorable à ce texte tel quel : il fait peser toutes les obligations sur les plateformes sans jamais responsabiliser les familles ni donner de moyens à l'école. C'est déséquilibré.",
+    "sentiment": -1,
+    "moderationFlag": "ok",
+    "moderationMotif": null,
+    "amendementNumero": null,
+    "upvotes": 4
+  },
+  {
+    "username": "hugo.citoyen",
+    "dossierId": "dossier-numerique",
+    "texte": "Encore une loi qui va être inapplicable techniquement. La vérification d'âge fiable et respectueuse de la vie privée n'existe pas vraiment aujourd'hui, on légifère dans le vide.",
+    "sentiment": -2,
+    "moderationFlag": "ok",
+    "moderationMotif": null,
+    "amendementNumero": null,
+    "upvotes": 3
+  },
+  {
+    "username": "lea.citoyenne",
+    "dossierId": "dossier-numerique",
+    "texte": "Les députés qui ont pondu ce texte sont une bande d'incapables qui n'ont jamais touché un smartphone de leur vie, c'est lamentable.",
+    "sentiment": -2,
+    "moderationFlag": "insultant",
+    "moderationMotif": "Propos injurieux envers des élus",
+    "amendementNumero": null,
+    "upvotes": 1
+  },
+  {
+    "username": "hugo.citoyen",
+    "dossierId": "dossier-numerique",
+    "texte": "Sinon je cherche un bon plan pour racheter une console de jeux d'occasion pas chère, quelqu'un a une adresse ? Merci d'avance à la communauté.",
+    "sentiment": 0,
+    "moderationFlag": "hors_sujet",
+    "moderationMotif": "Message sans rapport avec le texte examiné",
+    "amendementNumero": null,
+    "upvotes": 0
+  }
+]

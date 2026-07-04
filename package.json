@@ -1,0 +1,33 @@
+{
+  "name": "depulib",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "seed": "node prisma/seed.cjs",
+    "embed": "node scripts/embed.cjs"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.cjs"
+  },
+  "dependencies": {
+    "@codegouvfr/react-dsfr": "1.16.10",
+    "@prisma/client": "^5.22.0",
+    "iron-session": "^8.0.3",
+    "next": "^14.2.30",
+    "pdf-parse": "^1.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/pdf-parse": "^1.1.4",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "prisma": "^5.22.0",
+    "sass": "1.69.5",
+    "typescript": "^5.5.4"
+  }
+}

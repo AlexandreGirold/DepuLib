@@ -1,0 +1,124 @@
+{
+  "id": "dossier-agriculture",
+  "titre": "Projet de loi pour la souveraineté alimentaire et le renouvellement des générations en agriculture",
+  "numero": "N° 1892",
+  "statut": "En commission",
+  "commission": "Commission des affaires économiques",
+  "expose": "La France fait face à un défi démographique majeur dans son secteur agricole : près de la moitié des chefs d'exploitation atteindront l'âge de la retraite d'ici 2030, alors que le nombre d'installations ne compense plus les départs. Cette érosion silencieuse menace directement la capacité du pays à produire son alimentation et fragilise le tissu économique et social des territoires ruraux. Le présent projet de loi entend inverser cette tendance en faisant du renouvellement des générations la priorité de la politique agricole nationale.\n\nLe titre Ier consacre la souveraineté alimentaire comme objectif d'intérêt général majeur et fixe un cap : maintenir au moins 400 000 exploitations agricoles à l'horizon 2035. Il crée un diagnostic de viabilité économique et climatique des exploitations, remis à chaque candidat à l'installation ou à la transmission, afin d'éclairer les choix des cédants comme des repreneurs.\n\nLe titre II réforme en profondeur l'accompagnement de l'installation. Il institue un guichet unique départemental, dénommé France Services Agriculture, chargé d'orienter les porteurs de projet, y compris les personnes non issues du milieu agricole, qui représentent désormais plus d'un tiers des candidats. La dotation jeunes agriculteurs est revalorisée et son bénéfice étendu jusqu'à quarante ans, tandis qu'un fonds de garantie facilite l'accès au crédit et au portage du foncier.\n\nLe titre III traite de la rémunération des agriculteurs et de la structuration des filières. Il renforce les dispositifs de contractualisation issus des lois EGalim, sécurise la prise en compte des indicateurs de coûts de production dans les prix payés aux producteurs et encourage le développement des circuits courts, notamment par un objectif rehaussé de produits durables, de qualité et de proximité dans la restauration collective publique.\n\nLe titre IV engage la transition agroécologique comme condition de la durabilité de la souveraineté alimentaire. Il planifie la réduction de la dépendance aux produits phytopharmaceutiques en privilégiant la recherche de solutions alternatives, instaure un cadre de protection et de reconstitution des haies, et fixe des orientations pour la gestion économe du foncier agricole face à l'artificialisation des sols.\n\nEnsemble, ces dispositions forment un pacte entre la Nation et ses agriculteurs : garantir à ceux qui nourrissent le pays des perspectives de revenu, de considération et de transmission, en contrepartie d'un engagement collectif vers un modèle agricole plus résilient, créateur de valeur dans les territoires et compatible avec les objectifs climatiques de la France.",
+  "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/souverainete_alimentaire_renouvellement_generations_agriculture",
+  "source": "donnees-demo",
+  "resumeFallback": "Ce projet de loi vise à assurer le renouvellement des générations d'agriculteurs alors qu'une grande partie des exploitants partira à la retraite d'ici 2030. Il érige la souveraineté alimentaire en objectif national et crée un guichet unique, France Services Agriculture, pour accompagner installations et transmissions. Le texte renforce les outils de rémunération des producteurs issus des lois EGalim et fixe des objectifs accrus de produits locaux et durables en restauration collective. Il organise également la transition agroécologique, avec la réduction planifiée des produits phytosanitaires, la protection des haies et la préservation du foncier agricole. Le texte est actuellement examiné par la commission des affaires économiques.",
+  "pointsClesFallback": [
+    "Objectif national de maintien d'au moins 400 000 exploitations agricoles à l'horizon 2035 et consécration de la souveraineté alimentaire",
+    "Création d'un guichet unique France Services Agriculture et revalorisation de la dotation jeunes agriculteurs jusqu'à 40 ans",
+    "Renforcement de la contractualisation et des indicateurs de coûts de production pour sécuriser le revenu des agriculteurs",
+    "Transition agroécologique : réduction des produits phytosanitaires, protection des haies et gestion économe du foncier agricole"
+  ],
+  "amendements": [
+    {
+      "numero": "CE1",
+      "auteur": "Mme Élise Vauthier",
+      "dispositif": "À l'article 1er, après le mot « alimentaire », insérer les mots « , fondée sur des systèmes de production diversifiés et résilients, ». Le Gouvernement remet chaque année au Parlement un rapport évaluant le degré de dépendance de la France aux importations pour les principales productions agricoles.",
+      "exposeSommaire": "La souveraineté alimentaire ne saurait se réduire à un objectif quantitatif de production. Elle suppose une diversité de systèmes agricoles capables d'absorber les chocs climatiques et géopolitiques. Le rapport annuel proposé permettra au Parlement de suivre précisément l'évolution de nos dépendances, notamment en protéines végétales et en fruits et légumes. Cet outil de pilotage est indispensable pour ajuster les politiques publiques dans la durée.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/1892/CION-ECO/CE1"
+    },
+    {
+      "numero": "CE2",
+      "auteur": "M. Bastien Corvol",
+      "dispositif": "À l'article 3, substituer à l'âge de « quarante ans » l'âge de « quarante-cinq ans » pour le bénéfice de la dotation d'installation. Les candidats à l'installation en reconversion professionnelle bénéficient d'un accompagnement renforcé d'une durée de trois ans.",
+      "exposeSommaire": "Plus d'un tiers des porteurs de projet agricole ne sont pas issus du milieu agricole et s'installent souvent après une première carrière. Limiter la dotation à quarante ans exclut de fait une part croissante de ces profils, pourtant essentiels au renouvellement des générations. Le relèvement à quarante-cinq ans, assorti d'un accompagnement renforcé, sécurise ces installations tardives. Le coût budgétaire de la mesure reste modéré au regard des enjeux de transmission.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/1892/CION-ECO/CE2"
+    },
+    {
+      "numero": "CE3",
+      "auteur": "Mme Nadia Bellefontaine",
+      "dispositif": "Après l'article 5, insérer un article ainsi rédigé : « Le cédant qui transmet son exploitation à un exploitant de moins de quarante ans dans le cadre d'un contrat de transmission progressive bénéficie d'un abattement fiscal renforcé sur les plus-values de cession, dans des conditions fixées par décret. »",
+      "exposeSommaire": "La transmission des exploitations échoue trop souvent pour des raisons fiscales et patrimoniales, le cédant ayant intérêt à vendre au plus offrant plutôt qu'à un jeune repreneur. Cet amendement crée une incitation claire à privilégier la transmission vers les nouvelles générations. Le contrat de transmission progressive permet en outre un tuilage entre cédant et repreneur, gage de réussite du projet. Des dispositifs comparables ont fait leurs preuves dans plusieurs pays européens.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/1892/CION-ECO/CE3"
+    },
+    {
+      "numero": "CE4",
+      "auteur": "M. Thierry Lansade",
+      "dispositif": "À l'article 8, compléter le premier alinéa par la phrase suivante : « Les indicateurs de coûts de production mentionnés au présent article sont rendus publics et actualisés au moins deux fois par an par les interprofessions ou, à défaut, par l'Observatoire de la formation des prix et des marges. »",
+      "exposeSommaire": "La construction du prix en marche avant, voulue par les lois EGalim, reste inopérante lorsque les indicateurs de coûts de production sont obsolètes ou inaccessibles. La publication et l'actualisation semestrielle obligatoires garantissent la transparence des négociations commerciales. Les producteurs pourront s'appuyer sur des références opposables face aux acheteurs. Cette mesure ne crée aucune charge nouvelle pour l'État, les interprofessions disposant déjà des données nécessaires.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/1892/CION-ECO/CE4"
+    },
+    {
+      "numero": "CE5",
+      "auteur": "Mme Clara Ostermann",
+      "dispositif": "À l'article 9, porter de « 50 % » à « 60 % » la part de produits durables et de qualité dans la restauration collective publique à compter du 1er janvier 2030, dont « 25 % » de produits issus de l'agriculture biologique. Les gestionnaires publient annuellement leurs taux d'atteinte de ces objectifs.",
+      "exposeSommaire": "La restauration collective représente près de quatre milliards de repas par an et constitue un levier majeur de structuration des filières locales. Les objectifs actuels sont loin d'être atteints faute de suivi contraignant. Le rehaussement proposé, assorti d'une obligation de publication, crée une trajectoire crédible et donne de la visibilité aux producteurs pour investir. Les collectivités pionnières démontrent que ces seuils sont atteignables à coût maîtrisé grâce à la lutte contre le gaspillage.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/1892/CION-ECO/CE5"
+    },
+    {
+      "numero": "CE6",
+      "auteur": "M. Julien Féraud",
+      "dispositif": "À l'article 12, après le deuxième alinéa, insérer l'alinéa suivant : « Aucune interdiction d'utilisation d'un produit phytopharmaceutique ne peut intervenir en l'absence de solution alternative viable, sauf risque sanitaire ou environnemental grave et avéré, apprécié par l'autorité administrative sur avis de l'Agence nationale de sécurité sanitaire de l'alimentation, de l'environnement et du travail. »",
+      "exposeSommaire": "Les interdictions de substances sans alternative disponible placent les producteurs français en situation de distorsion de concurrence face à des importations qui ne respectent pas les mêmes normes. Cet amendement pose le principe « pas d'interdiction sans solution », tout en préservant la capacité d'agir en cas de risque grave. Il sécurise les filières les plus exposées, notamment en arboriculture et en cultures légumières. L'avis de l'ANSES garantit que la santé publique demeure la priorité.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/1892/CION-ECO/CE6"
+    },
+    {
+      "numero": "CE7",
+      "auteur": "Mme Solène Kervadec",
+      "dispositif": "Rédiger ainsi l'article 13 : « Il est institué une stratégie nationale de sortie progressive des produits phytopharmaceutiques de synthèse les plus préoccupants, assortie d'une trajectoire de réduction de 50 % des quantités vendues d'ici 2035. Un fonds d'accompagnement des transitions, doté par les contributions des metteurs sur le marché, finance la recherche d'alternatives et l'accompagnement technique des exploitations. »",
+      "exposeSommaire": "Les plans successifs de réduction des pesticides ont échoué faute de trajectoire contraignante et de financement dédié à l'accompagnement des agriculteurs. Cet amendement inscrit dans la loi un objectif chiffré et daté, seul à même de donner un signal clair à l'ensemble des acteurs. Le fonds d'accompagnement, alimenté par les metteurs sur le marché, applique le principe pollueur-payeur sans peser sur les exploitants. La santé des agriculteurs, premiers exposés, justifie pleinement cette ambition.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/1892/CION-ECO/CE7"
+    },
+    {
+      "numero": "CE8",
+      "auteur": "M. Rémi Chastelain",
+      "dispositif": "À l'article 14, compléter le dispositif relatif aux haies par un objectif de gain net de 50 000 kilomètres de haies d'ici 2032. Les opérations de destruction sont soumises à déclaration unique préalable et compensées à hauteur du double du linéaire détruit.",
+      "exposeSommaire": "Le linéaire de haies continue de reculer de plus de 20 000 kilomètres par an malgré les dispositifs existants, dispersés entre plusieurs polices administratives. La déclaration unique simplifie les démarches des agriculteurs tout en assurant un suivi effectif. La compensation au double du linéaire détruit rend la destruction dissuasive sans l'interdire lorsqu'elle est nécessaire. Les haies rendent des services essentiels : biodiversité, brise-vent, lutte contre l'érosion et stockage de carbone.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/1892/CION-ECO/CE8"
+    },
+    {
+      "numero": "CE9",
+      "auteur": "Mme Aurore Dantec",
+      "dispositif": "Après l'article 16, insérer un article ainsi rédigé : « Les sociétés d'aménagement foncier et d'établissement rural exercent un droit de préemption renforcé sur les cessions de parts de sociétés détenant du foncier agricole, dès lors que la cession confère le contrôle de la société. Un décret en Conseil d'État précise les conditions d'application du présent article. »",
+      "exposeSommaire": "L'accaparement du foncier agricole par le biais de montages sociétaires contourne aujourd'hui largement le contrôle des SAFER, pensé pour des cessions de gré à gré. Ce phénomène renchérit le prix des terres et évince les candidats à l'installation. L'extension du droit de préemption aux cessions de parts conférant le contrôle comble cette faille juridique. Le foncier est le premier obstacle cité par les jeunes qui souhaitent s'installer.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/1892/CION-ECO/CE9"
+    },
+    {
+      "numero": "CE10",
+      "auteur": "M. Grégoire Malissard",
+      "dispositif": "À l'article 4, compléter le dispositif du diagnostic de viabilité par un volet relatif à l'adaptation au changement climatique, comprenant une évaluation de la disponibilité de la ressource en eau à l'horizon de dix ans sur le territoire de l'exploitation.",
+      "exposeSommaire": "Installer un jeune agriculteur sur une exploitation dont le système de production sera compromis par le manque d'eau dans dix ans constitue un échec programmé. Le diagnostic de viabilité doit intégrer cette dimension prospective pour orienter les choix de cultures et d'investissements. Les données hydrologiques existent déjà auprès des agences de l'eau et n'engendrent pas de coût supplémentaire significatif. Cet amendement protège à la fois le repreneur et les finances publiques qui soutiennent l'installation.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/1892/CION-ECO/CE10"
+    },
+    {
+      "numero": "CE11",
+      "auteur": "Mme Perrine Aubanel",
+      "dispositif": "Après l'article 10, insérer un article ainsi rédigé : « Les plateformes de vente en ligne de produits alimentaires affichent de manière lisible l'origine des produits agricoles bruts et transformés. Tout manquement est passible d'une amende administrative dont le montant est fixé par décret, dans la limite de 0,5 % du chiffre d'affaires réalisé en France. »",
+      "exposeSommaire": "Le commerce en ligne alimentaire connaît une croissance rapide sans que les obligations d'affichage de l'origine y soient effectivement appliquées. Cette asymétrie pénalise les producteurs français engagés dans des démarches de qualité et trompe le consommateur. L'amendement aligne les obligations du commerce numérique sur celles de la distribution physique. La sanction proportionnée au chiffre d'affaires garantit son caractère dissuasif pour les grandes plateformes.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/1892/CION-ECO/CE11"
+    },
+    {
+      "numero": "CE12",
+      "auteur": "M. Damien Roqueval",
+      "dispositif": "À l'article 7, étendre le bénéfice du fonds de garantie de l'installation aux investissements de diversification réalisés dans les cinq années suivant l'installation, notamment les ateliers de transformation à la ferme et les points de vente directe.",
+      "exposeSommaire": "La vente directe et la transformation à la ferme améliorent sensiblement le revenu des exploitations, en particulier pour les petites structures. Or ces investissements interviennent souvent quelques années après l'installation, lorsque les capacités d'emprunt du jeune exploitant sont épuisées. L'extension du fonds de garantie lève ce verrou financier sans dépense budgétaire directe. Elle favorise l'ancrage territorial des exploitations et le développement des circuits courts voulu par le projet de loi.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/1892/CION-ECO/CE12"
+    },
+    {
+      "numero": "CE13",
+      "auteur": "Mme Honorine Vasseur-Lamy",
+      "dispositif": "Après l'article 11, insérer un article ainsi rédigé : « L'État se fixe pour objectif de porter la surface agricole utile cultivée en légumineuses à 8 % d'ici 2030. Un plan protéines végétales, actualisé tous les trois ans, décline cet objectif par bassin de production et prévoit des mécanismes de structuration des filières de collecte et de transformation. »",
+      "exposeSommaire": "La France importe l'essentiel des protéines végétales nécessaires à son élevage, principalement du soja sud-américain lié à la déforestation. Cette dépendance constitue la principale faille de notre souveraineté alimentaire. Les légumineuses améliorent en outre la fertilité des sols et réduisent le recours aux engrais azotés de synthèse. Un objectif chiffré, décliné territorialement, donnera aux filières la visibilité nécessaire pour investir dans la collecte et la transformation.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/1892/CION-ECO/CE13"
+    },
+    {
+      "numero": "CE14",
+      "auteur": "M. Yannick Tréhorel",
+      "dispositif": "À l'article 2, compléter les missions de France Services Agriculture par un module obligatoire de sensibilisation à la prévention du mal-être agricole et un dispositif de repérage des exploitants en difficulté, en lien avec la Mutualité sociale agricole.",
+      "exposeSommaire": "Le mal-être agricole demeure une réalité dramatique, avec un suicide d'agriculteur tous les deux jours selon les données de la Mutualité sociale agricole. Les périodes d'installation et de transmission concentrent les situations de fragilité économique et psychologique. Le guichet unique constitue le point de contact idéal pour repérer précocement les difficultés et orienter vers les dispositifs d'accompagnement existants. Cet amendement humanise la réforme sans en alourdir le coût.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/1892/CION-ECO/CE14"
+    },
+    {
+      "numero": "CE15",
+      "auteur": "Mme Capucine Delorme-Astier",
+      "dispositif": "Après l'article 15, insérer un article ainsi rédigé : « Dans les zones soumises à une forte pression d'artificialisation, tout changement de destination d'une terre agricole exploitée depuis moins de quinze ans est subordonné à une étude de compensation agricole collective renforcée. Le produit des compensations abonde un fonds départemental de portage du foncier au bénéfice des installations. »",
+      "exposeSommaire": "La France perd chaque année l'équivalent d'un département de terres agricoles tous les dix ans sous l'effet de l'artificialisation. Les terres périurbaines, souvent les plus fertiles, sont les premières touchées alors qu'elles sont stratégiques pour les circuits courts. Cet amendement renforce le régime de compensation existant et en flèche le produit vers le portage du foncier pour les jeunes installés. Il crée ainsi un cercle vertueux entre protection des terres et renouvellement des générations.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/1892/CION-ECO/CE15"
+    }
+  ]
+}

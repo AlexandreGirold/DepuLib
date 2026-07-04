@@ -1,0 +1,168 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id             String   @id @default(cuid())
+  username       String   @unique
+  role           String // citoyen | representant | depute | collaborateur
+  displayName    String
+  circonscription String?
+  commission     String?
+  organisationId String?
+  deputeId       String?
+
+  organisation   Organisation? @relation(fields: [organisationId], references: [id])
+  depute         User?         @relation("Cabinet", fields: [deputeId], references: [id])
+  collaborateurs User[]        @relation("Cabinet")
+
+  commentaires   Commentaire[]
+  upvotes        UpvoteComm[]
+  rdvDemandes    RendezVous[]  @relation("Demandeur")
+  rdvDepute      RendezVous[]  @relation("Depute")
+  documents      Document[]
+  feedItems      FeedItem[]
+  contributions  Contribution[]
+}
+
+model Organisation {
+  id          String  @id @default(cuid())
+  nomHatvp    String
+  numeroHatvp String  @unique
+  secteur     String
+  description String
+  lienHatvp   String
+  users       User[]
+}
+
+model Dossier {
+  id         String       @id
+  titre      String
+  numero     String
+  statut     String
+  expose     String
+  resumeIA   String?
+  syntheseIA String?
+  sources    String?
+  sourceUrl  String
+  json       String?
+  commission String
+  source     String       @default("donnees-demo")
+  amendements Amendement[]
+  commentaires Commentaire[]
+  rdvDossiers RdvDossier[]
+  contributions Contribution[]
+}
+
+model Amendement {
+  id             String        @id @default(cuid())
+  dossierId      String
+  numero         String
+  auteur         String
+  dispositif     String
+  exposeSommaire String
+  resumeIA       String?
+  sources        String?
+  sourceUrl      String
+  upvotes        Int           @default(0)
+  embedding      String?
+  dossier        Dossier       @relation(fields: [dossierId], references: [id])
+  commentaires   Commentaire[]
+}
+
+model Commentaire {
+  id              String       @id @default(cuid())
+  dossierId       String
+  amendementId    String?
+  userId          String
+  texte           String
+  sentiment       Int          @default(0)
+  moderationFlag  String       @default("ok")
+  moderationMotif String?
+  upvotes         Int          @default(0)
+  createdAt       DateTime     @default(now())
+  dossier         Dossier      @relation(fields: [dossierId], references: [id])
+  amendement      Amendement?  @relation(fields: [amendementId], references: [id])
+  user            User         @relation(fields: [userId], references: [id])
+  upvotesList     UpvoteComm[]
+}
+
+model UpvoteComm {
+  userId        String
+  commentaireId String
+  user          User        @relation(fields: [userId], references: [id])
+  commentaire   Commentaire @relation(fields: [commentaireId], references: [id])
+
+  @@unique([userId, commentaireId])
+}
+
+model RendezVous {
+  id           String       @id @default(cuid())
+  deputeId     String
+  demandeurId  String
+  typeDemandeur String
+  sujet        String
+  briefIA      String?
+  sources      String?
+  date         DateTime
+  statut       String       @default("demande")
+  createdAt    DateTime     @default(now())
+  depute       User         @relation("Depute", fields: [deputeId], references: [id])
+  demandeur    User         @relation("Demandeur", fields: [demandeurId], references: [id])
+  rdvDossiers  RdvDossier[]
+  documents    Document[]
+}
+
+model RdvDossier {
+  rdvId     String
+  dossierId String
+  rdv       RendezVous @relation(fields: [rdvId], references: [id])
+  dossier   Dossier    @relation(fields: [dossierId], references: [id])
+
+  @@id([rdvId, dossierId])
+}
+
+model Document {
+  id            String      @id @default(cuid())
+  rdvId         String?
+  contributionId String?
+  filename      String
+  path          String
+  texteExtrait  String
+  resumeIA      String?
+  sources       String?
+  uploaderId    String
+  createdAt     DateTime    @default(now())
+  rdv           RendezVous? @relation(fields: [rdvId], references: [id])
+  contribution  Contribution? @relation(fields: [contributionId], references: [id])
+  uploader      User        @relation(fields: [uploaderId], references: [id])
+}
+
+model Contribution {
+  id           String     @id @default(cuid())
+  dossierId    String
+  userId       String
+  position     String // favorable | defavorable | amendement
+  argumentaire String
+  resumeIA     String?
+  sources      String?
+  createdAt    DateTime   @default(now())
+  dossier      Dossier    @relation(fields: [dossierId], references: [id])
+  user         User       @relation(fields: [userId], references: [id])
+  documents    Document[]
+}
+
+model FeedItem {
+  id        String   @id @default(cuid())
+  userId    String
+  periode   String
+  contenuIA String
+  sources   String
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id])
+}

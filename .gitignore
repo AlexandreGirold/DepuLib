@@ -1,0 +1,10 @@
+node_modules/
+.next/
+data/
+*.db
+*.db-journal
+.env
+.env.local
+public/dsfr/
+next-env.d.ts
+.DS_Store

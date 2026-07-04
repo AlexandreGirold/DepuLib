@@ -1,0 +1,23 @@
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      DATABASE_URL: "file:/data/depulib.db"
+      UPLOAD_DIR: "/data/uploads"
+      SESSION_SECRET: "${SESSION_SECRET:-depulib-poc-changez-moi-32-caracteres}"
+      CLOUDTEMPLE_LLMAAS_API_KEY: "${CLOUDTEMPLE_LLMAAS_API_KEY:-}"
+      CLOUDTEMPLE_LLMAAS_BASE_URL: "${CLOUDTEMPLE_LLMAAS_BASE_URL:-https://api.ai.cloud-temple.com/v1}"
+      LLM_MODEL_MAIN: "${LLM_MODEL_MAIN:-mistral-small4:119b}"
+      LLM_MODEL_FAST: "${LLM_MODEL_FAST:-mistral-small4:119b}"
+      LLM_MODEL_EMBED: "${LLM_MODEL_EMBED:-bge-m3:567m}"
+      LLM_TIMEOUT_MS: "${LLM_TIMEOUT_MS:-20000}"
+      MCP_TRICOTEUSES_URL: "${MCP_TRICOTEUSES_URL:-https://www.tricoteuses.fr/mcp}"
+      MCP_TIMEOUT_MS: "${MCP_TIMEOUT_MS:-15000}"
+      NEXT_PUBLIC_APP_NAME: "Depulib"
+    volumes:
+      - depulib-data:/data
+
+volumes:
+  depulib-data:

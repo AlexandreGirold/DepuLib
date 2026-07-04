@@ -1,0 +1,124 @@
+{
+  "id": "dossier-justice",
+  "titre": "Projet de loi d'orientation et de programmation de la justice",
+  "numero": "N° 2145",
+  "statut": "En séance publique",
+  "commission": "Commission des lois",
+  "expose": "La justice française traverse une crise de moyens et de confiance sans précédent. Les délais de jugement ne cessent de s'allonger, atteignant en moyenne quatorze mois devant les tribunaux judiciaires en matière civile, et la surpopulation carcérale dépasse désormais 125 % dans de nombreux établissements pénitentiaires. Le présent projet de loi entend répondre à cette situation par une programmation pluriannuelle des moyens humains et budgétaires, adossée à des réformes structurelles de l'organisation judiciaire.\n\nLe titre Ier fixe une trajectoire budgétaire ambitieuse pour la période 2025-2030, prévoyant la création de 1 500 postes de magistrats, de 1 800 postes de greffiers et de 300 juristes assistants, ainsi qu'un investissement massif dans la modernisation du parc immobilier judiciaire et pénitentiaire. Cette programmation vise à ramener les délais moyens de traitement des affaires civiles et pénales à des niveaux compatibles avec les exigences du procès équitable.\n\nLe titre II est consacré au rapprochement de la justice du citoyen. Il consolide la justice de proximité, développe les conseils de juridiction et renforce le recours aux modes amiables de résolution des différends, notamment la médiation et la conciliation. Il ambitionne de faire de la déjudiciarisation raisonnée un levier de désengorgement des juridictions tout en garantissant l'accès au juge.\n\nLe titre III engage la transformation numérique des procédures. Il pose le cadre juridique de la procédure pénale numérique, généralise la signature électronique des actes judiciaires et sécurise le partage dématérialisé des pièces entre les acteurs de la chaîne pénale et civile. Une attention particulière est portée à la protection des données personnelles et à la lutte contre la fracture numérique.\n\nEnfin, le titre IV rénove l'exécution des peines et la politique pénitentiaire. Il favorise le développement des peines alternatives à l'incarcération, notamment le travail d'intérêt général, renforce les moyens de la protection judiciaire de la jeunesse et améliore la prise en charge des personnes détenues souffrant de troubles psychiatriques. L'objectif est de concilier la fermeté de la réponse pénale avec l'exigence de réinsertion et de prévention de la récidive.",
+  "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/dossiers/programmation_justice",
+  "source": "donnees-demo",
+  "resumeFallback": "Le projet de loi d'orientation et de programmation de la justice fixe une trajectoire budgétaire pluriannuelle 2025-2030 destinée à renforcer les moyens humains et matériels des juridictions. Il vise à réduire les délais de jugement, à rapprocher la justice des citoyens par la justice de proximité et les modes amiables de règlement des litiges, et à accélérer la numérisation des procédures. Le texte traite également de la lutte contre la surpopulation carcérale par le développement des peines alternatives, dont le travail d'intérêt général. Il comporte enfin des dispositions relatives à l'aide juridictionnelle, à la protection judiciaire de la jeunesse et à l'exécution des peines. Il est actuellement examiné en séance publique après son passage devant la commission des lois.",
+  "pointsClesFallback": [
+    "Programmation budgétaire pluriannuelle 2025-2030 avec création de postes de magistrats et de greffiers pour réduire les délais de jugement",
+    "Renforcement de la justice de proximité et généralisation des modes amiables de résolution des différends (médiation, conciliation)",
+    "Numérisation des procédures civiles et pénales avec un cadre sécurisé pour les actes dématérialisés et la protection des données",
+    "Développement des peines alternatives à l'incarcération, dont le travail d'intérêt général, pour lutter contre la surpopulation carcérale"
+  ],
+  "amendements": [
+    {
+      "numero": "45",
+      "auteur": "Mme Camille Delaunay",
+      "dispositif": "« L'article 2 est complété par un alinéa ainsi rédigé : “La trajectoire pluriannuelle garantit que le délai moyen de traitement des affaires civiles devant les tribunaux judiciaires n'excède pas huit mois à l'horizon 2030. Un rapport annuel du garde des Sceaux rend compte de l'évolution de ce délai, juridiction par juridiction.” »",
+      "exposeSommaire": "Les délais de jugement en matière civile atteignent aujourd'hui près de quatorze mois en moyenne, portant atteinte au droit à un procès dans un délai raisonnable. Cet amendement inscrit dans la loi un objectif chiffré et opposable de réduction de ces délais. Il instaure un suivi annuel détaillé permettant au Parlement de contrôler l'efficacité de la programmation. La transparence par juridiction favorisera une allocation plus juste des moyens là où les stocks d'affaires sont les plus élevés.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2145/AN/45"
+    },
+    {
+      "numero": "46",
+      "auteur": "M. Julien Ferreira",
+      "dispositif": "« Après l'article 8, il est inséré un article 8 bis ainsi rédigé : “Il est institué dans chaque arrondissement judiciaire au moins un point-justice offrant un accès gratuit à l'information juridique et à l'orientation des justiciables. Les modalités d'implantation sont fixées par décret en Conseil d'État.” »",
+      "exposeSommaire": "La justice de proximité suppose des lieux physiques d'accueil accessibles à tous, y compris dans les zones rurales et les quartiers prioritaires. Cet amendement généralise les points-justice pour lutter contre les déserts judiciaires et le non-recours au droit. Il garantit une couverture territoriale minimale afin que chaque citoyen dispose d'un interlocuteur de proximité. Cette mesure complète utilement le développement des maisons de justice et du droit.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2145/AN/46"
+    },
+    {
+      "numero": "47",
+      "auteur": "Mme Sofia Benali",
+      "dispositif": "« L'article 12 est ainsi modifié : les mots “peut être” sont remplacés par le mot “est”. En conséquence, la procédure pénale numérique devient le mode de traitement de droit commun des procédures à compter du 1er janvier 2027, sous réserve des garanties prévues au présent article. »",
+      "exposeSommaire": "La dématérialisation de la chaîne pénale demeure trop dépendante d'initiatives locales et d'un déploiement à géométrie variable. Cet amendement rend la procédure pénale numérique obligatoire à une échéance déterminée afin d'assurer l'homogénéité du service public de la justice sur l'ensemble du territoire. Il maintient l'ensemble des garanties procédurales, notamment l'accès des parties au dossier. La numérisation intégrale réduira les délais de transmission des actes et les risques de perte de pièces.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2145/AN/47"
+    },
+    {
+      "numero": "48",
+      "auteur": "M. Antoine Rivière",
+      "dispositif": "« L'article 15 est complété par les mots : “et le plafond de ressources ouvrant droit à l'aide juridictionnelle totale est indexé chaque année sur l'évolution du salaire minimum de croissance”. »",
+      "exposeSommaire": "Le barème de l'aide juridictionnelle est demeuré déconnecté de la réalité du coût de la vie, excluant de nombreux justiciables modestes de l'accès effectif à un avocat. Cet amendement indexe le plafond de ressources sur le SMIC afin d'en préserver le pouvoir protecteur dans la durée. Il évite que l'inflation n'érode mécaniquement le champ des bénéficiaires. Cette mesure conforte l'égalité des armes et le droit à la défense.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2145/AN/48"
+    },
+    {
+      "numero": "49",
+      "auteur": "Mme Hélène Marchetti",
+      "dispositif": "« Après l'article 18, il est inséré un article 18 bis ainsi rédigé : “Aucun établissement pénitentiaire ne peut accueillir un nombre de personnes détenues supérieur à 100 % de sa capacité opérationnelle. Un mécanisme de régulation carcérale, déclenché par le chef d'établissement et le procureur de la République, garantit le respect de ce seuil.” »",
+      "exposeSommaire": "La surpopulation carcérale, qui dépasse 125 % dans de nombreuses maisons d'arrêt, constitue une atteinte à la dignité des personnes détenues régulièrement condamnée par les juridictions européennes. Cet amendement instaure un mécanisme contraignant de régulation afin de garantir l'encellulement individuel et des conditions de détention décentes. Il responsabilise les acteurs locaux dans la gestion des flux d'écrou. Cette régulation encourage le recours aux aménagements de peine et aux alternatives à l'incarcération.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2145/AN/49"
+    },
+    {
+      "numero": "50",
+      "auteur": "M. Karim Nabli",
+      "dispositif": "« L'article 21 est complété par un alinéa ainsi rédigé : “Le nombre de places de travail d'intérêt général proposées par les collectivités territoriales, les associations et les personnes morales de droit public est porté à 40 000 au 31 décembre 2028. Une plateforme numérique nationale recense en temps réel les postes disponibles.” »",
+      "exposeSommaire": "Le travail d'intérêt général constitue une peine alternative efficace pour prévenir la récidive, mais son développement se heurte au nombre insuffisant de postes d'accueil. Cet amendement fixe un objectif quantifié et crée un outil numérique de mise en relation entre juridictions et structures d'accueil. Il facilite le prononcé et l'exécution rapide de ces peines. Le TIG participe ainsi pleinement au désengorgement des établissements pénitentiaires.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2145/AN/50"
+    },
+    {
+      "numero": "51",
+      "auteur": "Mme Élodie Prévost",
+      "dispositif": "« Après l'article 24, il est inséré un article 24 bis ainsi rédigé : “Les moyens humains de la protection judiciaire de la jeunesse sont renforcés par le recrutement de 500 éducateurs supplémentaires sur la période de programmation. Le ratio d'encadrement des mineurs suivis en milieu ouvert ne peut excéder vingt-cinq mesures par éducateur.” »",
+      "exposeSommaire": "La protection judiciaire de la jeunesse souffre d'un sous-effectif chronique qui compromet la qualité du suivi éducatif des mineurs délinquants ou en danger. Cet amendement fixe un objectif de recrutement et plafonne le nombre de mesures par éducateur pour garantir un accompagnement individualisé. La prévention de la récidive des mineurs passe par un suivi rapproché et continu. Ce renforcement conforte la primauté de l'éducatif sur le répressif propre à la justice des mineurs.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2145/AN/51"
+    },
+    {
+      "numero": "52",
+      "auteur": "M. Grégoire Vasseur",
+      "dispositif": "« L'article 27 est ainsi rédigé : “Préalablement à toute saisine du juge en matière de litige de voisinage, de conflit locatif ou de différend de la consommation inférieur à 5 000 euros, les parties justifient d'une tentative de médiation ou de conciliation, à peine d'irrecevabilité de la demande.” »",
+      "exposeSommaire": "Le développement des modes amiables de résolution des différends est un levier majeur de désengorgement des juridictions civiles. Cet amendement élargit le champ des litiges soumis à une tentative préalable obligatoire de médiation ou de conciliation. Il favorise des solutions négociées, plus rapides et moins coûteuses pour les justiciables. La déjudiciarisation raisonnée recentre l'office du juge sur les contentieux les plus complexes.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2145/AN/52"
+    },
+    {
+      "numero": "53",
+      "auteur": "Mme Nadia Lefèvre",
+      "dispositif": "« Après l'article 30, il est inséré un article 30 bis ainsi rédigé : “Toute personne condamnée à une peine d'emprisonnement inférieure ou égale à six mois bénéficie d'un examen systématique de sa situation par le juge de l'application des peines en vue d'un aménagement, sauf décision spécialement motivée.” »",
+      "exposeSommaire": "Les courtes peines d'emprisonnement sont désocialisantes et fortement criminogènes, sans réelle valeur ajoutée pour la sécurité publique. Cet amendement systématise l'examen d'un aménagement de peine pour les condamnations les plus courtes afin de privilégier les mesures de milieu ouvert. Il renforce le rôle du juge de l'application des peines dans l'individualisation de la sanction. Cette mesure contribue directement à la lutte contre la surpopulation carcérale et à la prévention de la récidive.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2145/AN/53"
+    },
+    {
+      "numero": "54",
+      "auteur": "M. Philippe Aubry",
+      "dispositif": "« L'article 33 est complété par un alinéa ainsi rédigé : “Un plan pluriannuel de rénovation du parc immobilier judiciaire est arrêté par le garde des Sceaux. Il garantit l'accessibilité de l'ensemble des palais de justice aux personnes en situation de handicap au plus tard le 31 décembre 2030.” »",
+      "exposeSommaire": "De nombreux palais de justice sont vétustes et demeurent inaccessibles aux personnes à mobilité réduite, en contradiction avec les obligations légales. Cet amendement inscrit dans la programmation un plan de rénovation immobilière assorti d'une échéance ferme pour la mise en accessibilité. Il garantit des conditions d'accueil dignes tant pour les justiciables que pour les personnels. La qualité du bâti judiciaire participe de la confiance des citoyens dans leur justice.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2145/AN/54"
+    },
+    {
+      "numero": "55",
+      "auteur": "Mme Béatrice Chevalier",
+      "dispositif": "« Après l'article 36, il est inséré un article 36 bis ainsi rédigé : “Les juristes assistants et les attachés de justice concourent à la préparation des décisions juridictionnelles sous la responsabilité des magistrats. Leur nombre est porté à 3 000 au terme de la programmation.” »",
+      "exposeSommaire": "Le renforcement de l'équipe autour du magistrat est une condition essentielle de la réduction des délais et de l'amélioration de la qualité des décisions. Cet amendement consacre le rôle des juristes assistants et attachés de justice et fixe un objectif de recrutement ambitieux. Il permet de décharger les magistrats des tâches de recherche et de rédaction préparatoire. Cette structuration de l'équipe juridictionnelle constitue un investissement durable dans l'efficacité de la justice.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2145/AN/55"
+    },
+    {
+      "numero": "56",
+      "auteur": "M. Damien Roussel",
+      "dispositif": "« L'article 39 est complété par les mots : “et un dispositif de repérage et de prise en charge des personnes détenues souffrant de troubles psychiatriques est déployé dans chaque établissement pénitentiaire, en lien avec les agences régionales de santé”. »",
+      "exposeSommaire": "Une part significative des personnes détenues souffre de troubles psychiatriques insuffisamment diagnostiqués et pris en charge en détention. Cet amendement impose un dispositif systématique de repérage et de soins, en articulation avec le système de santé de droit commun. Il vise à réduire le risque suicidaire et à garantir la continuité des soins. La santé mentale en détention est un enjeu de dignité et de prévention de la récidive.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2145/AN/56"
+    },
+    {
+      "numero": "57",
+      "auteur": "Mme Valentine Lacroix",
+      "dispositif": "« Après l'article 42, il est inséré un article 42 bis ainsi rédigé : “Un accompagnement humain à l'usage des services numériques de la justice est garanti dans chaque point-justice au bénéfice des personnes éloignées du numérique. Aucune procédure ne peut être rendue exclusivement accessible par voie dématérialisée.” »",
+      "exposeSommaire": "La numérisation des procédures ne doit pas se traduire par une exclusion des justiciables les plus vulnérables face à la fracture numérique. Cet amendement garantit un accompagnement humain et interdit toute procédure exclusivement dématérialisée. Il préserve un accès alternatif pour les personnes âgées, précaires ou en situation de handicap. La modernisation de la justice doit demeurer inclusive et respectueuse de l'égalité d'accès au droit.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2145/AN/57"
+    },
+    {
+      "numero": "58",
+      "auteur": "M. Étienne Barbier",
+      "dispositif": "« L'article 45 est ainsi complété : “La rétribution versée aux avocats au titre de l'aide juridictionnelle est revalorisée et fait l'objet d'une révision triennale négociée avec les représentants de la profession, afin de garantir une défense de qualité pour les justiciables les plus modestes.” »",
+      "exposeSommaire": "L'insuffisante rétribution des avocats intervenant au titre de l'aide juridictionnelle décourage l'engagement de la profession et fragilise la qualité de la défense des plus démunis. Cet amendement prévoit une revalorisation et un mécanisme de révision périodique concerté. Il sécurise le modèle économique de l'aide juridictionnelle dans la durée. Une juste rétribution est la garantie d'une défense effective et de l'égalité devant la justice.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2145/AN/58"
+    },
+    {
+      "numero": "59",
+      "auteur": "Mme Clara Fontaine",
+      "dispositif": "« Après l'article 48, il est inséré un article 48 bis ainsi rédigé : “Il est créé un service public de l'accompagnement à la sortie de détention chargé de préparer, dès l'entrée en détention, l'accès au logement, à l'emploi, aux soins et aux droits sociaux des personnes détenues, en lien avec les services pénitentiaires d'insertion et de probation.” »",
+      "exposeSommaire": "La prévention de la récidive se joue en grande partie dans la préparation de la sortie et la réinsertion des personnes détenues. Cet amendement institue un accompagnement structuré, engagé dès l'entrée en détention et couvrant l'ensemble des dimensions de la réinsertion. Il renforce l'action des services pénitentiaires d'insertion et de probation. Une sortie préparée réduit significativement le risque de retour à la délinquance et sécurise le parcours de réinsertion.",
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/17/amendements/2145/AN/59"
+    }
+  ]
+}

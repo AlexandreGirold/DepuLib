@@ -1,0 +1,3 @@
+import { DefaultColorScheme } from "@codegouvfr/react-dsfr/next-appdir";
+
+export const defaultColorScheme: DefaultColorScheme = "light";
