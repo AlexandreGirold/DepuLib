@@ -7,6 +7,7 @@ import { Badge } from "@codegouvfr/react-dsfr/Badge";
 import { Alert } from "@codegouvfr/react-dsfr/Alert";
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 export type CreneauGestion = {
   id: string;
@@ -14,6 +15,7 @@ export type CreneauGestion = {
   fin: string;
   statut: string;
   publicCible: string;
+  rdvId?: string | null;
 };
 
 const formatJour = new Intl.DateTimeFormat("fr-FR", { weekday: "long", day: "numeric", month: "long" });
@@ -181,38 +183,86 @@ export function GestionCreneaux({
           Aucun créneau ouvert pour le moment.
         </p>
       ) : (
-        <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
           {[...parJour.entries()].map(([jour, creneauxDuJour]) => (
             <div key={jour}>
               <p className={fr.cx("fr-text--sm", "fr-mb-1w")} style={{ fontWeight: 500 }}>
                 {jour}
               </p>
-              <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap" }}>
+              <div
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "repeat(auto-fill, minmax(230px, 1fr))",
+                  gap: "0.75rem"
+                }}
+              >
                 {creneauxDuJour.map((c) => {
                   const libre = c.statut === "libre";
-                  return (
-                    <span
-                      key={c.id}
-                      className={fr.cx("fr-tag")}
-                      style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem" }}
-                    >
-                      {formatHeure.format(new Date(c.debut))}–{formatHeure.format(new Date(c.fin))}
-                      <Badge small noIcon severity={c.publicCible === "representant" ? "warning" : "new"}>
-                        {PUBLIC_LABEL[c.publicCible] ?? c.publicCible}
-                      </Badge>
-                      <Badge small noIcon severity={libre ? "success" : "info"}>
-                        {libre ? "Libre" : "Réservé"}
-                      </Badge>
-                      {canAct && libre && (
-                        <button
-                          type="button"
-                          aria-label={`Retirer le créneau du ${jour}`}
-                          onClick={() => retirer(c.id)}
-                          disabled={suppressionId === c.id}
-                          className={fr.cx("fr-btn", "fr-btn--tertiary-no-outline", "fr-btn--sm", "fr-icon-close-line")}
-                        />
+                  const contenu = (
+                    <>
+                      <div
+                        style={{
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "space-between",
+                          gap: "0.5rem"
+                        }}
+                      >
+                        <span style={{ fontWeight: 500 }}>
+                          {formatHeure.format(new Date(c.debut))}–{formatHeure.format(new Date(c.fin))}
+                        </span>
+                        {canAct && libre && (
+                          <button
+                            type="button"
+                            aria-label={`Retirer le créneau du ${jour}`}
+                            onClick={() => retirer(c.id)}
+                            disabled={suppressionId === c.id}
+                            className={fr.cx(
+                              "fr-btn",
+                              "fr-btn--tertiary-no-outline",
+                              "fr-btn--sm",
+                              "fr-icon-close-line"
+                            )}
+                          />
+                        )}
+                      </div>
+                      <div className={fr.cx("fr-badges-group")} style={{ marginTop: "0.5rem" }}>
+                        <Badge small noIcon severity={c.publicCible === "representant" ? "warning" : "new"}>
+                          {PUBLIC_LABEL[c.publicCible] ?? c.publicCible}
+                        </Badge>
+                        <Badge small noIcon severity={libre ? "success" : "info"}>
+                          {libre ? "Libre" : "Réservé"}
+                        </Badge>
+                      </div>
+                      {!libre && c.rdvId && (
+                        <p
+                          className={fr.cx("fr-text--xs", "fr-mb-0")}
+                          style={{ marginTop: "0.5rem", color: "var(--text-action-high-blue-france)" }}
+                        >
+                          Voir la fiche du rendez-vous →
+                        </p>
                       )}
-                    </span>
+                    </>
+                  );
+                  const boxStyle: React.CSSProperties = {
+                    display: "block",
+                    boxSizing: "border-box",
+                    height: "100%",
+                    padding: "1rem 1.25rem",
+                    border: "1px solid var(--border-default-grey)",
+                    borderRadius: 8,
+                    background: "var(--background-default-grey)",
+                    color: "inherit",
+                    textDecoration: "none"
+                  };
+                  return !libre && c.rdvId ? (
+                    <Link key={c.id} href={`/depute/rdv/${c.rdvId}`} style={boxStyle}>
+                      {contenu}
+                    </Link>
+                  ) : (
+                    <div key={c.id} style={boxStyle}>
+                      {contenu}
+                    </div>
                   );
                 })}
               </div>
