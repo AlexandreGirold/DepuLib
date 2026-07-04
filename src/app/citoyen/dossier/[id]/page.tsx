@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { requireRole } from "@/lib/guards";
 import { getDossierComplet, ensureResumeDossier, readResumeAmendement, moyenneSentiment } from "@/lib/data";
 import { DossierTabs } from "@/components/DossierTabs";
+import { JaugeSentiment } from "@/components/JaugeSentiment";
 import type { AmendementView } from "@/components/AmendementCard";
 import type { AvisItem } from "@/components/AvisListe";
 import { prisma } from "@/lib/db";
@@ -48,6 +49,9 @@ export default async function DossierPage({ params }: { params: { id: string } }
   });
   const upvotedSet = new Set(myUpvotes.map((u) => u.commentaireId));
 
+  // Sentiment global des avis citoyens sur le dossier (jauge d'accord / désaccord)
+  const { moyenne, count } = moyenneSentiment(dossier.commentaires);
+
   const avis: AvisItem[] = dossier.commentaires.map((c) => ({
     id: c.id,
     texte: c.texte,
@@ -87,6 +91,18 @@ export default async function DossierPage({ params }: { params: { id: string } }
       >
         Demander un rendez-vous à propos de ce dossier
       </Link>
+
+      {count > 0 && (
+        <div
+          className={fr.cx("fr-p-3w", "fr-mb-3w")}
+          style={{ border: "1px solid var(--border-default-grey)", borderRadius: 8 }}
+        >
+          <p className={fr.cx("fr-text--sm", "fr-mb-1w")} style={{ fontWeight: 500 }}>
+            Sentiment global des avis
+          </p>
+          <JaugeSentiment value={moyenne} count={count} />
+        </div>
+      )}
 
       <DossierTabs
         dossierId={dossier.id}

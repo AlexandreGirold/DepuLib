@@ -50,7 +50,7 @@ export function DeputeDossierTabs({
             <div>
               <SyntheseCard dossierId={dossierId} initial={synthese} />
               <h3 className={fr.cx("fr-mt-3w")}>Avis citoyens</h3>
-              <AvisListe initial={avis} />
+              <AvisListe initial={avis} canUpvote={false} showSentimentFilter />
             </div>
           )
         },
