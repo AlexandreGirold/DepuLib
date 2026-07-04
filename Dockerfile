@@ -11,6 +11,9 @@ RUN apt-get update -y && apt-get install -y --no-install-recommends openssl ca-c
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
+# Copie les styles DSFR dans public/dsfr (gitignoré → absent du contexte de build).
+# Chargés via <link href="/dsfr/..."> dans layout.tsx ; sans ça, page sans CSS.
+RUN cp -r node_modules/@codegouvfr/react-dsfr/dsfr public/dsfr
 # Base SQLite factice pour permettre `prisma generate` au build.
 ENV DATABASE_URL="file:/tmp/build.db"
 RUN npx prisma generate

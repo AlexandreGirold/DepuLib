@@ -33,11 +33,14 @@ L'application est servie sur http://localhost:3000. Au premier démarrage, la ba
 
 ```bash
 npm install
+cp -r node_modules/@codegouvfr/react-dsfr/dsfr public/dsfr  # styles DSFR (sinon page sans CSS)
 npx prisma db push          # crée data/depulib.db
 npm run seed                 # données de démonstration
 npm run embed                # embeddings bge-m3 des amendements
 npm run dev                  # http://localhost:3000
 ```
+
+> `public/dsfr` est ignoré par git (build artifact) et doit être régénéré après chaque `npm install`.
 
 La clé `CLOUDTEMPLE_LLMAAS_API_KEY` est lue depuis `depulib/.env` **ou** `../.env`.
 
