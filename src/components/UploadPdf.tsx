@@ -18,24 +18,24 @@ export function UploadPdf({
 }) {
   const router = useRouter();
   const [loading, setLoading] = useState(false);
-  const [result, setResult] = useState<{ filename: string; resumeIA: string } | null>(null);
+  const [result, setResult] = useState<{ filenames: string[]; resumeIA: string } | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   async function onChange(e: React.ChangeEvent<HTMLInputElement>) {
-    const file = e.target.files?.[0];
-    if (!file) return;
+    const files = e.target.files;
+    if (!files || files.length === 0) return;
     setError(null);
     setLoading(true);
     setResult(null);
     try {
       const fd = new FormData();
-      fd.append("file", file);
+      for (const file of Array.from(files)) fd.append("file", file);
       if (rdvId) fd.append("rdvId", rdvId);
       if (contributionId) fd.append("contributionId", contributionId);
       const res = await fetch("/api/upload", { method: "POST", body: fd });
       const data = await res.json();
       if (data.ok) {
-        setResult({ filename: data.filename, resumeIA: data.resumeIA });
+        setResult({ filenames: data.filenames, resumeIA: data.resumeIA });
         router.refresh();
       } else {
         setError(data.error ?? "Erreur d'upload");
@@ -50,10 +50,11 @@ export function UploadPdf({
   return (
     <div>
       <Upload
-        label="Déposer un document (PDF, max 10 Mo)"
-        hint="Le document sera résumé par l'IA. Le résumé est non contradictoire."
+        label="Déposer un ou plusieurs documents (PDF, max 10 Mo chacun)"
+        hint="Les documents seront résumés ensemble par l'IA. Le résumé est non contradictoire."
         state="default"
-        nativeInputProps={{ accept: "application/pdf", onChange, disabled: loading }}
+        multiple
+        nativeInputProps={{ accept: "application/pdf", multiple: true, onChange, disabled: loading }}
       />
       {loading && (
         <p className={fr.cx("fr-text--sm")}>Extraction et résumé en cours…</p>
@@ -67,8 +68,8 @@ export function UploadPdf({
           small
           closable={false}
           className={fr.cx("fr-mt-1w")}
-          title={`Document « ${result.filename} » ajouté`}
-          description={`Résumé IA : ${result.resumeIA}`}
+          title={`${result.filenames.length} document(s) ajouté(s) : ${result.filenames.join(", ")}`}
+          description={`Résumé IA combiné : ${result.resumeIA}`}
         />
       )}
     </div>

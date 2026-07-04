@@ -8,3 +8,14 @@ data/
 public/dsfr/
 next-env.d.ts
 .DS_Store
+
+# Terraform
+infra/.terraform/
+infra/*.tfstate
+infra/*.tfstate.*
+infra/terraform.tfvars
+infra/*.tfplan
+infra/.depulib-src.tar.gz
+
+# TypeScript incremental build cache
+tsconfig.tsbuildinfo

@@ -3,8 +3,7 @@ import { prisma } from "@/lib/db";
 import { requireUser } from "@/lib/session";
 import { resumeDocument } from "@/lib/ia";
 import { toJsonField } from "@/lib/sources";
-import fs from "node:fs/promises";
-import path from "node:path";
+import { uploadDocument } from "@/lib/storage";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 120;
@@ -12,8 +11,9 @@ export const maxDuration = 120;
 const MAX_SIZE = 10 * 1024 * 1024; // 10 Mo
 
 /**
- * Upload d'un PDF (F7) par un représentant, rattaché à un RDV ou une
- * contribution. Extraction texte (pdf-parse) + résumé IA.
+ * Upload d'un ou plusieurs PDF (F7) par un représentant, rattaché à un RDV ou
+ * une contribution. Chaque fichier → bucket S3 + extraction texte. Un unique
+ * résumé IA combiné sur l'ensemble des fichiers du dépôt.
  */
 export async function POST(req: Request) {
   const user = await requireUser();
@@ -25,61 +25,87 @@ export async function POST(req: Request) {
   }
 
   const form = await req.formData();
-  const file = form.get("file");
+  const files = form.getAll("file").filter((f): f is File => f instanceof File);
   const rdvId = form.get("rdvId") ? String(form.get("rdvId")) : null;
   const contributionId = form.get("contributionId")
     ? String(form.get("contributionId"))
     : null;
 
-  if (!(file instanceof File)) {
+  if (files.length === 0) {
     return NextResponse.json({ error: "Aucun fichier" }, { status: 400 });
   }
-  if (file.size > MAX_SIZE) {
-    return NextResponse.json({ error: "Fichier trop volumineux (max 10 Mo)" }, { status: 400 });
-  }
-  if (!file.name.toLowerCase().endsWith(".pdf")) {
-    return NextResponse.json({ error: "Seuls les PDF sont acceptés" }, { status: 400 });
-  }
 
-  const buffer = Buffer.from(await file.arrayBuffer());
+  const pdfParse = (await import("pdf-parse")).default;
+  const created: { id: string; filename: string; texte: string }[] = [];
 
-  const uploadDir = process.env.UPLOAD_DIR || "./data/uploads";
-  await fs.mkdir(uploadDir, { recursive: true });
-  const safeName = `${Date.now()}-${file.name.replace(/[^a-zA-Z0-9._-]/g, "_")}`;
-  const filePath = path.join(uploadDir, safeName);
-  await fs.writeFile(filePath, buffer);
-
-  // Extraction texte via pdf-parse
-  let texte = "";
-  try {
-    const pdfParse = (await import("pdf-parse")).default;
-    const data = await pdfParse(buffer);
-    texte = (data.text || "").trim();
-  } catch (e) {
-    texte = "";
-  }
-
-  const resume = texte
-    ? await resumeDocument(texte)
-    : { contenu: "Le texte du document n'a pas pu être extrait.", sources: [] };
-
-  const doc = await prisma.document.create({
-    data: {
-      rdvId,
-      contributionId,
-      filename: file.name,
-      path: filePath,
-      texteExtrait: texte.slice(0, 20000),
-      resumeIA: resume.contenu,
-      sources: toJsonField(resume.sources),
-      uploaderId: user.id
+  for (const file of files) {
+    if (file.size > MAX_SIZE) {
+      return NextResponse.json(
+        { error: `Fichier trop volumineux (max 10 Mo) : ${file.name}` },
+        { status: 400 }
+      );
     }
-  });
+    if (!file.name.toLowerCase().endsWith(".pdf")) {
+      return NextResponse.json(
+        { error: `Seuls les PDF sont acceptés : ${file.name}` },
+        { status: 400 }
+      );
+    }
+
+    const buffer = Buffer.from(await file.arrayBuffer());
+    const key = `${Date.now()}-${file.name.replace(/[^a-zA-Z0-9._-]/g, "_")}`;
+    const storedPath = await uploadDocument(key, buffer);
+
+    let texte = "";
+    try {
+      const data = await pdfParse(buffer);
+      texte = (data.text || "").trim();
+    } catch {
+      texte = "";
+    }
+
+    const doc = await prisma.document.create({
+      data: {
+        rdvId,
+        contributionId,
+        filename: file.name,
+        path: storedPath,
+        texteExtrait: texte.slice(0, 20000),
+        resumeIA: null,
+        sources: null,
+        uploaderId: user.id
+      }
+    });
+    created.push({ id: doc.id, filename: file.name, texte });
+  }
+
+  // Résumé combiné sur tous les documents du dépôt.
+  const texteCombine = created
+    .filter((d) => d.texte)
+    .map((d) => `--- ${d.filename} ---\n${d.texte}`)
+    .join("\n\n");
+
+  const resume = texteCombine
+    ? await resumeDocument(texteCombine)
+    : { contenu: "Le texte des documents n'a pas pu être extrait.", sources: [] };
+
+  // Stocke le résumé combiné sur la contribution ou le RDV.
+  if (contributionId) {
+    await prisma.contribution.update({
+      where: { id: contributionId },
+      data: { resumeIA: resume.contenu, sources: toJsonField(resume.sources) }
+    });
+  } else if (rdvId) {
+    await prisma.rendezVous.update({
+      where: { id: rdvId },
+      data: { briefIA: resume.contenu, sources: toJsonField(resume.sources) }
+    });
+  }
 
   return NextResponse.json({
     ok: true,
-    documentId: doc.id,
-    filename: doc.filename,
-    resumeIA: doc.resumeIA
+    count: created.length,
+    filenames: created.map((d) => d.filename),
+    resumeIA: resume.contenu
   });
 }
