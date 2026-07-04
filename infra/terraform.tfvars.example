@@ -1,0 +1,16 @@
+# FACULTATIF. Les variables project_id / ssh_public_key / cloudtemple_api_key
+# sont normalement fournies par les lignes TF_VAR_* du .env racine
+# (set -a && source ../.env && set +a). Voir README.
+#
+# Copie ce fichier en terraform.tfvars (gitignoré) UNIQUEMENT si tu veux les
+# poser en dur au lieu de passer par le .env.
+
+# project_id          = "7658f..."          # OVH_CLOUD_PROJECT_SERVICE
+# ssh_public_key      = "ssh-ed25519 AAAA..." # OVH_API_KEY
+# cloudtemple_api_key = "KAHh..."            # CLOUDTEMPLE_LLMAAS_API_KEY
+
+# Overrides des défauts (voir variables.tf) :
+# region      = "GRA11"
+# s3_region   = "gra"
+# flavor      = "d2-4"
+# bucket_name = "depulib-documents"
