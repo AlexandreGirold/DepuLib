@@ -8,9 +8,10 @@ mkdir -p /data /data/uploads
 # Appel direct du CLI Prisma (le symlink .bin n'est pas embarqué).
 node node_modules/prisma/build/index.js db push --skip-generate --accept-data-loss
 
-# Seed si la base est vide (aucun dossier).
+# Seed si la base est vide (aucun dossier) OU si RESEED=1 (force le re-seed sans
+# vider le volume : utile quand les données seed évoluent — seed.cjs réécrit tout).
 COUNT=$(node -e "const{PrismaClient}=require('@prisma/client');const p=new PrismaClient();p.dossier.count().then(c=>{console.log(c);return p.\$disconnect()}).catch(()=>{console.log(0)})")
-if [ "$COUNT" = "0" ]; then
+if [ "$COUNT" = "0" ] || [ "$RESEED" = "1" ]; then
   echo "[entrypoint] Base vide → seed + embeddings + résumés IA"
   node prisma/seed.cjs
   node scripts/embed.cjs || echo "[entrypoint] embeddings: fallback pseudo (déjà posés par le seed)"
