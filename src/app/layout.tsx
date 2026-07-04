@@ -8,6 +8,7 @@ import { StartDsfr } from "./StartDsfr";
 import { defaultColorScheme } from "./defaultColorScheme";
 import { AppHeader } from "@/components/AppHeader";
 import { AppFooter } from "@/components/AppFooter";
+import { ViewBanner, VIEW_BANNER_HEIGHT } from "@/components/ViewBanner";
 import { getSession } from "@/lib/session";
 
 export const metadata: Metadata = {
@@ -36,6 +37,15 @@ export default async function RootLayout({
       </head>
       <body>
         <DsfrProvider lang={lang}>
+          <ViewBanner role={session.user?.role ?? null} />
+          {/* Espace réservé : le bandeau est en position fixed (en haut), ce
+              spacer évite qu'il masque le haut de l'en-tête. */}
+          {session.user ? (
+            <div
+              aria-hidden="true"
+              style={{ height: VIEW_BANNER_HEIGHT }}
+            />
+          ) : null}
           <Notice
             title="Site de démonstration réalisé dans le cadre d'un hackathon. Les noms, photos et circonscriptions des député·es proviennent de l'open data public de l'Assemblée nationale ; les disponibilités, échanges et décisions affichés dans cette démo sont simulés et ne reflètent aucune action réelle de leur part."
           />
