@@ -58,7 +58,7 @@ export function DeputeDossierTabs({
           content: (
             <div>
               <p className={fr.cx("fr-text--sm")} style={{ color: "var(--text-mention-grey)" }}>
-                Sentiment citoyen propre à chaque amendement ayant reçu des avis.
+                Consultez les avis citoyens rattachés à chaque amendement.
               </p>
               {amendements.map((a) => (
                 <AmendementCard key={a.id} a={a} />

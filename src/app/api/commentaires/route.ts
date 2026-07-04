@@ -57,6 +57,14 @@ export async function POST(req: Request) {
   let matchResult = null;
   let amendementPayload = null;
   let auto = false;
+  // Debug : trace du top 10 cosinus + verdict du juge, exposée uniquement
+  // lorsqu'aucun match confiant n'est retenu (voir réponse ci-dessous).
+  let debug: {
+    candidats: { numero: string; auteur: string; score: number }[];
+    confiance: number;
+    justification: string;
+    seuil: number;
+  } | null = null;
 
   if (amendements.length > 0) {
     const [queryVec] = await embed([clean]);
@@ -82,6 +90,16 @@ export async function POST(req: Request) {
     auto = Boolean(juge.auto);
     // Seuil de confiance 0,7 (§8). En mode fallback auto, on retient dès 0,6.
     const seuil = juge.auto ? 0.6 : SEUIL_CONFIANCE;
+    debug = {
+      candidats: top.map((t) => ({
+        numero: t.item.numero,
+        auteur: t.item.auteur,
+        score: Number(t.score.toFixed(4))
+      })),
+      confiance: juge.confiance,
+      justification: juge.justification,
+      seuil
+    };
     if (juge.match && juge.amendementId && juge.confiance >= seuil) {
       const amdt = amendements.find((a) => a.id === juge.amendementId);
       if (amdt) {
@@ -106,6 +124,8 @@ export async function POST(req: Request) {
     sentiment: classif.sentiment,
     match: Boolean(matchResult),
     auto,
-    amendement: amendementPayload
+    amendement: amendementPayload,
+    // Diagnostic : n'expose les candidats que faute de match retenu.
+    debug: amendementPayload ? null : debug
   });
 }

@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "seed": "node prisma/seed.cjs",
-    "embed": "node scripts/embed.cjs"
+    "embed": "node scripts/embed.cjs",
+    "parse-actus": "node scripts/parse-actus.cjs",
+    "seed-actus": "node scripts/seed-actus.cjs"
   },
   "prisma": {
     "seed": "node prisma/seed.cjs"

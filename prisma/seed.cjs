@@ -32,7 +32,6 @@ async function reset() {
   await prisma.rdvDossier.deleteMany();
   await prisma.rendezVous.deleteMany();
   await prisma.contribution.deleteMany();
-  await prisma.feedItem.deleteMany();
   await prisma.commentaire.deleteMany();
   await prisma.amendement.deleteMany();
   await prisma.dossier.deleteMany();
@@ -203,29 +202,6 @@ async function main() {
     });
     console.log(`[seed] RDV seedé ${rdv.id}`);
   }
-
-  // --- Feed pré-généré pour hugo.citoyen (F9) ---
-  const feedSources = [];
-  const feedItems = [];
-  for (const d of dossiers.slice(0, 4)) {
-    feedItems.push({
-      titre: d.titre,
-      resume:
-        (d.resumeFallback || d.expose).slice(0, 150).replace(/\s+\S*$/, "") + "…",
-      lien: d.sourceUrl,
-      tag: d.commission.replace("Commission ", "")
-    });
-    feedSources.push({ url: d.sourceUrl, titre: d.titre });
-  }
-  await prisma.feedItem.create({
-    data: {
-      userId: hugo.id,
-      periode: "2026-07",
-      contenuIA: JSON.stringify({ items: feedItems }),
-      sources: JSON.stringify(feedSources)
-    }
-  });
-  console.log("[seed] Feed pré-généré pour hugo.citoyen");
 
   console.log("[seed] Terminé ✅");
 }
