@@ -69,7 +69,8 @@ export default async function CalendrierPage() {
           debut: c.debut.toISOString(),
           fin: c.fin.toISOString(),
           statut: c.statut,
-          publicCible: c.publicCible
+          publicCible: c.publicCible,
+          rdvId: c.rendezVous?.id ?? null
         }))}
         canAct={user.role === "depute"}
       />
