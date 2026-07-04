@@ -69,7 +69,8 @@ La clé `CLOUDTEMPLE_LLMAAS_API_KEY` est lue depuis `depulib/.env` **ou** `../.e
 |---|---|
 | `npm run seed` | (Ré)initialise la base avec les lois (open data AN) |
 | `npm run embed` | Calcule les embeddings bge-m3 des amendements |
-| `npm run warm` | Pré-génère et met en cache les résumés IA (dossiers + amendements) → clic instantané |
+| `npm run warm` | Pré-génère et met en cache les résumés IA (dossiers + amendements) → affichage instantané |
+| `npm run fix:amendements` | Rattache les `sourceUrl` d'amendements à l'open data AN (URLs officielles valides) — voir *Données législatives* |
 | `npm run export:resumes` | Fige les résumés/synthèses IA + embeddings réels dans `seed/resumes.json` et `seed/embeddings.json` (versionnés) |
 | `npm run ingest` | Enchaîne seed + embed + warm (régénère tout via le LLM) |
 | `POST /api/warm` | Même pré-génération, à la demande, pour un député connecté |
@@ -77,4 +78,12 @@ La clé `CLOUDTEMPLE_LLMAAS_API_KEY` est lue depuis `depulib/.env` **ou** `../.e
 
 ## Données législatives
 
-Les lois proviennent de l'**open data de l'Assemblée nationale** (17e législature, `"source": "assemblee-nationale-opendata"`) : dossiers inscrits à l'ordre du jour de la séance publique, répartis par commission au fond, avec leurs amendements réels (titre, numéro, auteur, article, dispositif, exposé sommaire, URL officielle vérifiable). Le client MCP tricoteuses est aussi implémenté (`src/lib/mcp.ts`) mais le site est protégé par un anti-bot ; l'UI lit **exclusivement la BDD**.
+Les lois proviennent de l'**open data de l'Assemblée nationale** (17e législature, `"source": "assemblee-nationale-opendata"`) : dossiers inscrits à l'ordre du jour de la séance publique, répartis par commission au fond, avec leurs amendements réels (numéro, auteur, article, dispositif, exposé sommaire, sort, URL officielle vérifiable). Le client MCP tricoteuses est aussi implémenté (`src/lib/mcp.ts`) mais le site est protégé par un anti-bot ; l'UI lit **exclusivement la BDD**.
+
+### Sources d'amendements vers les textes officiels
+
+Chaque amendement pointe vers sa page officielle sur `assemblee-nationale.fr`. L'URL est la forme **canonique dérivée de l'`uid` open data** (`/dyn/17/amendements/<uid>`), qui **redirige toujours** vers la bonne page — contrairement à une URL reconstruite à la main (mauvais numéro de texte → lien mort). Ces URLs sont **figées dans le seed**, donc aucun appel à l'API n'est nécessaire au démarrage.
+
+- **Mapping open data** (API tricoteuses) : les amendements d'un dossier se récupèrent via `GET /amendements?dossierRefUid=<REFUID>` (l'`id` de dossier sans le préfixe `an-`, en majuscules). L'API rate-limite sous charge (502/503).
+- **`npm run fix:amendements`** ré-aligne les `sourceUrl` (et les sources figées de `seed/resumes.json`) sur l'open data : idempotent, préfère la version canonique en cas de doublon, et replie sur la page officielle du dossier si un amendement est introuvable — **jamais de lien cassé**. Relancer `npm run seed` ensuite pour propager en BDD.
+- **Résumés IA au fetch, pas au clic** : les résumés d'amendements sont pré-générés à l'ingestion (`npm run warm`, figés dans `seed/resumes.json`) ; les pages les lisent en lecture seule, sans appel LLM au rendu.
