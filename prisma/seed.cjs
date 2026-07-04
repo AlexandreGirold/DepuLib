@@ -37,12 +37,54 @@ async function reset() {
   await prisma.document.deleteMany();
   await prisma.rdvDossier.deleteMany();
   await prisma.rendezVous.deleteMany();
+  await prisma.creneau.deleteMany();
   await prisma.contribution.deleteMany();
   await prisma.commentaire.deleteMany();
   await prisma.amendement.deleteMany();
   await prisma.dossier.deleteMany();
   await prisma.user.deleteMany();
   await prisma.organisation.deleteMany();
+}
+
+// N-ième occurrence d'un jour de semaine (0=dimanche..6=samedi) dans un mois
+// donné, ou null si ce mois ne compte pas n occurrences de ce jour.
+function niemeJourDuMois(annee, mois, jourSemaine, n) {
+  const premier = new Date(annee, mois, 1);
+  const jour = 1 + ((jourSemaine - premier.getDay() + 7) % 7) + (n - 1) * 7;
+  const date = new Date(annee, mois, jour);
+  return date.getMonth() === mois ? date : null;
+}
+
+// Créneaux de démo : permanence de 14h à 17h (3h, par tranches d'une heure —
+// 14h/15h ouvertes aux citoyens, 16h aux représentants d'intérêts). En
+// juillet : un jeudi sur deux (1er et 3e jeudi du mois). En septembre : une
+// seule journée de permanence (1er jeudi du mois).
+function creneauxDuJour(deputeId, jour) {
+  const maintenant = new Date();
+  const slots = [];
+  for (const heure of [14, 15, 16]) {
+    const debut = new Date(jour);
+    debut.setHours(heure, 0, 0, 0);
+    if (debut.getTime() <= maintenant.getTime()) continue;
+    const publicCible = heure === 16 ? "representant" : "citoyen";
+    slots.push({ deputeId, debut, fin: new Date(debut.getTime() + 60 * 60 * 1000), publicCible });
+  }
+  return slots;
+}
+
+function genererCreneaux(deputeId) {
+  const annee = new Date().getFullYear();
+  const creneaux = [];
+
+  for (const n of [1, 3]) {
+    const jour = niemeJourDuMois(annee, 6 /* juillet */, 4 /* jeudi */, n);
+    if (jour) creneaux.push(...creneauxDuJour(deputeId, jour));
+  }
+
+  const jourSeptembre = niemeJourDuMois(annee, 8 /* septembre */, 4 /* jeudi */, 1);
+  if (jourSeptembre) creneaux.push(...creneauxDuJour(deputeId, jourSeptembre));
+
+  return creneaux;
 }
 
 async function main() {
@@ -66,25 +108,7 @@ async function main() {
   }
   console.log(`[seed] ${orgRecords.length} organisations HATVP`);
 
-  // --- Comptes de démonstration ---
-  const marie = await prisma.user.create({
-    data: {
-      username: "marie.dupont",
-      role: "depute",
-      displayName: "Marie Dupont",
-      circonscription: "75-03",
-      commission: "Commission des lois constitutionnelles, de la législation et de l'administration générale de la République"
-    }
-  });
-  const paul = await prisma.user.create({
-    data: {
-      username: "paul.martin",
-      role: "collaborateur",
-      displayName: "Paul Martin",
-      deputeId: marie.id,
-      commission: "Commission des lois constitutionnelles, de la législation et de l'administration générale de la République"
-    }
-  });
+  // --- Comptes de démonstration citoyens / représentant ---
   const hugo = await prisma.user.create({
     data: {
       username: "hugo.citoyen",
@@ -109,14 +133,65 @@ async function main() {
       organisationId: orgRecords[0] ? orgRecords[0].id : null
     }
   });
+  console.log("[seed] 3 comptes fictifs créés (citoyens + représentant)");
+
+  // --- Députés réels (open data Assemblée nationale, figés dans seed/deputes.json) ---
+  // DEPUTE_DEMO_SLUG sert de compte de démonstration connectable sur /connexion
+  // (F6) : il faut un vrai identifiant de député pour pouvoir tester de bout en
+  // bout — un citoyen ou un représentant envoie un RDV à un vrai député choisi
+  // dans la liste, puis on se connecte sur son compte pour voir ce RDV
+  // apparaître. Les autres députés réels ne sont que des fiches (nom, photo,
+  // circonscription publics) : aucun avis ni décision fabriqués ne leur est
+  // associé, seules des disponibilités génériques.
+  const DEPUTE_DEMO_SLUG = "alain-david";
+  const COMMISSION_DEMO =
+    "Commission des lois constitutionnelles, de la législation et de l'administration générale de la République";
+  const deputesReels = readJson("deputes.json", []);
+  const deputeUsers = [];
+  for (const d of deputesReels) {
+    const user = await prisma.user.create({
+      data: {
+        username: d.slug.replace(/-/g, "."),
+        role: "depute",
+        displayName: `${d.prenom} ${d.nom}`,
+        civilite: d.civilite,
+        photoUrl: d.photoUrl,
+        departementNom: d.departementNom,
+        numDepartement: d.numDepartement,
+        circonscription: `${String(d.numDepartement).padStart(2, "0")}-${String(d.numCirco).padStart(2, "0")}`,
+        commission: d.slug === DEPUTE_DEMO_SLUG ? COMMISSION_DEMO : null
+      }
+    });
+    deputeUsers.push(user);
+  }
+  const deputeDemo = deputeUsers.find((u) => u.username === DEPUTE_DEMO_SLUG.replace(/-/g, "."));
+  if (!deputeDemo) {
+    throw new Error(`Député de démo introuvable dans seed/deputes.json (slug ${DEPUTE_DEMO_SLUG})`);
+  }
+  console.log(
+    `[seed] ${deputesReels.length} députés réels importés (open data) — compte démo connectable : ${deputeDemo.username}`
+  );
+
+  const paul = await prisma.user.create({
+    data: {
+      username: "paul.martin",
+      role: "collaborateur",
+      displayName: "Paul Martin",
+      deputeId: deputeDemo.id,
+      commission: COMMISSION_DEMO
+    }
+  });
   const usersByUsername = {
-    "marie.dupont": marie,
     "paul.martin": paul,
     "hugo.citoyen": hugo,
     "lea.citoyenne": lea,
     "jean.lobby": jean
   };
-  console.log("[seed] 5 comptes créés");
+
+  // --- Créneaux de disponibilité (générés, aucune donnée réelle d'agenda n'existe) ---
+  const tousLesCreneaux = deputeUsers.flatMap((u) => genererCreneaux(u.id));
+  await prisma.creneau.createMany({ data: tousLesCreneaux });
+  console.log(`[seed] ${tousLesCreneaux.length} créneaux générés pour ${deputeUsers.length} députés`);
 
   // --- Dossiers + amendements ---
   const dossiers = readDossiers();
@@ -206,7 +281,7 @@ async function main() {
   if (dossierNum) {
     const rdv = await prisma.rendezVous.create({
       data: {
-        deputeId: marie.id,
+        deputeId: deputeDemo.id,
         demandeurId: jean.id,
         typeDemandeur: "representant",
         sujet:

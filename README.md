@@ -49,8 +49,8 @@ La clé `CLOUDTEMPLE_LLMAAS_API_KEY` est lue depuis `depulib/.env` **ou** `../.e
 
 | Identifiant | Rôle | Espace |
 |---|---|---|
-| `marie.dupont` | Députée (Commission des lois) | `/depute/dashboard` |
-| `paul.martin` | Collaborateur de M. Dupont | `/depute/dashboard` (lecture, RDV désactivés) |
+| `alain.david` | Député (Gironde, Commission des lois) | `/depute/dashboard` |
+| `paul.martin` | Collaborateur de M. David | `/depute/dashboard` (lecture, RDV désactivés) |
 | `hugo.citoyen` | Citoyen (circo. 93-07) | `/citoyen` |
 | `lea.citoyenne` | Citoyenne (circo. 93-07) | `/citoyen` |
 | `jean.lobby` | Représentant d'intérêts (France Digitale) | `/representant` |
@@ -58,9 +58,9 @@ La clé `CLOUDTEMPLE_LLMAAS_API_KEY` est lue depuis `depulib/.env` **ou** `../.e
 ## Parcours de démonstration
 
 1. **Citoyen** (`hugo.citoyen`) → commission « Affaires culturelles et éducation » → loi réelle « Protéger les mineurs des risques […] réseaux sociaux » → écrire un avis sur la *protection de la petite enfance face aux écrans* → l'IA propose l'amendement réel **AC9** avec résumé + lien vers le texte officiel → « Soutenir cet amendement ».
-2. **Députée** (`marie.dupont`) → tableau de bord → jauge de sentiment, top amendements, **synthèse avec verbatims réels** → onglet Avis : message modéré replié (« rien ne disparaît ») → calendrier : RDV de `jean.lobby`, **fiche HATVP** + document résumé par IA.
+2. **Député** (`alain.david`) → tableau de bord → jauge de sentiment, top amendements, **synthèse avec verbatims réels** → onglet Avis : message modéré replié (« rien ne disparaît ») → calendrier : RDV de `jean.lobby`, **fiche HATVP** + document résumé par IA.
 3. **Représentant** (`jean.lobby`) → demander un RDV, déposer une contribution + PDF → visible côté député dans l'onglet dédié, séparé des avis citoyens.
-4. **Collaborateur** (`paul.martin`) → même dashboard que la députée, boutons d'action RDV désactivés.
+4. **Collaborateur** (`paul.martin`) → même dashboard que le député, boutons d'action RDV désactivés.
 5. **« Quoi de neuf ? »** (`hugo.citoyen`) → feed mensuel personnalisé, chaque item sourcé.
 
 ## Scripts

@@ -79,9 +79,9 @@ export default async function HomePage() {
       <p className={fr.cx("fr-text--sm", "fr-mt-4w")} style={{ color: "var(--text-mention-grey)" }}>
         Comptes de démonstration :{" "}
         <Link href="/connexion" className={fr.cx("fr-link", "fr-link--sm")}>
-          marie.dupont
+          alain.david
         </Link>{" "}
-        (députée), paul.martin (collaborateur), hugo.citoyen / lea.citoyenne
+        (député), paul.martin (collaborateur), hugo.citoyen / lea.citoyenne
         (citoyens), jean.lobby (représentant).
       </p>
     </div>

@@ -8,6 +8,8 @@ import { Tag } from "@codegouvfr/react-dsfr/Tag";
 import { Stepper } from "@codegouvfr/react-dsfr/Stepper";
 import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
+import { DeputePicker, type DeputeOption } from "./DeputePicker";
+import { CreneauPicker } from "./CreneauPicker";
 
 type DossierOption = {
   id: string;
@@ -22,25 +24,29 @@ const norm = (s: string) =>
 
 const MAX_RESULTATS = 8;
 const SEUIL_ALERTE = 3;
+const AVATAR_GENERIQUE = "/dsfr/artwork/pictograms/system/avatar.svg";
 
 const ETAPES = {
+  depute: "Choisir le député",
   demande: "Votre demande",
-  brief: "Brief IA généré pour la députée",
-  reponse: "Réponse de la députée"
+  reponse: "Réponse du député"
 };
 
 export function RdvForm({
   dossiers,
+  deputes,
   redirectTo,
   preselectionId
 }: {
   dossiers: DossierOption[];
+  deputes: DeputeOption[];
   redirectTo: string;
   preselectionId?: string;
 }) {
   const router = useRouter();
+  const [deputeId, setDeputeId] = useState<string | null>(null);
   const [sujet, setSujet] = useState("");
-  const [date, setDate] = useState("");
+  const [creneauId, setCreneauId] = useState<string | null>(null);
   const [selected, setSelected] = useState<string[]>(
     preselectionId && dossiers.some((d) => d.id === preselectionId) ? [preselectionId] : []
   );
@@ -56,6 +62,8 @@ export function RdvForm({
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [preselectionId]);
+
+  const depute = useMemo(() => deputes.find((d) => d.id === deputeId) ?? null, [deputes, deputeId]);
 
   const selectedDossiers = useMemo(
     () => selected.map((id) => dossiers.find((d) => d.id === id)).filter(Boolean) as DossierOption[],
@@ -85,13 +93,14 @@ export function RdvForm({
 
   async function submit(e: React.FormEvent) {
     e.preventDefault();
+    if (!deputeId || !creneauId) return;
     setError(null);
     setLoading(true);
     try {
       const res = await fetch("/api/rdv", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ sujet, date, dossierIds: selected })
+        body: JSON.stringify({ sujet, deputeId, creneauId, dossierIds: selected })
       });
       const data = await res.json();
       if (data.ok) {
@@ -102,6 +111,8 @@ export function RdvForm({
         }, 1800);
       } else {
         setError(data.error ?? "Erreur");
+        // Le créneau a pu être réservé entre-temps : on force à en reprendre un.
+        setCreneauId(null);
       }
     } catch {
       setError("Erreur réseau");
@@ -122,14 +133,15 @@ export function RdvForm({
         />
         <h2 className={fr.cx("fr-mb-1w")}>Demande envoyée</h2>
         <p className={fr.cx("fr-mb-3w")}>
-          Un brief synthétique, sourcé sur les textes officiels, a été généré pour la
-          députée à partir de votre sélection. Redirection…
+          Un brief synthétique, sourcé sur les textes officiels, a été généré pour
+          {depute ? ` ${depute.civilite ?? ""} ${depute.displayName}` : " le député"} à
+          partir de votre sélection. Redirection…
         </p>
         <div style={{ textAlign: "left", maxWidth: 480, margin: "0 auto" }}>
           <Stepper
             currentStep={2}
             stepCount={3}
-            title={ETAPES.brief}
+            title="Demande envoyée, brief IA généré"
             nextTitle={ETAPES.reponse}
           />
         </div>
@@ -137,10 +149,53 @@ export function RdvForm({
     );
   }
 
+  // --- Étape 1 : choix du député ---
+  if (!depute) {
+    return (
+      <div>
+        <div className={fr.cx("fr-mb-3w")} style={{ maxWidth: 480 }}>
+          <Stepper currentStep={1} stepCount={3} title={ETAPES.depute} nextTitle={ETAPES.demande} />
+        </div>
+        <div className={`fr-background-alt--grey ${fr.cx("fr-p-3w", "fr-p-md-4w")}`} style={{ borderRadius: 8 }}>
+          <DeputePicker deputes={deputes} onSelect={setDeputeId} />
+        </div>
+      </div>
+    );
+  }
+
+  // --- Étape 2 : sujet, dossiers, créneau ---
   return (
     <form onSubmit={submit}>
       <div className={fr.cx("fr-mb-3w")} style={{ maxWidth: 480 }}>
-        <Stepper currentStep={1} stepCount={3} title={ETAPES.demande} nextTitle={ETAPES.brief} />
+        <Stepper currentStep={2} stepCount={3} title={ETAPES.demande} nextTitle={ETAPES.reponse} />
+      </div>
+
+      <div
+        className={fr.cx("fr-mb-3w")}
+        style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}
+      >
+        <img
+          src={depute.photoUrl || AVATAR_GENERIQUE}
+          alt=""
+          width={40}
+          height={40}
+          style={{ borderRadius: "50%", objectFit: "cover" }}
+        />
+        <span>
+          Rendez-vous avec {depute.civilite ? `${depute.civilite} ` : ""}
+          {depute.displayName}
+          {depute.circonscription ? ` (circonscription ${depute.circonscription})` : ""}
+        </span>
+        <button
+          type="button"
+          onClick={() => {
+            setDeputeId(null);
+            setCreneauId(null);
+          }}
+          className={fr.cx("fr-link", "fr-text--sm")}
+        >
+          Changer de député
+        </button>
       </div>
 
       <div className={`fr-background-alt--grey ${fr.cx("fr-p-3w", "fr-p-md-4w")}`} style={{ borderRadius: 8 }}>
@@ -164,7 +219,7 @@ export function RdvForm({
             concernés (optionnel)
             <span className={fr.cx("fr-hint-text")}>
               Recherchez les lois concernées par votre sujet ; cela permet à l'IA de
-              préparer un brief plus pertinent pour la députée.
+              préparer un brief plus pertinent pour le député.
             </span>
           </label>
 
@@ -260,17 +315,16 @@ export function RdvForm({
 
         <hr className={fr.cx("fr-hr", "fr-my-3w")} />
 
-        <Input
-          label="Date souhaitée"
-          hintText="Une date indicative ; à confirmer avec l'équipe parlementaire."
-          iconId="fr-icon-calendar-event-line"
-          nativeInputProps={{
-            type: "date",
-            value: date,
-            onChange: (e) => setDate(e.target.value),
-            required: true
-          }}
-        />
+        <div>
+          <label className={fr.cx("fr-label")}>
+            <span className={fr.cx("fr-icon-calendar-event-line", "fr-icon--sm")} aria-hidden /> Créneau
+            de rendez-vous
+            <span className={fr.cx("fr-hint-text")}>
+              Choisissez un créneau parmi les disponibilités du député.
+            </span>
+          </label>
+          <CreneauPicker deputeId={depute.id} value={creneauId} onChange={(id) => setCreneauId(id)} />
+        </div>
       </div>
 
       {error && (
@@ -280,7 +334,7 @@ export function RdvForm({
       <button
         type="submit"
         className={fr.cx("fr-btn", "fr-btn--lg", "fr-icon-send-plane-line", "fr-btn--icon-right", "fr-mt-3w")}
-        disabled={loading}
+        disabled={loading || !creneauId}
       >
         {loading ? "Envoi et génération du brief…" : "Envoyer ma demande et générer le brief"}
       </button>

@@ -6,6 +6,7 @@ import { requireRole } from "@/lib/guards";
 import { prisma } from "@/lib/db";
 import { isoWeekKey, weekLabel, formatDate } from "@/lib/dates";
 import { notFound } from "next/navigation";
+import { GestionCreneaux } from "@/components/GestionCreneaux";
 
 export const dynamic = "force-dynamic";
 export const metadata = { title: "Calendrier — Dépulib" };
@@ -32,6 +33,19 @@ export default async function CalendrierPage() {
     include: { demandeur: { include: { organisation: true } } }
   });
 
+  const creneaux = await prisma.creneau.findMany({
+    where: { deputeId, debut: { gte: new Date() } },
+    orderBy: { debut: "asc" },
+    select: {
+      id: true,
+      debut: true,
+      fin: true,
+      statut: true,
+      publicCible: true,
+      rendezVous: { select: { id: true } }
+    }
+  });
+
   // Groupement par semaine
   const groupes = new Map<string, { label: string; rows: typeof rdvs }>();
   for (const rdv of rdvs) {
@@ -48,6 +62,17 @@ export default async function CalendrierPage() {
       <p className={fr.cx("fr-text--lead")}>
         {rdvs.length} demande(s) de rendez-vous, regroupées par semaine.
       </p>
+
+      <GestionCreneaux
+        creneaux={creneaux.map((c) => ({
+          id: c.id,
+          debut: c.debut.toISOString(),
+          fin: c.fin.toISOString(),
+          statut: c.statut,
+          publicCible: c.publicCible
+        }))}
+        canAct={user.role === "depute"}
+      />
 
       {groupes.size === 0 ? (
         <p>Aucun rendez-vous demandé pour le moment.</p>

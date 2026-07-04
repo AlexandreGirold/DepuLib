@@ -28,7 +28,7 @@ const ESPACES: Record<
   depute: {
     label: "député / collaborateur",
     comptes: [
-      { username: "marie.dupont", description: "Marie Dupont, députée (Commission des lois)" },
+      { username: "alain.david", description: "Alain David, député (Gironde, Commission des lois)" },
       { username: "paul.martin", description: "Paul Martin, collaborateur du cabinet" }
     ]
   },
@@ -132,7 +132,7 @@ export function ConnexionClient({ espace }: { espace?: string }) {
           <FranceConnectButton onClick={() => setEtape("identifiant")} />
           <p className={fr.cx("fr-text--xs", "fr-mt-2w")} style={{ color: "var(--text-mention-grey)" }}>
             Démonstration : la connexion FranceConnect est simulée. Comptes
-            disponibles : marie.dupont, paul.martin, hugo.citoyen, lea.citoyenne,
+            disponibles : alain.david, paul.martin, hugo.citoyen, lea.citoyenne,
             jean.lobby.
           </p>
         </div>
@@ -144,26 +144,39 @@ export function ConnexionClient({ espace }: { espace?: string }) {
     return (
       <form onSubmit={soumettreIdentifiant} className={fr.cx("fr-mt-4w")}>
         {config && (
-          <div className={fr.cx("fr-callout", "fr-callout--blue-ecume", "fr-mb-3w")}>
-            <h2 className={fr.cx("fr-callout__title", "fr-h6")}>
+          <div
+            className={fr.cx("fr-callout", "fr-callout--blue-ecume", "fr-mb-4w")}
+            style={{ padding: "2.5rem" }}
+          >
+            <h2 className={fr.cx("fr-callout__title", "fr-h6", "fr-mb-2w")}>
               Se connecter à l'espace {config.label}
             </h2>
-            <p className={fr.cx("fr-callout__text", "fr-text--sm", "fr-mb-1w")}>
+            <p className={fr.cx("fr-callout__text", "fr-text--sm", "fr-mb-3w")}>
               Pour la démonstration, utilisez l'un de ces identifiants (aucun mot de
               passe). Cliquez pour le pré-remplir.
             </p>
             <ul style={{ listStyle: "none", paddingLeft: 0, margin: 0 }}>
-              {config.comptes.map((c) => (
-                <li key={c.username} className={fr.cx("fr-mb-1w")}>
+              {config.comptes.map((c, i) => (
+                <li
+                  key={c.username}
+                  style={{
+                    marginTop: i === 0 ? 0 : "1.75rem",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    gap: "0.5rem"
+                  }}
+                >
                   <button
                     type="button"
-                    className={fr.cx("fr-tag", "fr-tag--sm")}
+                    className={fr.cx("fr-tag")}
+                    style={{ fontSize: "1.125rem", padding: "0.75rem 1.5rem", minHeight: "3rem" }}
                     aria-pressed={username === c.username}
                     onClick={() => setUsername(c.username)}
                   >
                     {c.username}
-                  </button>{" "}
-                  <span className={fr.cx("fr-text--xs")} style={{ color: "var(--text-mention-grey)" }}>
+                  </button>
+                  <span className={fr.cx("fr-text--sm")} style={{ color: "var(--text-mention-grey)" }}>
                     {c.description}
                   </span>
                 </li>
