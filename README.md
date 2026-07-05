@@ -4,6 +4,8 @@
 
 Dépulib prend un avis citoyen, le classe, le relie à l'amendement en cours d'examen qui y répond, synthétise les retours pour les députés, et organise les rendez-vous (citoyens et représentants d'intérêts) — le tout **sourcé vers les textes officiels**, avec une IA au rôle strictement borné.
 
+liens (accèssible pour le moment): http://51.210.2.119:3000/
+
 ## IA de confiance, par conception
 
 - **Ancrage documentaire** : toute sortie IA affiche ses sources cliquables (dossier AN / texte officiel). Sans source valide → badge « Non sourcé ».
