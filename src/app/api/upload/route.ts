@@ -89,16 +89,19 @@ export async function POST(req: Request) {
     ? await resumeDocument(texteCombine)
     : { contenu: "Le texte des documents n'a pas pu être extrait.", sources: [] };
 
-  // Stocke le résumé combiné sur la contribution ou le RDV.
+  // Le résumé combiné est stocké sur chaque Document du dépôt (affiché côté
+  // député). On ne touche pas à rdv.briefIA : c'est le brief du *sujet*, distinct
+  // du résumé des pièces jointes.
+  await prisma.document.updateMany({
+    where: { id: { in: created.map((d) => d.id) } },
+    data: { resumeIA: resume.contenu, sources: toJsonField(resume.sources) }
+  });
+
+  // La contribution garde aussi son résumé agrégé (affiché dans la liste).
   if (contributionId) {
     await prisma.contribution.update({
       where: { id: contributionId },
       data: { resumeIA: resume.contenu, sources: toJsonField(resume.sources) }
-    });
-  } else if (rdvId) {
-    await prisma.rendezVous.update({
-      where: { id: rdvId },
-      data: { briefIA: resume.contenu, sources: toJsonField(resume.sources) }
     });
   }
 

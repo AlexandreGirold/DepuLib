@@ -15,6 +15,7 @@ function navForRole(user: SessionUser | null, pathname: string): MainNavigationP
     return [
       { text: "Dossiers en débat", linkProps: { href: "/citoyen" }, isActive: isActive("/citoyen") && !pathname.includes("quoi-de-neuf") && !pathname.includes("/rdv") },
       { text: "Quoi de neuf ?", linkProps: { href: "/citoyen/quoi-de-neuf" }, isActive: isActive("/citoyen/quoi-de-neuf") },
+      { text: "Mes rendez-vous", linkProps: { href: "/citoyen/mes-rendez-vous" }, isActive: isActive("/citoyen/mes-rendez-vous") },
       { text: "Demander un rendez-vous", linkProps: { href: "/citoyen/rdv" }, isActive: isActive("/citoyen/rdv") }
     ];
   }

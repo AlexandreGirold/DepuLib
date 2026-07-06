@@ -3,7 +3,6 @@ import { Badge } from "@codegouvfr/react-dsfr/Badge";
 import Link from "next/link";
 import { requireRole } from "@/lib/guards";
 import { prisma } from "@/lib/db";
-import { UploadPdf } from "@/components/UploadPdf";
 import { parseJsonField } from "@/lib/sources";
 
 export const dynamic = "force-dynamic";
@@ -15,39 +14,25 @@ const STATUT_LABEL: Record<string, { label: string; severity: any }> = {
   refuse: { label: "Refusé", severity: "error" }
 };
 
-export default async function RepresentantHome() {
-  const user = await requireRole(["representant"]);
-  const org = user.organisationId
-    ? await prisma.organisation.findUnique({ where: { id: user.organisationId } })
-    : null;
+export default async function CitoyenMesRdvPage() {
+  const user = await requireRole(["citoyen"]);
 
   const rdvs = await prisma.rendezVous.findMany({
     where: { demandeurId: user.id },
     orderBy: { date: "asc" },
     include: {
-      rdvDossiers: { include: { dossier: { select: { titre: true } } } },
-      documents: { select: { id: true, filename: true, resumeIA: true } }
+      depute: { select: { displayName: true } },
+      rdvDossiers: { include: { dossier: { select: { titre: true } } } }
     }
   });
 
   return (
     <div className={fr.cx("fr-container", "fr-py-4w")}>
       <h1>Mes rendez-vous</h1>
-      {org && (
-        <p>
-          <Badge severity="info" small>
-            Représentant d'intérêts vérifié HATVP
-          </Badge>{" "}
-          <strong>{org.nomHatvp}</strong> — {org.secteur}
-        </p>
-      )}
 
       <div className={fr.cx("fr-btns-group", "fr-btns-group--inline-md", "fr-mb-3w")}>
-        <Link href="/representant/rdv" className={fr.cx("fr-btn")}>
+        <Link href="/citoyen/rdv" className={fr.cx("fr-btn")}>
           Demander un nouveau rendez-vous
-        </Link>
-        <Link href="/representant/contributions" className={fr.cx("fr-btn", "fr-btn--secondary")}>
-          Déposer une contribution sur un texte
         </Link>
       </div>
 
@@ -76,6 +61,8 @@ export default async function RepresentantHome() {
                   month: "long",
                   year: "numeric"
                 })}
+                {" · "}
+                {rdv.depute.displayName}
                 {rdv.rdvDossiers.length > 0
                   ? ` · ${rdv.rdvDossiers.map((rd) => rd.dossier.titre).join(", ")}`
                   : ""}
@@ -85,24 +72,6 @@ export default async function RepresentantHome() {
                   <strong>Brief :</strong> {brief.contenu}
                 </p>
               )}
-
-              {rdv.documents.length > 0 && (
-                <ul className={fr.cx("fr-text--sm")}>
-                  {rdv.documents.map((d) => (
-                    <li key={d.id}>
-                      📎{" "}
-                      <a href={`/api/documents/${d.id}`} target="_blank" rel="noreferrer" className={fr.cx("fr-link")}>
-                        {d.filename}
-                      </a>
-                      {d.resumeIA ? ` — ${d.resumeIA.slice(0, 120)}…` : ""}
-                    </li>
-                  ))}
-                </ul>
-              )}
-
-              <div className={fr.cx("fr-mt-2w")}>
-                <UploadPdf rdvId={rdv.id} />
-              </div>
             </div>
           );
         })

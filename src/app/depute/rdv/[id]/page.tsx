@@ -94,7 +94,17 @@ export default async function RdvFichePage({ params }: { params: { id: string } 
                   className={fr.cx("fr-p-2w", "fr-mb-2w")}
                   style={{ border: "1px solid var(--border-default-grey)", borderRadius: 8 }}
                 >
-                  <p className={fr.cx("fr-mb-1v")}>📎 <strong>{doc.filename}</strong></p>
+                  <p className={fr.cx("fr-mb-1v")}>
+                    📎{" "}
+                    <a
+                      href={`/api/documents/${doc.id}`}
+                      target="_blank"
+                      rel="noreferrer"
+                      className={fr.cx("fr-link", "fr-icon-download-line", "fr-link--icon-right")}
+                    >
+                      <strong>{doc.filename}</strong>
+                    </a>
+                  </p>
                   {doc.resumeIA && (
                     <>
                       <Badge severity="warning" small noIcon>

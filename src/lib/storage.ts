@@ -1,4 +1,4 @@
-import { S3Client, PutObjectCommand } from "@aws-sdk/client-s3";
+import { S3Client, PutObjectCommand, GetObjectCommand } from "@aws-sdk/client-s3";
 import fs from "node:fs/promises";
 import path from "node:path";
 
@@ -44,4 +44,18 @@ export async function uploadDocument(
   const filePath = path.join(dir, key);
   await fs.writeFile(filePath, body);
   return filePath;
+}
+
+/**
+ * Relit un document stocké par uploadDocument. `stored` est la valeur de
+ * Document.path : une clé S3 (bucket configuré) ou un chemin disque (dev).
+ */
+export async function readDocument(stored: string): Promise<Buffer> {
+  if (s3) {
+    const res = await s3.send(
+      new GetObjectCommand({ Bucket: process.env.S3_BUCKET, Key: stored })
+    );
+    return Buffer.from(await res.Body!.transformToByteArray());
+  }
+  return fs.readFile(stored);
 }
