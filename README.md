@@ -89,3 +89,7 @@ Chaque amendement pointe vers sa page officielle sur `assemblee-nationale.fr`. L
 - **Mapping open data** (API tricoteuses) : les amendements d'un dossier se récupèrent via `GET /amendements?dossierRefUid=<REFUID>` (l'`id` de dossier sans le préfixe `an-`, en majuscules). L'API rate-limite sous charge (502/503).
 - **`npm run fix:amendements`** ré-aligne les `sourceUrl` (et les sources figées de `seed/resumes.json`) sur l'open data : idempotent, préfère la version canonique en cas de doublon, et replie sur la page officielle du dossier si un amendement est introuvable — **jamais de lien cassé**. Relancer `npm run seed` ensuite pour propager en BDD.
 - **Résumés IA au fetch, pas au clic** : les résumés d'amendements sont pré-générés à l'ingestion (`npm run warm`, figés dans `seed/resumes.json`) ; les pages les lisent en lecture seule, sans appel LLM au rendu.
+
+
+
+HOSTED ON OVH-CLOUD
